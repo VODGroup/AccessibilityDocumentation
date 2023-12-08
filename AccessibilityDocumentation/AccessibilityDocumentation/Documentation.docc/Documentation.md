@@ -1,4 +1,4 @@
-# ``AboutAccessibility``
+# ``AccessibilityDocumentation``
 
 Accessibility part of UIKit and SwiftUI frameworks helps developers to represent graphical user interface for assistive technologies
 
@@ -25,26 +25,25 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 
 ### Describe elements
 
-- ``UIAccessibility_``
-- ``UIAccessibility_/accessibilityLabel``
-- ``UIAccessibility_/accessibilityValue``
-- ``UIAccessibility_/accessibilityTraits``
+- ``Book/accessibilityLabel``
+- ``Book/accessibilityValue``
+- ``Book/accessibilityTraits``
 
 ### Control hierarchy
-- ``UIAccessibility_/isAccessibilityElement``
-- ``UIAccessibility_/accessibilityElementsHidden``
-- ``UIAccessibility_/accessibilityViewIsModal``
-- ``UIAccessibility_/shouldGroupAccessibilityChildren``
+- ``Book/isAccessibilityElement``
+- ``Book/accessibilityElementsHidden``
+- ``Book/accessibilityViewIsModal``
+- ``Book/shouldGroupAccessibilityChildren``
 
 
 ### Visual properties
-- ``UIAccessibility_/accessibilityFrame``
-- ``UIAccessibility_/accessibilityActivationPoint``
-- ``UIAccessibility_/accessibilityPath``
-- ``UIAccessibility_/accessibilityRespondsToUserInteraction``
+- ``Book/accessibilityFrame``
+- ``Book/accessibilityActivationPoint``
+- ``Book/accessibilityPath``
+- ``Book/accessibilityRespondsToUserInteraction``
 
 ### Switch Control specific
-- ``UIAccessibility_/accessibilityNavigationStyle``
+- ``Book/accessibilityNavigationStyle``
 
 ### Voice Control specific
-- ``UIAccessibility_/accessibilityUserInputLabels``
+- ``Book/accessibilityUserInputLabels``
