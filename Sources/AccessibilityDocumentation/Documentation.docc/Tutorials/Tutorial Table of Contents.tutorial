@@ -1,0 +1,43 @@
+@Tutorials(name: "How to adopt your application") {
+    @Intro(title: "Few steps") {
+        
+        To adopt your application for assistive technologies you should forward few steps:
+        Simplify and group elements in UI's hierarchy
+        Add labels to elements
+        Add additional properties
+        
+<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+    }
+    
+    @Chapter(name: "Desribe elements") {
+        Simplifies navigation and control over a complex element for VoiceOver
+        
+<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        
+        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    }
+    
+    @Chapter(name: "Control hierarchy") {
+        Simplifies navigation and control over a complex element for VoiceOver
+        
+        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        
+        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    }
+    
+    @Chapter(name: "Adjustable elements") {
+        Simplifies navigation and control over a complex element for VoiceOver
+        
+        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        
+        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    }
+    
+    @Chapter(name: "Tweak visual propeties") {
+        Simplifies navigation and control over a complex element for VoiceOver
+        
+        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        
+        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    }
+}

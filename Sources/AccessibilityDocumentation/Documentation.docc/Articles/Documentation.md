@@ -23,28 +23,8 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 
 ## Topics
 
-### Describe elements
-
-Core properties that describes element for VoiceOver
-
-- ``Book/accessibilityLabel``
-- ``Book/accessibilityValue``
-- ``Book/accessibilityTraits``
-
-### Control hierarchy
-- ``Book/isAccessibilityElement``
-- ``Book/accessibilityElementsHidden``
-- ``Book/accessibilityViewIsModal``
-- ``Book/shouldGroupAccessibilityChildren``
-
-### Visual properties
-- ``Book/accessibilityFrame``
-- ``Book/accessibilityActivationPoint``
-- ``Book/accessibilityPath``
-- ``Book/accessibilityRespondsToUserInteraction``
-
-### Switch Control specific
-- ``Book/accessibilityNavigationStyle``
-
-### Voice Control specific
-- ``Book/accessibilityUserInputLabels``
+- <doc:DescribeElements>
+- <doc:ControlHierarchy>
+- <doc:VisualProperties>
+- <doc:Navigation>
+- <doc:SpecificProperties>

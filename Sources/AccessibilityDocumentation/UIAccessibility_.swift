@@ -42,6 +42,8 @@ public class Book {
      default == nil
      default on UIKit controls == derived from the title
      Setting the property will change the label that is returned to the accessibility client.
+     
+     See <doc:DescribeElements> for more detail
      */
     open var accessibilityLabel: String? = nil
     
@@ -106,21 +108,20 @@ public class Book {
      default on UIKit controls == traits that best characterize individual controls.
      Setting the property will change the traits that are returned to the accessibility client.
      */
-    open var accessibilityTraits: UIAccessibilityTraits = .none
+    open var accessibilityTraits: UIAccessibilityTraits_ = .none
     
     
     /**
-     Returns the frame of the element in screen coordinates.
-     default == CGRectZero
-     default on UIViews == the frame of the view
-     Setting the property will change the frame that is returned to the accessibility client.
+     Returns the frame of the element *in screen coordinates.*
+     
+     VoiceOver and Switch Control uses it to draw focus. In opposite way by this property we can recognise what the element under user's finger.
+     
+     Voice Control draw badges over screen that is linked to element by this property.
+     
+     Use ``convertToScreenCoordinates(_:in:)-4i9mu`` to calculate onscreen values
+     
      */
     open var accessibilityFrame: CGRect = .zero
-    
-    
-    // The accessibilityFrame is expected to be in screen coordinates.
-    // To help convert the frame to screen coordinates, use the following method.
-    // The rect should exist in the view space of the UIView argument.
     
     /**
      Returns the path of the element in screen coordinates.
@@ -735,7 +736,7 @@ public class Book {
 //public typealias AXObjectReturnBlock = () -> Any?
 //public typealias AXArrayReturnBlock = () -> [Any]?
 //public typealias AXVoidReturnBlock = () -> Void
-//public typealias AXTraitsReturnBlock = () -> UIAccessibilityTraits
+//public typealias AXTraitsReturnBlock = () -> UIAccessibilityTraits_
 //public typealias AXNavigationStyleReturnBlock = () -> UIAccessibilityNavigationStyle
 //public typealias AXContainerTypeReturnBlock = () -> UIAccessibilityContainerType
 //public typealias AXTextualContextReturnBlock = () -> UIAccessibilityTextualContext?
