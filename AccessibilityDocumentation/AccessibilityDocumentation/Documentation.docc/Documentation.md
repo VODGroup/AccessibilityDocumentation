@@ -25,6 +25,8 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 
 ### Describe elements
 
+Core properties that describes element for VoiceOver
+
 - ``Book/accessibilityLabel``
 - ``Book/accessibilityValue``
 - ``Book/accessibilityTraits``
@@ -34,7 +36,6 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 - ``Book/accessibilityElementsHidden``
 - ``Book/accessibilityViewIsModal``
 - ``Book/shouldGroupAccessibilityChildren``
-
 
 ### Visual properties
 - ``Book/accessibilityFrame``

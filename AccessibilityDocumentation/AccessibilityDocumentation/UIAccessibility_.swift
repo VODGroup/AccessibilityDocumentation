@@ -31,7 +31,10 @@ class Book {
     
     
     /**
-     Returns the localized label that represents the element.
+     Short name for the element
+     
+     > Tip: Keep label as short as possible. Detail information should be placed to ``accessibilityValue``
+     
      If the element does not display text (an icon for example), this method
      should return text that best labels the element. For example: "Play" could be used for
      a button that is used to play music. "Play button" should not be used, since there is a trait
@@ -71,8 +74,13 @@ class Book {
     
     /**
      Returns a localized string that represents the value of the element, such as the value
-     of a slider or the text in a text field. Use only when the label of the element
-     differs from a value. For example: A volume slider has a label of "Volume", but a value of "60%".
+     of a slider or the text in a text field. 
+     
+     > Important: Useful for VoiceOver only, not visible for Voice Control and Switch Control
+     
+     Value can vary for VoiceOver and be changed by vertical swipe. See <doc:AdjustableElements> for details
+     
+     Use only when the label of the element differs from a value. For example: A volume slider has a label of "Volume", but a value of "60%".
      default == nil
      default on UIKit controls == values for appropriate controls
      Setting the property will change the value that is returned to the accessibility client.
@@ -89,8 +97,8 @@ class Book {
     
     
     /**
-     Returns a UIAccessibilityTraits mask that is the OR combination of
-     all accessibility traits that best characterize the element.
+     Combination of accessibility traits that define controls behaviour
+     
      See UIAccessibilityConstants.h for a list of traits.
      When overriding this method, remember to combine your custom traits
      with [super accessibilityTraits].
@@ -340,8 +348,6 @@ class Book {
     
     @available(iOS 17.0, *)
     open var accessibilityCustomActionsBlock: AXCustomActionsReturnBlock?
-}
-extension UIAccessibility {
     
     @available(iOS 7.0, *)
     public static func convertToScreenCoordinates(_ rect: CGRect, in view: UIView) -> CGRect { fatalError() }
@@ -717,7 +723,7 @@ extension UIAccessibility {
     
     @available(iOS 10.0, *)
     public static let hearingDevicePairedEarDidChangeNotification: NSNotification.Name = .init("")
-}
+
 //public typealias AXBoolReturnBlock = () -> Bool
 //public typealias AXStringReturnBlock = () -> String?
 //public typealias AXStringArrayReturnBlock = () -> [String]?
@@ -747,36 +753,34 @@ extension UIAccessibility {
 //    
 //    @available(iOS 9.0, *)
 //    open func accessibilityAssistiveTechnologyFocusedIdentifiers() -> Set<UIAccessibility.AssistiveTechnologyIdentifier>?
-//}
-//extension NSObject {
-//    
-//    @available(iOS 7.0, *)
-//    open func accessibilityActivate() -> Bool
-//    
-//    @available(iOS 4.0, *)
-//    open func accessibilityIncrement()
-//    
-//    @available(iOS 4.0, *)
-//    open func accessibilityDecrement()
-//    
-//    @available(iOS 17.0, *)
-//    open func accessibilityZoomIn(at point: CGPoint) -> Bool
-//    
-//    @available(iOS 17.0, *)
-//    open func accessibilityZoomOut(at point: CGPoint) -> Bool
-//    
-//    @available(iOS 4.2, *)
-//    open func accessibilityScroll(_ direction: UIAccessibilityScrollDirection) -> Bool
-//    
-//    @available(iOS 5.0, *)
-//    open func accessibilityPerformEscape() -> Bool
-//    
-//    @available(iOS 6.0, *)
-//    open func accessibilityPerformMagicTap() -> Bool
-//    
-//    @available(iOS 8.0, *)
-//    open var accessibilityCustomActions: [UIAccessibilityCustomAction]?
-//}
+    
+    @available(iOS 7.0, *)
+    open func accessibilityActivate() -> Bool { false }
+    
+    @available(iOS 4.0, *)
+    open func accessibilityIncrement() -> Bool { false }
+    
+    @available(iOS 4.0, *)
+    open func accessibilityDecrement() -> Bool { false }
+    
+    @available(iOS 17.0, *)
+    open func accessibilityZoomIn(at point: CGPoint) -> Bool { false }
+    
+    @available(iOS 17.0, *)
+    open func accessibilityZoomOut(at point: CGPoint) -> Bool { false }
+    
+    @available(iOS 4.2, *)
+    open func accessibilityScroll(_ direction: UIAccessibilityScrollDirection) -> Bool { false }
+    
+    @available(iOS 5.0, *)
+    open func accessibilityPerformEscape() -> Bool { false }
+    
+    @available(iOS 6.0, *)
+    open func accessibilityPerformMagicTap() -> Bool { false }
+    
+    @available(iOS 8.0, *)
+    open var accessibilityCustomActions: [UIAccessibilityCustomAction]? = []
+}
 //public enum UIAccessibilityScrollDirection : Int, @unchecked Sendable {
 //    
 //    case right = 1
