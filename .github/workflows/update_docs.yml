@@ -41,7 +41,7 @@ jobs:
         
       - name: Build
         run: |
-          xcodebuild docbuild -scheme AccessibilityDocumentation -destination 'generic/platform=iOS' -derivedDataPath ./build
+          swift package --allow-writing-to-directory ${{ env.DERIVED_DATA_PATH }} generate-documentation --target ${{ env.SCHEME }} --destination {{ env.DESTINATION }} --disable-indexing --transform-for-static-hosting --hosting-base-path '${{ env.HOSTING_BASE_PATH }}' --output-path ${{ env.DERIVED_DATA_PATH }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
