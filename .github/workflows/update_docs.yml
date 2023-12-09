@@ -22,7 +22,7 @@ env:
   SCHEME: "AccessibilityDocumentation"
   XCODE_VERSION: '~>15'
   DERIVED_DATA_PATH: './DerivedData/'
-  DESTINATION: 'platform=iOS Simulator,name=iPhone 15,OS=17.0'
+  DESTINATION: 'generic/platform=iOS'
   HOSTING_BASE_PATH: 'AccessibilityDocumentation'
 
 jobs:
