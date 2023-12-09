@@ -13,8 +13,8 @@ The main property is `accessibilityLabel` – defines element's name. It should 
 **Examples:**
 - *1.4 billions views* – just the fact under the video
 - *Never Gonna Give You Up* song title that describes screen's content
-- *Next* for button that skip a song in audio player
-- *Pizza Pepperoni* for cell in the menu
+- *Next* for button that skip a song in audio player. The button can be just icon, but we provide textual description for it.
+- *Pizza Pepperoni* for cell in the menu. The cell can contain an image of the pizza, but we not point on it in textual description, just describe what the cell is about.
 - *Size* for segmented control on product card
 - *Brightness* for slider in Control Center
 
