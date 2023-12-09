@@ -42,6 +42,8 @@ var accessibilityTraits: UIAccessibilityTraits {
 }
 ```
 
+Check <doc:AdjustableTutorial>
+
 // TODO: Visual Samples
 
 // TODO: Selection follow focus
