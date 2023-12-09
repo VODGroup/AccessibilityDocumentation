@@ -41,12 +41,16 @@ jobs:
         
       - name: Build
         run: |
-          swift package --allow-writing-to-directory ${{ env.DERIVED_DATA_PATH }} generate-documentation --target ${{ env.SCHEME }} --destination ${{ env.DESTINATION }} --disable-indexing --transform-for-static-hosting --hosting-base-path '${{ env.HOSTING_BASE_PATH }}' --output-path ${{ env.DERIVED_DATA_PATH }}
+          xcodebuild docbuild -scheme AccessibilityDocumentation -destination 'generic/platform=iOS' -derivedDataPath ${{ env.DERIVED_DATA_PATH }}
+          
+      - name: Build
+        run: |
+          $(xcrun --find docc) process-archive transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/AccessibilityDocumentation.doccarchive --output-path ../docs --hosting-base-path AccessibilityDocumentation
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ${{ env.DERIVED_DATA_PATH }}
+          path: ../docs
 
       - name: Deploy to GitHub Pages
         id: deployment
