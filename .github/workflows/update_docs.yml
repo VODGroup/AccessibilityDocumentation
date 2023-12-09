@@ -35,7 +35,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
         
-    - name: Open Package
+      - name: Open Package
         run: |
           cd ${{ env.SCHEME }}
         
