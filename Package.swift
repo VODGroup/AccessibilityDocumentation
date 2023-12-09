@@ -1,10 +1,10 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.7.1
 
 import PackageDescription
 
 let package = Package(
     name: "AccessibilityDocumentation",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "AccessibilityDocumentation",
