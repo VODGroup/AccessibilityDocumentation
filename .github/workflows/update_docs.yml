@@ -20,7 +20,7 @@ env:
   LANGUAGE: "en_US.UTF-8"
   LC_ALL: "en_US.UTF-8"
   SCHEME: "AccessibilityDocumentation"
-  XCODE_VERSION: '~>14'
+  XCODE_VERSION: '~>15'
   DERIVED_DATA_PATH: './DerivedData/'
   DESTINATION: 'platform=iOS Simulator,name=iPhone 11'
   HOSTING_BASE_PATH: 'AccessibilityDocumentation'
