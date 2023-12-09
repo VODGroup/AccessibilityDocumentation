@@ -1,5 +1,5 @@
 @Tutorial(time: 10) {
-    @Intro(title: "Describe adjustable elements") {
+    @Intro(title: "Setup adjustable elements") {
         Simplifies interactions with a complex element for VoiceOver.
     }
     

@@ -1,5 +1,5 @@
 import UIKit
-
+import Foundation
 //
 //  UIAccessibility.h
 //  UIKit
@@ -19,7 +19,7 @@ import UIKit
  A completely custom subclass of UIView might need to override all of the
  UIAccessibility methods except accessibilityFrame.
  */
-class Book {
+public class Book {
     
     /**
      Return YES if the receiver should be exposed as an accessibility element.
@@ -517,7 +517,7 @@ class Book {
     public static let voiceOverStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether system audio is mixed down from stereo to mono.
+    /// Returns whether system audio is mixed down from stereo to mono.
     @available(iOS 5.0, *)
     public static var isMonoAudioEnabled: Bool { false }
     
@@ -526,7 +526,7 @@ class Book {
     public static let monoAudioStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for closed captioning is enabled.
+    /// Returns whether the system preference for closed captioning is enabled.
     @available(iOS 5.0, *)
     public static var isClosedCaptioningEnabled: Bool { false }
     
@@ -535,7 +535,7 @@ class Book {
     public static let closedCaptioningStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for invert colors is enabled.
+    /// Returns whether the system preference for invert colors is enabled.
     @available(iOS 6.0, *)
     public static var isInvertColorsEnabled: Bool { false }
     
@@ -544,7 +544,7 @@ class Book {
     public static let invertColorsStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the app is running under Guided Access mode.
+    /// Returns whether the app is running under Guided Access mode.
     @available(iOS 6.0, *)
     public static var isGuidedAccessEnabled: Bool { false }
     
@@ -553,7 +553,7 @@ class Book {
     public static let guidedAccessStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for bold text is enabled
+    /// Returns whether the system preference for bold text is enabled
     @available(iOS 8.0, *)
     public static var isBoldTextEnabled: Bool { false }
     
@@ -562,7 +562,7 @@ class Book {
     public static let boldTextStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for button shapes is enabled
+    /// Returns whether the system preference for button shapes is enabled
     @available(iOS 14.0, *)
     public static var buttonShapesEnabled: Bool { false }
     
@@ -571,7 +571,7 @@ class Book {
     public static let buttonShapesEnabledStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for grayscale is enabled
+    /// Returns whether the system preference for grayscale is enabled
     @available(iOS 8.0, *)
     public static var isGrayscaleEnabled: Bool { false }
     
@@ -580,7 +580,7 @@ class Book {
     public static let grayscaleStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for reduce transparency is enabled
+    /// Returns whether the system preference for reduce transparency is enabled
     @available(iOS 8.0, *)
     public static var isReduceTransparencyEnabled: Bool { false }
     
@@ -589,7 +589,7 @@ class Book {
     public static let reduceTransparencyStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for reduce motion is enabled
+    /// Returns whether the system preference for reduce motion is enabled
     @available(iOS 8.0, *)
     public static var isReduceMotionEnabled: Bool { false }
     
@@ -598,7 +598,7 @@ class Book {
     public static let reduceMotionStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for reduce motion: prefer cross-fade transitions is enabled
+    /// Returns whether the system preference for reduce motion: prefer cross-fade transitions is enabled
     @available(iOS 14.0, *)
     public static var prefersCrossFadeTransitions: Bool { false }
     
@@ -607,7 +607,7 @@ class Book {
     public static let prefersCrossFadeTransitionsStatusDidChange: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for auto-play videos is enabled
+    /// Returns whether the system preference for auto-play videos is enabled
     @available(iOS 13.0, *)
     public static var isVideoAutoplayEnabled: Bool { false }
     
@@ -616,7 +616,7 @@ class Book {
     public static let videoAutoplayStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for darker colors is enabled
+    /// Returns whether the system preference for darker colors is enabled
     @available(iOS 8.0, *)
     public static var isDarkerSystemColorsEnabled: Bool { false }
     
@@ -637,7 +637,7 @@ class Book {
     public static let switchControlStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for Speak Selection is enabled
+    /// Returns whether the system preference for Speak Selection is enabled
     @available(iOS 8.0, *)
     public static var isSpeakSelectionEnabled: Bool { false }
     
@@ -646,7 +646,7 @@ class Book {
     public static let speakSelectionStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for Speak Screen is enabled
+    /// Returns whether the system preference for Speak Screen is enabled
     @available(iOS 8.0, *)
     public static var isSpeakScreenEnabled: Bool { false }
     
@@ -655,7 +655,7 @@ class Book {
     public static let speakScreenStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for Shake to Undo is enabled
+    /// Returns whether the system preference for Shake to Undo is enabled
     @available(iOS 9.0, *)
     public static var isShakeToUndoEnabled: Bool { false }
     
@@ -664,8 +664,8 @@ class Book {
     public static let shakeToUndoDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for AssistiveTouch is enabled.
-    // This always returns false if Guided Access is not enabled.
+    /// Returns whether the system preference for AssistiveTouch is enabled.
+    /// This always returns false if Guided Access is not enabled.
     @available(iOS 10.0, *)
     public static var isAssistiveTouchRunning: Bool { false }
     
@@ -674,7 +674,7 @@ class Book {
     public static let assistiveTouchStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for Differentiate without Color is enabled.
+    /// Returns whether the system preference for Differentiate without Color is enabled.
     @available(iOS 13.0, *)
     public static var shouldDifferentiateWithoutColor: Bool { false }
     
@@ -683,7 +683,7 @@ class Book {
     public static let differentiateWithoutColorDidChangeNotification: NSNotification.Name = .init("")
     
     
-    // Returns whether the system preference for On/Off labels is enabled.
+    /// Returns whether the system preference for On/Off labels is enabled.
     @available(iOS 13.0, *)
     public static var isOnOffSwitchLabelsEnabled: Bool { false }
     

@@ -7,7 +7,7 @@ import Foundation
 //  Copyright (c) 2009-2018 Apple Inc. All rights reserved.
 //
 
-/*
+/**
  Accessibility Traits
  
  Traits are combined in a mask to help assistive applications understand
@@ -62,47 +62,47 @@ extension UIAccessibilityTraits_ {
     public static var none: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element should be treated as a button.
+    /// Used when the element should be treated as a button.
     public static var button: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element should be treated as a link.
+    /// Used when the element should be treated as a link.
     public static var link: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when an element acts as a header for a content section (e.g. the title of a navigation bar).
+    /// Used when an element acts as a header for a content section (e.g. the title of a navigation bar).
     @available(iOS 6.0, *)
     public static var header: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the text field element should also be treated as a search field.
+    /// Used when the text field element should also be treated as a search field.
     public static var searchField: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element should be treated as an image. Can be combined with button or link, for example.
+    /// Used when the element should be treated as an image. Can be combined with button or link, for example.
     public static var image: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when the element is selected.
      For example, a selected row in a table or a selected button within a segmented control.
      */
     public static var selected: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element plays its own sound when activated.
+    /// Used when the element plays its own sound when activated.
     public static var playsSound: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element acts as a keyboard key.
+    /// Used when the element acts as a keyboard key.
     public static var keyboardKey: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element should be treated as static text that cannot change.
+    /// Used when the element should be treated as static text that cannot change.
     public static var staticText: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when an element can be used to provide a quick summary of current
      conditions in the app when the app first launches.  For example, when Weather
      first launches, the element with today's weather conditions is marked with
@@ -111,18 +111,18 @@ extension UIAccessibilityTraits_ {
     public static var summaryElement: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the control is not enabled and does not respond to user input.
+    /// Used when the control is not enabled and does not respond to user input.
     public static var notEnabled: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when the element frequently updates its label or value, but too often to send notifications.
      Allows an accessibility client to poll for changes. A stopwatch would be an example.
      */
     public static var updatesFrequently: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when activating an element starts a media session (e.g. playing a movie, recording audio)
      that should not be interrupted by output from an assistive technology, like VoiceOver.
      */
@@ -130,20 +130,20 @@ extension UIAccessibilityTraits_ {
     public static var startsMediaSession: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when an element can be "adjusted" (e.g. a slider). The element must also
-     implement accessibilityIncrement and accessibilityDecrement.
+     implement accessibilityIncrement and accessibilityDecrement. Read <doc:AdjustableElements> for detailed explanation
      */
     @available(iOS 4.0, *)
     public static var adjustable: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when an element allows direct touch interaction for VoiceOver users (for example, a view representing a piano keyboard).
+    /// Used when an element allows direct touch interaction for VoiceOver users (for example, a view representing a piano keyboard).
     @available(iOS 5.0, *)
     public static var allowsDirectInteraction: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Informs VoiceOver that it should scroll to the next page when it finishes reading the contents of the
      element. VoiceOver will scroll by calling accessibilityScroll: with UIAccessibilityScrollDirectionNext and will
      stop scrolling when it detects the content has not changed.
@@ -152,7 +152,7 @@ extension UIAccessibilityTraits_ {
     public static var causesPageTurn: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when a view or accessibility container represents an ordered list of tabs.
      The object with this trait should return NO for isAccessibilityElement.
      */
@@ -160,12 +160,12 @@ extension UIAccessibilityTraits_ {
     public static var tabBar: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    // Used when the element should be treated as a toggle.
+    /// Used when the element should be treated as a toggle.
     @available(iOS 17.0, *)
     public static var toggleButton: UIAccessibilityTraits_ = .init(rawValue: 0)
     
     
-    /*
+    /**
      Used when the element has zoom functionality.
      */
     @available(iOS 17.0, *)

@@ -9,12 +9,14 @@ Simplifies interactions with a complex element for VoiceOver.
 
 ## Overview
 
-By default any element can contains ``Book/accessibilityValue`` to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
+By default any element can contains ``AccessibilityDocumentation/`` to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
 - Slider
 - Stepper
 - Any horizontal carousel
 
 > Note: After vertical swipe reads only the new value, a label is omitted to avoid repeatness. 
+
+Tutorial <doc:AdjustableTutorial> for detailed explanation.
 
 ### How to setup
 
@@ -42,8 +44,5 @@ var accessibilityTraits: UIAccessibilityTraits {
 }
 ```
 
-Check <doc:AdjustableTutorial>
-
 // TODO: Visual Samples
-
 // TODO: Selection follow focus
