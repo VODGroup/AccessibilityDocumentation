@@ -1,4 +1,4 @@
-# VoiceControl
+# Voice Control
 
 Adds additional commands over graphical UI to control a phone by voice commands. A user of VoiceControl can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
 
