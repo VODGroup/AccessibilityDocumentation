@@ -37,7 +37,7 @@ The main property is `accessibilityLabel` – defines element's name. It should 
 
 ### Label vs Value
 
-Important to understand differences between label and value. Label should be as short as possible: Voice Control will use it as HUD over UI to name things for feature voice commantds, but not show value part, because we expect that it's already presented for user on screen. <doc:VoiceControl>
+Important to understand differences between label and value. Label should be as short as possible: Voice Control will use it as HUD over UI to name things for feature voice commands, but not show value part, because we expect that it's already presented for user on screen. <doc:VoiceControl>
 
 Otherwise, adjustable elements allow to change only value part and after change only value part will be pronounced to user. <doc:AdjustableElements>
 

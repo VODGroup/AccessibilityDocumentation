@@ -23,9 +23,12 @@ public class Book {
     
     /**
      Return YES if the receiver should be exposed as an accessibility element.
+     
+     Setting the property to YES will cause the receiver to be visible to assistive applications: VoiceOver will focus on this element to speak aloud it, Voice control and Switch Control will focus is elements it intrectitve
+     
      default == NO
      default on UIKit controls == YES
-     Setting the property to YES will cause the receiver to be visible to assistive applications.
+     
      */
     open var isAccessibilityElement: Bool = false
     
@@ -157,6 +160,7 @@ public class Book {
     
     /**
      Marks all the accessible elements contained within as hidden.
+     
      default == NO
      */
     @available(iOS 5.0, *)
@@ -166,6 +170,9 @@ public class Book {
     /**
      Informs whether the receiving view should be considered modal by accessibility. If YES, then
      elements outside this view will be ignored. Only elements inside this view will be exposed.
+     
+     > Tip: Support  <Book/accessibilityPerformEscape> action to close modal view with special gesture.
+     
      default == NO
      */
     @available(iOS 5.0, *)
@@ -173,10 +180,12 @@ public class Book {
     
     
     /**
-     Forces children elements to be grouped together regardless of their position on screen.
+     Forces children elements to be grouped together regardless of their position on screen. Move focus to nearest element, not to the next by reading order.
+     
      For example, your app may show items that are meant to be grouped together in vertical columns.
      By default, VoiceOver will navigate those items in horizontal rows. If shouldGroupAccessibilityChildren is set on
      a parent view of the items in the vertical column, VoiceOver will navigate the order correctly.
+     
      default == NO
      */
     @available(iOS 6.0, *)
