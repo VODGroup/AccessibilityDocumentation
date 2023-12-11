@@ -44,7 +44,19 @@ var accessibilityTraits: UIAccessibilityTraits {
 }
 ```
 
+### Selection follow focus
+
+// TODO: Selection follow focus
+// TODO: Visual Samples
+
+
+### Buttona and Adjustable
+
+// TODO: Stories sample
+
+### Tutorial
+
 See tutorial <doc:AdjustableTutorial>
 
-// TODO: Visual Samples
-// TODO: Selection follow focus
+
+
