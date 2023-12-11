@@ -9,7 +9,7 @@ Simplifies interactions with a complex element for VoiceOver.
 
 ## Overview
 
-By default any element can contains ``AccessibilityDocumentation/`` to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
+By default any element can contain ``UIAccessibilityTraits_/adjustable`` trait to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
 - Slider
 - Stepper
 - Any horizontal carousel
@@ -44,6 +44,7 @@ var accessibilityTraits: UIAccessibilityTraits {
 }
 ```
 
+See tutorial <doc:AdjustableTutorial>
+
 // TODO: Visual Samples
 // TODO: Selection follow focus
-// TODO: Delete this line
