@@ -28,6 +28,7 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 Step by step practice course.
 
 - <doc:AdjustableTutorial>
+- <doc:AdoptingCell>
 
 ## Topics
 

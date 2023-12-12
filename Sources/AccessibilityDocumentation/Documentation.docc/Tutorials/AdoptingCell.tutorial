@@ -40,8 +40,12 @@
             @Step {                
                 In the end user had to do three swipes to passthrough just one cell. 
                 
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_0.swift")
+            }
+            
+            @Step {                
                 Moreover, when he swipes through several steps he can lose his understanding which element connects to which pizza, ingredients will be repetitive and etc
-
+                
                 @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_1.swift") {
                     @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
                 }
