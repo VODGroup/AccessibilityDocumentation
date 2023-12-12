@@ -341,20 +341,20 @@ extension UIAccessibilityTraits_ {
 //    
 //    case combined = 2
 //}
-//@available(iOS 11.0, *)
-//public enum UIAccessibilityContainerType : Int, @unchecked Sendable {
-//    
-//    case none = 0
-//    
-//    case dataTable = 1
-//    
-//    case list = 2
-//    
-//    case landmark = 3
-//    
-//    @available(iOS 13.0, *)
-//    case semanticGroup = 4
-//}
+@available(iOS 11.0, *)
+public enum UIAccessibilityContainerType : Int, @unchecked Sendable {
+    
+    case none = 0
+    
+    case dataTable = 1
+    
+    case list = 2
+    
+    case landmark = 3
+    
+    @available(iOS 13.0, *)
+    case semanticGroup = 4
+}
 //
 //// The following constants can be used with either the accessibilityTextualContext property, or with the
 //// UIAccessibilityTextAttributeContext attributed key.

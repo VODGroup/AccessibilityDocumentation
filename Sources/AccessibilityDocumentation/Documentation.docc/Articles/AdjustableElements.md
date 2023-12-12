@@ -46,13 +46,16 @@ var accessibilityTraits: UIAccessibilityTraits {
 
 ### Selection follow focus
 
+@Comment {
 // TODO: Selection follow focus
 // TODO: Visual Samples
+}
 
+### `button` and `adjustable`
 
-### Buttona and Adjustable
-
+@Comment {
 // TODO: Stories sample
+}
 
 ### Tutorial
 

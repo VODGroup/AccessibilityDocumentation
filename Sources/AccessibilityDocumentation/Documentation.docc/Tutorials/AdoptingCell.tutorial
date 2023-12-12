@@ -1,0 +1,113 @@
+@Tutorial(time: 10) {
+    @Intro(title: "Adopting cell") {
+    
+        Common case when a cell become accessible element and combine all data in its description. For example we have a cell with pizza's description: image, title, ingredients and price. We can dramatically simplify cell for VoiceOver
+        
+        
+    }
+    
+    @Section(title: "The point") {
+        @ContentAndMedia {
+            Cell looks simple, but straitforward layout leads to several accessibility issues
+            
+            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
+        }
+        
+        @Steps {
+            @Step {
+                Let's start from VoiceOver problems. 
+                
+                First of all focus outlines ever separate element in cell. 
+                Image is hidden from VoiceOver by default (and it's fine), and first focused element is cell. 
+                
+                @Image(source: "DescribeCell_1", alt: "Focus outlines title")
+            }
+            
+            @Step {
+                After swipe to the right focus moves to ingredients
+                
+                @Image(source: "DescribeCell_2", alt: "Focus outlines ingredients")
+            }
+            
+            @Step {
+                Next swipe move focus to the button with price. 
+                
+                Only here user can understand, that it is interactive element by hearing `.button` trait
+                
+                @Image(source: "DescribeCell_3", alt: "Focus outlines button with price")
+            }
+            
+            @Step {                
+                In the end user had to do three swipes to passthrough just one cell. 
+                
+                Moreover, when he swipes through several steps he can lose his understanding which element connects to which pizza, ingredients will be repetitive and etc
+
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_1.swift") {
+                    @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
+                }
+            }
+            
+            @Step {                
+                For e.g. price button may looks connected to next title.
+                
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_2.swift") {
+                    @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
+                }
+            }
+            
+            @Step {
+                Voice Control and Switch Control have problems too. They works with interactive buttons, as a result label will be shown only for price button and user had to pronounce `Tap From AED thirty` to press the cell. 
+                
+                It would be much better, if we use title as cell's label. 
+                
+                @Image(source: "DescribeCell_4", alt: "Voice Control show badge over button with price")
+            }
+        }
+    }
+    
+    @Section(title: "Describe cell") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+        }
+    }
+    
+    @Section(title: "Simplify scroll") {
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+        }
+    }
+}
+
+<!--Also we had to set ``Book/isAccessibilityElement`` to `true`, read <doc:ControlHierarchy> for details.-->

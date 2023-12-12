@@ -61,7 +61,13 @@ The most common trait is ``UIAccessibilityTraits_/button`` – it helps user to 
 
 > Important: Label and Value are `String` properties, but Trait can be selected only from limited amount of variants. Not duplicate trait's textual description inside Label or Value, because different technologies uses trait in different manear, not only for textual description.  
 
-// TODO: Draw full scheme
+@Comment {
+    // TODO: Draw full scheme    
+}
+
+### Tutorial
+
+Read <doc:AdoptingCell> for example
 
 ## Topics
 

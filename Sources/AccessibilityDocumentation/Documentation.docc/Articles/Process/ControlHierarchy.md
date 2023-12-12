@@ -40,6 +40,38 @@ Voice Control and Switch Control place focus on buttons and tree should be diffe
 
 As a result you can control what elements from your layout will be exposed to different technologies for better user experience. 
 
+### Containers, nodes and leaf
+
+Visual hierarchy is based on child-parent relation and accessibility tree use the same paradigm. You have two main operations to control the tree:
+- Hide *branch* of element at all. Use ``Book/accessibilityElementsHidden`` to hide the branch.
+- Set element node (leaf or any parent) to be focusable. 
+
+> Important: Setting ``Book/isAccessibilityElement`` to `false` has different meaning according to type of a node:
+> - **Leaf of the tree** will be hidden
+> - **Node of the tree** will be *not focusable*: hierarchy will be traversed for any focusable leaf, when ``Book/isAccessibilityElement`` is set to `true` to them. If there is no such leaf, entire subtree will be hidden.
+
+> Note: Some container can have additional name that prefixed first focused element's description. Supports only by VoiceOver, read more at ``AccessibilityContainer/accessibilityContainerType`` with type ``UIAccessibilityContainerType/semanticGroup``
+
+@Comment {
+    // TODO: Container can has a label when use .semantic
+}
+
+### Tutorial
+
+Read <doc:AdoptingCell> for example
+
+### Modal views
+
+Modal view should done three main things:
+- Limit focus movement by himself. To mark a node as modal we use property ``Book/accessibilityViewIsModal``.
+- Set focus to the first element by posting ``Book/post(notification:argument:)`` with type `.screenChanged`.
+- Support escape gesture to close the screen by adding function ``Book/accessibilityPerformEscape`` to first responder
+
+@Comment {
+    // TODO: Add link to notification
+    // TODO: Add Product Card tutorial
+}
+
 ## Topics
 
 - ``Book/isAccessibilityElement``

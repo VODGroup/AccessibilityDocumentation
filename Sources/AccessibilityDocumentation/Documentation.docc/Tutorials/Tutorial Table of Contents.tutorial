@@ -9,12 +9,20 @@
 <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
     }
     
-    @Chapter(name: "Desribe elements") {
+    @Chapter(name: "Describe elements") {
         Simplifies navigation and control over a complex element for VoiceOver
         
 <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
         
         @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    }
+    
+    @Chapter(name: "Adopting cell") {
+        Simplifies navigation and control over a complex element for VoiceOver
+        
+        @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
+        
+        @TutorialReference(tutorial: "doc:AdoptingCell")
     }
     
     @Chapter(name: "Control hierarchy") {
@@ -24,6 +32,8 @@
         
         @TutorialReference(tutorial: "doc:AdjustableTutorial")
     }
+    
+    
     
     @Chapter(name: "Adjustable elements") {
         Simplifies navigation and control over a complex element for VoiceOver
