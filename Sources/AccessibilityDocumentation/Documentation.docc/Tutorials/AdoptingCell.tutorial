@@ -32,7 +32,7 @@
             @Step {
                 Next swipe move focus to the button with price. 
                 
-                Only here user can understand, that it is interactive element by hearing `.button` trait
+                > None: Only here user can understand, that it is interactive element by hearing `.button` trait
                 
                 @Image(source: "DescribeCell_3", alt: "Focus outlines button with price")
             }
@@ -62,7 +62,7 @@
             @Step {
                 Voice Control and Switch Control have problems too. They works with interactive buttons, as a result label will be shown only for price button and user had to pronounce `Tap From AED thirty` to press the cell. 
                 
-                It would be much better, if we use title as cell's label. 
+                > Tip: It would be much better, if we use title as cell's label. 
                 
                 @Image(source: "DescribeCell_4", alt: "Voice Control show badge over button with price")
             }
