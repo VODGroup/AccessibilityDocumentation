@@ -71,9 +71,63 @@
     
     @Section(title: "Describe cell") {
         @ContentAndMedia {
-            <#text#>
+            Let's fix this problem
             
-            @Image(source: <#file#>, alt: "<#accessible description#>")
+            @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
+        }
+        
+        @Steps {
+            @Step {
+                Start from simple cell with explicit ViewModel.
+                
+                @Code(name: "Cell and VoiceOver", file: "DescribeCell_6.swift")
+            }
+            
+            @Step {
+                First of all we should set that the cell will be focusable element. As a result we reduce number of elements on screen.
+                
+                No need to explicitly hide other elements, specifying the cell as accessibleElements it enough, read <doc:ControlHierarchy> for details.
+                
+                @Comment {
+                    // TODO: why the cell's button is visible at pizza?
+                }
+                
+                @Code(name: "Cell and VoiceOver", file: "DescribeCell_7.swift")
+            }
+            
+            @Step {
+                The cell has no info about its label, use `title` as `accessibilityLabel` and `ingredients` as `accessibilityValue`
+                
+                @Code(name: "Cell and VoiceOver", file: "DescribeCell_8.swift")
+                
+                @Comment {
+                    // TODO: Add Voice Control screenshot
+                }
+            }
+            
+            @Step {
+                Price is important part of the cell, but we had to choose how to describe it. We can notice, that visual perception of order is controlled by designer: image attracts attention first; eyesight moves to title: it's on top and bold; bright colored button interrupts attention order and point to itself after title; ingredients is last point of attention: it's grey, long and boring
+                
+                As a result we can place price after title. But, we had keep `label` simple and place price at the beginning of `accessibilityValue`
+                
+                @Code(name: "Cell and VoiceOver", file: "DescribeCell_9.swift") {
+                    @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
+                }
+            }
+            
+            @Step {
+                In the end we should describe that element is interactive. Specify `.button` trait for that.
+                
+                @Code(name: "Cell and VoiceOver", file: "DescribeCell_10.swift")
+            }
+        }
+    }
+    
+    @Section(title: "Simplify scroll") {
+        @ContentAndMedia {
+            Let's fix this problem
+            
+            @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
         }
         
         @Steps {
@@ -88,30 +142,40 @@
                 
                 @Code(name: "<#display name#>", file: <#filename.swift#>)
             }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
-            }
         }
     }
     
-    @Section(title: "Simplify scroll") {
-        @Steps {
-            @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
+    @Assessments {
+        @MultipleChoice {
+            What element did you use to add space around and between your views?
             
-            @Step {
-                <#text#>
+            
+            @Choice(isCorrect: false) {
+                A state variable.
                 
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
+                
+                @Justification(reaction: "Try again!") {
+                    Remember, it's something you used to arrange views vertically.
+                }
+            }
+                    
+                    
+            @Choice(isCorrect: true) {
+                A VStack with trailing padding.
+                        
+                        
+                @Justification(reaction: "That's right!") {
+                    A VStack arranges views in a vertical line.
+                }
+            }
+                            
+                            
+            @Choice(isCorrect: false) {
+                                
+                                ...
+                                
             }
         }
     }
 }
 
-<!--Also we had to set ``Book/isAccessibilityElement`` to `true`, read <doc:ControlHierarchy> for details.-->

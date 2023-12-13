@@ -57,15 +57,20 @@ The most common trait is ``UIAccessibilityTraits_/button`` – it helps user to 
 - *Pizza Pepperoni, Pepperoni, Mozzarella. **Button*** – tappable cell should contain button semantic, that's how user will understand that the cell is interactive and can be tapped. 
 - *Size, Medium. **Adjustable*** – VoiceOver can change inner value by vertical swipe.
 
+
+@Image(source: "TraitsOrder", alt: "Reading order is controlled by designer")
+
 > Note: Label and Value are separated by comma, but trait represents another sentence and separated by dot automatically.
 
-> Important: Label and Value are `String` properties, but Trait can be selected only from limited amount of variants. Not duplicate trait's textual description inside Label or Value, because different technologies uses trait in different manear, not only for textual description.  
-
-@Comment {
-    // TODO: Draw full scheme    
-}
+> Important: Label and Value are `String` properties, but Trait can be selected only from limited amount of variants.
+>
+> Not duplicate trait's textual description inside Label or Value, because different technologies uses trait in different manear, not only for textual description.  
 
 ### Tutorial
+
+@Tutorial() {
+    
+}
 
 Read <doc:AdoptingCell> for example
 
