@@ -9,45 +9,71 @@
 <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
     }
     
-    @Chapter(name: "Describe elements") {
-        Simplifies navigation and control over a complex element for VoiceOver
+    
+    @Volume(name: "Getting Started") {
+        @Chapter(name: "Describe elements") {
+            Simplifies navigation and control over a complex element for VoiceOver
+            
+            <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            
+            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        }
         
-<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        @Chapter(name: "Adopting cell") {
+            Simplifies navigation and control over a complex element for VoiceOver
+            
+            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
+            
+            @TutorialReference(tutorial: "doc:AdoptingCell")
+        }
         
-        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        @Chapter(name: "Control hierarchy") {
+            Simplifies navigation and control over a complex element for VoiceOver
+            
+            <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            
+            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        }
     }
     
-    @Chapter(name: "Adopting cell") {
-        Simplifies navigation and control over a complex element for VoiceOver
+    @Volume(name: "Climbing higher") {
+        @Chapter(name: "Adjustable elements") {
+            Simplifies navigation and control over a complex element for VoiceOver
+            
+            <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            
+            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        }
         
-        @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
-        
-        @TutorialReference(tutorial: "doc:AdoptingCell")
+        @Chapter(name: "Tweak visual properties") {
+            Simplifies navigation and control over a complex element for VoiceOver
+            
+            <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            
+            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        }
     }
     
-    @Chapter(name: "Control hierarchy") {
-        Simplifies navigation and control over a complex element for VoiceOver
-        
-        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
-        
-        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+    @Comment {
+        // TODO: Update links
     }
     
-    
-    
-    @Chapter(name: "Adjustable elements") {
-        Simplifies navigation and control over a complex element for VoiceOver
+    @Resources {
+        Explore more resources for learning about sloths.
         
-        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
         
-        @TutorialReference(tutorial: "doc:AdjustableTutorial")
-    }
-    
-    @Chapter(name: "Tweak visual propeties") {
-        Simplifies navigation and control over a complex element for VoiceOver
+        @Videos(destination: "https://www.example.com/sloth-videos/") {
+            Watch cute videos of sloths climbing, eating, and sleeping.
+            
+            
+            - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
+            - [Slow Ascent](https://www.example.com/sloth-videos/climb/)
+            - [Rest Time](https://www.example.com/sloth-videos/snoozing/)
+        }
         
-        <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
         
-        @TutorialReference(tutorial: "doc:AdjustableTutorial")
+        @Downloads(destination: "https://www.example.com/images/sloth-wallpaper/") {
+            Download the cutest sloth wallpaper for your iPhone, iPad, or Mac.
+        }
     }
 }
