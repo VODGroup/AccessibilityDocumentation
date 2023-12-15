@@ -69,8 +69,7 @@
                     Switch Controls requires grouping, to simplify navigation, but uses ``Book/accessibilityNavigationStyle`` for that.
                 }
             }
-                    
-                    
+                      
             @Choice(isCorrect: true) {
                 VoiceOver
                         

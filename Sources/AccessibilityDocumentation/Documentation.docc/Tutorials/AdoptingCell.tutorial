@@ -71,7 +71,7 @@
     
     @Section(title: "Describe cell") {
         @ContentAndMedia {
-            Let's fix this problem
+            To properly describe the cell for VoiceOver we had to transfer text from labels to accessibility description of the cell in correct order and with correct type.
             
             @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
         }
@@ -80,7 +80,7 @@
             @Step {
                 Start from simple cell with explicit ViewModel.
                 
-                @Code(name: "Cell and VoiceOver", file: "DescribeCell_6.swift")
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_6.swift")
             }
             
             @Step {
@@ -92,13 +92,13 @@
                     // TODO: why the cell's button is visible at pizza?
                 }
                 
-                @Code(name: "Cell and VoiceOver", file: "DescribeCell_7.swift")
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_7.swift")
             }
             
             @Step {
                 The cell has no info about its label, use `title` as `accessibilityLabel` and `ingredients` as `accessibilityValue`
                 
-                @Code(name: "Cell and VoiceOver", file: "DescribeCell_8.swift")
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_8.swift")
                 
                 @Comment {
                     // TODO: Add Voice Control screenshot
@@ -110,7 +110,7 @@
                 
                 As a result we can place price after title. But, we had keep `label` simple and place price at the beginning of `accessibilityValue`
                 
-                @Code(name: "Cell and VoiceOver", file: "DescribeCell_9.swift") {
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_9.swift") {
                     @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
                 }
             }
@@ -118,29 +118,65 @@
             @Step {
                 In the end we should describe that element is interactive. Specify `.button` trait for that.
                 
-                @Code(name: "Cell and VoiceOver", file: "DescribeCell_10.swift")
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_10.swift")
             }
         }
     }
     
     @Section(title: "Simplify scroll") {
         @ContentAndMedia {
-            Let's fix this problem
+            How default scroll works for VoiceOver: user scrolls by **three-finger swipe**, VoiceOver reads number of visible pages: `4 from 20.`
             
-            @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
+            If we work with table of cells VoiceOver specify number of visible rows: `From 25 to 40 from 120`
+            
+            We can improve even this by providing description for visible area, just read all titles of products: `Chicken BBQ, Meat King Supreme, Hawaii`
+            
+            @Image(source: "DescribeCell_11", alt: "Describe screen after scroll")
         }
         
         @Steps {
             @Step {
-                <#text#>
+                Let's start from MenuViewController's extension
                 
-                @Image(source: <#file#>, alt: "<#accessible description#>")
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11_0.swift")
             }
             
             @Step {
-                <#text#>
+                To add description we use special `UIScrollViewAccessibilityDelegate` that can be implement at any `firstResponder`.
                 
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11.swift")
+            }
+            
+            @Step {
+                Our goal is providing text description for visible cells. We can start from visible path
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_12.swift")
+            }
+            
+            @Step {
+                Convert them to models
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_13.swift")
+            }
+            
+            @Step {
+                And extract titles 
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_14.swift")
+            }
+            
+            @Step {
+                Join in single row in the end, separating by comma.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_15.swift")
+            }
+            
+            @Step {
+                After three-finger swipe titles of visible elements will be spoken aloud.
+                
+                @Comment {
+                    // TODO: Add illustration
+                }
             }
         }
     }
