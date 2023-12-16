@@ -173,9 +173,13 @@
             
             @Step {
                 After three-finger swipe titles of visible elements will be spoken aloud.
+             
+                Also you can add quantity expectation after 
+             
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_16.swift")
                 
                 @Comment {
-                    // TODO: Add illustration
+                    // TODO: Add preview
                 }
             }
         }
@@ -183,33 +187,84 @@
     
     @Assessments {
         @MultipleChoice {
-            What element did you use to add space around and between your views?
+            How do you place price in the element
             
+            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
             
             @Choice(isCorrect: false) {
-                A state variable.
-                
+                ```
+                Label: Chicken BBQ, from 30 AED
+                Value: pizza Sauce, mushrooms...
+                ```
                 
                 @Justification(reaction: "Try again!") {
-                    Remember, it's something you used to arrange views vertically.
+                    There in no difference for VoiceOver, but Voice Control presents price as part of the name that should be pronounced. To hard for Voice Control.
                 }
             }
                     
                     
             @Choice(isCorrect: true) {
-                A VStack with trailing padding.
+                ```
+                Label: Chicken BBQ, 
+                Value: from 30 AED, pizza Sauce, mushrooms...
+                ```
                         
                         
                 @Justification(reaction: "That's right!") {
-                    A VStack arranges views in a vertical line.
+                    Voice Control will have simple label, VoiceOver will read price in front of ingredients because it's more important
                 }
             }
                             
                             
             @Choice(isCorrect: false) {
+                
+                ```
+                Label: Chicken BBQ, 
+                Value: pizza Sauce, mushrooms..., from 30 AED
+                ```
+                
+                @Justification(reaction: "That's right!") {
+                    It's too long to wait for the price when you listen VoiceOver
+                }                
+            }
+        }
+        
+        @MultipleChoice {
+            How to scroll down a table when VoiceOver enabled?
+            
+            @Choice(isCorrect: false) {
+                Just regular swipe up
+                
+                @Justification(reaction: "Try again!") {
+                    No, vertical swipe is used for adjustable elements and other <doc:Rotor> operations. Swipe from the bottom will close an application, from the top will open Notifications Screen or Control Center 
+                }
+            }
+                    
+                    
+            @Choice(isCorrect: false) {
+                Two finger swiper
+                        
+                @Justification(reaction: "That's right!") {
+                    Two-finger swipe up will speak the entire screen *from the top*    
+                    Two-finger swipe down will speak the entire screen *from the selected item*    
+                }
+            }
+                            
+                            
+            @Choice(isCorrect: true) {
+                Three finger swipe
                                 
-                                ...
-                                
+                @Justification(reaction: "That's right!") {
+                    It's too long to wait for the price when you listen VoiceOver
+                }                
+            }
+            
+            @Choice(isCorrect: false) {
+                For finger swipe
+                
+                @Justification(reaction: "That's right!") {
+                    Horizontal four finger swipe will change applications 
+                }                
             }
         }
     }
