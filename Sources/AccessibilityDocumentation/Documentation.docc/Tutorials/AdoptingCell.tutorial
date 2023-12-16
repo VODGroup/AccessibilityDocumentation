@@ -194,7 +194,7 @@
             @Choice(isCorrect: false) {
                 ```
                 Label: Chicken BBQ, from 30 AED
-                Value: pizza Sauce, mushrooms...
+                Value: pizza sauce, mushrooms...
                 ```
                 
                 @Justification(reaction: "Try again!") {
@@ -206,7 +206,7 @@
             @Choice(isCorrect: true) {
                 ```
                 Label: Chicken BBQ, 
-                Value: from 30 AED, pizza Sauce, mushrooms...
+                Value: from 30 AED, pizza sauce, mushrooms...
                 ```
                         
                         
@@ -220,7 +220,7 @@
                 
                 ```
                 Label: Chicken BBQ, 
-                Value: pizza Sauce, mushrooms..., from 30 AED
+                Value: pizza sauce, mushrooms..., from 30 AED
                 ```
                 
                 @Justification(reaction: "That's right!") {
