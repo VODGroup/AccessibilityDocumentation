@@ -41,13 +41,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
         
-      - name: Build
+      - name: Compile
         run: >
           xcodebuild docbuild -scheme ${{ env.SCHEME }}
           -destination 'generic/platform=iOS'
           -derivedDataPath ${{ env.DERIVED_DATA_PATH }}
           
-      - name: Build
+      - name: Make Static Site
         run: >
           $(xcrun --find docc) process-archive
           transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/${{ env.SCHEME }}.doccarchive
@@ -66,7 +66,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ${ env.ARTEFACT_PATH }documentation/${{ env.SCHEME_LOWERCASED }}/
+          path: ${{ env.ARTEFACT_PATH }}
     
       - name: Deploy to GitHub Pages
         id: deployment
