@@ -20,11 +20,12 @@ env:
   LANGUAGE: "en_US.UTF-8"
   LC_ALL: "en_US.UTF-8"
   SCHEME: "AccessibilityDocumentation"
+  SCHEME_LOWERCASED: "accessibilitydocumentation"
   XCODE_VERSION: '~>15'
   DERIVED_DATA_PATH: './DerivedData/'
   DESTINATION: 'generic/platform=iOS'
   HOSTING_BASE_PATH: 'AccessibilityDocumentation'
-  OUTPUT_URL: 'https://vodgroup.github.io/AccessibilityDocumentation/documentation/accessibilitydocumentation/'
+  ARTEFACT_PATH: '../docs'
 
 jobs:
   update-docs:
@@ -41,17 +42,17 @@ jobs:
         uses: actions/configure-pages@v2
         
       - name: Build
-        run: |
-          xcodebuild docbuild -scheme AccessibilityDocumentation -destination 'generic/platform=iOS' -derivedDataPath ${{ env.DERIVED_DATA_PATH }}
+        run: >
+          xcodebuild docbuild -scheme ${{ env.SCHEME }}
+          -destination 'generic/platform=iOS'
+          -derivedDataPath ${{ env.DERIVED_DATA_PATH }}
           
       - name: Build
-        run: |
-          $(xcrun --find docc) process-archive transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/AccessibilityDocumentation.doccarchive --output-path ../docs --hosting-base-path AccessibilityDocumentation
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ../docs
+        run: >
+          $(xcrun --find docc) process-archive
+          transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/${{ env.SCHEME }}.doccarchive
+          --output-path ${ env.ARTEFACT_PATH }
+          --hosting-base-path ${{ env.HOSTING_BASE_PATH }}
 
   deploy:
     needs: update-docs
