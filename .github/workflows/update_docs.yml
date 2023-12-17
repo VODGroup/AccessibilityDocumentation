@@ -24,7 +24,7 @@ env:
   XCODE_VERSION: '~>15'
   DERIVED_DATA_PATH: './DerivedData/'
   DESTINATION: 'generic/platform=iOS'
-  HOSTING_BASE_PATH: 'AccessibilityDocumentation'
+  REPOSITORY_NAME: 'AccessibilityDocumentation'
   ARTEFACT_PATH: '../docs'
 
 jobs:
@@ -52,7 +52,7 @@ jobs:
           $(xcrun --find docc) process-archive
           transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/${{ env.SCHEME }}.doccarchive
           --output-path ${{ env.ARTEFACT_PATH }}
-          --hosting-base-path ${{ env.HOSTING_BASE_PATH }}
+          --hosting-base-path ${{ env.REPOSITORY_NAME }}
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
