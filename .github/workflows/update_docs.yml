@@ -62,6 +62,11 @@ jobs:
       
     runs-on: 'macos-13'
     steps:
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ${ env.ARTEFACT_PATH }documentation/${{ env.SCHEME_LOWERCASED }}/
+    
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
