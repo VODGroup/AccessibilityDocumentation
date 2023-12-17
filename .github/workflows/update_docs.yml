@@ -53,6 +53,11 @@ jobs:
           transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/${{ env.SCHEME }}.doccarchive
           --output-path ${{ env.ARTEFACT_PATH }}
           --hosting-base-path ${{ env.HOSTING_BASE_PATH }}
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ${{ env.ARTEFACT_PATH }}
 
   deploy:
     needs: update-docs
@@ -63,11 +68,6 @@ jobs:
       
     runs-on: 'macos-13'
     steps:
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ${{ env.ARTEFACT_PATH }}
-    
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
