@@ -32,8 +32,22 @@ Step by step practice course.
 
 ## Topics
 
+### Assistive Technologies
+- <doc:VoiceOver>
+- <doc:VoiceControl>
+- <doc:SwitchControl>
+
+### Basic
 - <doc:DescribeElements>
 - <doc:ControlHierarchy>
 - <doc:VisualProperties>
 - <doc:Navigation>
 - <doc:SpecificProperties>
+
+### Advanced
+- <doc:AdjustableElements>
+- <doc:VerticalSwipe>
+
+Tutorial: 
+- <doc:AdjustableTutorial>
+
