@@ -51,7 +51,7 @@ jobs:
         run: >
           $(xcrun --find docc) process-archive
           transform-for-static-hosting ${{ env.DERIVED_DATA_PATH }}Build/Products/Debug-iphoneos/${{ env.SCHEME }}.doccarchive
-          --output-path ${ env.ARTEFACT_PATH }
+          --output-path ${{ env.ARTEFACT_PATH }}
           --hosting-base-path ${{ env.HOSTING_BASE_PATH }}
 
   deploy:
