@@ -64,7 +64,7 @@ jobs:
     
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}documentation/${{ env.SCHEME_LOWERCASED }}/
       
     runs-on: 'macos-13'
     steps:
