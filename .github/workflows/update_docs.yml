@@ -24,6 +24,7 @@ env:
   DERIVED_DATA_PATH: './DerivedData/'
   DESTINATION: 'generic/platform=iOS'
   HOSTING_BASE_PATH: 'AccessibilityDocumentation'
+  OUTPUT_URL: 'https://vodgroup.github.io/AccessibilityDocumentation/documentation/accessibilitydocumentation/'
 
 jobs:
   update-docs:
@@ -52,6 +53,15 @@ jobs:
         with:
           path: ../docs
 
+  deploy:
+    needs: update-docs
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    runs-on: 'macos-13'
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
