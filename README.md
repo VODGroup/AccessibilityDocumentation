@@ -6,16 +6,13 @@
 
 - Make full documentation for accessibility features of iOS
 - Make it visual and simple: with real-world samples, videos of usage, etc
-- Interactive: step by step guides, prototype samples, etc
+- Interactive: step by step guides, prototype [samples for VoiceOver Designer](https://github.com/VODGroup/VoiceOverSamples), etc
 
 ## How it works
-Site is created from DocC in this repository. [Read more about DocC format](https://developer.apple.com/documentation/docc 
-
-The project consists from SPM-package with documentation inside. 
-
-GitHub-action will compile code after push to `main` branch and deploy to site.
-
-Site is hosted by GitHub Pages.
+- Site is created from DocC in this repository. [Read more about DocC format](https://developer.apple.com/documentation/docc) 
+- The project consists from SPM-package with documentation inside. 
+- GitHub-action will compile code after push to `main` branch and deploy to site.
+- Site is hosted by GitHub Pages.
 
 ## How to contribute
 - Describe a problem in [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)
@@ -25,7 +22,7 @@ Site is hosted by GitHub Pages.
 
 ## Parts of documentation
 
-### Tutorials - practice
+### Tutorials – practice
 - Real-life examples of screens and scenarios inside them for various types of accessibility technologies
 - Step-by-step guide how to adopt common types of screens or elements.
 
@@ -36,6 +33,6 @@ Site is hosted by GitHub Pages.
 
 ## Sponsored by VoiceOver Designer
 
-[VoiceOver Designer](https://rubanov.dev/voice-over-designer/) in a macOS app to design and prototype accessibility over a screenshot of an app.
+[VoiceOver Designer](https://rubanov.dev/voice-over-designer/) in a macOS app to design and prototype accessibility over a screenshot of an app. [The app is open-sourced.](https://github.com/VODGroup/VoiceOverDesigner)
 
 ![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
