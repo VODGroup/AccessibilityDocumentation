@@ -1,4 +1,4 @@
-# Vertical Swipe
+# Vertical Swipes
 
 Vertical swipe have a lot of possible actions and all of them depends on focus'es context.
 
