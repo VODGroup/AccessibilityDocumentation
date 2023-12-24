@@ -306,24 +306,28 @@ extension UIAccessibilityTraits_ {
 //        public static var requiresActivation: UIAccessibility.DirectTouchOptions { get }
 //    }
 //}
-//extension UIAccessibility.Notification {
-//    
-//    public static var screenChanged: UIAccessibility.Notification
-//    
-//    public static var layoutChanged: UIAccessibility.Notification
-//    
-//    @available(iOS 4.0, *)
-//    public static var announcement: UIAccessibility.Notification
-//    
-//    @available(iOS 4.2, *)
-//    public static var pageScrolled: UIAccessibility.Notification
-//    
-//    @available(iOS 8.0, *)
-//    public static var pauseAssistiveTechnology: UIAccessibility.Notification
-//    
-//    @available(iOS 8.0, *)
-//    public static var resumeAssistiveTechnology: UIAccessibility.Notification
-//}
+
+extension Book {
+    
+    /// Call this notification when entire screen had changed to rebuild accessibility tree. VoiceOver will notify by special signal. Modal and push presentation call this notification automatically.
+    public static var screenChanged: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+    
+    /// Call this notification when part of a screen had changed to rebuild accessibility tree. Great for some disclosures area for e.g.
+    public static var layoutChanged: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+    
+    /// Notify user when some process had completed. Examples: finish loading, complete order in restaurant
+    @available(iOS 4.0, *)
+    public static var announcement: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+    
+    @available(iOS 4.2, *)
+    public static var pageScrolled: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+    
+    @available(iOS 8.0, *)
+    public static var pauseAssistiveTechnology: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+    
+    @available(iOS 8.0, *)
+    public static var resumeAssistiveTechnology: Notification = Notification(name: Notification.Name(rawValue: "screenChanged"))
+}
 //extension UIAccessibility.AssistiveTechnologyIdentifier {
 //    
 //    @available(iOS 8.0, *)

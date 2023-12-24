@@ -23,19 +23,50 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 
 ![Screenshot of the application](VoiceOverDesigner.png)
 
+### Assistive Technologies
+@Links(visualStyle: compactGrid) {
+    - <doc:VoiceOver>
+    - <doc:VoiceControl>
+    - <doc:SwitchControl>
+}
+
 ## Tutorials
+
 
 Step by step practice course.
 
-- <doc:AdjustableTutorial>
-- <doc:AdoptingCell>
+@Links(visualStyle: detailedGrid) {
+    - <doc:AdjustableTutorial>
+    - <doc:AdoptingCell>
+}
+
+@Comment {
+    
+    // TODO: Uncomment?
+    
+    @TabNavigator {
+        @Tab("Switch Control") {
+            Allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
+            ![Switch control modes: focus groups on elements, cross selection and submenu](SwitchControlOverview)
+            }
+            
+            
+            @Tab("Voice Control") {
+                Adds additional commands over graphical UI to control a phone by voice commands. A user of VoiceControl can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
+                
+                ![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
+            }
+            
+            @Tab("Voice Over") {
+                Helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
+                
+                ![VoiceOver gestures](VoiceOverGestures)
+            }
+        }
+    }
+    
 
 ## Topics
-
-### Assistive Technologies
-- <doc:VoiceOver>
-- <doc:VoiceControl>
-- <doc:SwitchControl>
 
 ### Basic
 - <doc:DescribeElements>

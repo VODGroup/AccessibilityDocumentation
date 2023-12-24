@@ -782,6 +782,12 @@ public class Book {
     @available(iOS 4.2, *)
     open func accessibilityScroll(_ direction: UIAccessibilityScrollDirection) -> Bool { false }
     
+    
+    /// Is called when user perform special closing gesture. VoiceOver calls this after drawing N-symbol by two finger.
+    ///
+    /// See <doc:Navigation> for more details
+    ///
+    /// - Returns: `true` if this class handles gestures. If `false` UIKit will traverse firstResponders for next element that can handle this gesture
     @available(iOS 5.0, *)
     open func accessibilityPerformEscape() -> Bool { false }
     

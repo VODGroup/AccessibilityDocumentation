@@ -56,21 +56,21 @@ Visual hierarchy is based on child-parent relation and accessibility tree use th
     // TODO: Container can has a label when use .semantic
 }
 
+### Focus order
+``AccessibilityContainer/accessibilityElements``
+
+@Comment {
+    // TODO: It should be part of <doc:ControlHierarchy>
+}
+
+#### Dynamic number of elements
+https://github.com/akaDuality/RotorHeaders
+
 ### Tutorial
 
 Read <doc:AdoptingCell> for example
 
-### Modal views
 
-Modal view should done three main things:
-- Limit focus movement by himself. To mark a node as modal we use property ``Book/accessibilityViewIsModal``.
-- Set focus to the first element by posting ``Book/post(notification:argument:)`` with type `.screenChanged`.
-- Support escape gesture to close the screen by adding function ``Book/accessibilityPerformEscape`` to first responder
-
-@Comment {
-    // TODO: Add link to notification
-    // TODO: Add Product Card tutorial
-}
 
 ## Topics
 

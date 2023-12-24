@@ -5,8 +5,7 @@ Core properties that describes element for VoiceOver
 To describe element we can use label, value and trait (like a type)
 
 ## Label
-
-- ``Book/accessibilityLabel``
+``Book/accessibilityLabel``
 
 The main property is `accessibilityLabel` – defines element's name. It should be name in one or two words for buttons or represents full text from `UILabel` 
 
@@ -21,8 +20,7 @@ The main property is `accessibilityLabel` – defines element's name. It should 
 > Tip: Voice Control can have synonims for label. Check ``Book/accessibilityUserInputLabels`` for more details.
 
 ## Value
-
-- ``Book/accessibilityValue``
+``Book/accessibilityValue``
 
 `AccessibilityValue` is optional second part of the element's description. It can contain additional details or represents current value of the element
 - *1.4 billions views* – no value for regular text is ofter situation
@@ -42,7 +40,7 @@ Important to understand differences between label and value. Label should be as 
 Otherwise, adjustable elements allow to change only value part and after change only value part will be pronounced to user. <doc:AdjustableElements>
 
 ## Trait
-- ``Book/accessibilityTraits``
+``Book/accessibilityTraits``
 
 The last part of element's description is trait. Some traits may add additional text to element's description, other just changes behaviour. 
 
@@ -57,20 +55,27 @@ The most common trait is ``UIAccessibilityTraits_/button`` – it helps user to 
 - *Pizza Pepperoni, Pepperoni, Mozzarella. **Button*** – tappable cell should contain button semantic, that's how user will understand that the cell is interactive and can be tapped. 
 - *Size, Medium. **Adjustable*** – VoiceOver can change inner value by vertical swipe.
 
-
-@Image(source: "TraitsOrder", alt: "Reading order is controlled by designer")
-
 > Note: Label and Value are separated by comma, but trait represents another sentence and separated by dot automatically.
 
 > Important: Label and Value are `String` properties, but Trait can be selected only from limited amount of variants.
 >
 > Not duplicate trait's textual description inside Label or Value, because different technologies uses trait in different manear, not only for textual description.  
 
-### Tutorial
+## Hint
+``Book/accessibilityHint``
 
-@Tutorial() {
-    
+Always disabled
+
+@Comment {
+    // TODO: Describe hint
 }
+
+## Full formula
+@Image(source: "TraitsOrder", alt: "Reading order is controlled by designer")
+
+> Note: Container prefix is described in <doc:Navigation>
+
+### Tutorial
 
 Read <doc:AdoptingCell> for example
 
