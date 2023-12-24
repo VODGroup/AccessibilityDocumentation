@@ -10,15 +10,7 @@
     }
     
     
-    @Volume(name: "Getting Started") {
-        @Chapter(name: "Describe elements") {
-            Simplifies navigation and control over a complex element for VoiceOver
-            
-            <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
-            
-            @TutorialReference(tutorial: "doc:AdjustableTutorial")
-        }
-        
+    @Volume(name: "Getting Started") {        
         @Chapter(name: "Adopting cell") {
             Simplifies navigation and control over a complex element for VoiceOver
             
@@ -32,7 +24,7 @@
             
             <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
             
-            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+<!--            @TutorialReference(tutorial: "doc:AdjustableTutorial")-->
         }
     }
     
@@ -50,7 +42,7 @@
             
             <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
             
-            @TutorialReference(tutorial: "doc:AdjustableTutorial")
+<!--            @TutorialReference(tutorial: "doc:AdjustableTutorial")-->
         }
     }
     

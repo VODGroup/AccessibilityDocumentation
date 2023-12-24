@@ -5,7 +5,7 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
 @Metadata {
     @PageImage(
                purpose: card, 
-               source: "VoiceOver Cover", 
+               source: "VoiceOver Preview", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
 }
 

@@ -4,6 +4,14 @@ Accessibility part of UIKit and SwiftUI frameworks helps developers to represent
 
 ## Overview
 
+### Assistive Technologies
+
+There are three main assistance for blind or motion limited users: 
+@Links(visualStyle: compactGrid) {
+    - <doc:VoiceOver>
+    - <doc:VoiceControl>
+    - <doc:SwitchControl>
+}
 
 - **<doc:VoiceOver>** helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
 
@@ -23,21 +31,13 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 
 ![Screenshot of the application](VoiceOverDesigner.png)
 
-### Assistive Technologies
-@Links(visualStyle: compactGrid) {
-    - <doc:VoiceOver>
-    - <doc:VoiceControl>
-    - <doc:SwitchControl>
-}
-
 ## Tutorials
-
 
 Step by step practice course.
 
 @Links(visualStyle: detailedGrid) {
-    - <doc:AdjustableTutorial>
     - <doc:AdoptingCell>
+    - <doc:AdjustableTutorial>
 }
 
 @Comment {

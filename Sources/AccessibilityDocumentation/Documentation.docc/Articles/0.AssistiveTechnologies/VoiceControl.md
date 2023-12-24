@@ -5,7 +5,7 @@ Adds additional commands over graphical UI to control a phone by voice commands.
 @Metadata {
     @PageImage(
                purpose: card, 
-               source: "Voice Control Cover", 
+               source: "Voice Control Preview", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
 }
 

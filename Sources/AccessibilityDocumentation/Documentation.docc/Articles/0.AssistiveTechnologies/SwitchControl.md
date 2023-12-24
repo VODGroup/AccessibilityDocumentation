@@ -3,7 +3,7 @@
 @Metadata {
     @PageImage(
                purpose: card, 
-               source: "SwitchControlCover", 
+               source: "Switch Control Preview", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
 }
 
