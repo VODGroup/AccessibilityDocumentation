@@ -1,6 +1,6 @@
 # Adjustable elements
 
-Simplifies interactions with a complex element for VoiceOver.
+Simplifies interactions with complex elements for VoiceOver.
 
 > Tip: 
 > - Best for VoiceOver, is changed by vertical swipe
