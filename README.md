@@ -1,38 +1,43 @@
-# AccessibilityDocumentation
+# [AccessibilityDocumentation](https://vodgroup.github.io/AccessibilityDocumentation/documentation/accessibilitydocumentation/)
 
-[Site](https://vodgroup.github.io/AccessibilityDocumentation/documentation/accessibilitydocumentation/)
+## What is this?
+At the moment this project is a vague prototype of **wrapping the already-existing documentation of [Accessibility features available in iOS SDK](https://developer.apple.com/design/human-interface-guidelines/accessibility)** in a way **to make it easier to research** available in a form of a **web-resource**. In other words our goal is to find a solution for **making plain documentation more entertaining and requiring nothing more than a web-browser**.
 
-## Goal
+Generally the project is dedicated to those who use the mentioned instrumentality in their work: **software developers** and **product designers**. 
 
-- Make full documentation for accessibility features of iOS
-- Make it visual and simple: with real-world samples, videos of usage, etc
-- Interactive: step by step guides, prototype [samples for VoiceOver Designer](https://github.com/VODGroup/VoiceOverSamples), etc
+Currently our goal is to try out variable methods of documentation wrapping by implementing various **interactive solutions**, such as **step-by-step guides**, wide range of **media types** used and **[VoiceOver Designer](https://github.com/VODGroup/VoiceOverDesigner)** app prototype in order to find the most efficient educational methods. 
 
-## How it works
-- Site is created from DocC in this repository. [Read more about DocC format](https://developer.apple.com/documentation/docc) 
-- The project consists from SPM-package with documentation inside. 
-- GitHub-action will compile code after push to `main` branch and deploy to site.
-- Site is hosted by GitHub Pages.
+## Why make it a website? 
+Websites is an exemplary **cross-platform** solution. Having resources available on the Net widens its **accessibility**.  
 
-## How to contribute
-- Describe a problem in [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)
-- Suggest theme about accessibility via [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)
-- Create PR with fix by your own
-- Create article from tasks in Project [Project with tasks](https://github.com/orgs/VODGroup/projects/5/views/1)
+## How does it function?
+The project itself is a [Swift Package](https://www.swift.org/packages/) that contains a [DocC](https://developer.apple.com/documentation/docc) file out of which the website is built. 
+The deployement is implemented by [GitHub Pages](https://pages.github.com).
 
-## Parts of documentation
+## What can I find in this repository?
 
-### Tutorials – practice
-- Real-life examples of screens and scenarios inside them for various types of accessibility technologies
-- Step-by-step guide how to adopt common types of screens or elements.
+### Tutorials
+To focus on the implementation of assistive technologies. 
+- Real-life cases in screens and scenarios examples involving usage of assistive technologies.
+- Step-by-step guides how to apply Accessibility Features.
 
-### Articles – knowledge
-- Accessibility Properties in code and how to use theme – the most straightforward part to hit web-search and generate leads to this documentation 
-- Description of accessibility instruments to understand how people use it
-- Common user scenarios: how user navigates inside an app, type text, etc
+### Articles
+To study the concepts.
+- Accessibility Properties in Code: How to Use Them. A brief overwiev for implenting accessibility in the apps
+- Accessibility Features Explained: How People Use Assistive Technology. A thorough description of the concepts and its technological implementations in order to provide a better understanding of how it all works.
+
+## Can I contribute to the project? 
+Yes, **everyone is welcome to influence the project**. It can be done by **comitting *ideas* and *fixes* to this repository**:
+- **describe a problem** or **discuss on the topic** in [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues); 
+- **propose a change** by creating a *pull request* to this repository;
+- **write an article** from tasks listed in [Projects](https://github.com/orgs/VODGroup/projects/5/views/1).
+
 
 ## Sponsored by VoiceOver Designer
+**VoiceOver Designer** is a macOS application that allows to **design and prototype accessibility features over a *screenshot of an app***. 
 
-[VoiceOver Designer](https://rubanov.dev/voice-over-designer/) in a macOS app to design and prototype accessibility over a screenshot of an app. [The app is open-sourced.](https://github.com/VODGroup/VoiceOverDesigner)
+More about the app: https://rubanov.dev/voice-over-designer
+
+Code source: https://github.com/VODGroup/VoiceOverDesigner
 
 ![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
