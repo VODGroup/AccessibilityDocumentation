@@ -1,7 +1,7 @@
 @Tutorial(time: 10) {
     @Intro(title: "Adopting cell") {
     
-        Common case when a cell become accessible element and combine all data in its description. For example we have a cell with pizza's description: image, title, ingredients and price. We can dramatically simplify cell for VoiceOver
+        Common case when a cell become an accessible element and combine all data in its description. For example we have a cell with pizza's description: image, title, ingredients and price. We can dramatically simplify cell for VoiceOver
         
         
     }
@@ -9,6 +9,7 @@
     @Section(title: "The point") {
         @ContentAndMedia {
             Cell looks simple, but straitforward layout leads to several accessibility issues
+            @Comment { }
             
             @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
         }
