@@ -5,7 +5,7 @@
     
     @Section(title: "Basic setup") {
         @ContentAndMedia {
-            By default any element can contains ``Book/accessibilityValue`` to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
+            By default any element contains ``Book/accessibilityValue`` to expose additional data for user. Some elements come complicated and can contain dynamic value, controlled by vertical swipe. Examples:
         }
         
         @Steps {
