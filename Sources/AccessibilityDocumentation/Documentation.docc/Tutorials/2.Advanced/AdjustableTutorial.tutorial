@@ -1,6 +1,6 @@
 @Tutorial(time: 10) {
     @Intro(title: "Setup adjustable elements") {
-        Simplifies interactions with a complex element for VoiceOver.
+        Simplifies interactions with complex elements for VoiceOver.
     }
     
     @Section(title: "Basic setup") {
