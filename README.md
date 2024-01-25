@@ -23,14 +23,16 @@ To focus on the implementation of assistive technologies.
 
 ### Articles
 To study the concepts.
-- Accessibility Properties in Code: How to Use Them. A brief overwiev for implenting accessibility in the apps
+- Accessibility Properties in Code: How to Use Them. A brief overview of implenting accessibility in apps
 - Accessibility Features Explained: How People Use Assistive Technology. A thorough description of the concepts and its technological implementations in order to provide a better understanding of how it all works.
 
 ## Can I contribute to the project? 
 Yes, **everyone is welcome to influence the project**. It can be done by **comitting *ideas* and *fixes* to this repository**:
 - **describe a problem** or **discuss on the topic** in [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues); 
 - **propose a change** by creating a *pull request* to this repository;
+  <img width="876" alt="Screenshot 2024-01-25 at 09 58 20" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/fccf206f-c2a6-4698-a3fe-a2352861c3f2">
 - **write an article** from tasks listed in [Projects](https://github.com/orgs/VODGroup/projects/5/views/1).
+  <img width="844" alt="Screenshot 2024-01-25 at 10 11 13" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/6a713fc9-5ab1-44cf-b821-4a76a2954d89">
 
 
 ## Sponsored by VoiceOver Designer
