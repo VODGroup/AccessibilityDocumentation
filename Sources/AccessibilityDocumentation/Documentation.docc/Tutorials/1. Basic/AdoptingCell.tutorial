@@ -266,7 +266,7 @@
                                 
                 @Justification(reaction: "That's right!") {
                     @Comment {
-                        // миш че за хуйня
+                        /   / миш че за хуйня
                     }
                     It's too long to wait for the price when you listen VoiceOver
                 }                

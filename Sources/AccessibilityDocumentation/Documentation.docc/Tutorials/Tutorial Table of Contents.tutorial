@@ -1,26 +1,29 @@
-@Tutorials(name: "How to adopt your application") {
-    @Intro(title: "Few steps") {
+@Tutorials(name: "How To Adapt Your application") {
+    @Intro(title: "Just A Few Steps") {
         
-        To adopt your application for assistive technologies you should forward few steps:
-        Simplify and group elements in UI's hierarchy
-        Add labels to elements
-        Add additional properties
+        To make an application accessible for the assistive technology and therefore allow people with Accessibility Features enabled comfortably use it one doesn't have to do much. The adaptation plan is as simple as:
+        
+        1. Simplify and group elements in UI's hierarchy
+        2. Add labels to elements
+        3. Add additional properties
+        
+        Yep, that's it. In other words the adaption process is consisted of an optional reconstructing of already-existing elements' order and their description with some flags explicitly specified.
         
 <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
     }
     
     
     @Volume(name: "Getting Started") {        
-        @Chapter(name: "Adopting cell") {
-            Simplifies navigation and control over a complex element for VoiceOver
+        @Chapter(name: "Adopting Cell") {
+            Simplifies navigation and control over a complex element for VoiceOver.
             
             @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
             
             @TutorialReference(tutorial: "doc:AdoptingCell")
         }
         
-        @Chapter(name: "Control hierarchy") {
-            Simplifies navigation and control over a complex element for VoiceOver
+        @Chapter(name: "Control Hierarchy") {
+            Also simplifies navigation and control over a complex element for VoiceOver.
             
             <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
             
@@ -29,7 +32,7 @@
     }
     
     @Volume(name: "Climbing higher") {
-        @Chapter(name: "Adjustable elements") {
+        @Chapter(name: "Adjustable Elements") {
             Simplifies navigation and control over a complex element for VoiceOver
             
             <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
@@ -37,7 +40,7 @@
             @TutorialReference(tutorial: "doc:AdjustableTutorial")
         }
         
-        @Chapter(name: "Tweak visual properties") {
+        @Chapter(name: "Tweak Visual Properties") {
             Simplifies navigation and control over a complex element for VoiceOver
             
             <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
