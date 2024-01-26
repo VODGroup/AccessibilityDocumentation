@@ -41,8 +41,8 @@ Yes, **everyone is welcome to influence the project**, especially considering a 
 ## Sponsored by [VoiceOver Designer](https://rubanov.dev/voice-over-designer)
 **VoiceOver Designer** is a macOS application that allows to **design and prototype accessibility features over a *screenshot of an app***. 
 
-More about the app: rubanov.dev/voice-over-designer
+More about the app: https://rubanov.dev/voice-over-designer
 
-Code source: github.com/VODGroup/VoiceOverDesigner
+Code source: https://github.com/VODGroup/VoiceOverDesigner
 
 ![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
