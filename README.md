@@ -30,7 +30,7 @@ To study the concepts.
 
 ## - Can I contribute to the project? 
 Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **comitting *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
-- **describe a problem** or **discuss on the topic** in [Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues); 
+- **describe a problem** or **discuss on the topic** in **[Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)**; 
 - **propose a change** by creating a *pull request* to this repository;
   <img width="876" alt="Screenshot 2024-01-25 at 09 58 20" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/fccf206f-c2a6-4698-a3fe-a2352861c3f2">
 - **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they provide;
@@ -41,8 +41,8 @@ Yes, **everyone is welcome to influence the project**, especially considering a 
 ## Sponsored by [VoiceOver Designer](https://rubanov.dev/voice-over-designer)
 **VoiceOver Designer** is a macOS application that allows to **design and prototype accessibility features over a *screenshot of an app***. 
 
-More about the app: https://rubanov.dev/voice-over-designer
+More about the app: rubanov.dev/voice-over-designer
 
-Code source: https://github.com/VODGroup/VoiceOverDesigner
+Code source: github.com/VODGroup/VoiceOverDesigner
 
 ![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
