@@ -38,7 +38,6 @@ Yes, **everyone is welcome to influence the project**, especially considering a 
 - **write an article** from tasks listed in [Projects](https://github.com/orgs/VODGroup/projects/5/views/1).
   <img width="844" alt="Screenshot 2024-01-25 at 10 11 13" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/6a713fc9-5ab1-44cf-b821-4a76a2954d89">
 
-
 ## Sponsored by [VoiceOver Designer](https://rubanov.dev/voice-over-designer)
 **VoiceOver Designer** is a macOS application that allows to **design and prototype accessibility features over a *screenshot of an app***. 
 
