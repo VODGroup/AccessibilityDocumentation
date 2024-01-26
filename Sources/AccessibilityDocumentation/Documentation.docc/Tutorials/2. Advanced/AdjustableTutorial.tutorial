@@ -66,7 +66,7 @@
                 
                 
                 @Justification(reaction: "Try again!") {
-                    SwitchControl indeed requires grouping to simplify navigation, but uses ``Book/accessibilityNavigationStyle`` for that.
+                    Switch Control indeed requires grouping to simplify navigation, but uses ``Book/accessibilityNavigationStyle`` for that.
                 }
             }
                       
