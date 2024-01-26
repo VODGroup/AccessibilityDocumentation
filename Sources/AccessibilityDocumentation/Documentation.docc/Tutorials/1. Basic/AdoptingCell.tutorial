@@ -8,7 +8,6 @@
     @Section(title: "The point") {
         @ContentAndMedia {
             Even though the cell looks simple such layout would lead to several *accessibility issues*.
-            @Comment { }
             
             @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
         }
