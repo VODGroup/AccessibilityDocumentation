@@ -9,21 +9,21 @@ Accessibility part of UIKit and SwiftUI frameworks helps developers to represent
 There are three main assistance for blind or motion limited users: 
 @Links(visualStyle: compactGrid) {
     - <doc:VoiceOver>
-    - <doc:VoiceControl>
-    - <doc:SwitchControl>
+    - <doc:Voice Control>
+    - <doc:Switch Control>
 }
 
 - **<doc:VoiceOver>** helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
 
 ![VoiceOver gestures](VoiceOverGestures)
 
-- **<doc:VoiceControl>** adds additional commands over graphical UI to control a phone by voice commands. A user of VoiceControl can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
+- **<doc:Voice Control>** adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
 
-![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
+![Voice Control modes: with labels, enumerated elements or grid](Voice ControlOverview)
 
-- **<doc:SwitchControl>** allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
+- **<doc:Switch Control>** allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
 
-![Switch control modes: focus groups on elements, cross selection and submenu](SwitchControlOverview)
+![Switch control modes: focus groups on elements, cross selection and submenu](Switch ControlOverview)
 
 > Note: Watch [Apple's playlist about Accessibility ](https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu) for inspiration
 
@@ -47,14 +47,14 @@ Step by step practice course.
     @TabNavigator {
         @Tab("Switch Control") {
             Allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
-            ![Switch control modes: focus groups on elements, cross selection and submenu](SwitchControlOverview)
+            ![Switch control modes: focus groups on elements, cross selection and submenu](Switch ControlOverview)
             }
             
             
             @Tab("Voice Control") {
-                Adds additional commands over graphical UI to control a phone by voice commands. A user of VoiceControl can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
+                Adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
                 
-                ![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
+                ![Voice Control modes: with labels, enumerated elements or grid](Voice ControlOverview)
             }
             
             @Tab("Voice Over") {

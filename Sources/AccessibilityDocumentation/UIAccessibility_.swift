@@ -636,15 +636,15 @@ public class Book {
     
     
     /**
-     Use UIAccessibilityIsSwitchControlRunning() to determine if Switch Control is running.
-     Listen for UIAccessibilitySwitchControlStatusDidChangeNotification to know when Switch Control starts or stops.
+     Use UIAccessibilityIsSwitch ControlRunning() to determine if Switch Control is running.
+     Listen for UIAccessibilitySwitch ControlStatusDidChangeNotification to know when Switch Control starts or stops.
      */
     @available(iOS 8.0, *)
-    public static var isSwitchControlRunning: Bool { false }
+    public static var isSwitch ControlRunning: Bool { false }
     
     
     @available(iOS 8.0, *)
-    public static let switchControlStatusDidChangeNotification: NSNotification.Name = .init("")
+    public static let Switch ControlStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
     /// Returns whether the system preference for Speak Selection is enabled

@@ -35,12 +35,12 @@
     
     @Section(title: "Backward Compatibility") {
         @ContentAndMedia {
-            VoiceControl and SwitchControl work with separate *buttons* instead of *adjustable elements*.
+            Voice Control and Switch Control work with separate *buttons* instead of *adjustable elements*.
         }
 
         @Steps {  
             @Step {
-                > Important: Adjustable elements are only used for VoiceOver and will break the behaviour of VoiceControl and SwitchControl. 
+                > Important: Adjustable elements are only used for VoiceOver and will break the behaviour of Voice Control and Switch Control. 
                 
                 Distinguish their behaviour in code by a dynamic getter:
                 
@@ -48,7 +48,7 @@
             }
             
             @Step {
-                SwitchControl requires grouping: firstly focus will be placed on the group itself, afterwards the selection will be moved between elements of this group. It simulates navigation by reducing the number of elements on each level.
+                Switch Control requires grouping: firstly focus will be placed on the group itself, afterwards the selection will be moved between elements of this group. It simulates navigation by reducing the number of elements on each level.
                 
                 > Note: Watch video [How Grouping Simplifies Navigation](https://youtube.com/shorts/1l8H615EkV0?si=tKyhIGjBbR9XG9HP)
                 
@@ -62,7 +62,7 @@
             What assistive technologies use adjustable trait?
             
             @Choice(isCorrect: false) {
-                SwitchControl
+                Switch Control
                 
                 
                 @Justification(reaction: "Try again!") {
@@ -84,7 +84,7 @@
                                 
                                 
                 @Justification(reaction: "Try again!") {
-                    VoiceControl is mostly used by people who are able to see. In such case percieving elements as separate buttons is preferred.
+                    Voice Control is mostly used by people who are able to see. In such case percieving elements as separate buttons is preferred.
                 }
             }
         }
