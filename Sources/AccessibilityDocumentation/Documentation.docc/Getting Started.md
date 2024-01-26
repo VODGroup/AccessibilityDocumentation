@@ -19,11 +19,11 @@ There are three main assistance for blind or motion limited users:
 
 - **<doc:Voice Control>** adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
 
-![Voice Control modes: with labels, enumerated elements or grid](Voice ControlOverview)
+![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
 
 - **<doc:Switch Control>** allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
 
-![Switch control modes: focus groups on elements, cross selection and submenu](Switch ControlOverview)
+![Switch Control modes: focus groups on elements, cross selection and submenu](SwitchControlOverview)
 
 > Note: Watch [Apple's playlist about Accessibility ](https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu) for inspiration
 
@@ -47,14 +47,14 @@ Step by step practice course.
     @TabNavigator {
         @Tab("Switch Control") {
             Allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
-            ![Switch control modes: focus groups on elements, cross selection and submenu](Switch ControlOverview)
+            ![Switch Control modes: focus groups on elements, cross selection and submenu](Switch ControlOverview)
             }
             
             
             @Tab("Voice Control") {
                 Adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speach, convert it to text and links command to elements' description.
                 
-                ![Voice Control modes: with labels, enumerated elements or grid](Voice ControlOverview)
+                ![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
             }
             
             @Tab("Voice Over") {

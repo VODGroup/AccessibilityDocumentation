@@ -45,7 +45,7 @@ Escape gesture allows to close current screen by special gesture without focusin
 
 @Comment {
     // TODO: Add escape gesture video
-    // Do Switch control and voice control have support for this gesture? Can't find it for Switch Control 
+    // Do Switch Control and Voice Control have support for this gesture? Can't find it for Switch Control 
     // TODO: Check https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/SupportingAccessibility.html
 }
 

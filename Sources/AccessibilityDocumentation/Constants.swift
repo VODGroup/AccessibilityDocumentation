@@ -331,7 +331,7 @@ extension Book {
 //extension UIAccessibility.AssistiveTechnologyIdentifier {
 //    
 //    @available(iOS 8.0, *)
-//    public static let notificationSwitch Control: UIAccessibility.AssistiveTechnologyIdentifier
+//    public static let notificationSwitchControl: UIAccessibility.AssistiveTechnologyIdentifier
 //    
 //    @available(iOS 9.0, *)
 //    public static let notificationVoiceOver: UIAccessibility.AssistiveTechnologyIdentifier
