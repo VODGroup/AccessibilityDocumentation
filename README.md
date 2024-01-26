@@ -1,7 +1,7 @@
 # [AccessibilityDocumentation](https://vodgroup.github.io/AccessibilityDocumentation/documentation/accessibilitydocumentation/)
 
 ## - What is this?
-At the moment this project is a vague prototype of **wrapping the already-existing documentation of [Accessibility features available in iOS SDK](https://developer.apple.com/design/human-interface-guidelines/accessibility)** in a way **to make it easier to research** available in a form of a **web-resource**. In other words our goal is to find a solution for **making plain documentation more entertaining and requiring nothing more than a web-browser**. Call it an ***education resource***.
+At the moment this project is a vague prototype of **wrapping the already-existing documentation of [Accessibility features available in iOS SDK](https://developer.apple.com/design/human-interface-guidelines/accessibility)** in a way **to make it easier to research** available in a form of a **web-resource**. In other words our goal is to find a solution for **making plain documentation more entertaining and requiring nothing more than a web-browser**. Call it an ***educational resource***.
 
 Generally the project is dedicated to those who use the mentioned *toolkit* in their *work*: **developers**, **designers**, **researchers**. Nevertheless the content is planned that way so **one could learn Accessibility from its very *basics***. It is just not about raising *awareness*, at least for now.  
 
@@ -20,13 +20,13 @@ Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](h
 
 ### Tutorials
 To focus on the implementation of assistive technologies. 
-- Real-life cases in screens and scenarios examples involving usage of assistive technologies.
-- Step-by-step guides how to apply Accessibility Features.
+- **Real-life cases** in screens and scenarios involving usage of *assistive technologies*.
+- **Step-by-step guides** how to apply **Accessibility Features**.
 
 ### Articles
 To study the concepts.
-- Accessibility Properties in Code: How to Use Them. A brief overview of implenting accessibility in apps
-- Accessibility Features Explained: How People Use Assistive Technology. A thorough description of the concepts and its technological implementations in order to provide a better understanding of how it all works.
+- Accessibility Properties in Code: How to Use Them. A brief overview of **implenting accessibility in apps**.
+- Accessibility Features Explained: How People Use Assistive Technology. A thorough **description of the concepts** and its technological implementations in order **to provide a better understanding** of how it all works.
 
 ## - Can I contribute to the project? 
 Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **comitting *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
