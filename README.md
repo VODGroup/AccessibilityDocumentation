@@ -35,7 +35,7 @@ Yes, **everyone is welcome to influence the project**, especially considering a 
   <img width="876" alt="Screenshot 2024-01-25 at 09 58 20" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/fccf206f-c2a6-4698-a3fe-a2352861c3f2">
 - **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they provide;
   <img width="875" alt="Screenshot 2024-01-26 at 11 16 58" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/e43ef14c-6649-45f6-ae57-d915ee0900a7">
-- **write an article** from tasks listed in [Projects](https://github.com/orgs/VODGroup/projects/5/views/1).
+- **write an article** from *tasks* listed in **[Projects](https://github.com/orgs/VODGroup/projects/5/views/1)**.
   <img width="844" alt="Screenshot 2024-01-25 at 10 11 13" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/6a713fc9-5ab1-44cf-b821-4a76a2954d89">
 
 ## Sponsored by [VoiceOver Designer](https://rubanov.dev/voice-over-designer)
