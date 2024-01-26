@@ -12,7 +12,7 @@ Adds additional commands over graphical UI to control a phone by voice commands.
 
 ## Overview
 
-![Voice Control modes: with labels, enumerated elements or grid](Voice ControlOverview)
+![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
 
  [Video how to use Voice Control](https://www.youtube.com/watch?v=eg22JaZWAgs)
 

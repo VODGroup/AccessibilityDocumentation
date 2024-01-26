@@ -24,7 +24,7 @@ public class Book {
     /**
      Return YES if the receiver should be exposed as an accessibility element.
      
-     Setting the property to YES will cause the receiver to be visible to assistive applications: VoiceOver will focus on this element to speak aloud it, Voice control and Switch Control will focus is elements it intrectitve
+     Setting the property to YES will cause the receiver to be visible to assistive applications: VoiceOver will focus on this element to speak aloud it, Voice Control and Switch Control will focus is elements it intrectitve
      
      default == NO
      default on UIKit controls == YES
@@ -636,15 +636,15 @@ public class Book {
     
     
     /**
-     Use UIAccessibilityIsSwitch ControlRunning() to determine if Switch Control is running.
-     Listen for UIAccessibilitySwitch ControlStatusDidChangeNotification to know when Switch Control starts or stops.
+     Use UIAccessibilityIsSwitchControlRunning() to determine if Switch Control is running.
+     Listen for UIAccessibilitySwitchControlStatusDidChangeNotification to know when Switch Control starts or stops.
      */
     @available(iOS 8.0, *)
-    public static var isSwitch ControlRunning: Bool { false }
+    public static var isSwitchControlRunning: Bool { false }
     
     
     @available(iOS 8.0, *)
-    public static let Switch ControlStatusDidChangeNotification: NSNotification.Name = .init("")
+    public static let SwitchControlStatusDidChangeNotification: NSNotification.Name = .init("")
     
     
     /// Returns whether the system preference for Speak Selection is enabled
