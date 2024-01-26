@@ -1,0 +1,284 @@
+@Tutorial(time: 10) {
+    @Intro(title: "Adopting Cell") {
+    
+        To have assistive technology work as intented sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in the cell. In other words, if there is a cell with pizza's description it is understandable to distinguish data by its nature: have an image as an illustration, a title, a list of ingridients and a price - but it complicates the work for VoiceOver, VoiceControl and SwitchControl. Such layout makes it adapt the cell's contents **wrong**. Let's take a look of what can be done to help our digital assistants navigate through the cognitive models we come up with,.
+        
+    }
+    
+    @Section(title: "The point") {
+        @ContentAndMedia {
+            Even though the cell looks simple such layout would lead to several *accessibility issues*.
+            @Comment { }
+            
+            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
+        }
+        
+        @Steps {
+            @Step {
+                Why it is problematic for VoiceOver to adapt such interface? 
+                
+                The thing is that **the focus works such way so it outlines *every* single element of a cell**.
+                
+                Pay attention that **images are hidden from VoiceOver *by default***, therefore are *inaccessible* to be focused on.
+                
+                The first thing put into the focus is **the title**.
+                
+                @Image(source: "DescribeCell_1", alt: "Focus outlines title")
+            }
+            
+            @Step {
+                After a swipe to the right the focus moves to **the list of the ingredients**.
+                
+                @Image(source: "DescribeCell_2", alt: "Focus outlines ingredients")
+            }
+            
+            @Step {
+                Same way the next swipe will move the focus to **the price button**. 
+                
+                > Note: The *only* possibility **for a user to understand that this element is interactive by hearing VoiceOver say that's it's a *button***. It can be made possible by specifying its `.button` trait.
+                
+                @Image(source: "DescribeCell_3", alt: "Focus outlines button with price")
+            }
+            
+            @Step {                
+                In such case the number of the swipes needed to go through a single cell is three. This is *too* many.
+                
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_0.swift")
+            }
+            
+            @Step {                
+                Moreover such discretion leads to a decrease in *comrehensibility*: users can easily **lose track of what pizza in particular they are going through at the moment**. 
+                
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_1.swift") {
+                    @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
+                }
+            }
+            
+            @Step {                
+                For example, *the price button* may be percieved connected to the next title.
+                
+                @Code(name: "Several cells and wrong rhyme", file: "DescribeCell_3_2.swift") {
+                    @Image(source: "DescribeCell_3_3", alt: "Focus outlines button with price")
+                }
+            }
+            
+            @Step {
+                
+                Voice Control and Switch Control experience same problems too. They prioritise *interactive buttons* and as a result **the only label shown will be the price button's *label***. To press the whole cell users would have to, for example, pronounce *«Tap From AED thirty»*.
+                
+                > Tip: The solution here is to **use *the title* as the cell's *label***.
+                
+                @Image(source: "DescribeCell_4", alt: "Voice Control show badge over button with price")
+            }
+        }
+    }
+    
+    @Section(title: "Describe cell") {
+        @ContentAndMedia {
+            In order to **properly describe the cell for VoiceOver** we have to transfer the text from *labels* to the *accessibility description* of the cell in a correct order and with a correct type. Let's take a closer look.
+            
+            @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
+        }
+        
+        @Steps {
+            @Step {
+                We will start with a simple cell with an explicit ViewModel.
+                
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_6.swift")
+            }
+            
+            @Step {
+                First of all we *specify that the cell will be a *focusable element***. By doing that we *reduce* the number of elements available on the screen.
+                
+                There is no need to *explicitly* hide other elements - setting the cell with `accessibleElements` property is enough. How exactly it works is described in <doc:ControlHierarchy> in great detail.
+                
+                @Comment {
+                    // TODO: why the cell's button is visible at pizza?
+                }
+                
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_7.swift")
+            }
+            
+            @Step {
+                As mentioned previously **the title** will take place in `accessibilityLabel`. **Ingredients** go to the `accessibilityValue` property.
+                
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_8.swift")
+                
+                @Comment {
+                    // TODO: Add Voice Control screenshot
+                }
+            }
+            
+            @Step {
+
+                Also there is *the price* which is an essential part of such cells. 
+                
+                To adapt it correctly we need follow the strategy controlled by the cell's design. Its **image is what *attracts the attention***, then **title is read and understood *loud and clear*** - it's on top and visually distinguished by a bolder font used. Furtherly the attention may be *interrupted* by a **bright coloured button**. **Ingredients are least prior** to the attention and this is in their nature: this elements is of an *informative matter*.
+                
+                Logically **we place the price *after* the title**. Pay attention that **to keep label simple the price has to be put in the beginning of `accesibilityValue`**.
+                
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_9.swift") {
+                    @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by designer")
+                }
+            }
+            
+            @Step {
+                To conclude description **the interactive element has to have its `.button` trait specified*.
+                
+                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_10.swift")
+            }
+        }
+    }
+    
+    @Section(title: "Simplify scroll") {
+        @ContentAndMedia {
+            In VoiceOver the default **scrolling is implemented by a three-finger swipe** that leads to reading the number of the visible page, for example, *«4 out of 20*».
+            
+            **Going through tables of cells functions *exactly* the same way**. For example, *«from 25 to 40 out of 120»* will be said during going through the rows.
+            
+            Seemingly there is not much we can do to **simplify the scrolling**, but in reality there is a trick. **Providing description for visible area allows to use commands that increase the *precision* of actions desired to be done**. Like, for example, asking to read all titles of the products which will results in hearing *«Chicken BBQ, Meat King Supreme, Hawaii»*.
+            
+            @Image(source: "DescribeCell_11", alt: "Describe screen after scroll")
+        }
+        
+        @Steps {
+            @Step {
+                To implement such possibility let's start with `MenuViewController` extension.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11_0.swift")
+            }
+            
+            @Step {
+                To add *description* we use `UIScrollViewAccessibilityDelegate` that can be used by any `firstResponder`.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11.swift")
+            }
+            
+            @Step {
+                In simpler words our goal is **to provide description for *all* visible cells**. It can be done by starting with the obvious path.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_12.swift")
+            }
+            
+            @Step {
+                Firstly we **convert *cells* to *models***.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_13.swift")
+            }
+            
+            @Step {
+                Secondly **the *titles* are extracted**.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_14.swift")
+            }
+            
+            @Step {
+                The titles are joined in *a single row*, separated by *commas*.
+                
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_15.swift")
+            }
+            
+            @Step {
+                And, as a result, **three-finger swipe will cause the *titles* to be listed outloud**.
+             
+                Additionally you can add some quantity expectation after everything described above is done.
+                @Comment {
+                    // TODO: михаил рубанов что ты делаешь.
+                }
+             
+                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_16.swift")
+                
+                @Comment {
+                    // TODO: Add preview
+                }
+            }
+        }
+    }
+    
+    @Assessments {
+        @MultipleChoice {
+            How should be prices located among other elements?
+            
+            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
+            
+            @Choice(isCorrect: false) {
+                ```
+                Label: Chicken BBQ, from 30 AED
+                Value: pizza sauce, mushrooms...
+                ```
+                
+                @Justification(reaction: "Try again!") {
+                    **VoiceOver *doesn't* distinguish such pieces of data**, but **VoiceControl *has to have* price as a part of the element's label** in order to use it correctly.
+                }
+            }
+                    
+                    
+            @Choice(isCorrect: true) {
+                ```
+                Label: Chicken BBQ, 
+                Value: from 30 AED, pizza sauce, mushrooms...
+                ```
+                        
+                        
+                @Justification(reaction: "That's right!") {
+                    VoiceControl will have a simple label, VoiceOver reads the price before the ingredients (because it's more important). Good job!
+                }
+            }
+                            
+                            
+            @Choice(isCorrect: false) {
+                
+                ```
+                Label: Chicken BBQ, 
+                Value: pizza sauce, mushrooms..., from 30 AED
+                ```
+                
+                @Justification(reaction: "That's right!") {
+                    Such case would be a wrong ordered showcase strategy. One has to know the price *before* the ingredients.
+                }                
+            }
+        }
+        
+        @MultipleChoice {
+            How to scroll down a table using VoiceOver?
+            
+            @Choice(isCorrect: false) {
+                A regular swipe
+                
+                @Justification(reaction: "Try again!") {
+                    Nope, vertical swipes are used for *adjustable elements* and other <doc:Rotor> operations. Swipe from the bottom will close the current application, the one from the top will open Notifications Screen or Control Center.
+                }
+            }
+                    
+                    
+            @Choice(isCorrect: false) {
+                Two-finger swipe
+                        
+                @Justification(reaction: "That's right!") {
+                    Two-finger swipe up describes the entire screen *from the top*. 
+                    Two-finger swipe down describes the entire screen *from the selected item*. 
+                }
+            }
+                            
+                            
+            @Choice(isCorrect: true) {
+                Three-finger swipe
+                                
+                @Justification(reaction: "That's right!") {
+                    @Comment {
+                        /   / миш че за хуйня
+                    }
+                    It's too long to wait for the price when you listen VoiceOver
+                }                
+            }
+            
+            @Choice(isCorrect: false) {
+                Four finger swipe
+                
+                @Justification(reaction: "That's right!") {
+                    Horizontal four-finger swipe switches beetwen applications.
+                }                
+            }
+        }
+    }
+}
