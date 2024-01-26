@@ -13,7 +13,7 @@ The *interactivity* is implemented by heavy relying on **[DocC](https://develope
 
 Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](https://pages.github.com)** seems to us a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
 
-## - Why make it a website? 
+## — Why make it a website? 
 *Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**.  
 
 ## — What can I find in this repository specifically?
