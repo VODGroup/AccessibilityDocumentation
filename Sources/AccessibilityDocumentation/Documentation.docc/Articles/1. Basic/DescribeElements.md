@@ -117,7 +117,7 @@ Probably, some users will enable hints via <doc:Rotor> when they use a new app a
 
 ### Tutorial
 
-Read <doc:AdoptingCell> for example
+Read <doc:AdaptingCell> for example
 
 ## Topics
 

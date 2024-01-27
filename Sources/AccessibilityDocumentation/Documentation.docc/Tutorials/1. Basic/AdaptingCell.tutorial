@@ -1,5 +1,5 @@
 @Tutorial(time: 10) {
-    @Intro(title: "Adopting Cell") {
+    @Intro(title: "Adapting Cell") {
     
         To have assistive technology work as intented sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in the cell. In other words, if there is a cell with pizza's description it is understandable to distinguish data by its nature: have an image as an illustration, a title, a list of ingridients and a price - but it complicates the work for VoiceOver, Voice Control and Switch Control. Such layout makes it adapt the cell's contents **wrong**. Let's take a look of what can be done to help our digital assistants navigate through the cognitive models we come up with,.
         

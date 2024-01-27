@@ -93,4 +93,4 @@ User can call "magic tap" gesture to perform main operation on the screen. Examp
 
 ## Topics
 - <doc:ControlHierarchy>
-- <doc:AdoptingCell>
+- <doc:AdaptingCell>
