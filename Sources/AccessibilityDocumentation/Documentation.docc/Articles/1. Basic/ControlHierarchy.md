@@ -68,7 +68,7 @@ https://github.com/akaDuality/RotorHeaders
 
 ### Tutorial
 
-Read <doc:AdoptingCell> for example
+Read <doc:AdaptingCell> for example
 
 
 

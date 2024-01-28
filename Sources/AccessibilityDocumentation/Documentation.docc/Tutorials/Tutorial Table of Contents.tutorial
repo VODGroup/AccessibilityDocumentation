@@ -14,12 +14,12 @@
     
     
     @Volume(name: "Getting Started") {        
-        @Chapter(name: "Adopting Cell") {
+        @Chapter(name: "Adapting Cell") {
             Simplifies navigation and control over a complex element for VoiceOver.
             
             @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ with image, title, ingredients and price")
             
-            @TutorialReference(tutorial: "doc:AdoptingCell")
+            @TutorialReference(tutorial: "doc:AdaptingCell")
         }
         
         @Chapter(name: "Control Hierarchy") {

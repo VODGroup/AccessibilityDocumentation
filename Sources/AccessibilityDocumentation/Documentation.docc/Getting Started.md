@@ -9,8 +9,8 @@ Accessibility part of UIKit and SwiftUI frameworks helps developers to represent
 There are three main assistance for blind or motion limited users: 
 @Links(visualStyle: compactGrid) {
     - <doc:VoiceOver>
-    - <doc:Voice Control>
-    - <doc:Switch Control>
+    - <doc:VoiceControl>
+    - <doc:SwitchControl>
 }
 
 - **<doc:VoiceOver>** helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
@@ -21,7 +21,7 @@ There are three main assistance for blind or motion limited users:
 
 ![Voice Control modes: with labels, enumerated elements or grid](VoiceControlOverview)
 
-- **<doc:Switch Control>** allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
+- **<doc:SwitchControl>** allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognize facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
 
 ![Switch Control modes: focus groups on elements, cross selection and submenu](SwitchControlOverview)
 
@@ -36,7 +36,7 @@ To prototype interaction on early stage of development you can use [VoiceOver De
 Step by step practice course.
 
 @Links(visualStyle: detailedGrid) {
-    - <doc:AdoptingCell>
+    - <doc:AdaptingCell>
     - <doc:AdjustableTutorial>
 }
 

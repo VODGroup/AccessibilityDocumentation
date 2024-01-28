@@ -8,8 +8,12 @@ Generally the project is dedicated to those who use the mentioned *toolkit* in t
 ## — How is it supposed to work?
 
 Currently our goal is to try out variable methods of documentation wrapping by implementing various **interactive solutions**, such as **step-by-step guides**, wide range of **media types** used and **[VoiceOver Designer](https://github.com/VODGroup/VoiceOverDesigner)** app prototype integration in order to find the most efficient *educational models*. 
+<img width="876" alt="Screenshot 2024-01-27 at 11 38 37 (2)" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/3d27a208-0c3f-44db-a4f0-8ecf8691758e">
+
 
 The *interactivity* is implemented by heavy relying on **[DocC](https://developer.apple.com/documentation/docc), which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
+<img width="876" alt="Screenshot 2024-01-27 at 11 47 07" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/7eed36e2-20f7-4cbf-829f-d8cea5500376">
+
 
 Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](https://pages.github.com)** seems to us a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
 
@@ -22,6 +26,7 @@ Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](h
 To focus on the implementation of assistive technologies. 
 - **Real-life cases** in screens and scenarios involving usage of *assistive technologies*.
 - **Step-by-step guides** how to apply **Accessibility Features**.
+
 
 ### Articles
 To study the concepts.
