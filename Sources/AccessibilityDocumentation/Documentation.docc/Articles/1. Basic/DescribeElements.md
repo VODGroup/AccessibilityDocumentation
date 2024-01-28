@@ -1,8 +1,13 @@
-# Describe elements
+# Describing Elements
 
-Core properties that describes element for VoiceOver
+In this article we're going to go over core properties that describe elements for assistive technologies.
 
-To describe element we can use label, value and trait (like a type)
+Elements description is an essential part for the functioning of VoiceOver. This technology is aimed to tell users what's happening on the screen.
+
+Nevertheless Voice Control and Switch Control also benefit from explicitly stated decriptional properties in particular cases.
+
+To describe an element we can specify three properties: a label, a value and a trait. Let's get familiar with each of them.
+
 
 ## Label
 
@@ -10,20 +15,24 @@ To describe element we can use label, value and trait (like a type)
     @Column(size: 1) {
         ``Book/accessibilityLabel``
         
-        The main property is `accessibilityLabel` – defines element's name. It should be name in one or two words for buttons or represents full text from `UILabel`
+        `accessibilityLabel` is the main property of the element's description. It can't be omitted. Usually defines the element's name. 
         
-        > Tip: Voice Control can have synonyms for label. Check ``Book/accessibilityUserInputLabels`` for more details.
+        If the element is a button it should be labeled by a single word or a collocation. 
+        
+        If there is text in `UILabel` it should be copied to `accessibilityLabel`.
+        
+        > Tip: Voice Control can use a list of synonyms as the same label. It is done so users may address to a single element by multiple options. Check ``Book/accessibilityUserInputLabels`` for more details.
     }
         
     @Column {
             
-        **Examples:**
-        - *1.4 billions views* – just the fact under the video
-        - *Never Gonna Give You Up* – song title that describes screen's content
-        - *Next* – for button that skip a song in audio player. The button can be just icon, but we provide textual description for it.
-        - *Pizza Pepperoni* – for cell in the menu. The cell can contain an image of the pizza, but we not point on it in textual description, just describe what the cell is about.
-        - *Size* – for segmented control on product card
-        - *Brightness* – for slider in Control Center
+        **Some examples:**
+        - *1.4 billions views* is to state a fact under a video..
+        - *Never Gonna Give You Up* is a song's name.
+        - *Next* is a button that goes to the next element. The button itself may be represented as a graphic icon, but to adapt the interface one has to provide textual description for elements that are not verbalised.
+        - *Pizza Pepperoni* is a cell in a restaraunt's menu. Cells may contain a wide range of media types, and in this particular case there is most likely a picture of the pizza — don't focus on this fact. Focus on the information that the picture provides.
+        - *Size* is a segmented control in a product card.
+        - *Brightness* is a slider in Control Center. 
         
     }
 }
@@ -34,12 +43,11 @@ To describe element we can use label, value and trait (like a type)
     @Column(size: 2) {
         ``Book/accessibilityValue``
         
-        `AccessibilityValue` is optional second part of the element's description. It can contain additional details or represents current value of the element
+        `accessibilityValue` is an optional property of the element's description. Unlike Label it can be omitted. It is used to provide additional informational.
         
+        > Note: If stated, Label and Value are separated by a comma in speech — VoiceOver will put a pause between them on its own.
         
-        > Note: Label and Value separates by comma automatically, it produced short pause between them
-        
-        > Tip: You can add additional commas in label or value, pronunciation will use them for short pauses
+        > Tip: But everything that happens inside the properties in terms of pronunciation is our responsibility. Don't forget to use punctuation marks to help VoiceOver read texts better for humans to hear.
     }
     
     @Column {
@@ -49,6 +57,14 @@ To describe element we can use label, value and trait (like a type)
         - *Next, **Childish Gambino – Redbone*** – can add detalization about next track. Visually you can see a cover of the song, but for VoiceOver it is better to provide text alternative. Different approaches, but same experience.
         - *Pizza Pepperoni, **Pepperoni, Mozzarella***
         - *Size, **Medium***
+        
+        **Same examples:**
+        - *1.4 billions views* does not have any additional information so no value. Label is enough.
+        - *Never Gonna Give You Up* may have a lot of additional information: the author, the album, the year and so on.
+        - *Next* may have a spoiler of what is next in its Value. For example, if this button is a part of an audioplayer functionality, visually it may have the cover of the next song, but adapted version will have the next song's name.
+        - *Pizza Pepperoni* may contain lots of data due to its cell nature. Price, ingredients, size, detailed description, availability and so on. 
+        - *Size* will defenitely have a value of which size is selected at the moment.
+        - *Brightness*, just as *Size*, will have its current level as its value.
     }
 }
 
@@ -57,9 +73,11 @@ To describe element we can use label, value and trait (like a type)
 
 ### Label vs Value
 
-Important to understand differences between label and value. Label should be as short as possible: Voice Control will use it as HUD over UI to name things for feature voice commands, but not show value part, because we expect that it's already presented for user on screen. <doc:Voice Control>
+It is important to clearly differentiate Label and Value in order to properly adapt the element for various Accessibility Features. 
 
-Otherwise, adjustable elements allow to change only value part and after change only value part will be pronounced to user. <doc:AdjustableElements>
+For example, label should be as short as possible for Voice Control: it will be used as HUD over UI to use the feature's voice commands and there is no reason to double any other information available on the screen. <doc:Voice Control>
+
+Another example is Adjustable Elements: this features will change only the value part, so if you want to use it you have to have everything changable outside Label property. <doc:AdjustableElements>
 
 ## Trait
 
@@ -67,18 +85,19 @@ Otherwise, adjustable elements allow to change only value part and after change 
     @Column(size: 2) {
         ``Book/accessibilityTraits``
         
-        The last part of element's description is trait. Some traits may add additional text to element's description, other just changes behaviour. 
+        `accessibilityTraits` is another optional property of the element's decription. Traits are used to point at the element's type — depending on the type the feature's behavior may change. 
         
-        An element can have no trait - regular text, for e.g.
+        If there is no trait specified it would mean that the element is of a regular text type.
         
-        The most common trait is ``UIAccessibilityTraits_/button`` – it helps user to understand that he can interact with an element.
+
+        The most common trait that you're going to work with is ``UIAccessibilityTraits_/button`` — it's presence is a sign of an interactive element. 
         
+        If there is a button in the interface but it is not specified in its description — users will be able to interact with this elements using Accessibility Features.        
         
-        > Note: Label and Value are separated by comma, but trait represents another sentence and separated by dot automatically.
-        
+        > Note: If Label and Value are separated by comma, Trait is separated from the other parts of the description by a full stop. 
         > Important: Label and Value are `String` properties, but Trait can be selected only from limited amount of variants.
-        >
-        > Not duplicate trait's textual description inside Label or Value, because different technologies uses trait in different manear, not only for textual description.  
+        
+        > Important: Don't mention Trait inside Label or Value. There is no need to double up such facts for users: if the element is a button they will know everything they need to know depending on the Accessible Feature used.
     }
     
     @Column {
@@ -100,18 +119,15 @@ Otherwise, adjustable elements allow to change only value part and after change 
 ## Hint
 ``Book/accessibilityHint``
 
-Provides additional information about element, usually how it should be called. Example: *tap twice to activate*.
-
-Unfortunately, every default button has a repetitive hint and almost all users of VoiceOver disables hints. As a result you can expect that only few users will see your customized hint. 
-
-Probably, some users will enable hints via <doc:Rotor> when they use a new app and expect great accessibility adaptation.
+Hint is another optional property that is used to provide additional information about the element itself. Property's name points at that: we give a hint to the user about how to treat the element. For example, tap twice to active.
+Every default button has a repetitve hint and such behavior results in that majority of VoiceOver users disable that, so you can't expect that many people will see your customised hint. Though there is always a chance that curious users will turn them on for a new app while using <doc:Rotor>: to see how well the application is adapted.
 
 @Comment {
     // TODO: Describe hint
 }
 
-## Full formula
-@Image(source: "TraitsOrder", alt: "Reading order is controlled by designer")
+## Full Formula
+@Image(source: "TraitsOrder", alt: "Full formula of an adapted element")
 
 > Note: Container prefix is described in <doc:Navigation>
 
