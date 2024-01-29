@@ -1,13 +1,13 @@
-@Tutorials(name: "How To Adapt Your application") {
+@Tutorials(name: "How To Adapt an iOS Application") {
     @Intro(title: "Just A Few Steps") {
         
-        To make an application accessible for the assistive technology and therefore allow people with Accessibility Features enabled comfortably use it one doesn't have to do much. The adaptation plan is as simple as:
+        To make an application *accessible* for the *assistive technology* and therefore *allow* people with Accessibility Features enabled comfortably use it one doesn't have to do much. The *adaptation plan* is as simple as:
         
-        1. Simplify and group elements in UI's hierarchy
-        2. Add labels to elements
-        3. Add additional properties
+        1. *Simplify* and *group* elements in the UI's hierarchy
+        2. Add *labels* to elements
+        3. Specify additional *properties*
         
-        Yep, that's it. In other words the adaption process is consisted of an optional reconstructing of already-existing elements' order and their description with some flags explicitly specified.
+        Yep, that's it. In other words **the adaption process is consisted of an optional *reconstructing* of already-existing elements' *order* and their *description* with some *properties* being *explicitly specified***.
         
 <!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
     }
@@ -31,7 +31,7 @@
         }
     }
     
-    @Volume(name: "Climbing higher") {
+    @Volume(name: "Climbing Higher") {
         @Chapter(name: "Adjustable Elements") {
             Simplifies navigation and control over a complex element for VoiceOver
             
@@ -51,24 +51,5 @@
     
     @Comment {
         // TODO: Update links
-    }
-    
-    @Resources {
-        Explore more resources for learning about sloths.
-        
-        
-        @Videos(destination: "https://www.example.com/sloth-videos/") {
-            Watch cute videos of sloths climbing, eating, and sleeping.
-            
-            
-            - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
-            - [Slow Ascent](https://www.example.com/sloth-videos/climb/)
-            - [Rest Time](https://www.example.com/sloth-videos/snoozing/)
-        }
-        
-        
-        @Downloads(destination: "https://www.example.com/images/sloth-wallpaper/") {
-            Download the cutest sloth wallpaper for your iPhone, iPad, or Mac.
-        }
     }
 }
