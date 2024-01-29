@@ -4,7 +4,7 @@ Accessibility part of UIKit and SwiftUI frameworks helps developers to represent
 
 ## Overview
 
-### Assistive Technologies
+### Accessibility Features
 
 There are three main assistance for blind or motion limited users: 
 @Links(visualStyle: compactGrid) {

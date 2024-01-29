@@ -1,6 +1,6 @@
 # Describing Elements
 
-In this article we're going to go over core *properties* that **describe *elements* for assistive technologies**.
+In this article we're going to go over core *properties* that **describe *elements* for Accessibility Features**.
 
 Elements *description* is an essential part for the functioning of **VoiceOver**. This technology is aimed to ***tell* users what's happening on the screen**.
 
@@ -9,7 +9,7 @@ Nevertheless **Voice Control** and **Switch Control** also benefit from explicit
 To describe an element we can **specify three properties**: a *label*, a *value* and a *trait*. Let's get familiar with each of them.
 
 
-## `accessibilityLabel` — Label
+## accessibilityLabel — Label
 
 @Row {
     @Column(size: 1) {
@@ -37,7 +37,7 @@ To describe an element we can **specify three properties**: a *label*, a *value*
     }
 }
 
-## `accessibilityValue` — Value
+## accessibilityValue — Value
 
 @Row {
     @Column(size: 2) {
@@ -87,7 +87,9 @@ Another example is **Adjustable Elements**: this feature will change *only* the 
         **If there is a *button* in the interface but it is not specified in its description — users *won't* be able to interact with this element using Accessibility Features**.        
         
         > Note: If *Label* and *Value* are separated by a *comma*, *Trait* is separated from the other parts of the description by a *full stop*. 
+        
         > Important: *Label* and *Value* are `String` properties, meanwhile *Trait* is **selected from a *limited* amount of options**.
+        
         > Important: **Don't mention *Trait* inside *Label* or *Value***. There is **no need to *double up* such facts for users: if the element is, for example, a *button*, they will know *everything* they need to know** depending on the **Accessible Feature** used.
     }
     
@@ -104,11 +106,9 @@ Another example is **Adjustable Elements**: this feature will change *only* the 
 
 
 
-**Samples:**
 
 
-## `accessibilityHint` — Hint
-``Book/accessibilityHint``
+## ``Book/accessibilityHint`` — Hint
 
 **Hint** is another *optional* property that is used to **provide additional information about the element itself**. Property's *name* points at that: **we give a *hint* to the user about how to *treat* the element**. For example, «*tap twice to activate*».
 

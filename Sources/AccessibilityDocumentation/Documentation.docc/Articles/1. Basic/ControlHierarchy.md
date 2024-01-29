@@ -2,7 +2,7 @@
 
 ## Overview
 
-Assistive technologies take description of elements to provide different way of communications. The core part of this process is providing information about hierarchy of elements, what element should be focusable and what should be hidden from focus.
+**Accessibility Features** take description of elements to provide different way of communications. The core part of this process is providing information about hierarchy of elements, what element should be focusable and what should be hidden from focus.
 
 ### View hierarchy vs Accessibility Tree
 
