@@ -108,7 +108,9 @@ Another example is **Adjustable Elements**: this feature will change *only* the 
 
 
 
-## ``Book/accessibilityHint`` — Hint
+## accessibilityHint — Hint
+
+``Book/accessibilityHint``
 
 **Hint** is another *optional* property that is used to **provide additional information about the element itself**. Property's *name* points at that: **we give a *hint* to the user about how to *treat* the element**. For example, «*tap twice to activate*».
 
