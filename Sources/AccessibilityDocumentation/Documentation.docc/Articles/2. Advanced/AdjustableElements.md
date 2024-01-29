@@ -1,4 +1,4 @@
-# Adjustable elements
+# Adjustable Elements
 
 Simplifies interactions with complex elements for VoiceOver.
 
