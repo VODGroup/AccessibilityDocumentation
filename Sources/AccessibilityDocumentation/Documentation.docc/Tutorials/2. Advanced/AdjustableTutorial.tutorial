@@ -59,7 +59,7 @@
     
     @Assessments {
         @MultipleChoice {
-            What assistive technologies use adjustable trait?
+            What **Accessibility Features** use adjustable trait?
             
             @Choice(isCorrect: false) {
                 Switch Control

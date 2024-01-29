@@ -23,9 +23,9 @@ Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](h
 ## — What can I find in this repository specifically?
 
 ### Tutorials
-To focus on the implementation of assistive technologies. 
-- **Real-life cases** in screens and scenarios involving usage of *assistive technologies*.
-- **Step-by-step guides** how to apply **Accessibility Features**.
+To focus on the applications of Accessibility Features. 
+- **Real-life cases** in screens and scenarios involving usage of assistive technology.
+- **Step-by-step guides** how to adapt iOS applications.
 
 
 ### Articles

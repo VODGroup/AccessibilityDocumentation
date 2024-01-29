@@ -1,7 +1,7 @@
 @Tutorial(time: 10) {
     @Intro(title: "Adapting Cell") {
     
-        To have *assistive technology* work as intented sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in cells. 
+        To have **Accessibility Features** work as intented sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in cells. 
         
         In other words, if there is a cell with pizza's description it is reasonable to distinguish data by its nature: have an image as an illustration, a title, a list of ingridients and a price - but it complicates the work for VoiceOver, Voice Control and Switch Control. 
         
@@ -13,7 +13,7 @@
     
     @Section(title: "What Is Wrong With The «Normal» Layout") {
         @ContentAndMedia {
-            Even though the cell looks simple it is not enough — such layout would lead to several *accessibility issues*. Let's see **how exactly different assistive technology *struggle* with that**.
+            Even though the cell looks simple it is not enough — such layout would lead to several *accessibility issues*. Let's see **how exactly different Accessibility Features *struggle* with that**.
             
             @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ containing an image, a title, ingredients and a price.")
         }

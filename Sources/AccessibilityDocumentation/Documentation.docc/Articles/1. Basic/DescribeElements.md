@@ -1,6 +1,6 @@
 # Describing Elements
 
-In this article we're going to go over core *properties* that **describe *elements* for assistive technologies**.
+In this article we're going to go over core *properties* that **describe *elements* for Accessibility Features**.
 
 Elements *description* is an essential part for the functioning of **VoiceOver**. This technology is aimed to ***tell* users what's happening on the screen**.
 
