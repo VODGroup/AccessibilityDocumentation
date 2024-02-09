@@ -1,0 +1,152 @@
+@Tutorials(name: "AdaptionStrategy") {
+    @Intro(title: "iOS Applications Accessibility Adaption Guide") {
+        Here is the **roadmap** of what one can do to make their app *accessible*.     
+        
+        ### Essentiality
+        The *level of importance* — whether an enhancement is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
+        
+        ### Familiarity
+        If you are not familiar with the topic, see the **introductory pages**.
+
+        @Links(visualStyle: detailedGrid) {
+            - <doc:AccessibilityFeatures>
+            - <doc:AdaptionStrategy>
+        }
+        
+        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separeted materials are *self-sufficient* and their cohesion is decorative. 
+    }
+    
+    @Volume(name: "Making Accessibility Work") {
+        
+        Here are the guides about implementing *essential* for assistive technology to function features.
+        
+        @Image(source: placeholder-image.png, alt: "")
+        
+        @Chapter(name: "Alternative Description") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Accompany visuals with a verbose description so people who are unable to see can experience the content too.
+            
+            @TutorialReference(tutorial: "doc:AlternativeDescription")
+        }
+        
+        @Chapter(name: "Colors And Shapes") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Follow specific guidelines to make your GUI easy to comprehend.
+            
+            @TutorialReference(tutorial: "doc:ColorsAndShapes")
+        }
+        
+        @Chapter(name: "Describe Elements") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Provide a detailed description to everything so assistive technologies know how to deal with them.
+            
+            @TutorialReference(tutorial: "doc:DescribeElements")
+        }
+        
+        
+        @Chapter(name: "Adapt Cells") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Re-structure complex collections that way so it is easier to navigate between them.
+            
+            @TutorialReference(tutorial: "doc:AdaptCells")
+        }
+        
+        @Chapter(name: "On-Screen Navigation") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Adapt navigation within a screen for Accessibility Features.
+            
+            @TutorialReference(tutorial: "doc:On-ScreenNavigation")
+        }
+        
+        @Chapter(name: "Between-Screens Navigation") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            See how navigation between screens can be implemented.
+            
+            @TutorialReference(tutorial: "doc:Between-ScreensNavigation")
+        }
+        
+        @Chapter(name: "Charts") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Your application displays statistics and you are afraid that charts is an inaccessible case of representation? You will be surprised. 
+            
+            @TutorialReference(tutorial: "doc:Charts")
+        }
+    }
+    
+    @Volume(name: "Advanced Adaption Techniques") {
+        
+        The tutorials here are dedicated to making the *experience* of Accessibility Features users more **comfortable** and **immersive**.
+        
+        @Image(source: placeholder-image.png, alt: "")
+        
+        @Chapter(name: "Vertical Swipes") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Placeholder text here. I have no fucking idea what is this.
+            
+            @TutorialReference(tutorial: "doc:VerticalSwipes")
+        }
+        
+        @Chapter(name: "Rotor") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Rotor is the thing you turn with two fingers.
+            
+            @TutorialReference(tutorial: "doc:Rotor")
+        }
+        
+        @Chapter(name: "Adjustable Elements") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Ugh...
+            
+            @TutorialReference(tutorial: "doc:AdjustableElements")
+        }
+        
+        @Chapter(name: "Specific Properties") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            No idea really.
+            
+            @TutorialReference(tutorial: "doc:SpecificProperties")
+        }
+    }
+    
+    @Volume(name: "What's Next?") {
+        
+        Additional resources expanding on the topic of Accessibility and its integration to design, development and production.
+        
+        @Image(source: placeholder-image.png, alt: "")
+        
+        @Chapter(name: "Design") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            How to design accessible apps.
+            
+            @TutorialReference(tutorial: "doc:AccessibleDesign")
+        }
+        
+        @Chapter(name: "Testing") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            How to test accessible apps.
+            
+            @TutorialReference(tutorial: "doc:AccessibilityQA")
+        }
+        
+        @Chapter(name: "Activism") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Burn some shit in front of your пенсионный фонд.
+            
+            @TutorialReference(tutorial: "doc:AccessibilityActivism")
+        }
+    }
+}
