@@ -1,10 +1,10 @@
-# Vertical Swipes
+# User scenarios for vertical swipes
 
 Vertical swipe have a lot of possible actions and all of them depends on focus'es context.
 
 ## Overview
 
-Previously we discussed how to add vertical swipe to any element at <doc:AdjustableElements> and <doc:AdjustableTutorial>. But vertical swipe is so easy to do and can have a lot of other actions. 
+Previously we discussed how to add vertical swipe to any element at <doc:AdjustableElements> and <doc:AdjustableElements>. But vertical swipe is so easy to do and can have a lot of other actions. 
 
 ### Custom action
 

@@ -22,61 +22,36 @@
         
         @Image(source: placeholder-image.png, alt: "")
         
-        @Chapter(name: "Alternative Description") {
+        @Chapter(name: "Provide Description") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Accompany visuals with a verbose description so people who are unable to see can experience the content too.
             
             @TutorialReference(tutorial: "doc:AlternativeDescription")
-        }
-        
-        @Chapter(name: "Colors And Shapes") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            Follow specific guidelines to make your GUI easy to comprehend.
-            
-            @TutorialReference(tutorial: "doc:ColorsAndShapes")
-        }
-        
-        @Chapter(name: "Describe Elements") {
-            @Image(source: chapter-placeholder.png, alt: "")
             
             Provide a detailed description to everything so assistive technologies know how to deal with them.
             
-            @TutorialReference(tutorial: "doc:DescribeElements")
+            @TutorialReference(tutorial: "doc:Traits")
         }
         
-        
-        @Chapter(name: "Adapt Cells") {
+        @Chapter(name: "Reduce Number of Controls") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Re-structure complex collections that way so it is easier to navigate between them.
             
             @TutorialReference(tutorial: "doc:AdaptCells")
+            @TutorialReference(tutorial: "doc:HideUselessControls")
         }
         
         @Chapter(name: "On-Screen Navigation") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Adapt navigation within a screen for Accessibility Features.
+            Adapt navigation within a screen for Accessibility Features and see how navigation between screens can be implemented.
             
-            @TutorialReference(tutorial: "doc:On-ScreenNavigation")
-        }
-        
-        @Chapter(name: "Between-Screens Navigation") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            See how navigation between screens can be implemented.
-            
+            @TutorialReference(tutorial: "doc:OnScreen-Navigation")
+            @TutorialReference(tutorial: "doc:Containers")
+            @TutorialReference(tutorial: "doc:FocusOrder")
             @TutorialReference(tutorial: "doc:Between-ScreensNavigation")
-        }
-        
-        @Chapter(name: "Charts") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            Your application displays statistics and you are afraid that charts is an inaccessible case of representation? You will be surprised. 
-            
-            @TutorialReference(tutorial: "doc:Charts")
         }
     }
     
@@ -89,37 +64,47 @@
         @Chapter(name: "Vertical Swipes") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Placeholder text here. I have no fucking idea what is this.
-            
-            @TutorialReference(tutorial: "doc:VerticalSwipes")
-        }
-        
-        @Chapter(name: "Rotor") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            Rotor is the thing you turn with two fingers.
-            
-            @TutorialReference(tutorial: "doc:Rotor")
-        }
-        
-        @Chapter(name: "Adjustable Elements") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            Ugh...
+            Horizontal swipes are used for navigation, but vertical swipes allows to control inner values of an element. Read about  <doc:aVerticalSwipes>
             
             @TutorialReference(tutorial: "doc:AdjustableElements")
+            @TutorialReference(tutorial: "doc:CustomActions")
+            @TutorialReference(tutorial: "doc:CustomDescription")
+            @TutorialReference(tutorial: "doc:Rotor")
+            @TutorialReference(tutorial: "doc:CustomRotor")
         }
-        
+
         @Chapter(name: "Specific Properties") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            No idea really.
+            There are several options that is rare needed, but you can be interested in
             
             @TutorialReference(tutorial: "doc:SpecificProperties")
+            @TutorialReference(tutorial: "doc:Charts")
+        }
+        
+        @Chapter(name: "Text Input") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            There are several options that is rare needed, but you can be interested in
+            
+            @TutorialReference(tutorial: "doc:HowTextInputWorks")
+            @TutorialReference(tutorial: "doc:HandleErrorsInTextField")
         }
     }
     
-    @Volume(name: "What's Next?") {
+    @Volume(name: "Visual properties") {
+        
+        @Chapter(name: "Colors And Shapes") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Follow specific guidelines to make your GUI easy to comprehend.
+            
+            @TutorialReference(tutorial: "doc:ColorsAndShapes")
+            @TutorialReference(tutorial: "doc:DynamicType")
+        }
+    }
+    
+    @Volume(name: "Processes") {
         
         Additional resources expanding on the topic of Accessibility and its integration to design, development and production.
         
@@ -131,6 +116,7 @@
             How to design accessible apps.
             
             @TutorialReference(tutorial: "doc:AccessibleDesign")
+            @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
         
         @Chapter(name: "Testing") {
@@ -139,6 +125,8 @@
             How to test accessible apps.
             
             @TutorialReference(tutorial: "doc:AccessibilityQA")
+            @TutorialReference(tutorial: "doc:UnitTesting")
+            @TutorialReference(tutorial: "doc:UITesting")
         }
         
         @Chapter(name: "Activism") {

@@ -1,5 +1,5 @@
-@Tutorial(time: 15) {
-    @Intro(title: "🔒 I Do Not Know Neither Does Mikhail Rubanov") {
+@Tutorial(time: 20) {
+    @Intro(title: "🔒 How Text Input Works") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")
