@@ -90,9 +90,6 @@
             @TutorialReference(tutorial: "doc:HowTextInputWorks")
             @TutorialReference(tutorial: "doc:HandleErrorsInTextField")
         }
-    }
-    
-    @Volume(name: "Visual properties") {
         
         @Chapter(name: "Colors And Shapes") {
             @Image(source: chapter-placeholder.png, alt: "")

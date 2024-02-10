@@ -48,7 +48,7 @@ At the moment the project's form is defined by being a *documentation catalog* (
 To contribute to the project visit its [GitHub page](https://github.com/VODGroup/AccessibilityDocumentation) and see the instruction of how one may help.
 
 ### Contributors
-The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [Dodo Brands](https://dodobrands.io), accesisibility activist and the author of [«About Accesibility on iOS»]( https://rubanov.dev/a11y-book) book. Examplary and illustrative materials are based on his *working experience*. 
+The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [Dodo Brands](https://dodobrands.io), accesisibility activist and the author of ["About Accesibility on iOS"]( https://rubanov.dev/a11y-book) book. Examplary and illustrative materials are based on his *working experience*. 
 @Image(source: "aboutAccessibility-sample", alt: "-")
 
 ### VoiceOver Designer

@@ -114,7 +114,7 @@
             }
             
             @Step {
-                Pay attention that *action buttons* should have **short and comrehensible labels that describe what this button does**. Do not use the word "button" in its label: if spoken by [`VoiceOver`](<doc: VoiceOver>), it is doubled since having `Trait` specified causes the screenreader to tell the user that the element is a button.
+                Pay attention that *action buttons* should have **short and comrehensible labels that describe what this button does**. Do not use the word "button" in its label: if spoken by [`VoiceOver`](<doc:VoiceOver>), it is doubled since having `Trait` specified causes the screenreader to tell the user that the element is a button.
                 
                 
                 @Image(source: placeholder-image.png, alt: "")
@@ -147,9 +147,7 @@
             @Step {
                 Breaking the provided information into categories, pizza's name will serve as `Label` and everything else will go to `Value`.
                 
-                Notice that if both stated, `Label` and `Value` are separated by a *comma* in speech — [`VoiceOver`](<doc: VoiceOver>) will put a *pause* between them on its own. 
-                
-                But everything that happens inside the properties in terms of **pronunciation** is *our* responsibility. **Don't forget to use *punctuation marks* to help `VoiceOver` read texts *easier* for humans to listen to**.
+                Notice that if both stated, `Label` and `Value` are separated by a *comma* in speech — [`VoiceOver`](<doc:VoiceOver>) will put a *pause* between them on its own. But everything that happens inside the properties in terms of **pronunciation** is *our* responsibility. **Don't forget to use *punctuation marks* to help `VoiceOver` read texts *easier* for humans to listen to**.
                 
                 
                 @Image(source: chapter-placeholder.png, alt: "")
@@ -208,7 +206,7 @@
         }
     }
     
-    @Section(title: "What Now?") {
+    @Section(title: "What now") {
         @ContentAndMedia {
             Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology** they use. 
             
@@ -217,7 +215,6 @@
             @Image(source: chapter-placeholder.png, alt: "")
         }
     }
-    
     @Assessments {
         @MultipleChoice {
             Is this item accessible?
