@@ -18,16 +18,13 @@ iOS Accessibility Handbook is an open-source **educational project** about makin
 @Image(source: DifferentTechnologies.png, alt: "")
 
 ### Interactive Learning
-This handbook provides *extended documentation* for Accessibility Features, including verbose *articles* on the topic, interactive *guides* to follow step-by-step and various media that cover **everything one could ever need to know about accessibility on iOS**. 
-
-@Image(source: placeholder-image.png, alt: "")
-
+This handbook provides *extended documentation* for Accessibility Features, including:
+- verbose *articles* on the topic, 
+- interactive *guides* to follow step-by-step
+- various media that cover **everything one could ever need to know about accessibility on iOS**. 
 
 ### Target Audience
 The project is dedicated to help *developers*, *designers*, *researchers* and so on — in other words, to *everyone working with accessibility* on iOS. There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and to *share* relevant real-life experience of contributing *accessibility experts*.
-
-@Image(source: placeholder-image.png, alt: "")
-
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
