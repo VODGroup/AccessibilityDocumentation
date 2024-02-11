@@ -11,21 +11,15 @@
 
         }
     
-    @Section(title: "Label And Value") {
+    @Section(title: "Label") {
         @ContentAndMedia {
             
-            We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*). Firstly, let's take a closer look at each of them.
+            We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*. Firstly, let's take a closer look at each of them.
 
             ### Label — Identification
             [`accessibilityLabel`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel) is the *main property* of the element's description. It is said that `Label` "succintcly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology.
-            
-            ### Value — Details
-            Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnesseccary for `Label` to be, Lord forgive me, *succint*.  
-            
-            ### Fine Line Between Label And Value
-            To properly adapt an interface for various Accessibility Features one has to clearly differintiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unneccessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
-            
-            To learn how to fluently use these traits let's work on some examplary elements.
+
+            @Image(source: placeholder-image.png, alt: "")
         }
         
         @Steps {
@@ -45,10 +39,23 @@
             }
             
             @Step {
-                Consequently, nothing goes to `Value`. No information to add.
+                Надо еще примеров че как подписыывается: текст есть, еще надо кнопку, картинку
+                
                 @Image(source: placeholder-image.png, alt: "")
             }
+        }
+    }
+        
+    @Section(title: "Value") {
+        @ContentAndMedia {    
             
+            ### Value — Details
+            Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnesseccary for `Label` to be, Lord forgive me, *succint*.
+            
+            @Image(source: placeholder-image.png, alt: "")
+        }
+        
+        @Steps {
             @Step {
                 Now let's gain a bit of *complexity*. An element that represents a song in a music player — there is *lots* of data to be described.
                 
@@ -56,8 +63,8 @@
             }
             @Step {
                 To *succintly identify* the song we will risk to use its name as `Label`.
+                
                 @Image(source: placeholder-image.png, alt: "")
-
             }
             
             @Step {
@@ -70,6 +77,29 @@
                 And... this is it for "plain" elements. To continue pocking at accessible elements' properties let's move to the next one and see how its presence affects already familiar `Label` and `Value`.
                 
                 @Image(source: placeholder-image.png, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Label vs Value") {
+        @ContentAndMedia {    
+            ### Fine Line Between Label And Value
+            To properly adapt an interface for various Accessibility Features one has to clearly differintiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unneccessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
+            
+            To learn how to fluently use these traits let's work on some examplary elements.
+        }
+        
+        @Steps {
+            @Step {
+                Тут нужен пример с ячейкой из пиццы, когда у нас есть три строчки: название, цена и состав. 
+            }
+            
+            @Step {
+                Показываем как название уходит в лейбл и войсконтрол его покажет
+            }
+            
+            @Step {
+                Потом цену и ингредиенты запихиваем в вэлью. Они будут не видны для войсконтрола, но войсовер их прочитает. Тут же покаываем разницу между визуалом и порядком в тексте
             }
         }
     }
@@ -204,6 +234,10 @@
                 @Image(source: placeholder-image.png, alt: "")
             }
         }
+    }
+    
+    @Comment {
+        Еще была картинка с полной формулой, но я не понимаю как ее в туториал вставить в полную ширину
     }
     
     @Section(title: "What now") {

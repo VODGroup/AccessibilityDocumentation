@@ -25,13 +25,10 @@
         @Chapter(name: "Provide Description") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Accompany visuals with a verbose description so people who are unable to see can experience the content too.
-            
-            @TutorialReference(tutorial: "doc:AlternativeDescription")
-            
             Provide a detailed description to everything so assistive technologies know how to deal with them.
             
             @TutorialReference(tutorial: "doc:DescribeElements")
+            @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
         @Chapter(name: "Reduce Number of Controls") {
@@ -39,7 +36,6 @@
             
             Re-structure complex collections that way so it is easier to navigate between them.
             
-            @TutorialReference(tutorial: "doc:AdaptCells")
             @TutorialReference(tutorial: "doc:HideUselessControls")
         }
         
