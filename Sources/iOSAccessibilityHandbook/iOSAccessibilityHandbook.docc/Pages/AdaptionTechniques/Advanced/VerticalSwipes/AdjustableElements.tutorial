@@ -2,92 +2,89 @@
     @Intro(title: "Setting Up Adjustable Elements") {
         Simplifies interactions with complex elements for VoiceOver.
     }
-    
-    @Comment {
         
-        @Section(title: "Basic Setup") {
-            @ContentAndMedia {
-                By default any element can contain ``Book/accessibilityValue`` to expose *additional data* to user. Some elements come complicated and may contain a *dynamic value* controlled by a vertical swipe. Here some examples:
+    @Section(title: "Basic Setup") {
+        @ContentAndMedia {
+            By default any element can contain ``Book/accessibilityValue`` to expose *additional data* to user. Some elements come complicated and may contain a *dynamic value* controlled by a vertical swipe. Here some examples:
+        }
+        
+        @Steps {
+            @Step {
+                Accessible element can be marked by ``UIAccessibilityTraits_/adjustable`` trait to make ``Book/accessibilityValue`` dynamic. 
+                
+                @Code(name: "", file: "AdjustableTutorialStep_1.swift")
             }
             
-            @Steps {
-                @Step {
-                    Accessible element can be marked by ``UIAccessibilityTraits_/adjustable`` trait to make ``Book/accessibilityValue`` dynamic. 
-                    
-                    @Code(name: "", file: "AdjustableTutorialStep_1.swift")
-                }
+            @Step {
+                Accessible element can be marked by ``UIAccessibilityTraits_/adjustable`` trait to make ``Book/accessibilityValue`` dynamic. 
                 
-                @Step {
-                    Accessible element can be marked by ``UIAccessibilityTraits_/adjustable`` trait to make ``Book/accessibilityValue`` dynamic. 
-                    
-                    @Code(name: "", file: "AdjustableTutorialStep_2.swift")
-                }
+                @Code(name: "", file: "AdjustableTutorialStep_2.swift")
+            }
+            
+            @Step {`
+                As a result the element will react on a vertical swipe by calling ``Book/accessibilityIncrement()`` and ``Book/accessibilityDecrement()``. 
                 
-                @Step {`
-                    As a result the element will react on a vertical swipe by calling ``Book/accessibilityIncrement()`` and ``Book/accessibilityDecrement()``. 
-                    
-                    After each swipe the ``Book/accessibilityValue`` getter will be read again and the next value will be vocalised.
-                    
-                    > Note: `AccessibilityLabel wouldn't be read again after swipe`
-                    
-                    @Code(name: "", file: "AdjustableTutorialStep_3.swift")
-                }
+                After each swipe the ``Book/accessibilityValue`` getter will be read again and the next value will be vocalised.
+                
+                > Note: `AccessibilityLabel wouldn't be read again after swipe`
+                
+                @Code(name: "", file: "AdjustableTutorialStep_3.swift")
             }
         }
-        
-        @Section(title: "Backward Compatibility") {
-            @ContentAndMedia {
-                Voice Control and Switch Control work with separate *buttons* instead of *adjustable elements*.
-            }
+    }
+    
+    @Section(title: "Backward Compatibility") {
+        @ContentAndMedia {
+            Voice Control and Switch Control work with separate *buttons* instead of *adjustable elements*.
+        }
 
-            @Steps {  
-                @Step {
-                    > Important: Adjustable elements are only used for VoiceOver and will break the behaviour of Voice Control and Switch Control. 
-                    
-                    Distinguish their behaviour in code by a dynamic getter:
-                    
-                    @Code(name: "", file: "AdjustableTutorialStep_4.swift")
-                }
+        @Steps {  
+            @Step {
+                > Important: Adjustable elements are only used for VoiceOver and will break the behaviour of Voice Control and Switch Control. 
                 
-                @Step {
-                    Switch Control requires grouping: firstly focus will be placed on the group itself, afterwards the selection will be moved between elements of this group. It simulates navigation by reducing the number of elements on each level.
-                    
-                    > Note: Watch video [How Grouping Simplifies Navigation](https://youtube.com/shorts/1l8H615EkV0?si=tKyhIGjBbR9XG9HP)
-                    
-                    @Code(name: "", file: "AdjustableTutorialStep_5.swift")
-                }
+                Distinguish their behaviour in code by a dynamic getter:
+                
+                @Code(name: "", file: "AdjustableTutorialStep_4.swift")
+            }
+            
+            @Step {
+                Switch Control requires grouping: firstly focus will be placed on the group itself, afterwards the selection will be moved between elements of this group. It simulates navigation by reducing the number of elements on each level.
+                
+                > Note: Watch video [How Grouping Simplifies Navigation](https://youtube.com/shorts/1l8H615EkV0?si=tKyhIGjBbR9XG9HP)
+                
+                @Code(name: "", file: "AdjustableTutorialStep_5.swift")
             }
         }
-        
-        @Assessments {
-            @MultipleChoice {
-                What **Accessibility Features** use adjustable trait?
+    }
+    
+    @Assessments {
+        @MultipleChoice {
+            What **Accessibility Features** use adjustable trait?
+            
+            @Choice(isCorrect: false) {
+                Switch Control
                 
-                @Choice(isCorrect: false) {
-                    Switch Control
-                    
-                    
-                    @Justification(reaction: "Try again!") {
-                        Switch Control indeed requires grouping to simplify navigation, but uses ``Book/accessibilityNavigationStyle`` for that.
-                    }
+                
+                @Justification(reaction: "Try again!") {
+                    Switch Control indeed requires grouping to simplify navigation, but uses ``Book/accessibilityNavigationStyle`` for that.
                 }
-                          
-                @Choice(isCorrect: true) {
-                    VoiceOver
-                            
-                            
-                    @Justification(reaction: "That's right!") {
-                        Blind people would like to have a reduced number of elements on the screen and simplified interactions by vertical swipes to adjust the value of the element.
-                    }
+            }
+                      
+            @Choice(isCorrect: true) {
+                VoiceOver
+                        
+                        
+                @Justification(reaction: "That's right!") {
+                    Blind people would like to have a reduced number of elements on the screen and simplified interactions by vertical swipes to adjust the value of the element.
                 }
+            }
+                            
+            @Choice(isCorrect: false) {
+                Voice Control
                                 
-                @Choice(isCorrect: false) {
-                    Voice Control
-                                    
-                                    
-                    @Justification(reaction: "Try again!") {
-                        Voice Control is mostly used by people who are able to see. In such case percieving elements as separate buttons is preferred.
-                    }
+                                
+                @Justification(reaction: "Try again!") {
+                    Voice Control is mostly used by people who are able to see. In such case percieving elements as separate buttons is preferred.
                 }
             }
         }

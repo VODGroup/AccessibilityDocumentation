@@ -53,7 +53,8 @@ The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at
 
 ### VoiceOver Designer
 Reading the book you may sometimes notice screenshots of iOS applications with *mark-ups* related to accessibility design over them. This is [VoiceOver Designer](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessibility scenarios* over a screenshot of an app. 
-![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
+![Screenshot of VoiceOver Designer](VoiceOverDesigner.png)
+
 
 
 ## Topics
