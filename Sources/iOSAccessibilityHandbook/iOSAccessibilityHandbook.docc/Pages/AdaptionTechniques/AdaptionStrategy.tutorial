@@ -29,6 +29,7 @@
             
             @TutorialReference(tutorial: "doc:DescribeElements")
             @TutorialReference(tutorial: "doc:AdaptCells")
+            @TutorialReference(tutorial: "doc:Traits")
         }
         
         @Chapter(name: "Reduce Number of Controls") {

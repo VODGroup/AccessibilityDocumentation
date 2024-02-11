@@ -246,7 +246,11 @@
             
             What about a little `quiz` to revise the topic? 🔎
             
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Comment {
+                Тут надо раскрыть, что на описание еще могут влиять другие трейты и контейнеры, но об этом позже
+            }
+            
+            @Image(source: TraitsOrder.png, alt: "")
         }
     }
     @Assessments {
