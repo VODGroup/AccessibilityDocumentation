@@ -36,12 +36,16 @@ To study the concepts.
 ## — Can I contribute to the project? 
 Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **comitting *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
 - **describe a problem** or **discuss on the topic** in **[Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)**; 
+![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~dark.png#gh-dark-mode-only)
+![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~light.png#gh-light-mode-only)
 - **propose a change** by creating a *pull request* to this repository;
-  <img width="876" alt="Screenshot 2024-01-25 at 09 58 20" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/fccf206f-c2a6-4698-a3fe-a2352861c3f2">
+![prs](./Sources/iOSAccessibilityHandbook/Screenshots/prs~dark.png#gh-dark-mode-only)
+![prs](./Sources/iOSAccessibilityHandbook/Screenshots/prs~light.png#gh-light-mode-only)
+
 - **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they provide;
-  <img width="875" alt="Screenshot 2024-01-26 at 11 16 58" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/e43ef14c-6649-45f6-ae57-d915ee0900a7">
-- **write an article** from *tasks* listed in **[Projects](https://github.com/orgs/VODGroup/projects/5/views/1)**.
-  <img width="844" alt="Screenshot 2024-01-25 at 10 11 13" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/6a713fc9-5ab1-44cf-b821-4a76a2954d89">
+![contributors](./Sources/iOSAccessibilityHandbook/Screenshots/contributors~dark.png#gh-dark-mode-only)
+![contributors](./Sources/iOSAccessibilityHandbook/Screenshots/contributors~light.png#gh-light-mode-only)
+
 
 ## Sponsored by [VoiceOver Designer](https://rubanov.dev/voice-over-designer)
 **VoiceOver Designer** is a macOS application that allows to **design and prototype accessibility features over a *screenshot of an app***. 
@@ -50,4 +54,5 @@ More about the app: https://rubanov.dev/voice-over-designer
 
 Code source: https://github.com/VODGroup/VoiceOverDesigner
 
-![Screenshot of VoiceOver Designer](https://rubanov.dev/voice-over-designer/images/HeaderLight.png)
+![vod-sample](./Sources/iOSAccessibilityHandbook/Screenshots/vod-sample~dark.png#gh-dark-mode-only)
+![vod-sample](./Sources/iOSAccessibilityHandbook/Screenshots/vod-sample~light.png#gh-light-mode-only)
