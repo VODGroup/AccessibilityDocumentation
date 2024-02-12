@@ -95,6 +95,7 @@
             
             @TutorialReference(tutorial: "doc:ColorsAndShapes")
             @TutorialReference(tutorial: "doc:DynamicType")
+            @TutorialReference(tutorial: "doc:AdaptedPrivacy")
         }
     }
     

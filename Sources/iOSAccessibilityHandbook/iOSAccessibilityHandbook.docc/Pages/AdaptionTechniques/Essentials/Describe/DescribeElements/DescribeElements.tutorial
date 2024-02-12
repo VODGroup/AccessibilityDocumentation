@@ -37,12 +37,6 @@
                 
                 @Image(source: chapter-placeholder.png, alt: "")
             }
-            
-            @Step {
-                Надо еще примеров че как подписыывается: текст есть, еще надо кнопку, картинку
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
         }
     }
         
@@ -250,7 +244,7 @@
                 Тут надо раскрыть, что на описание еще могут влиять другие трейты и контейнеры, но об этом позже
             }
             
-            @Image(source: TraitsOrder.png, alt: "")
+            @Image(source: attributes-order, alt: "")
         }
     }
     @Assessments {

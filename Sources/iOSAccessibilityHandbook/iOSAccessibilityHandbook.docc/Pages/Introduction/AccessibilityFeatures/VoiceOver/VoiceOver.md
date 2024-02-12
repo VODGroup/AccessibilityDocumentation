@@ -5,12 +5,12 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
 @Metadata {
     @PageImage(
                purpose: card, 
-               source: "VoiceOver Preview", 
-               alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
+               source: "voiceOver-picker-example", 
+               alt: "")
 }
 
 ## Overview
 
-![VoiceOver gestures](VoiceOverGestures)
+![VoiceOver gestures](voiceOver-gestures)
 
  [Video how to navigate by VoiceOver](https://www.youtube.com/watch?v=qDm7GiKra28)

@@ -19,7 +19,7 @@
         @ContentAndMedia {
             Even though the cell looks simple it is not enough — such layout would lead to several *accessibility issues*. Let's see **how exactly different Accessibility Features *struggle* with that**.
             
-            @Image(source: "Chicken BBQ", alt: "Cell of Chicken BBQ containing an image, a title, ingredients and a price.")
+            @Image(source: "chicken-bbq", alt: "Cell of Chicken BBQ containing an image, a title, ingredients and a price.")
         }
         
         @Steps {
@@ -30,13 +30,13 @@
                                                 
                 > Note: Pay attention that **images are hidden from VoiceOver *by default***, therefore are *inaccessible* to be focused on.
                 
-                @Image(source: "DescribeCell_1", alt: "Focus outlines the title of the cell first.")
+                @Image(source: "chicken-bbq-label", alt: "Focus outlines the title of the cell first.")
             }
             
             @Step {
                 After a swipe to the right (which triggers **moving to the next element**) the focus moves to **the list of ingredients**.
                 
-                @Image(source: "DescribeCell_2", alt: "In our case, secondly the focus outlines the ingredients' list.")
+                @Image(source: "chicken-bbq-value", alt: "In our case, secondly the focus outlines the ingredients' list.")
             }
             
             @Step {
@@ -44,7 +44,7 @@
                 
                 > Note: The *only* possibility **for a user to understand that this element is interactive by hearing VoiceOver say that's it's a *button***. It can be made possible by **specifying its `.button` *trait***.
                 
-                @Image(source: "DescribeCell_3", alt: "Consequently the focus outlines the button with the price.")
+                @Image(source: "chicken-bbq-price", alt: "Consequently the focus outlines the button with the price.")
             }
             
             @Step {                
@@ -75,7 +75,7 @@
                 
                 > Tip: The solution here is to **use *the title* as the cell's *label***.
                 
-                @Image(source: "DescribeCell_4", alt: "Voice Control shows the badge over the button with the price")
+                @Image(source: "chicken-bbq-price-pronounciation", alt: "Voice Control shows the badge over the button with the price")
             }
         }
     }
@@ -86,7 +86,7 @@
             
             In order to **properly *describe* the cell so VoiceOver can read it correctly** we have to transfer the text from *labels* to the *accessibility description* of the cell in a *correct order* and with a *correct type*. Let's try to do so.
             
-            @Image(source: "DescribeCell_9_preview", alt: "Order in which elements are read is controlled by designers' vision.")
+            @Image(source: "chicken-bbq-priority", alt: "Order in which elements are read is controlled by designers' vision.")
         }
         
         @Steps {
@@ -99,9 +99,7 @@
             @Step {
                 First of all we have to **specify that the cell will be a *focusable element***. By doing that we ***reduce* the number of elements available on the screen**, which is, as you remember from the previous section, really helpful for *adaption*.
                 
-                There is no need to *explicitly* hide other elements - setting the cell with `accessibleElements` property is enough. 
-                
-                To see **how it works *exactly*** take a look at <doc:ControlHierarchy> where everything is explained in *greater* detail than we can afford in *tutorials*.
+                There is no need to *explicitly* hide other elements - setting the cell with `accessibleElements` property is enough. To see **how it works *exactly*** take a look at <doc:ControlHierarchy> where everything is explained in *greater* detail than we can afford in *tutorials*.
                 
                 @Comment {
                     // TODO: why the cell's button is visible at pizza?
