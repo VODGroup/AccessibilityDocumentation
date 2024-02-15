@@ -5,9 +5,9 @@
         Описание ячеек выглядит как хорошее продолжение темы лейблов и вэлью: если мы видим элемент как единое целое, то описывать мы его тоже должны как один элемент. При этом случаи бывают сложные, например, когда надо порядок элементов решать. Ну и типо го разберем, заодно и код посмотрим
     }
     
-        To have **Accessibility Features** work as intented sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in cells. 
+        To have **Accessibility Features** work as intended sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in cells. 
         
-        In other words, if there is a cell with pizza's description it is reasonable to distinguish data by its nature: have an image as an illustration, a title, a list of ingridients and a price - but it complicates the work for VoiceOver, Voice Control and Switch Control. 
+        In other words, if there is a cell with pizza's description it is reasonable to distinguish data by its nature: have an image as an illustration, a title, a list of ingredients and a price - but it complicates the work for VoiceOver, Voice Control and Switch Control. 
         
         Such detailed layout makes automated adaption of the cell's contents **wrong**. 
         
@@ -25,7 +25,6 @@
         @Steps {
             @Step {
                 Firstly, **there is a definite problem for *VoiceOver* to adapt such interfaces**.
-                
                 The thing is that **the focus works such way so it outlines *every* single element of a cell starting from *the title***.
                                                 
                 > Note: Pay attention that **images are hidden from VoiceOver *by default***, therefore are *inaccessible* to be focused on.
@@ -54,7 +53,7 @@
             }
             
             @Step {                
-                Moreover such discretion leads to a decrease in *comrehensibility*: users can easily **lose track of what pizza in particular they are going through at the moment**. 
+                Moreover such discretion leads to a decrease in *comprehensibility*: users can easily **lose track of what pizza in particular they are going through at the moment**. 
                 
                 @Code(name: "Several Cells, Wrong Rhyme", file: "DescribeCell_3_1.swift") {
                     @Image(source: "DescribeCell_3_3", alt: "Focus outlines the button with the price.")
@@ -62,7 +61,7 @@
             }
             
             @Step {                
-                For example, **the price button* may be percieved connected to the next title** which is something we really don't want to have. Normally prices are playing a critical role in choice-making.
+                For example, **the price button* may be perceived connected to the next title** which is something we really don't want to have. Normally prices are playing a critical role in choice-making.
                 
                 @Code(name: "Several Cells, Wrong Rhyme", file: "DescribeCell_3_2.swift") {
                     @Image(source: "DescribeCell_3_3", alt: "Focus outlines the button with the price.")
@@ -75,7 +74,7 @@
                 
                 > Tip: The solution here is to **use *the title* as the cell's *label***.
                 
-                @Image(source: "chicken-bbq-price-pronounciation", alt: "Voice Control shows the badge over the button with the price")
+                @Image(source: "chicken-bbq-price-pronunciation", alt: "Voice Control shows the badge over the button with the price")
             }
         }
     }
@@ -86,7 +85,7 @@
             
             In order to **properly *describe* the cell so VoiceOver can read it correctly** we have to transfer the text from *labels* to the *accessibility description* of the cell in a *correct order* and with a *correct type*. Let's try to do so.
             
-            @Image(source: "chicken-bbq-priority", alt: "Order in which elements are read is controlled by designers' vision.")
+            @Image(source: "cell-priority", alt: "Order in which elements are read is controlled by designers' vision.")
         }
         
         @Steps {
@@ -98,7 +97,6 @@
             
             @Step {
                 First of all we have to **specify that the cell will be a *focusable element***. By doing that we ***reduce* the number of elements available on the screen**, which is, as you remember from the previous section, really helpful for *adaption*.
-                
                 There is no need to *explicitly* hide other elements - setting the cell with `accessibleElements` property is enough. To see **how it works *exactly*** take a look at <doc:ControlHierarchy> where everything is explained in *greater* detail than we can afford in *tutorials*.
                 
                 @Comment {
@@ -121,16 +119,11 @@
             @Step {
 
                 Not to forget there is also *the price* which is **an *essential* part of cells with a *product offer***.
-                
                 To adapt it *correctly* we need to follow the strategy controlled by *the cell's design* whose concept is to make users *notice* the product.
-                
                 Its **image is what *attracts the attention***, then **title is read and understood *loud and clear*** - it's on top and visually distinguished by a *bolder* font used. 
-                
-                Furtherly the attention may be *interrupted* by a **bright coloured button**.
-                
+                Next the attention may be *interrupted* by a **bright coloured button**.
                 **Ingredients are least prior** to the attention and this is in their nature: this elements is of an *informative matter*, therefore not about *attention attraction*.
-                
-                Logically **we place the price *after* the title**. Pay attention that **to keep label simple the price has to be put in the beginning of `accesibilityValue`**.
+                Logically **we place the price *after* the title**. Pay attention that **to keep label simple the price has to be put in the beginning of `accessibilityValue`**.
                 
                 @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_9.swift") {
                     @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by people who want to sell this pizza to you.")
@@ -139,7 +132,6 @@
             
             @Step {
                 Everything is *described* and VoiceOver is happy, but *most importantly* we shouldn't forget to **mark the interactive element with `.button` trait*. 
-                
                 After that *specifying* we are done and did great!
                 
                 @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_10.swift")
@@ -149,7 +141,7 @@
     
     @Section(title: "What Can Be Done: Ease Scrolling") {
         @ContentAndMedia {
-            In VoiceOver the **default *scrolling* is implemented by a *three-finger swipe***. The gesture will announce where the user currectly is, i.e. VoiceOver will **read the number of the *visible* page**. For example, *"4 out of 20*".
+            In VoiceOver the **default *scrolling* is implemented by a *three-finger swipe***. The gesture will announce where the user correctly is, i.e. VoiceOver will **read the number of the *visible* page**. For example, *"4 out of 20*".
             
             **Going through *tables* of cells functions *exactly* the same way**. For example, *"from 25 to 40 out of 120"* will be said during going over the rows.
             
@@ -199,7 +191,6 @@
             
             @Step {
                 And, as a result, **three-finger swipe will cause the *titles* to be listed outloud**. 
-                
                 We are happy, VoiceOver is happy, but, most importantly, the user would not have to do anything unnecessary to see what's available on the menu. Congratulations!
              
                 @Comment {
@@ -289,7 +280,7 @@
                 @Justification(reaction: "That's right!") {
                    Yep, this is it!
                    
-                   If adapted *correctly*, the user will hear what is in the table without unnecessery for the moment information specified.
+                   If adapted *correctly*, the user will hear what is in the table without unnecessary for the moment information specified.
                 }                
             }
             
@@ -297,7 +288,7 @@
                 Four-fingers swipe
                 
                 @Justification(reaction: "Try again!") {
-                    Unfortunately, this is not the answer. Horizontal **four-fingers swipe switches beetwen applications opened**.
+                    Unfortunately, this is not the answer. Horizontal **four-fingers swipe switches between applications opened**.
                 }                
             }
         }

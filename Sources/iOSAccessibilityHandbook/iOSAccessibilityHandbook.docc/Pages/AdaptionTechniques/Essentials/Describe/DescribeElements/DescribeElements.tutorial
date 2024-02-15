@@ -56,7 +56,7 @@
                 @Image(source: chapter-placeholder.png, alt: "")
             }
             @Step {
-                To *succintly identify* the song we will risk to use its name as `Label`.
+                To *succinctly identify* the song we will risk to use its name as `Label`.
                 
                 @Image(source: placeholder-image.png, alt: "")
             }
@@ -240,11 +240,20 @@
             
             What about a little `quiz` to revise the topic? 🔎
             
+
+            
             @Comment {
                 Тут надо раскрыть, что на описание еще могут влиять другие трейты и контейнеры, но об этом позже
             }
             
             @Image(source: attributes-order, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                Text.
+                @Image(source: placeholder-image.png, alt: "")
+            }
         }
     }
     @Assessments {

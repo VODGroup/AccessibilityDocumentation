@@ -2,7 +2,7 @@
     @Intro(title: "Accessibility Maintenance") {
         If supported, any application grows in complexity even if there is no additional functionality added. 
         
-        @Image(source: image-placeholder, alt: "")
+        @Image(source: placeholder-image, alt: "")
     }
     
     @Section(title: "No Fucking Idea") {
@@ -16,7 +16,7 @@
             @Step {
                 Text?
                 
-                @Image(source: image-placeholder, alt: "")
+                @Image(source: placeholder-image, alt: "")
             }
             @Step {
                 Text.

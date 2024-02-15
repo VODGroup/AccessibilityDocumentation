@@ -11,6 +11,8 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
 
 ## Overview
 
+@Image(source: media-types, alt: "")
+
 ![VoiceOver gestures](voiceOver-gestures)
 
  [Video how to navigate by VoiceOver](https://www.youtube.com/watch?v=qDm7GiKra28)

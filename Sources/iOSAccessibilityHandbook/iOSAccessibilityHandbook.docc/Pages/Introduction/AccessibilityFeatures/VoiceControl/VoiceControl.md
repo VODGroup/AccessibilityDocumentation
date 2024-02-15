@@ -1,6 +1,6 @@
 # Voice Control
 
-Adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognizes speech, convert it to text and links command to elements' description.
+Adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognises speech, convert it to text and links command to elements' description.
 
 @Metadata {
     @PageImage(
@@ -11,6 +11,8 @@ Adds additional commands over graphical UI to control a phone by voice commands.
 
 
 ## Overview
+
+
 
 ![Voice Control modes: with labels, enumerated elements or grid](voice-control-picker-example)
 

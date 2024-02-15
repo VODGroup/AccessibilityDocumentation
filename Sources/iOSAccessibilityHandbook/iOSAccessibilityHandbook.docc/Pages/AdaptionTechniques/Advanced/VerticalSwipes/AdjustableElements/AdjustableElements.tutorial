@@ -1,8 +1,20 @@
+
 @Tutorial(time: 10) {
     @Intro(title: "Setting Up Adjustable Elements") {
         Simplifies interactions with complex elements for VoiceOver.
     }
         
+        
+    @Section(title: "Title") {
+        Jepa.
+        @Steps {
+            @Step {
+                Jepa.
+                @Image(source: placeholder-image.png, alt: "")
+            }
+        }
+    }
+    
     @Comment {
         @Section(title: "Basic Setup") {
             @ContentAndMedia {
@@ -92,3 +104,4 @@
         }
     }
 }
+

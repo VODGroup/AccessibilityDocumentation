@@ -1,7 +1,9 @@
 @Tutorial(time: 30) {
     @Intro(title: "🔒 Dynamic Type") {
-        
+        @Image(source: vision-loss, alt: "")
     }
+    
+
     
     @Section(title: "<#text#>") {
         @ContentAndMedia {

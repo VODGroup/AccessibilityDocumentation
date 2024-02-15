@@ -3,7 +3,6 @@
 Testing is an essential part of production. Just as any other functionality, accessibility of an app has to be tested to make sure that the app is approachable and intuitive.
 
 @Metadata {
-    @DisplayName("Accessibility Quality Assurance")
     @PageImage(
         purpose: icon, 
         source: "icon", 

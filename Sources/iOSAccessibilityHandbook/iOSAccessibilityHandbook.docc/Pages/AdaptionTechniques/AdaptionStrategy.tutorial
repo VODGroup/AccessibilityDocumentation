@@ -29,7 +29,6 @@
             
             @TutorialReference(tutorial: "doc:DescribeElements")
             @TutorialReference(tutorial: "doc:AdaptCells")
-            @TutorialReference(tutorial: "doc:Traits")
         }
         
         @Chapter(name: "Reduce Number of Controls") {
@@ -121,6 +120,14 @@
             
             @TutorialReference(tutorial: "doc:UnitTesting")
             @TutorialReference(tutorial: "doc:UITesting")
+        }
+        
+        @Chapter(name: "Maintenance") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            How to maintain accessible apps.
+            
+            @TutorialReference(tutorial: "doc:Maintenance")
         }
         
         @Chapter(name: "Activism") {

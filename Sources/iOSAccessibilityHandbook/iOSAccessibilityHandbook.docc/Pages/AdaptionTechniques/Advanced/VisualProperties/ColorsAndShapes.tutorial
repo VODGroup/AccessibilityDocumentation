@@ -1,7 +1,11 @@
 @Tutorial(time: 15) {
     @Intro(title: "🔒 Accessible Colors And Shapes") {
         это для сотрудников арт лебедев
+        @Image(source: visual-properties, alt: "")
+
     }
+
+    
     
     @Section(title: "<#text#>") {
         @ContentAndMedia {
