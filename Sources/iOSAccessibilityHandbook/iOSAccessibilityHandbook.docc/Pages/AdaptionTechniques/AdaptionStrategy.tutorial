@@ -13,7 +13,7 @@
             - <doc:AdaptionStrategy>
         }
         
-        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separeted materials are *self-sufficient* and their cohesion is decorative. 
+        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient* and their cohesion is decorative. 
     }
     
     @Volume(name: "Making Accessibility Work") {
@@ -119,7 +119,6 @@
             
             How to test accessible apps.
             
-            @TutorialReference(tutorial: "doc:AccessibilityQA")
             @TutorialReference(tutorial: "doc:UnitTesting")
             @TutorialReference(tutorial: "doc:UITesting")
         }

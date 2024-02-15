@@ -30,11 +30,11 @@ To focus on the applications of Accessibility Features.
 
 ### Articles
 To study the concepts.
-- Accessibility Properties in Code: How to Use Them. A brief overview of **implenting accessibility in apps**.
+- Accessibility Properties in Code: How to Use Them. A brief overview of **implementing accessibility in apps**.
 - Accessibility Features Explained: How People Use Assistive Technology. A thorough **description of the concepts** and its technological implementations in order **to provide a better understanding** of how it all works.
 
 ## — Can I contribute to the project? 
-Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **comitting *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
+Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **committing *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
 - **describe a problem** or **discuss on the topic** in **[Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)**; 
 ![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~dark.png#gh-dark-mode-only)
 ![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~light.png#gh-light-mode-only)

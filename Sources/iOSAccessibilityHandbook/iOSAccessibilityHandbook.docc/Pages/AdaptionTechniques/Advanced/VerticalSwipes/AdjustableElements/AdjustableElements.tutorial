@@ -85,7 +85,7 @@
                                     
                                     
                     @Justification(reaction: "Try again!") {
-                        Voice Control is mostly used by people who are able to see. In such case percieving elements as separate buttons is preferred.
+                        Voice Control is mostly used by people who are able to see. In such case perceiving elements as separate buttons is preferred.
                     }
                 }
             }
