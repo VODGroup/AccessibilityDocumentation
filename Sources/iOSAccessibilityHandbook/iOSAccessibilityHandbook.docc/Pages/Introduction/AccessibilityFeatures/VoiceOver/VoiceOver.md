@@ -7,6 +7,10 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
                purpose: card, 
                source: "voiceOver-picker-example", 
                alt: "")
+    @PageImage(
+        purpose: icon, 
+        source: "voiceover", 
+        alt: "")
 }
 
 ## Overview

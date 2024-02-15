@@ -1,5 +1,13 @@
 # 🥸 iOS Accessibility
 
+@Metadata {
+    @PageImage(
+        purpose: icon, 
+        source: "iphone", 
+        alt: "")
+    @PageColor(blue)
+}
+
 ## Зачин про айфончики
 
 ## Про эпл и их дайверсити движения

@@ -1,5 +1,13 @@
 # 🥸 Enhancing Accessible Experience
 
+@Metadata {
+    @PageImage(
+        purpose: icon, 
+        source: "sparkles", 
+        alt: "")
+    @PageColor(blue)
+}
+
 ## Зачин для интро 
 
 ## Про недостаточность предыдущей части книги 

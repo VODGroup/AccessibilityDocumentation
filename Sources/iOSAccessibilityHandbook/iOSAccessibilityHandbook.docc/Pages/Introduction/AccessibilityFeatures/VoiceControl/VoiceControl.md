@@ -4,6 +4,10 @@ Adds additional commands over graphical UI to control a phone by voice commands.
 
 @Metadata {
     @PageImage(
+        purpose: icon, 
+        source: "voice-control", 
+        alt: "")
+    @PageImage(
                purpose: card, 
                source: "voice-control-picker-example", 
                alt: "")

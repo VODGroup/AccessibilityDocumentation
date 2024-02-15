@@ -2,6 +2,10 @@
 
 @Metadata {
     @PageImage(
+        purpose: icon, 
+        source: "switch-control", 
+        alt: "")
+    @PageImage(
                purpose: card, 
                source: "switch-control-picker-example", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")

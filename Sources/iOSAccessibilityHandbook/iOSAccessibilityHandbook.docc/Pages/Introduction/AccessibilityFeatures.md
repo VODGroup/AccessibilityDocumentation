@@ -1,5 +1,13 @@
 # 🥸 Accessibility Features
 
+@Metadata {
+    @PageImage(
+        purpose: icon, 
+        source: "accessibility", 
+        alt: "")
+    @PageColor(blue)
+}
+
 Introduction
 
 ## Accessibility Users 

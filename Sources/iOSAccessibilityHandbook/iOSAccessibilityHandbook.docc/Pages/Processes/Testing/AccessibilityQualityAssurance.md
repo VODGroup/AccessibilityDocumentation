@@ -5,7 +5,7 @@ Testing is an essential part of production. Just as any other functionality, acc
 @Metadata {
     @PageImage(
         purpose: icon, 
-        source: "icon", 
+        source: "test", 
         alt: "")
     @PageColor(blue)
 }

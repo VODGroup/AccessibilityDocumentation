@@ -1,5 +1,13 @@
 # 🔒 🥸 Accessibility Adaption
 
+@Metadata {
+    @PageImage(
+        purpose: icon, 
+        source: "list", 
+        alt: "")
+    @PageColor(blue)
+}
+
 Nothing here yet, but one day will be a verbose guide on how to develop accessible application with overview of actions needed to be done.
 
 ## Небольшой зачин для интро (про что эта статья)

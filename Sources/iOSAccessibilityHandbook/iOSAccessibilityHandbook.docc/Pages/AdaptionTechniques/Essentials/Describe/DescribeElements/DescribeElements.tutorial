@@ -1,4 +1,13 @@
 @Tutorial(time: 15) {
+    
+    @Metadata {
+        @PageImage(
+            purpose: icon, 
+            source: "describeElements", 
+            alt: "")
+        @PageColor(blue)
+    }
+    
     @Intro(title: "Elements Described For Assistive Technology") {
         In this tutorial we're going to discuss unquestionably the most important thing to make an interface accessible — properly **describe its elements** for both users and assistive technology. 
         
