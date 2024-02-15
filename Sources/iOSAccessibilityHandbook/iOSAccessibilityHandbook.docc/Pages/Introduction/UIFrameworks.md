@@ -1,11 +1,16 @@
 # 🔒 Accessibility in UIKit and SwiftUI
 
+
+
 @Metadata {
     @PageImage(
         purpose: icon, 
         source: "swift", 
         alt: "")
-    @PageColor(blue)
+    @PageColor(blue)    
+    @TitleHeading("Ээто че. А все пон.")
+    @CallToAction(url: "https://example.com", purpose: link, label: "jepa")
+
 }
 
 ## UI Frameworks Differences

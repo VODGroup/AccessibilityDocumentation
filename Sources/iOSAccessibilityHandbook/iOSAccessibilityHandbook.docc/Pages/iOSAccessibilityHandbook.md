@@ -4,6 +4,7 @@ Make your iOS application accessible for everyone with help of interactive guide
 
 @Metadata {
     @DisplayName("iOS Accessibility Handbook")
+    @TitleHeading("Educational Resource")
     @PageImage(
         purpose: icon, 
         source: "icon", 
