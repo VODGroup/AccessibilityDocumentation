@@ -1,4 +1,4 @@
-# [AccessibilityDocumentation](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/)
+# [iOS Accessibility Handbook](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/)
 
 ## — What is this?
 At the moment this project is work-in-progress (at a very early stage) **wrapping the already-existing documentation of [Accessibility features available in iOS SDK](https://developer.apple.com/design/human-interface-guidelines/accessibility)** in a way **to make it easier to research** available in a form of a **web-resource**. ~~In other words our goal is to find a solution for **making plain documentation more entertaining and requiring nothing more than a web-browser**. Call it an ***educational resource***.~~ We figured the shit out, this is an **interactive web-course**. New readme on its way. 
