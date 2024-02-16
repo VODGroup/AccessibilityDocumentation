@@ -1,13 +1,20 @@
 # iOS Accessibility
 
 @Metadata {
-    @PageImage(
-        purpose: icon, 
-        source: "iphone", 
-        alt: "")
-    @TitleHeading("Technology for Everyone")
-    @CallToAction(url: "https://www.apple.com/accessibility/", purpose: link, label: "Apple Accessibility")
     @PageColor(blue)
+    @TitleHeading("Technology for Everyone")
+    @PageImage(
+               purpose: icon, 
+               source: "iphone", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "inclusion", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }
 
 
