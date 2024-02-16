@@ -1,15 +1,17 @@
-# 🥸 iOS Accessibility
+# iOS Accessibility
 
 @Metadata {
     @PageImage(
         purpose: icon, 
         source: "iphone", 
         alt: "")
+    @TitleHeading("Technology for Everyone")
+    @CallToAction(url: "https://www.apple.com/accessibility/", purpose: link, label: "Apple Accessibility")
     @PageColor(blue)
 }
 
 
-Introduction
+An introduction to Accessibility on iOS 
 
 ## What does it mean for something to be accessible? 
 Accessibility is a *property* of products (e.g. devices, services, concepts, environments) that measures **approachability** — the widest possible range of people who can use it.
