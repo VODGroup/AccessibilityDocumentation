@@ -1,6 +1,6 @@
 @Tutorial(time: 10) {
     @Intro(title: "🔒 Hide Useless controls") {
-        
+        Only he knows what is supposed to be here.
     }
     
     @Section(title: "<#text#>") {
