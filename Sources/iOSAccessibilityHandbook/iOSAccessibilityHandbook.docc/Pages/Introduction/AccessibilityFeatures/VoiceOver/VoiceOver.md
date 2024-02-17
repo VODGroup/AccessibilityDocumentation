@@ -3,14 +3,20 @@
 Helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
 
 @Metadata {
+    @PageColor(blue)
+    @TitleHeading("A Screen Reader")
     @PageImage(
-               purpose: card, 
-               source: "voiceOver-picker-example", 
+               purpose: icon, 
+               source: "voiceover", 
                alt: "")
     @PageImage(
-        purpose: icon, 
-        source: "voiceover", 
-        alt: "")
+               purpose: card, 
+               source: "voiceOver-picker-example"", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }
 
 ## Overview

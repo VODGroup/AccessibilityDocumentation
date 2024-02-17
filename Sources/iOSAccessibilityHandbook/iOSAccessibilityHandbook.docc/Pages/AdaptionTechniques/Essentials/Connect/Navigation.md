@@ -1,5 +1,22 @@
 # Navigation
 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Lead The Way")
+    @PageImage(
+               purpose: icon, 
+               source: "-", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
+}
+
 @Comment {
     To simplify navigation developer had to achieve several goals: call a notification to update accessibility tree, manage focus when a new screen is opened, support action for closing or completing the screen. 
 

@@ -1,11 +1,20 @@
 # 🔒 🥸 Accessibility Adaption
 
 @Metadata {
-    @PageImage(
-        purpose: icon, 
-        source: "list", 
-        alt: "")
     @PageColor(blue)
+    @TitleHeading("One Thing At A Time")
+    @PageImage(
+               purpose: icon, 
+               source: "list", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }
 
 Nothing here yet, but one day will be a verbose guide on how to develop accessible application with overview of actions needed to be done.

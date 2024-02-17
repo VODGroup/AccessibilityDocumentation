@@ -1,16 +1,21 @@
 # Switch Control
 
 @Metadata {
+    @PageColor(blue)
+    @TitleHeading("Command By Anything")
     @PageImage(
-        purpose: icon, 
-        source: "switch-control", 
-        alt: "")
+               purpose: icon, 
+               source: "switch-control", 
+               alt: "")
     @PageImage(
                purpose: card, 
                source: "switch-control-picker-example", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }
-
 
 Allows to connect external devices and link them to any command. As a result paralyzed people can control a phone by simple signals: finger movement, muscle stretches, etc. Also, a iPhone's camera can recognise facial expression or any sound like a command. In the end user moves focus on screen and pass command to focused element by submenu that is presented after selection.
 

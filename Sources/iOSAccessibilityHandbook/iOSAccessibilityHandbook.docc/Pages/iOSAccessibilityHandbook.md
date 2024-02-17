@@ -47,7 +47,7 @@ At the moment the project's form is defined by being a *documentation catalog* (
 To contribute to the project visit its [GitHub page](https://github.com/VODGroup/AccessibilityDocumentation) and see the instruction of how one may help.
 
 ### Contributors
-The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [**Dodo Brands**](https://dodobrands.io), accessibility activist and the author of ["**About Accesibility on iOS**"]( https://rubanov.dev/a11y-book) book. Exemplary and illustrative materials are based on his *working experience*. 
+The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [**Dodo Brands**](https://dodobrands.io), accessibility activist and the author of ["**About Accessibility on iOS**"]( https://rubanov.dev/a11y-book) book. Exemplary and illustrative materials are based on his *working experience*. 
 @Image(source: "aboutAccessibility-sample", alt: "-")
 
 ### VoiceOver Designer
@@ -68,6 +68,7 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:DynamicType>
 - <doc:GuidedAccess>
 - <doc:AssistiveTouch>
+- <doc:AssistiveAccess>
 
 ### Accessibility In Code
 - <doc:AccessibilityAdaption>
@@ -78,7 +79,6 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 
 ### Essential Implementations
 - <doc:DescribeElements>
-- <doc:AlternativeDescription>
 - <doc:AdaptCells>
 - <doc:OnScreen-Navigation>
 - <doc:Between-ScreensNavigation>
@@ -89,10 +89,12 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:AdvancedTechniques>
 
 ### Advanced Techniques
-- <doc:AdjustableElements>
+- <doc:aAdjustableElements>
 - <doc:SpecificProperties>
 - <doc:Rotor>
-- <doc:VerticalSwipes>
+- <doc:Navigation>
+- <doc:aControlHierarchy>
+- <doc:aVerticalSwipes>
 
 ### What's Next?
 - <doc:WhatsNext>

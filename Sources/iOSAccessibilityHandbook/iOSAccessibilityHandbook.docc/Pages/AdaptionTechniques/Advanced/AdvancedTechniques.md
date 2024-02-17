@@ -1,11 +1,20 @@
 # 🥸 Enhancing Accessible Experience
 
 @Metadata {
-    @PageImage(
-        purpose: icon, 
-        source: "sparkles", 
-        alt: "")
     @PageColor(blue)
+    @TitleHeading("Just As Delightful")
+    @PageImage(
+               purpose: icon, 
+               source: "sparkles", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
 }
 
 ## Зачин для интро 

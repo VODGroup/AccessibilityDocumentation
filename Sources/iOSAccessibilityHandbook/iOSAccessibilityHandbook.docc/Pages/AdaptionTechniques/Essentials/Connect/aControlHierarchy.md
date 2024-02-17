@@ -1,5 +1,22 @@
 # ControlHierarchy
 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("First Things First")
+    @PageImage(
+               purpose: icon, 
+               source: "-", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
+}
+
 @Comment {
     ## Overview
 

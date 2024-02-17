@@ -3,9 +3,18 @@
 Nothing here yet!
 
 @Metadata {
-    @PageImage(
-        purpose: icon, 
-        source: "textSize", 
-        alt: "")
     @PageColor(blue)
+    @TitleHeading("Look And See")
+    @PageImage(
+               purpose: icon, 
+               source: "text-size", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }

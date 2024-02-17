@@ -1,5 +1,22 @@
 # User scenarios for vertical swipes
 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Omnipotence")
+    @PageImage(
+               purpose: icon, 
+               source: "-", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
+}
+
 Vertical swipe have a lot of possible actions and all of them depends on focus'es context.
 
 ## Overview

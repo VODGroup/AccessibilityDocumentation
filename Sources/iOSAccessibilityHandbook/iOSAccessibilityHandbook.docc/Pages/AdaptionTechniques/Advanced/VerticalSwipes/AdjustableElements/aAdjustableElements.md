@@ -1,5 +1,22 @@
 # Adjustable Elements
 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Serves The Cause")
+    @PageImage(
+               purpose: icon, 
+               source: "-", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
+}
+
 @Comment {
     Simplifies interactions with complex elements for VoiceOver.
 

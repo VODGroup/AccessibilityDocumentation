@@ -2,7 +2,7 @@
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("Same Outside, Different Inside")
+    @TitleHeading("Same Result, Different Means")
     @PageImage(
                purpose: icon, 
                source: "swift", 
