@@ -3,11 +3,20 @@
 Testing is an essential part of production. Just as any other functionality, accessibility of an app has to be tested to make sure that the app is approachable and intuitive.
 
 @Metadata {
-    @PageImage(
-        purpose: icon, 
-        source: "test", 
-        alt: "")
     @PageColor(blue)
+    @TitleHeading("Point Of Many Views")
+    @PageImage(
+               purpose: icon, 
+               source: "test", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Testing")
 }
 
 ## Testing Team

@@ -2,7 +2,7 @@
 @Metadata {
     @PageImage(
         purpose: icon, 
-        source: "apps", 
+        source: "guided-access", 
         alt: "")
     @PageColor(blue)
 }
