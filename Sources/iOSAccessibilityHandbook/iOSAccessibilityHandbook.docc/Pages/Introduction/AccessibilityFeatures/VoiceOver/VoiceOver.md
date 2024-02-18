@@ -23,8 +23,10 @@
 
 VoiceOver is a **screen reader** built into iOS.
 
+## Screen-Reading Technology
 A screen reader is a form of [**assistive technology**](<doc:AccessibilityFeatures>) — a program that conveys *visual* content into *non-visual* output. It allows people who cannot visually perceive information from the screen to be able to receive it in audial or tactile forms. 
 
+## Text-to-speech
 @Image(source: non-visual-output, alt: "")
 
 Screen readers are essential for users who...
@@ -34,16 +36,14 @@ Screen readers are essential for users who...
 
 In other words, screen reading technology serves people who are not able to visually perceive information displayed on the screen.
 
-Talking about using screen readers on mobile devices it brings different controls in. Navigating an interface with a screen reader on requires usage of **special gestures** or an external controllers of non-direct touch. 
+Talking about using screen readers on *mobile* devices it brings different controls in. Navigating an interface with a screen reader on requires usage of **special gestures** on touchscreen or an external controllers of non-direct touch. 
 
+## VoiceOver Gestures
 @Image(source: voiceover-gestures, alt: "")
+In the case of VoiceOver there is [**a list of standard VoiceOver gestures**](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios). Default control can be expanded with the use of [**Rotor**](<doc:Rotor>) and [**Custom Actions**](<doc:CustomActions>).
 
+## VoiceOver on other Apple devices
 
-Introduction
-
-## What is VoiceOver 
-### What is ScreenReader
-## Who is it for
-## How to try it out
-## What is needed
 ## Directions
+
+## Resources 
