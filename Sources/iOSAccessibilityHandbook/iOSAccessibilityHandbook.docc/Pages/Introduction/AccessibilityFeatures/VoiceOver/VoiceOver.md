@@ -1,6 +1,8 @@
 # VoiceOver
 
-Helps blind or low-visioned persons to use a phone by listening audio description of UI and command by different swipes and non-direct touches. Developer prepare text description of the element, iPhone will generate voice description from text. 
+@Comment {
+    https://www.apple.com/voiceover/info/guide/_1121.html
+}
 
 @Metadata {
     @PageColor(blue)
@@ -11,7 +13,7 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "voiceOver-picker-example"", 
+               source: "voiceOver-picker-example", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
@@ -27,18 +29,28 @@ Helps blind or low-visioned persons to use a phone by listening audio descriptio
 
  [Video how to navigate by VoiceOver](https://www.youtube.com/watch?v=qDm7GiKra28)
 
-## Зачин
+VoiceOver is a screen reader built into iOS.
 
-## Что это такое 
+A screen reader is a form of [**assistive technology**](<doc:AccessibilityFeatures>) — a program that conveys *visual* content into *non-visual* output. It allows people who cannot visually perceive information from the screen to be able to receive it in audial or tactile forms. 
 
-## Аудитория
+@Image(source: non-visual-output, alt: "")
 
-## Как пользоваться (+ видео михаила рубанова)
+Screen readers are essential for users who 
+1) have visual disablements, such as blindness or poor eyesight;
+2) experience dyslexia or other cognitive impairments;
+3) are simply in a situation that disables them from looking at the screen, such as driving. 
+In other words, screen reading technology serves people who are not able to visually perceive information displayed on the screen.
 
-## Сценарии 
-
-## Пара слов о поддержке этого прикола 
-
-## Послать в соответствующие туториалы
+Talking about using screen readers on mobile devices it brings different control in. Navigating an interface with a screen reader on requires using special gestures or an external controllers of non-direct touch. 
 
 
+
+
+Introduction
+
+## What is VoiceOver 
+### What is ScreenReader
+## Who is it for
+## How to try it out
+## What is needed
+## Directions
