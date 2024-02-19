@@ -4,7 +4,9 @@
 ## — What is this?
 This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) website, which is an educational resource dedicated to help developers, designers, testers and researchers work on [approachability](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
 
-The book is a collection of **interactive guides** and **thorough articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about implementing accessibility. 
+The book is a collection of **interactive guides** and **thorough articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about implementing accessibility.
+
+<img width="876" alt="Screenshot 2024-01-27 at 11 38 37 (2)" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/3d27a208-0c3f-44db-a4f0-8ecf8691758e">
 
 The material is split into **Chapters** by its relation to a certain topic. The Chapters are joined into **Volumes** by the depth of the knowledge inside. So everyone can find something interesting for themselves *regardless* of their level of expertise.
 
