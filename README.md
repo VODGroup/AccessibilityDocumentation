@@ -10,9 +10,10 @@ The material is split into **Chapters** by its relation to a certain topic. The 
 
 
 ## — Who writes this?
-Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language exclusively — sucks. So here we are, happily putting videos and samples of code on the pages! Have fun.  
+Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). 
 ![prs](./Sources/iOSAccessibilityHandbook/Screenshots/aboutAccessibility~dark.png#gh-dark-mode-only)
 ![prs](./Sources/iOSAccessibilityHandbook/Screenshots/aboutAccessibility~light.png#gh-light-mode-only)
+The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language exclusively — sucks. So here we are, happily putting videos and samples of code on the pages! Have fun.  
 
 ## — Why make it a website? 
 *Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**. 
