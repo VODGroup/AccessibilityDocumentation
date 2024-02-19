@@ -1,40 +1,28 @@
 # [iOS Accessibility Handbook](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/)
 
+
 ## — What is this?
-At the moment this project is work-in-progress (at a very early stage) **wrapping the already-existing documentation of [Accessibility features available in iOS SDK](https://developer.apple.com/design/human-interface-guidelines/accessibility)** in a way **to make it easier to research** available in a form of a **web-resource**. ~~In other words our goal is to find a solution for **making plain documentation more entertaining and requiring nothing more than a web-browser**. Call it an ***educational resource***.~~ We figured the shit out, this is an **interactive web-course**. New readme on its way. 
+Hey-hey! This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) website, which is an educational resource dedicated to help developers, designers, testers and researchers work on [approachability](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
 
-Generally the project is dedicated to those who use the mentioned *toolkit* in their *work*: **developers**, **designers**, **researchers**. Nevertheless the content is planned that way so **one could learn Accessibility from its very *basics***. It is just not about raising *awareness*, at least for now.  
+The book is a collection of **interactive guides** and **thorough articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about implementing accessibility. 
 
-## — How is it supposed to work?
+The material is split into **Chapters** by its relation to a certain topic. The Chapters are joined into Volumes by the depth of the knowledge inside. So everyone may find something interesting for themselves regardless of their level of expertise.
 
-Currently our goal is to try out variable methods of documentation wrapping by implementing various **interactive solutions**, such as **step-by-step guides**, wide range of **media types** used and **[VoiceOver Designer](https://github.com/VODGroup/VoiceOverDesigner)** app prototype integration in order to find the most efficient *educational models*. 
-<img width="876" alt="Screenshot 2024-01-27 at 11 38 37 (2)" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/3d27a208-0c3f-44db-a4f0-8ecf8691758e">
-
-
-The *interactivity* is implemented by heavy relying on **[DocC](https://developer.apple.com/documentation/docc), which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
-<img width="876" alt="Screenshot 2024-01-27 at 11 47 07" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/7eed36e2-20f7-4cbf-829f-d8cea5500376">
-
-
-Since it is only a *prototype*, having the resource hosted by **[GitHub Pages](https://pages.github.com)** seems to us a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
+## — Who writes this?
+Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language exclusively — sucks. So here we are, happily putting videos and samples of code on the pages! Have fun.  
 
 ## — Why make it a website? 
-*Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**.  
+*Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**. 
 
-## — What can I find in this repository specifically?
+## — How does it function?
+The *interactivity* is implemented by heavy relying on **[DocC](https://developer.apple.com/documentation/docc) technology, which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
+<img width="876" alt="Screenshot 2024-01-27 at 11 47 07" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/7eed36e2-20f7-4cbf-829f-d8cea5500376">
 
-### Tutorials
-To focus on the applications of Accessibility Features. 
-- **Real-life cases** in screens and scenarios involving usage of assistive technology.
-- **Step-by-step guides** how to adapt iOS applications.
+The resource is hosted by **[GitHub Pages](https://pages.github.com)**, which is a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
 
-
-### Articles
-To study the concepts.
-- Accessibility Properties in Code: How to Use Them. A brief overview of **implementing accessibility in apps**.
-- Accessibility Features Explained: How People Use Assistive Technology. A thorough **description of the concepts** and its technological implementations in order **to provide a better understanding** of how it all works.
-
+ 
 ## — Can I contribute to the project? 
-Yes, **everyone is welcome to influence the project**, especially considering a non-commercial nature of it. It can be done by **committing *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
+Yes, **everyone is welcome to influence the project**, especially considering its non-commercial nature. It can be done by **committing *ideas* and *fixes* to this repository** or **straightforwardly reaching someone from the team**. A few examples of doing this:
 - **describe a problem** or **discuss on the topic** in **[Issues](https://github.com/VODGroup/AccessibilityDocumentation/issues)**; 
 ![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~dark.png#gh-dark-mode-only)
 ![issues](./Sources/iOSAccessibilityHandbook/Screenshots/issues~light.png#gh-light-mode-only)
