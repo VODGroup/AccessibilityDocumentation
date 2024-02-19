@@ -2,17 +2,20 @@
 
 
 ## — What is this?
-Hey-hey! This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) website, which is an educational resource dedicated to help developers, designers, testers and researchers work on [approachability](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
+This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) website, which is an educational resource dedicated to help developers, designers, testers and researchers work on [approachability](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
 
 The book is a collection of **interactive guides** and **thorough articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about implementing accessibility. 
 
-The material is split into **Chapters** by its relation to a certain topic. The Chapters are joined into Volumes by the depth of the knowledge inside. So everyone may find something interesting for themselves regardless of their level of expertise.
+The material is split into **Chapters** by its relation to a certain topic. The Chapters are joined into **Volumes** by the depth of the knowledge inside. So everyone can find something interesting for themselves *regardless* of their level of expertise.
+
 
 ## — Who writes this?
 Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language exclusively — sucks. So here we are, happily putting videos and samples of code on the pages! Have fun.  
 
+
 ## — Why make it a website? 
 *Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**. 
+
 
 ## — How does it function?
 The *interactivity* is implemented by heavy relying on **[DocC](https://developer.apple.com/documentation/docc) technology, which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
