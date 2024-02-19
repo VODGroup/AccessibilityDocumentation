@@ -9,8 +9,7 @@
         Let's go over *core* attributes of [`UIAccessibilityElement`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement) to figure out **why** and **when** we should use them.
         
         @Image(source: placeholder-image.png, alt: "")
-
-        }
+    }
     
     @Section(title: "Label") {
         @ContentAndMedia {

@@ -21,7 +21,8 @@ The book is essentially a **complete course** on accessibility of iOS applicatio
 
 ## — How does it function?
 The *interactivity* is implemented by heavy relying on **[DocC](https://developer.apple.com/documentation/docc) technology, which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
-<img width="876" alt="Screenshot 2024-01-27 at 11 47 07" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/7eed36e2-20f7-4cbf-829f-d8cea5500376">
+![prs](./Sources/iOSAccessibilityHandbook/Screenshots/docc~dark.png#gh-dark-mode-only)
+![prs](./Sources/iOSAccessibilityHandbook/Screenshots/docc~light.png#gh-light-mode-only)
 
 The resource is hosted by **[GitHub Pages](https://pages.github.com)**, which is a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
 
