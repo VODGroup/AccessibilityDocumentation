@@ -9,7 +9,7 @@
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "assistive-access-overview", 
+               source: "card-aa", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
@@ -81,7 +81,7 @@ As for today **Assistive Access** is more of a prototype than a real feature: **
 
 Moreover, at the moment there are only **Messages**, **Calls**, **Music**, **Photos** and **Camera** native apps that are functional with the feature on. 
 
-@Image(source: five-apps, alt: "")
+@Image(source: aa-five-apps, alt: "")
 
 ------------------------------------------------------
 
