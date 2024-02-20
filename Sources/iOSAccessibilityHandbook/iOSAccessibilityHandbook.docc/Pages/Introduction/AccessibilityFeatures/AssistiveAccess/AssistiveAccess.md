@@ -17,10 +17,10 @@
                 label: "General Knowledge")
 }
 
-An accessible simplified adaption mode of iOS
+An accessible mode of simplified iOS
 
 ## Meet Assistive Access
-Assistive Access is a new [**Accessibility Feature**](<doc:AccessibilityFeatures>) presented at WWDC23. 
+**Assistive Access** is a new [**Accessibility Feature**](<doc:AccessibilityFeatures>) presented at **WWDC23**. 
 
 [![Alternate Text](meet-assistive-access)](https://developer.apple.com/wwdc23/10032
  "Meet Assistive Access")
@@ -44,8 +44,13 @@ So people who have **cognitive** or **learning impairments** could easily use iP
 
 ------------------------------------------------------
 
-## How to use it
-Settings -> Accessibility Features -> Assistive Access
+## How to enable it
+1. Go to **Settings** application
+2. Choose **Accessibility** category
+3. Find **Assistive Access** at the bottom
+4. Follow feature's **instructions**
+@Image(source: aa-setup, alt: "")
+
 
 ## Principles of Assistive Access
 To make an application **easy to operate** there are three directions to work on: 
@@ -62,7 +67,7 @@ To learn more about *reasons* behind these guidelines visit our articles on the 
 
 ------------------------------------------------------
 
-## How to include your app 
+## How to adapt your app
 
 @Image(source: aa-adapted, alt: "")
 
