@@ -36,7 +36,7 @@ Yes, **everyone is welcome to influence the project**, especially considering it
 ![prs](./Sources/iOSAccessibilityHandbook/Screenshots/prs~dark.png#gh-dark-mode-only)
 ![prs](./Sources/iOSAccessibilityHandbook/Screenshots/prs~light.png#gh-light-mode-only)
 
-- **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they provide;
+- **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they've provided.
 ![contributors](./Sources/iOSAccessibilityHandbook/Screenshots/contributors~dark.png#gh-dark-mode-only)
 ![contributors](./Sources/iOSAccessibilityHandbook/Screenshots/contributors~light.png#gh-light-mode-only)
 
