@@ -1,6 +1,6 @@
 @Tutorial(time: 20) {
     @Intro(title: "🔒 Unit Testing") {
-        
+        Михаил Рубанов знает.
     }
     
     @Section(title: "<#text#>") {

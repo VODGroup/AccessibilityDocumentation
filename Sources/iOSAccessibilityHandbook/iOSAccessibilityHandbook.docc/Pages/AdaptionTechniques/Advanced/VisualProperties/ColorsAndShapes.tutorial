@@ -7,6 +7,9 @@
 
     
     
+    > Note: Accessibility Inspector has a built-in instrument
+    
+    
     @Section(title: "<#text#>") {
         @ContentAndMedia {
             <#text#>
