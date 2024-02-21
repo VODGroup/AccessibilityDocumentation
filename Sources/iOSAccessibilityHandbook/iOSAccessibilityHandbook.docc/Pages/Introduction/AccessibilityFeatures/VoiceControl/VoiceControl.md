@@ -2,6 +2,22 @@
 
 Adds additional commands over graphical UI to control a phone by voice commands. A user of Voice Control can see, but can't touch their phone, as a result he can pronounce commands lite "select Pepperoni", "tap purchase" or "close screen". iPhone recognises speech, convert it to text and links command to elements' description.
 
+Voice Control is a feature that allows to operate devices by the use of voice. 
+
+It may be perceived as a complex case of Switch Control with a much wider range of commands possible to send.
+
+## Voice Control similarities to Switch Control 
+
+## System's localisation 
+
+## Trying out Voice Control
+
+## Adapting applications
+
+## Naming guidelines 
+
+## Use of synonyms 
+
 @Comment {
     https://www.apple.com/macos/big-sur/docs/Voice_Control_Tech_Brief_Sept_2019.pdf
 }

@@ -17,5 +17,4 @@
                 label: "General Knowledge")
 }
 
-Nothing here yet!
-
+Guided Access is so fucking fun.
