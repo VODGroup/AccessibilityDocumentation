@@ -1,0 +1,34 @@
+@Tutorial(time: 15) {
+    
+    @Comment {
+        https://meryl.net/captioned-videos-complete-guide/
+    }
+    
+    @Intro(title: "Visual Content Captioning") {
+        <#text#>
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+    }
+    
+    @Section(title: "<#text#>") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+        }
+    }
+}
