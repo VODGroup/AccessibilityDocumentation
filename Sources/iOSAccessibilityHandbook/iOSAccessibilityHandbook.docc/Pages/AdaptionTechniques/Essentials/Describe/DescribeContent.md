@@ -54,8 +54,10 @@ All mammals are capable of developing the same kinds of cells for particular rec
 
 Levels of perception of a particular sense differ from a specie to specie - for example, dogs smell in a range thousands times wider than cats and moles are nearly completely blind, but in general all members within the taxon are able to see, hear, touch, smell and taste. It is decided by the sensory organs developed for mammals.
 
-## Perceptional difference within a specie
+## Perceptional difference within a taxon
 The situation is different for species of other classes, those with different sets of sensory organs. 
+
+@Image(source: color-blindness, alt: "")
 
 For examples, insects are able to sense humidity by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Insects just feel wetness by hygroreceptors - specific sensory cells. 
 
@@ -64,7 +66,8 @@ For examples, insects are able to sense humidity by a completely different perce
 ## Sensory organs impairments
 So perceiving the world differently is natural and based on the abilities of sensory system. But what if there are difference between specimen? 
 
-@Image(source: color-blindness, alt: "")
+@Image(source: vision-loss, alt: "")
+
 It is possible to be born with a sensory system different from what is considered typic for the species as a result of disfunction of receptional cells due to prenatal pathologies. Sensory impairments obtained before birth are called congenital. People born with congenital impairments have no idea about types of information they are unable to perceive.
 
 ### Congenital
