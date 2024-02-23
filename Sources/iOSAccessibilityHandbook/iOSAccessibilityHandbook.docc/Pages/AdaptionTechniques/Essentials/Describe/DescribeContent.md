@@ -1,65 +1,85 @@
-# DescribeContent
+# Nature Of Perception
 
-Operating computing devices as mobile phones can be defined by a combination of two actions: receiving output and providing output. Throughout the book we thoroughly explain the first category of actions - adapting interactions. Without allowing users communicate with devices the way that is possible and comfortable for them there is no point in considering technology at all. 
+A quick dip into primordial soup to understand why everyone sees the same world differently.
 
-But the application we make do not only require actions from the users. They also provide information for processing. 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Mental Modelling")
+    @PageImage(
+               purpose: icon, 
+               source: "brain", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
+}
 
-Operating an iPhone presumes communication between the device and its user. The phone is a source of data 
+## iPhone as a data transmitter
+Operating a phone is essentially an exchange of data: the device provides information to be received and gets information from the user. Information transmitted by the device may take one of three forms of content types supported by the modern technology: visual, auidial and tactile. But the thing is the form of the content doesn't define the matter. The same message may be presented by various media types. A birthday postcard, balloons animation in iMessage and a voice call may represent the absolutely same experience of being congratulated. Why so?
 
-
-## Informational model of the world
-
-To truly master adaption of various content a brief journey back to the primordial soup is required. You may ask: 
-
-- How single-celled organisms are supposed to help me to better describe flowcharts for VoiceOver users?
-
-You will see.
+## A deeper take on content reception
 
 Being a living creature means **continuous communication with *reality***. But what exactly *is* reality? 
 
 ## Reality is a set of objects with stated properties
+@Image(source: milky-way, alt: "")
+
 **Reality** as a conceptional model consisting of facts that define everything embedded in the universe. A *worldview*, which is **knowledge of the world**, is built of **perception** of these facts.
 
-@Image(source: milky-way, alt: "")
 
 ## One world - many worldviews
 @Image(source: earth, alt: "")
 
-The complexity of reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth share the same nature. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - we all are made of the same elements by the same rules and live in the same world.
+The complexity of reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth share the same nature. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - all living creatures are made of the same elements by the same rules and live in the same world.
+
 @Image(source: fish, alt: "")
 
-Nevertheless those living creatures who are sentient, i.e. able to sense, percieve the world differently. Each species have their own knowledge of the world, their own *worldview*, defined by the set of perceptional abilities available for them. A model of cognised environment is called umwelt, and an umwelt is consistent of qualias - instances of subjective experience. 
+Nevertheless those living creatures who are sentient, i.e. able to sense, perceive the world differently. Each species have their own knowledge of the world, their own *worldview*, defined by the set of perceptional abilities available for them. A model of **cognised environment** is called [**umwelt**](https://en.wikipedia.org/wiki/Umwelt), and an umwelt is consistent of [**qualias**](https://en.wikipedia.org/wiki/Qualia) - instances of **subjective experience**. 
 
-## Senses
-Subjectiveness of experience comes from the types of information species are able to recognise. It is called a perceptional system - a set of senses available for a creature.
-
-## Sensory systems of different species
-Creatures are differentiated by their evolutionary development: for example, humans and cats are of one biological class - mammals. All mammals share the same set of sensory organs. Levels of perception of a particular sense differ from a specie to specie - for example, dogs smell in a range thousands times wider than cats and moles are nearly completely blind, but in general we all are able to see, hear, touch, smell and taste. It is decided by the sensory organs developed for mammals.
+## Experience is composite
+Subjectiveness of experience comes from the types of information species are able to recognise. A set of such abilities available for a specie is called a perceptional system.
 @Image(source: eyes, alt: "")
 
 
+## Sensory systems of different species
+@Image(source: senses, alt: "")
+Creatures are differentiated by their evolutionary development: for example, humans and cats are of one biological class - mammals. 
+
+All mammals are capable of developing the same kinds of cells for particular receptional organs. 
+
+Levels of perception of a particular sense differ from a specie to specie - for example, dogs smell in a range thousands times wider than cats and moles are nearly completely blind, but in general all members within the taxon are able to see, hear, touch, smell and taste. It is decided by the sensory organs developed for mammals.
 
 ## Perceptional difference within a specie
-The situation is different for species of other classes, those with different sets of sensory organs. For examples, amphibians are able to sense whether their skin is wet by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Frogs just feel wetness. 
+The situation is different for species of other classes, those with different sets of sensory organs. 
 
-@Image(source: frogs, alt: "")
+For examples, insects are able to sense humidity by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Insects just feel wetness by hygroreceptors - specific sensory cells. 
 
-So perceiving the world is natural and based on the abilities of sensory system. But what if there are difference between specimen? 
+@Image(source: butterfly, alt: "")
 
+## Sensory organs impairments
+So perceiving the world differently is natural and based on the abilities of sensory system. But what if there are difference between specimen? 
 
-## Impairments: congenital and acquired
 @Image(source: color-blindness, alt: "")
-It is possible to be born with a sensory system different from what is considered normal by your taxon. Sensory impairments obtained before birth are called congenital. People born with congenital impairments have no idea about types of information they are unable to perceive.
+It is possible to be born with a sensory system different from what is considered typic for the species as a result of disfunction of receptional cells due to prenatal pathologies. Sensory impairments obtained before birth are called congenital. People born with congenital impairments have no idea about types of information they are unable to perceive.
 
-@Image(source: vision-loss, alt: "")
+### Congenital
+@Image(source: newborn-albino, alt: "")
 
-Born with normotypical but got impairment is called acquired. 
+Being born with fully functional sensory system does not guarantee the integrity of perception forever. Sensory organs may be impaired during the life as a result of injury or age-caused degradation. 
 
-Living creatures receive information about the reality through the senses. Each species has their own set of senses that defines their experience of living. 
+### Acquired by injury
+@Image(source: eye-injury, alt: "")
 
-Humans, such as any other mammals have five senses to percieve the reality: vision, hearing, smell, touch and taste. Not every animal is able to experience life the way we do. Some animals are out of a sense familiar to us: for example, moles are blind and have no idea about what the world looks like. Other creatures are able to sense things we as humans are unable to percieve: for example, wetness. The amphibians are able to sense whether their skin is wet without referring to the temperature difference of their skin and their surroundings. Just like a presence or an absence of a particular sense every species has their own level of sensation. Dogs are able to distinguish smells better in a thousands times better than humans do. Cats don't see orange color, but hear much more than we do. 
+### Acquired with age
+It is natural for people to hear less in a narrower range of frequencies and experience vision loss from a particular age.
+@Image(source: magnifying-glass, alt: "")
 
-The difference in sensing abilities is present not only between different species but among a single specie too. Each person is born with their own levels of sensational abilities and experience changes throughout their lives. Obtained impairments of sensory organs and their degeneration by aging decrease the environmental model of a person. 
+
 
 ## Mental model of the perception
 

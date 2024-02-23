@@ -22,7 +22,7 @@
         
         @Image(source: placeholder-image.png, alt: "")
         
-        @Chapter(name: "Provide Description") {
+        @Chapter(name: "Expose Application's Data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Provide a detailed description to everything so assistive technologies know how to deal with them.
@@ -39,7 +39,7 @@
             @TutorialReference(tutorial: "doc:HideUselessControls")
         }
         
-        @Chapter(name: "On-Screen Navigation") {
+        @Chapter(name: "Make Navigation Possible") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Adapt navigation within a screen for Accessibility Features and see how navigation between screens can be implemented.
@@ -51,25 +51,30 @@
         }
     }
     
-    @Volume(name: "Advanced Adaption Techniques") {
+    @Volume(name: "Polishing Accessible Experience") {
         
         The tutorials here are dedicated to making the *experience* of Accessibility Features users more **comfortable** and **immersive**.
         
         @Image(source: placeholder-image.png, alt: "")
         
-        @Chapter(name: "Vertical Swipes") {
+        @Chapter(name: "Simplify Interactions") {
+            @TutorialReference(tutorial: "doc:Rotor")
+            @TutorialReference(tutorial: "doc:CustomActions")
+            @TutorialReference(tutorial: "doc:CustomRotor")
+        }
+        
+        @Chapter(name: "Speed Up Navigation") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Horizontal swipes are used for navigation, but vertical swipes allows to control inner values of an element. Read about  <doc:aVerticalSwipes>
             
+            @TutorialReference(tutorial: "doc:AdaptCells")
             @TutorialReference(tutorial: "doc:AdjustableElements")
-            @TutorialReference(tutorial: "doc:CustomActions")
             @TutorialReference(tutorial: "doc:CustomDescription")
-            @TutorialReference(tutorial: "doc:Rotor")
-            @TutorialReference(tutorial: "doc:CustomRotor")
+
         }
 
-        @Chapter(name: "Specific Properties") {
+        @Chapter(name: "Provide Details") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             There are several options that is rare needed, but you can be interested in
@@ -78,7 +83,7 @@
             @TutorialReference(tutorial: "doc:Charts")
         }
         
-        @Chapter(name: "Text Input") {
+        @Chapter(name: "Adapt Content") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             There are several options that is rare needed, but you can be interested in
@@ -108,8 +113,10 @@
             @Image(source: chapter-placeholder.png, alt: "")
             
             How to design accessible apps.
-            
+            <doc:AccessibleDesign>
+
             @TutorialReference(tutorial: "doc:AccessibleDesign")
+            @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
         
@@ -117,6 +124,7 @@
             @Image(source: chapter-placeholder.png, alt: "")
             
             How to test accessible apps.
+            <doc:AccessibilityQualityAssurance>
             
             @TutorialReference(tutorial: "doc:UnitTesting")
             @TutorialReference(tutorial: "doc:UITesting")
@@ -126,13 +134,15 @@
             @Image(source: chapter-placeholder.png, alt: "")
             
             How to maintain accessible apps.
-            
+            <doc:Maintenance>
+
             @TutorialReference(tutorial: "doc:Maintenance")
         }
         
         @Chapter(name: "Activism") {
             @Image(source: chapter-placeholder.png, alt: "")
-            
+            <doc:AccessibilityActivism>
+
             Burn some shit in front of your пенсионный фонд.
             
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
