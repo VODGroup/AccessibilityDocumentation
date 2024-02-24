@@ -1,10 +1,5 @@
-@Tutorial(time: 15) {
-    
-    @Comment {
-        https://meryl.net/captioned-videos-complete-guide/
-    }
-    
-    @Intro(title: "Visual Content Captioning") {
+@Tutorial(time: 10) {
+    @Intro(title: "Inspect Accessibility Right In Xcode") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")

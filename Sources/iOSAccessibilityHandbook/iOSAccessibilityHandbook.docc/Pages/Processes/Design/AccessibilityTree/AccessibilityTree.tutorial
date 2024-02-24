@@ -1,6 +1,7 @@
-@Tutorial(time: <#number#>) {
-    @Intro(title: "<#text#>") {
-        AvSpeechSynthesizer talk here.
+@Tutorial(time: 10) {
+    @Intro(title: "Controlling Accessibility With Accessibility Tree") {
+        <#text#>
+        
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }
     

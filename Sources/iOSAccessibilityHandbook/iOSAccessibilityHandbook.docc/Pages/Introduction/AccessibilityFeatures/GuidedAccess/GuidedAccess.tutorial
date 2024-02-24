@@ -1,5 +1,5 @@
-@Tutorial(time: <#number#>) {
-    @Intro(title: "<#text#>") {
+@Tutorial(time: 20) {
+    @Intro(title: "Setting Up Guided Access") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")

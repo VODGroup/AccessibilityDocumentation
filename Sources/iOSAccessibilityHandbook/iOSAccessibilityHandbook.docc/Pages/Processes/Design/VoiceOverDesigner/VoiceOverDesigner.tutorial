@@ -1,5 +1,5 @@
-@Tutorial(time: 20) {
-    @Intro(title: "🔒 I Do Not Know Neither Does Mikhail Rubanov") {
+@Tutorial(time: 15) {
+    @Intro(title: "🔒 VoiceOver Designer") {
         
     }
     
@@ -15,4 +15,3 @@
         }
     }
 }
-

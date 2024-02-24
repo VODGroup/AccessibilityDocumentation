@@ -1,6 +1,6 @@
-@Tutorial(time: 15) {
-    @Intro(title: "How To Describe Visual Content") {
-        Some guidelines here.
+@Tutorial(time: 20) {
+    @Intro(title: "Accessible Mistakes Correction") {
+        FUCK time limits
         
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }

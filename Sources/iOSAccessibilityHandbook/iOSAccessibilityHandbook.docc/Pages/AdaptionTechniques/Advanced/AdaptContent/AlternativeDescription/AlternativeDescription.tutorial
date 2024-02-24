@@ -1,0 +1,28 @@
+@Tutorial(time: 15) {
+    
+    @Comment {
+        https://meryl.net/captioned-videos-complete-guide/
+    }
+    
+    @Intro(title: "Visual Content Captioning") {
+        Not only functional images such as interface controls require textual description. Images that are purely decorative are also inaccessible for people who have no ability to see them. So let's dive into the art of translating visual experience and allow everyone to enjoy pictures, animations and videos in your app.
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+    }
+    
+    @Section(title: "<#text#>") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+        }
+    }
+}

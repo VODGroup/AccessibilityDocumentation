@@ -1,6 +1,6 @@
-@Tutorial(time: 10) {
-    @Intro(title: "How To Adapt Audial Content") {
-        <#text#>
+@Tutorial(time: 15) {
+    @Intro(title: "Writing Accessible Texts") {
+        Even though there is no problem for screen readers to speak textual information there are a few moments one should consider to make reading comfortable for everyone. Text layout, fonts used, proper language - let's discuss everything that may become an obstacle for a user.
         
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }
