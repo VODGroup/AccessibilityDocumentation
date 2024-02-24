@@ -1,6 +1,6 @@
 # Nature Of Perception
 
-A quick dip into primordial soup to understand why everyone sees the same world differently.
+A quick dip back into primordial soup to understand why everyone experiences the same world differently.
 
 @Metadata {
     @PageColor(blue)

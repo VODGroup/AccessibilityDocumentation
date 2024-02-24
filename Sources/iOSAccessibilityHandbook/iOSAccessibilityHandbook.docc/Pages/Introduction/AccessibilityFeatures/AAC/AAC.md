@@ -1,11 +1,18 @@
-# AAC
+# Augmentative & Alternative Communication 
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
-
-## Overview
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
-
-### Section header
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Language Sucks")
+    @PageImage(
+               purpose: icon, 
+               source: "bubble-star", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
+}

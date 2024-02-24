@@ -5,7 +5,7 @@
     @TitleHeading("Moving On")
     @PageImage(
                purpose: icon, 
-               source: "next", 
+               source: "bubble-question", 
                alt: "")
     @PageImage(
                purpose: card, 
