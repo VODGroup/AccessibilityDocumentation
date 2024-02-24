@@ -65,7 +65,7 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:VoiceOver>
 - <doc:VoiceControl>
 - <doc:SwitchControl>
-- <doc:DynamicType>
+- <doc:aDynamicType>
 - <doc:aGuidedAccess>
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>
@@ -79,12 +79,13 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:AdaptionStrategy>
 
 ### Must-Have Functionality
+- <doc:BasicTechniques>
 - <doc:DescribeInterface>
 - <doc:AdaptCells>
 - <doc:Containers>
 - <doc:Navigation>
 - <doc:FocusOrder>
-- <doc:ControlHierarchy>
+- <doc:aControlHierarchy>
 - <doc:OnScreen-Navigation>
 - <doc:Between-ScreensNavigation>
 
@@ -102,7 +103,6 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:AccessibleListening>
 - <doc:AccessibleCharts>
 
-
 ### Controls
 - <doc:aAdjustableElements>
 - <doc:CustomActions>
@@ -118,6 +118,7 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 
 ### What's Next?
 - <doc:WhatsNext>
+- <doc:Processes>
 
 ### Design
 - <doc:AccessibleDesign>
