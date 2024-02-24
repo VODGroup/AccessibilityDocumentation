@@ -1,4 +1,4 @@
-# Augmentative & Alternative Communication 
+# Alternative Communication 
 
 @Metadata {
     @PageColor(blue)
