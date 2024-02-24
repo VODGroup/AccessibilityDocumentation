@@ -66,9 +66,10 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:VoiceControl>
 - <doc:SwitchControl>
 - <doc:DynamicType>
-- <doc:GuidedAccess>
+- <doc:aGuidedAccess>
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>
+- <doc:AAC>
 
 ### Accessibility In Code
 - <doc:AccessibilityAdaption>
@@ -77,26 +78,62 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 ### Adapting Strategy
 - <doc:AdaptionStrategy>
 
-### Essential Implementations
-- <doc:DescribeElements>
+### Must-Have Functionality
+- <doc:DescribeInterface>
 - <doc:AdaptCells>
+- <doc:Containers>
+- <doc:Navigation>
+- <doc:FocusOrder>
+- <doc:ControlHierarchy>
 - <doc:OnScreen-Navigation>
 - <doc:Between-ScreensNavigation>
-- <doc:Charts>
-- <doc:ControlHierarchy>
 
 ### Greater Accessible Experience
 - <doc:AdvancedTechniques>
 
-### Advanced Techniques
+### Accessible Graphics
+- <doc:ColorsAndShapes>
+- <doc:DynamicType>
+
+### Adapt Content
+- <doc:DescribeContent>
+- <doc:AlternativeDescription>
+- <doc:AccessibleReading>
+- <doc:AccessibleListening>
+- <doc:AccessibleCharts>
+
+
+### Controls
 - <doc:aAdjustableElements>
-- <doc:SpecificProperties>
+- <doc:CustomActions>
 - <doc:Rotor>
-- <doc:Navigation>
-- <doc:aControlHierarchy>
+- <doc:CustomRotor>
 - <doc:aVerticalSwipes>
+
+### Input
+- <doc:TextInput>
+
+### Miscellaneous
+- <doc:AdaptedPrivacy>
 
 ### What's Next?
 - <doc:WhatsNext>
-- <doc:Processes>
+
+### Design
+- <doc:AccessibleDesign>
+- <doc:AccessibilityTree>
+- <doc:VoiceOverDesigner>
+- <doc:ErrorPrevention>
+
+### Testing
 - <doc:AccessibilityQualityAssurance>
+- <doc:UITesting>
+- <doc:UnitTesting>
+- <doc:AccessibilityInspector>
+
+### Maintenance
+- <doc:Maintenance>
+
+### Activism
+- <doc:AccessibilityActivism>
+

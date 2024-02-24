@@ -1,4 +1,4 @@
-# AssistiveAccess
+# Assistive Access
 
 @Metadata {
     @PageColor(blue)
