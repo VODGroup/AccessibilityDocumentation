@@ -27,7 +27,7 @@
             
             Provide a detailed description to everything so assistive technologies know how to deal with them.
             
-            @TutorialReference(tutorial: "doc:DescribeElements")
+            @TutorialReference(tutorial: "doc:DescribeInterface")
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
@@ -36,7 +36,7 @@
             
             Re-structure complex collections that way so it is easier to navigate between them.
             
-            @TutorialReference(tutorial: "doc:HideUselessControls")
+            @TutorialReference(tutorial: "doc:ControlHierarchy")
         }
         
         @Chapter(name: "Make Navigation Possible") {
@@ -68,9 +68,8 @@
             
             Horizontal swipes are used for navigation, but vertical swipes allows to control inner values of an element. Read about  <doc:aVerticalSwipes>
             
-            @TutorialReference(tutorial: "doc:AdaptCells")
             @TutorialReference(tutorial: "doc:AdjustableElements")
-            @TutorialReference(tutorial: "doc:CustomDescription")
+            @TutorialReference(tutorial: "doc:VerticalSwipes")
 
         }
 
@@ -79,7 +78,6 @@
             
             There are several options that is rare needed, but you can be interested in
             
-            @TutorialReference(tutorial: "doc:SpecificProperties")
             @TutorialReference(tutorial: "doc:Charts")
         }
         
@@ -115,7 +113,6 @@
             How to design accessible apps.
             <doc:AccessibleDesign>
 
-            @TutorialReference(tutorial: "doc:AccessibleDesign")
             @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
@@ -126,6 +123,7 @@
             How to test accessible apps.
             <doc:AccessibilityQualityAssurance>
             
+            @TutorialReference(tutorial: "doc:AccessibilityInspector")
             @TutorialReference(tutorial: "doc:UnitTesting")
             @TutorialReference(tutorial: "doc:UITesting")
         }
