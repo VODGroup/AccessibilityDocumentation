@@ -9,7 +9,7 @@
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "features-list", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
@@ -18,6 +18,10 @@
 }
 
 Introduction
+
+@Image(source: settings-features, alt: "")
+@Image(source: features-list, alt: "")
+
 
 ## Accessibility Users 
 Overview

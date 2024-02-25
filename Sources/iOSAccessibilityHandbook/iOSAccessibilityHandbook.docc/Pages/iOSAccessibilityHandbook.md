@@ -16,7 +16,7 @@ Make your iOS application accessible for everyone with help of interactive guide
 ## — What is this?
 
 iOS Accessibility Handbook is an open-source **educational project** about making iOS applications *accessible*. Accessible application is such application that works with various *assistive technologies*, such as [**VoiceOver**](https://www.apple.com/accessibility/voiceover), [**Voice Control**](https://support.apple.com/en-us/HT210417) and [**Switch Control**](https://support.apple.com/en-us/HT201370), which enable *people with disabilities* use the application. 
-@Image(source: accessible-drinkit, alt: "")
+@Image(source: four-features, alt: "")
 
 ### Interactive Learning
 This handbook provides *extended documentation* for Accessibility Features, including:

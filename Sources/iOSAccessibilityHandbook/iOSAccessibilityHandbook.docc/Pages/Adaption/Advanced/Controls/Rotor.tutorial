@@ -1,11 +1,12 @@
 @Tutorial(time: 30) {
     @Intro(title: "🔒 Default Actions With Rotor") {
-        
+        @Image(source: rotor-safari, alt: "")
+
     }
-    
+
     @Section(title: "<#text#>") {
+
         @ContentAndMedia {
-            <#text#>
         }
         
         @Steps {
