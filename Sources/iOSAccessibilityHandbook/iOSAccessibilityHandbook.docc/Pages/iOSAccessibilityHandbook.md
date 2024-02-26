@@ -98,13 +98,14 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:DynamicType>
 
 ### Adapt Content
-- <doc:DescribeContent>
+- <doc:SensorySystem>
 - <doc:AlternativeDescription>
 - <doc:AccessibleReading>
 - <doc:AccessibleListening>
 - <doc:AccessibleCharts>
 
 ### Controls
+- <doc:MotorDisabilities>
 - <doc:aAdjustableElements>
 - <doc:CustomActions>
 - <doc:Rotor>

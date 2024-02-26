@@ -3,6 +3,13 @@
 @Comment {
     https://inclusive.microsoft.design
     https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf
+    
+    Designing inclusively doesn’t mean you’re
+    making one thing for all people. You’re
+    designing a diversity of ways for everyone
+    to participate in an experience with a sense
+    of belonging.
+    
     https://developer.apple.com/wwdc21/10304
     https://developer.apple.com/wwdc21/10275
 }

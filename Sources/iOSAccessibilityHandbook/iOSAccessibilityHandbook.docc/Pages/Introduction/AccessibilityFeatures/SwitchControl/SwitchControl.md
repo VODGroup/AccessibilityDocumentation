@@ -1,5 +1,9 @@
 # Switch Control
 
+@Comment {
+    https://www.youtube.com/watch?v=XB4cjbYywqg
+}
+
 @Metadata {
     @PageColor(blue)
     @TitleHeading("Command By Anything")
