@@ -5,6 +5,14 @@
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }
     
+    @Comment {
+        https://developer.apple.com/wwdc19/248
+        Intro
+        WWDC
+        Details
+        Quiz
+    }
+    
     @Section(title: "<#text#>") {
         @ContentAndMedia {
             <#text#>

@@ -1,6 +1,11 @@
 @Tutorial(time: 10) {
     @Intro(title: "Making The World Accessible") {
         
+        @Comment {
+            axe-con
+            IAAP
+        }
+        
     }
     
     @Section(title: "<#text#>") {

@@ -10,6 +10,17 @@
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }
     
+    @Comment {
+        Intro
+        Task
+        AI
+        Purpose 
+        Process 
+        Details 
+        Quiz
+    }
+    
+    
     @Section(title: "<#text#>") {
         @ContentAndMedia {
             <#text#>
