@@ -6,10 +6,8 @@
         ## What elements are considered accessible?
         To enable [accessibility applications](<doc:AccessibilityFeatures>) work as intended for a particular *element* it has to have *certain properties* specified. Sometimes elements inherit such information by default — if they are of an *accessible class* (like [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)), but most of the times we have to manually set properties for the items present on the screen to make it not only *function*, but *be pleasant* to use.
         
-        Let's go over *core* attributes of [`UIAccessibilityElement`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement) to figure out **why** and **when** we should use them.
-        
-        @Image(source: placeholder-image.png, alt: "")
-    }
+        Let's grab a coffee and go over *core* attributes of [`UIAccessibilityElement`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement) to figure out **why** and **when** we should use them.
+}
     
     @Section(title: "Label") {
         @ContentAndMedia {
@@ -19,12 +17,12 @@
             ### Label — Identification
             [`accessibilityLabel`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel) is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology used.
 
-            @Image(source: placeholder-image.png, alt: "")
+            @Video(source: coffee)
         }
         
         @Steps {
             @Step {
-                Let's start with elements that are *purely informative*, such as "Drink Name" on a drink page.
+                Let's start with elements that are *purely informative*, such as "Drink Name" text on a drink page.
                 
                 @Image(source: americano-view-name, alt: "")
             }
@@ -49,7 +47,7 @@
             ### Value — Details
             Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnecessary for `Label` to contain.
             
-            @Image(source: placeholder-image.png, alt: "")
+            @Video(source: coffee)
         }
         
         @Steps {
@@ -84,6 +82,9 @@
             To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
             
             To learn how to fluently use these traits let's work on some more exemplary elements.
+            
+            @Video(source: coffee)
+
         }
         
         @Steps {
@@ -110,7 +111,7 @@
             
             To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has an example of each them.
             
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Video(source: traits-scroll)
         }
         
         @Steps {
