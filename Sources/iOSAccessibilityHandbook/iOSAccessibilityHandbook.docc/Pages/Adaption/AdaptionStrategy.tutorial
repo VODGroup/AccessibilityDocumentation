@@ -28,6 +28,7 @@
             Provide a detailed description to everything so assistive technologies know how to deal with them.
             
             @TutorialReference(tutorial: "doc:DescribeInterface")
+            @TutorialReference(tutorial: "doc:Traits")
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
