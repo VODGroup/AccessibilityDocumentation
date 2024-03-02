@@ -20,10 +20,10 @@ iOS Accessibility Handbook is an open-source **educational project** about makin
 @Image(source: features-2, alt: "")
 
 ### Interactive Learning
-This handbook provides *extended documentation* for Accessibility Features, including:
+This handbook provides *extended documentation* of [**Accessibility Features**](<doc:AccessibilityFeatures>), including:
 - verbose *articles* on the topic;
 - interactive *guides* to follow step-by-step;
-- various media.
+- various media, such as *video tutorials*.
 
 In other words, materials here cover **everything one could ever need to know about accessibility on iOS**. 
 

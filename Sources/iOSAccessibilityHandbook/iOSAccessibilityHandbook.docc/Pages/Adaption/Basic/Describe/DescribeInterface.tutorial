@@ -17,25 +17,28 @@
             We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*. Firstly, let's take a closer look at each of them.
 
             ### Label — Identification
-            [`accessibilityLabel`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel) is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology.
+            [`accessibilityLabel`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel) is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology used.
 
             @Image(source: placeholder-image.png, alt: "")
         }
         
         @Steps {
             @Step {
-                Let's start with elements that are *purely informative*, such as "Views Count" under a video file.
+                Let's start with elements that are *purely informative*, such as "Drink Name" on a drink page.
                 
-                @Image(source: placeholder-image.png, alt: "")
+                @Image(source: americano-view-name, alt: "")
             }
             
             @Step {
                 Since there is nothing more than a *very specific* piece of data stored in the element we **use its `Value` as `Label`**. 
                 
-                > Notice:
-                There is accessibilityValue property, but in this particular case it is unreasonable to separate the fact that it's "Views" and its number into two different properties. It would be an  inconvenient experience for users.
+                @Image(source: americano-view-name-label, alt: "")
+            }
+            
+            @Step {
+                There is `accessibilityValue` property, but in this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. It would be an **inconvenient* experience for users.
                 
-                @Image(source: chapter-placeholder.png, alt: "")
+                @Image(source: americano-view-name-verbosity, alt: "")
             }
         }
     }
@@ -44,14 +47,14 @@
         @ContentAndMedia {    
             
             ### Value — Details
-            Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnecessary for `Label` to be, Lord forgive me, *succinct*.
+            Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnecessary for `Label` to contain.
             
             @Image(source: placeholder-image.png, alt: "")
         }
         
         @Steps {
             @Step {
-                Now let's gain a bit of *complexity*. An element that represents a song in a music player — there is *lots* of data to be described.
+                Now comes a little bit of *complexity*. An element that represents a song in a music player — there is *lots* of data to be described.
                 
                 @Image(source: chapter-placeholder.png, alt: "")
             }
@@ -78,33 +81,34 @@
     @Section(title: "Label vs Value") {
         @ContentAndMedia {    
             ### Fine Line Between Label And Value
-            To properly adapt an interface for various Accessibility Features one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
+            To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
             
-            To learn how to fluently use these traits let's work on some exemplary elements.
+            To learn how to fluently use these traits let's work on some more exemplary elements.
         }
         
         @Steps {
             @Step {
-                Тут нужен пример с ячейкой из пиццы, когда у нас есть три строчки: название, цена и состав. 
+                Let's order some coffee. To do so, we have to choose a particular drink we want from a menu. 
+                @Image(source: espresso-based, alt: "")
             }
             
             @Step {
-                Показываем как название уходит в лейбл и войсконтрол его покажет
+                To display the difference between certain drinks in the menu some additional information has to be previewed. For example, the price. It is an important factor to be presented for a customer so VoiceOver will speak the price since it is in its .value.
             }
             
             @Step {
-                Потом цену и ингредиенты запихиваем в вэлью. Они будут не видны для войсконтрола, но войсовер их прочитает. Тут же покаываем разницу между визуалом и порядком в тексте
+                But the price is not important to identify the drink - thus we have its name as the cell's label and can navigate to it by its calling its name to Voice Control.
             }
         }
     }
     
     @Section(title: "Traits") {
         @ContentAndMedia {
-            A value stored in [`accessibilityTraits`](https://developer.apple.com/documentation/objectivec/nsobject/1615202-accessibilitytraits) property points at the *functionality* of the element. By the default it is [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stated [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) trait - it only exists for convenience so it is easier for humans to comprehend.
+            A value stored in [`accessibilityTraits`](https://developer.apple.com/documentation/objectivec/nsobject/1615202-accessibilitytraits) property points at the *functionality* of the element. By the default it is [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stated [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) trait - it only exists for convenience so it is easier for humans to comprehend the role of the element.
             
-            If an element has *more* than --none-- purely informative functionality **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so users and assistive technology know how to deal with this item.
-                        
-            OK, let's return to some practice.
+            If an element has *more* than --none-- purely informative role **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so users and assistive technology know how to deal with this item.
+            
+            To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has an example of each them.
             
             @Image(source: chapter-placeholder.png, alt: "")
         }
@@ -131,7 +135,7 @@
             }
             
             @Step {
-                The simpliest example of an element with `button` trait would be a straightforward button representing an *action*.
+                The simplest example of an element with `button` trait would be a straightforward button representing an *action*.
                 
                 
                 @Image(source: chapter-placeholder.png, alt: "")
@@ -157,19 +161,19 @@
                 @Image(source: placeholder-image.png, alt: "")
             }
             @Step {
-                Let's look at a particular pizza in an abstract menu. The element of this pizza on the screen may contain *lots* of information, but pressing on the card will result in adding this position to the cart. "Pizza" element is a `button`.
+                Let's look at a particular pizza in an abstract menu. The element of this drink on the screen may contain *lots* of information, but pressing on the card will result in adding this position to the cart. "Drink" element is a `button`.
                 
                 
                 @Image(source: chapter-placeholder.png, alt: "")
             }
             @Step {
-                Breaking the provided information into categories, pizza's name will serve as `Label` and everything else will go to `Value`.
+                Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
                 
                 @Image(source: placeholder-image.png, alt: "")
             }
             
             @Step {
-                Breaking the provided information into categories, pizza's name will serve as `Label` and everything else will go to `Value`.
+                Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
                 
                 Notice that if both stated, `Label` and `Value` are separated by a *comma* in speech — [`VoiceOver`](<doc:VoiceOver>) will put a *pause* between them on its own. But everything that happens inside the properties in terms of **pronunciation** is *our* responsibility. **Don't forget to use *punctuation marks* to help `VoiceOver` read texts *easier* for humans to listen to**.
                 
@@ -178,7 +182,7 @@
             }
             
             @Step {
-                To finish with `Traits` let's take a look at another popular type of *interactive* elements: controls that allow **adjustment through a range of values**. *Sliders*, *pickers*, everything that has *a range of values* and *changes* something. The trait for such elements is [`adjustable`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620177-adjustable).
+                To finish with `Traits` let's take a look at another popular type of *interactive* elements: controls that allow **adjustment through a range of values**. *Sliders*, *pickers*, everything that has *a range of values* and *changes* something.
                 @Image(source: placeholder-image.png, alt: "")
 
             }
