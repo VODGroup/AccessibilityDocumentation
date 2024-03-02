@@ -100,7 +100,7 @@
     
     @Section(title: "Traits") {
         @ContentAndMedia {
-            A value stored in [`accessibilityTraits`](https://developer.apple.com/documentation/objectivec/nsobject/1615202-accessibilitytraits) property points at the *functionality* of the element. By the default it is [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stated [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) trait. 
+            A value stored in [`accessibilityTraits`](https://developer.apple.com/documentation/objectivec/nsobject/1615202-accessibilitytraits) property points at the *functionality* of the element. By the default it is [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stated [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) trait - it only exists for convenience so it is easier for humans to comprehend.
             
             If an element has *more* than --none-- purely informative functionality **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so users and assistive technology know how to deal with this item.
                         
