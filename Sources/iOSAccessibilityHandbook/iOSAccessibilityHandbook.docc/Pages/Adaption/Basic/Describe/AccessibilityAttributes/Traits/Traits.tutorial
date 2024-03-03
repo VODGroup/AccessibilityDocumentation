@@ -1,0 +1,542 @@
+@Tutorial(time: 15) {
+    
+    @Comment {
+        https://developer.apple.com/documentation/swiftui/accessibilitytraits swiftui cyka
+    }
+    
+    @Intro(title: "All Traits Explained") {
+        In <doc:AccessibilityAttributes> tutorial we learnt how to provide everything needed about an element to assistive technology but we didn't go into details on traits. 
+        
+        Overall there are 18 traits
+        
+        @Video(source: traits-scroll)
+    }
+    
+    @Section(title: "Setting Traits") {
+        @ContentAndMedia {
+
+            The default value for this property is none unless the element is a UIKit control, in which case, the value is the standard set of traits for the control.
+            If you implement a custom control or view, you need to select all the accessibility traits that best characterize the object, and combine them with its superclass’s traits (that is, with super.accessibilityTraits) by performing an OR operation. See Accessibility Traits for a complete list of traits.
+            
+        }
+        
+        @Steps {
+            @Step {
+                jepa
+
+                
+                @Code(name: "isToggle", file: addTraits.swift)
+            }
+            
+            @Step {
+                jepa
+
+                
+                @Code(name: "toggleButton", file: optionSet.swift)
+            }
+        }
+    }
+    
+    @Section(title: "Interactive Elements Traits") {
+        @ContentAndMedia {
+            The elements of user interface that can be activated are called interactive. Interactive elements trigger different events but regardlessly of their role it is our responsibility to make sure that both the user and assistive technology know that the element has a functionality. 
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                VoiceOver example
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                Voice Control example
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Button") {
+        @ContentAndMedia {
+            Button trait adds the word "button" to the spoken description so the user knows that the element is, well, a button.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .button
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isButton
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Toggle Button") {
+        @ContentAndMedia {
+            Toggle Button trait is used for buttons that behave like toggles.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .toggleButton
+                
+                @Code(name: "UIKit Toggle Button", file: toggleButton.swift)
+            }
+            
+            @Step {
+                isToggle
+                
+                @Code(name: "SwiftUI Toggle Button", file: isToggle.swift)
+            }
+        }
+    }
+    
+    @Section(title: "Adjustable") {
+        @ContentAndMedia {
+            Adjustable element is a setter that allows to increment and decrement a value by vertical swipes (up and down accordingly).
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .adjustable
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                Sliders in SwiftUi support vertical swipes by default.
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Link") {
+        @ContentAndMedia {
+            A link is a button that contains an URL. Pressing such button will either open a browser or an appropriate app.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .link
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isLink
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Search Field") {
+        @ContentAndMedia {
+            Search Field trait points that the element is a search field. Stating this trait allows navigating to the element by default rotor (or Tab key on a external keyboard).
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .searchField
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isSearchField
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Keyboard Key") {
+        @ContentAndMedia {
+            Keyboard Key is a button that has no "button" word in its description. The word is omitted to speed up the usage of the interface. Used for keys representation, such as any keyboard keys displayed on the screen. 
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .keyboardKey
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isKeyboardKey
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Tab") {
+        @ContentAndMedia {
+            Tab is a... tab in a collection of tabs. Adds "Tab, X out of Y" to the description where X is the number of the focused tab and Y is how many tabs there are. The element which represent the collection of tabs is a tab bar.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                
+                .tab and .tabBar
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                Tab items in SwiftUI are recognised correctly by default.
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Selected") {
+        @ContentAndMedia {
+            Selected trait shows that the focused element is chosen, i.e. in a selected state.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .selected
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isSelected
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Not Enabled") {
+        @ContentAndMedia {
+            Not Enabled trait adds "Not Enabled" to the description. Perceive this trait as a fact that tells the user that the element doesn't respond to interaction. 
+            
+            >Important: 
+            Don't use this trait to hide the element from Accessibility Features - because it doesn't. Use isAccessibilityElement = false instead.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .notEnabled
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                Has to be put in Value.
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Allows Direct Interaction") {
+        @ContentAndMedia {
+            An element that is said to allow direct interaction requires Direct Touch to be used. For example, such element is typically found in application that have drawing or signing mechanics implemented. Adds "Use Rotor to enable Direct Touch for this application" instruction to the element's description.
+            https://developer.apple.com/wwdc23/10036?time=480
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .allowsDirectInteraction
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                allowsDirectInteraction
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Plays Sound") {
+        @ContentAndMedia {
+            Plays Sounds trait should be stated for the elements that produce sounds when activated so VoiceOver will be muted for the duration of the sound.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .playsSound
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                playsSound
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Starts Media Session") {
+        @ContentAndMedia {
+            An element that starts media session according to its traits causes VoiceOver to be muted until the end of the session. So the screen reader doesn't interrupt any media playing or recording.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .startsMediaSession
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                startsMediaSession
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Causes Page Turn") {
+        @ContentAndMedia {
+            Causes Page Turn trait triggers an automatic page turn when VoiceOver finishes reading the content of the element with this trait stated.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .causesPageTurn
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                causesPageTurn
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Modal") {
+        @ContentAndMedia {
+            Modal element in SwiftUI has to be marked explicitly so non-modal elements are ignored when a modal view is visible.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .isModal
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+
+    
+    @Section(title: "Static Elements Traits") {
+        @ContentAndMedia {
+            jepa
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                jepa
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                jepa
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Static Text") {
+        @ContentAndMedia {
+            Static Text element is an element that is just a text and has possible interactions. Use it to explicitly state that the item cannot be activated and is purely decorative. Moreover, setting this trait tells <doc:AccessibilityTree> that there is no need to check on the element afterwards: it won't change.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .staticText
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isStaticText
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Header") {
+        @ContentAndMedia {
+            Header trait should be applied to elements that are essentially dividers, so the user knows that the content is divided into sections. 
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .header
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isHeader
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Summary Element") {
+        @ContentAndMedia {
+            Summary Element trait is a curious one. There can be only one summary element on the screen and its description is spoken every time the application is opened, even from a collapsed state. It is a great option to implement notifying users about the state of something important: for example, if you have a delivery application reading the summary item will tell the current status of their order.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .summaryElement
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isSummaryElement
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Updates Frequently") {
+        @ContentAndMedia {
+            An element that updates frequently if focused causes VoiceOver to read its description each time it updates. So if you have, for example, a timer app and you really don't want the user to hear VoiceOver speaking each second aloud use Updated Frequently trait - it limits VoiceOver to once-in-5-seconds check-ups. 
+            
+            In cases of application that are purposed to monitor updates, good to be paired with the previous trait, Summary Element.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .updatesFrequently
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                updatesFrequently
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Image") {
+        @ContentAndMedia {
+            Image trait should be stated when you want to tell the user that there is an image. Users won't hear a thing about images without this trait stated because they are hidden from VoiceOver by default.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                .image
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                isImage
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Section(title: "Hidden Traits") {
+        @ContentAndMedia {
+            It is known that there are UIAccessibilityTraits not mentioned in UIKit documentation, but they are present in the code.
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                jep
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Step {
+                jep
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    
+    @Resources {
+            Explore more resources for learning about sloths.
+
+
+            @Videos(destination: "https://www.example.com/sloth-videos/") {
+                Watch cute videos of sloths climbing, eating, and sleeping.
+
+
+                - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
+                - [Slow Ascent](https://www.example.com/sloth-videos/climb/)
+                - [Rest Time](https://www.example.com/sloth-videos/snoozing/)
+            }
+
+
+            @Downloads(destination: "https://www.example.com/images/sloth-wallpaper/") {
+                Download the cutest sloth wallpaper for your iPhone, iPad, or Mac.
+            }
+        }
+}
