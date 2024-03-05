@@ -68,6 +68,7 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 - <doc:SwitchControl>
 - <doc:aDynamicType>
 - <doc:aGuidedAccess>
+- <doc:FullKeyboardAccess>
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>
 - <doc:AAC>
@@ -81,7 +82,7 @@ Reading the book you may sometimes notice screenshots of iOS applications with *
 
 ### Must-Have Functionality
 - <doc:BasicTechniques>
-- <doc:DescribeInterface>
+- <doc:AccessibilityAttributes>
 - <doc:AdaptCells>
 - <doc:Containers>
 - <doc:Navigation>
