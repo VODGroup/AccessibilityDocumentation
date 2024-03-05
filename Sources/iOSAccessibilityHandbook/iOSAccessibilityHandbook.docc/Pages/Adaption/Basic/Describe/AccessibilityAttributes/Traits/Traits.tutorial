@@ -41,7 +41,7 @@
         @ContentAndMedia {
             The elements of user interface that can be activated are called interactive. Interactive elements trigger different events but regardlessly of their role it is our responsibility to make sure that both the user and assistive technology know that the element has a functionality. 
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: controls, alt: "")
         }
         
         @Steps {
@@ -85,7 +85,7 @@
         @ContentAndMedia {
             Toggle Button trait is used for buttons that behave like toggles.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: toggles, alt: "")
         }
         
         @Steps {
@@ -107,7 +107,7 @@
         @ContentAndMedia {
             Adjustable element is a setter that allows to increment and decrement a value by vertical swipes (up and down accordingly).
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: adjustable, alt: "")
         }
         
         @Steps {
@@ -129,7 +129,7 @@
         @ContentAndMedia {
             A link is a button that contains an URL. Pressing such button will either open a browser or an appropriate app.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: links, alt: "")
         }
         
         @Steps {
@@ -151,7 +151,7 @@
         @ContentAndMedia {
             Search Field trait points that the element is a search field. Stating this trait allows navigating to the element by default rotor (or Tab key on a external keyboard).
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: search-field, alt: "")
         }
         
         @Steps {
@@ -173,7 +173,7 @@
         @ContentAndMedia {
             Keyboard Key is a button that has no "button" word in its description. The word is omitted to speed up the usage of the interface. Used for keys representation, such as any keyboard keys displayed on the screen. 
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: keys, alt: "")
         }
         
         @Steps {
@@ -195,7 +195,7 @@
         @ContentAndMedia {
             Tab is a... tab in a collection of tabs. Adds "Tab, X out of Y" to the description where X is the number of the focused tab and Y is how many tabs there are. The element which represent the collection of tabs is a tab bar.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: tabs, alt: "")
         }
         
         @Steps {
@@ -217,7 +217,7 @@
         @ContentAndMedia {
             Selected trait shows that the focused element is chosen, i.e. in a selected state.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: selected, alt: "")
         }
         
         @Steps {
@@ -264,7 +264,7 @@
         @ContentAndMedia {
             An element that is said to allow direct interaction requires Direct Touch to be used. For example, such element is typically found in application that have drawing or signing mechanics implemented. Adds "Use Rotor to enable Direct Touch for this application" instruction to the element's description.
             https://developer.apple.com/wwdc23/10036?time=480
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: direct-interaction, alt: "")
         }
         
         @Steps {
@@ -308,7 +308,7 @@
         @ContentAndMedia {
             An element that starts media session according to its traits causes VoiceOver to be muted until the end of the session. So the screen reader doesn't interrupt any media playing or recording.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: media-session, alt: "")
         }
         
         @Steps {
@@ -391,7 +391,7 @@
         @ContentAndMedia {
             Static Text element is an element that is just a text and has possible interactions. Use it to explicitly state that the item cannot be activated and is purely decorative. Moreover, setting this trait tells <doc:AccessibilityTree> that there is no need to check on the element afterwards: it won't change.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: static-text, alt: "")
         }
         
         @Steps {
@@ -459,7 +459,7 @@
             
             In cases of application that are purposed to monitor updates, good to be paired with the previous trait, Summary Element.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: updates-frequently, alt: "")
         }
         
         @Steps {
