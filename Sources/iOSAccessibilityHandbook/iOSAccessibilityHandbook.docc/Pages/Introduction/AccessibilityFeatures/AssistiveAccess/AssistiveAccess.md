@@ -49,7 +49,7 @@ So people who have **cognitive** or **learning impairments** could easily use iP
 2. Choose **Accessibility** category
 3. Find **Assistive Access** at the bottom
 4. Follow feature's **instructions**
-@Image(source: aa-setup, alt: "")
+@Image(source: turn-on-aa, alt: "")
 
 
 ## Principles of Assistive Access
