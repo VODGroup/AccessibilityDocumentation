@@ -27,8 +27,9 @@
             
             Provide a detailed description to everything so assistive technologies know how to deal with them.
             
-            @TutorialReference(tutorial: "doc:DescribeInterface")
+            @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:Traits")
+            @TutorialReference(tutorial: "doc:Frame")
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
@@ -62,6 +63,7 @@
             @TutorialReference(tutorial: "doc:Rotor")
             @TutorialReference(tutorial: "doc:CustomActions")
             @TutorialReference(tutorial: "doc:CustomRotor")
+            @Image(source: chapter-placeholder.png, alt: "")
         }
         
         @Chapter(name: "Speed Up Navigation") {
@@ -70,8 +72,7 @@
             Horizontal swipes are used for navigation, but vertical swipes allows to control inner values of an element. Read about  <doc:aVerticalSwipes>
             
             @TutorialReference(tutorial: "doc:AdjustableElements")
-            @TutorialReference(tutorial: "doc:VerticalSwipes")
-
+            @TutorialReference(tutorial: "doc:HideUselessControls")
         }
 
         @Chapter(name: "Provide Details") {
@@ -79,7 +80,10 @@
             
             There are several options that is rare needed, but you can be interested in
             
-            @TutorialReference(tutorial: "doc:Charts")
+            @TutorialReference(tutorial: "doc:AccessibleCharts")
+            @TutorialReference(tutorial: "doc:AccessibleListening")
+            @TutorialReference(tutorial: "doc:AccessibleReading")
+            @TutorialReference(tutorial: "doc:AlternativeDescription")
         }
         
         @Chapter(name: "Adapt Content") {
@@ -87,8 +91,8 @@
             
             There are several options that is rare needed, but you can be interested in
             
-            @TutorialReference(tutorial: "doc:HowTextInputWorks")
-            @TutorialReference(tutorial: "doc:HandleErrorsInTextField")
+            @TutorialReference(tutorial: "doc:TextInput")
+            @TutorialReference(tutorial: "doc:ErrorPrevention")
         }
         
         @Chapter(name: "Colors And Shapes") {
@@ -136,6 +140,7 @@
             <doc:Maintenance>
 
             @TutorialReference(tutorial: "doc:Maintenance")
+            @TutorialReference(tutorial: "doc:GuidedAccess")
         }
         
         @Chapter(name: "Activism") {

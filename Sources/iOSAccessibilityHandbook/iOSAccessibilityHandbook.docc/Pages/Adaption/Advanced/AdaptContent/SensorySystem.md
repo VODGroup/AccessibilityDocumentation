@@ -1,6 +1,10 @@
-# Nature Of Perception
+# Human Perception
 
 A quick dip back into primordial soup to understand why everyone experiences the same world differently.
+
+@Comment {
+    tactile UI (touch), visual UI (sight), auditory UI (sound), olfactory UI (smell), equilibria UI (balance), and gustatory UI (taste)
+}
 
 @Metadata {
     @PageColor(blue)

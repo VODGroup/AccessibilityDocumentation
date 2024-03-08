@@ -2,7 +2,7 @@
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("Just As Delightful")
+    @TitleHeading("Accessible Experience")
     @PageImage(
                purpose: icon, 
                source: "sparkles", 
