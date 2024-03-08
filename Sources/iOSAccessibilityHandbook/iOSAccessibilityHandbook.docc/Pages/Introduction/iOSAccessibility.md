@@ -37,7 +37,8 @@ Computer accessibility, often referred to as a11y, includes a wide range of solu
 In this book we are going to discuss how to make iOS applications accessible. Due to the current state of technological advancement it may be narrowed to adapting your programs to the use of assistive technology, which involves nothing more than following specific design guidelines that support the usage of Accessibility Features and promote inclusivity. 
 
 ### History of iOS Accessibility
-"A Timeline of iOS Accessibility: It Started with 36 Seconds" is a marvellous research done by Shelly Brisbin that covers the path that Apple has been following to make their mobile phones accessible from the very beginning of iPhones story. 
+[*"A Timeline of iOS Accessibility: It Started with 36 Seconds"*](https://www.macstories.net/stories/a-timeline-of-ios-accessibility-it-started-with-36-seconds/) is a marvellous research done by Shelly Brisbin that covers the path that Apple has been following to make their mobile phones accessible from the very beginning of iPhones story. 
+@Image(source: 36-seconds, alt: "")
 
 ### Current State
 From June 8, 2009 Apple hasn't stopped for a second to promote accessible design. Inclusivity is one of the core values the company has been always exposing and accessibility is an immanent part of it. Aiming to make a product as universal so everyone can use it led Apple to unmeasurable promotion of assistive technology support. 
