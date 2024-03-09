@@ -5,7 +5,7 @@
     @TitleHeading("Lead The Way")
     @PageImage(
                purpose: icon, 
-               source: "-", 
+               source: "navigation", 
                alt: "")
     @PageImage(
                purpose: card, 

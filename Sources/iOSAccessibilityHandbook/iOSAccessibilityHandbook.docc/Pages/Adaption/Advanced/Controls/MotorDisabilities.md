@@ -34,6 +34,23 @@
     simply designing well.
 }
 
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("-")
+    @PageImage(
+               purpose: icon, 
+               source: "wheelchair", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "placeholder-image", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "Advanced Techniques")
+}
+
 <!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
 
 ## Overview

@@ -5,7 +5,7 @@
     @TitleHeading("Omnipotence")
     @PageImage(
                purpose: icon, 
-               source: "-", 
+               source: "vertical", 
                alt: "")
     @PageImage(
                purpose: card, 
