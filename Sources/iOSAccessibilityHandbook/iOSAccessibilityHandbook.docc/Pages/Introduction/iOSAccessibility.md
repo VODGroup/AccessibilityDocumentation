@@ -56,5 +56,7 @@ To see how these technologies personalise the user experience go to the settings
 
 ### Community Trends
 Finally, we came to the point where stating the purpose of this book is possible. iOS Accessibility Handbook is a collection of guidelines of how to develop software for iOS which supports [**Accessible Features**](<doc:AccessibilityFeatures>) and promotes [**accessible design**](<doc:AccessibleDesign>). 
+@Image(source: human-interface-guidelines, alt: "")
 
 To dive into the process of developing accessible application open the Table of Contents, which covers the topics discussed in the book. If you want to learn about Accessibility or assistive technology, visit other articles from General Knowledge category. 
+@Image(source: roadmap, alt: "")

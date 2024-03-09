@@ -63,7 +63,7 @@
         @ContentAndMedia {
             Button trait adds the word "button" to the spoken description so the user knows that the element is, well, a button.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: buttons, alt: "")
         }
         
         @Steps {
@@ -242,7 +242,7 @@
             >Important: 
             Don't use this trait to hide the element from Accessibility Features - because it doesn't. Use isAccessibilityElement = false instead.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: not-enabled, alt: "")
         }
         
         @Steps {
@@ -286,7 +286,7 @@
         @ContentAndMedia {
             Plays Sounds trait should be stated for the elements that produce sounds when activated so VoiceOver will be muted for the duration of the sound.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: plays-sound, alt: "")
         }
         
         @Steps {
@@ -352,7 +352,7 @@
         @ContentAndMedia {
             Modal element in SwiftUI has to be marked explicitly so non-modal elements are ignored when a modal view is visible.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: modal, alt: "")
         }
         
         @Steps {
@@ -413,7 +413,7 @@
         @ContentAndMedia {
             Header trait should be applied to elements that are essentially dividers, so the user knows that the content is divided into sections. 
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: headers, alt: "")
         }
         
         @Steps {
@@ -435,7 +435,7 @@
         @ContentAndMedia {
             Summary Element trait is a curious one. There can be only one summary element on the screen and its description is spoken every time the application is opened, even from a collapsed state. It is a great option to implement notifying users about the state of something important: for example, if you have a delivery application reading the summary item will tell the current status of their order.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: summary-element, alt: "")
         }
         
         @Steps {
@@ -481,7 +481,7 @@
         @ContentAndMedia {
             Image trait should be stated when you want to tell the user that there is an image. Users won't hear a thing about images without this trait stated because they are hidden from VoiceOver by default.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: images, alt: "")
         }
         
         @Steps {
