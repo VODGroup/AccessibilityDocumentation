@@ -7,7 +7,7 @@ Understanding interfaces
     @TitleHeading("Accessible Interface")
     @PageImage(
                purpose: icon, 
-               source: "list", 
+               source: "elements", 
                alt: "")
     @PageImage(
                purpose: card, 
