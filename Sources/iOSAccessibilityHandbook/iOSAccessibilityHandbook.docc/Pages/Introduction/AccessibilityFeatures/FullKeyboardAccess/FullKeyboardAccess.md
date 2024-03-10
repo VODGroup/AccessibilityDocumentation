@@ -36,9 +36,11 @@ Using a full keyboard is an option to control the device for those people with m
 
 
 ## VoiceOver Key
-@Image(source: vo-key, alt: "")
+@Image(source: control-plus-option, alt: "")
 
 There is a special keys combination to distinguish text input from entering VoiceOver commands: Control + Option by default or CapsLock if an appropriate settings was chosen. To use CapsLock as the VO-key go to Settings -> Accessibility -> VoiceOver -> Text Input -> Key modifier -> Upper register. 
+@Image(source: capslock, alt: "")
+
 
 ## Other shortcuts 
 ### Swipes
