@@ -1,5 +1,7 @@
 # Assistive Access
 
+An accessible mode of simplified iOS
+
 @Metadata {
     @PageColor(blue)
     @TitleHeading("Keep It Simple")
@@ -9,7 +11,7 @@
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "card-aa", 
+               source: "aa-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
@@ -17,7 +19,6 @@
                 label: "General Knowledge")
 }
 
-An accessible mode of simplified iOS
 
 ## Meet Assistive Access
 **Assistive Access** is a new [**Accessibility Feature**](<doc:AccessibilityFeatures>) presented at **WWDC23**. 
@@ -27,7 +28,7 @@ An accessible mode of simplified iOS
 
 The feature is purposed to provide a drastically **simplified UI of the whole system** with help of [**Dynamic Type**](<doc:DynamicType>) and fundamentally different layouts of **adapted apps** to lighten *cognitive load* for those in need. 
 
-@Image(source: assistive-access-1, alt: "")
+@Image(source: aa-1, alt: "")
 
 ------------------------------------------------------
 
@@ -37,7 +38,7 @@ The feature is dedicated to enable anyone use their device **independently** reg
 
 The technology's task is to **reduce applications functionality** to the point when the possibility that everyone can find app's interface understandable is *maximal*. 
 
-@Image(source: assistive-access-2, alt: "")
+@Image(source: aa-2, alt: "")
 
 
 So people who have **cognitive** or **learning impairments** could easily use iPhones *on their own*. 
@@ -49,7 +50,7 @@ So people who have **cognitive** or **learning impairments** could easily use iP
 2. Choose **Accessibility** category
 3. Find **Assistive Access** at the bottom
 4. Follow feature's **instructions**
-@Image(source: turn-on-aa, alt: "")
+@Image(source: aa-setup, alt: "")
 
 
 ## Principles of Assistive Access

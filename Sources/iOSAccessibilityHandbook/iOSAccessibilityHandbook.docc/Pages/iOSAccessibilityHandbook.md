@@ -2,6 +2,13 @@
 
 Make your iOS application accessible for everyone
 
+@Options(scope: global) {
+    @AutomaticSeeAlso(disabled)
+    @AutomaticTitleHeading(disabled)
+    @AutomaticArticleSubheading(disabled)
+    @TopicsVisualStyle(hidden)
+}
+
 @Metadata {
     @DisplayName("iOS Accessibility Handbook")
     @TitleHeading("Educational Resource")
@@ -55,7 +62,9 @@ The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at
 Reading the book one may sometimes notice screenshots of iOS applications with *mark-ups* related to accessibility design over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessibility scenarios* over a screenshot of an app. 
 @Image(source: "vod-sample", alt: "-")
 
-
+@Small {
+    *iOS Accessibility Handbook, 2024*
+}
 
 ## Topics
 ### General Knowledge

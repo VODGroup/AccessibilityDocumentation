@@ -2,10 +2,6 @@
 
 A quick dip back into primordial soup to understand why everyone experiences the same world differently.
 
-@Comment {
-    tactile UI (touch), visual UI (sight), auditory UI (sound), olfactory UI (smell), equilibria UI (balance), and gustatory UI (taste)
-}
-
 @Metadata {
     @PageColor(blue)
     @TitleHeading("Mental Modelling")
@@ -31,27 +27,66 @@ Operating a phone is essentially an exchange of data: the device provides inform
 Being a living creature means **continuous communication with *reality***. But what exactly *is* reality? 
 
 ## Reality is a set of objects with stated properties
-@Image(source: milky-way, alt: "")
+
+@Image(source: milky-way, alt: "") {
+    *"Reality"* often refers to the **observable universe*
+}
 
 **Reality** as a conceptional model consisting of facts that define everything embedded in the universe. A *worldview*, which is **knowledge of the world**, is built of **perception** of these facts.
 
 
 ## One world - many worldviews
-@Image(source: earth, alt: "")
+
+@Image(source: earth, alt: "") {
+    All life lives on the same Earth
+}
+
 
 The complexity of reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth share the same nature. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - all living creatures are made of the same elements by the same rules and live in the same world.
 
-@Image(source: fish, alt: "")
+@Image(source: fish, alt: "") {
+    Lifeforms diversity is unmeasurable 
+}
 
 Nevertheless those living creatures who are sentient, i.e. able to sense, perceive the world differently. Each species have their own knowledge of the world, their own *worldview*, defined by the set of perceptional abilities available for them. A model of **cognised environment** is called [**umwelt**](https://en.wikipedia.org/wiki/Umwelt), and an umwelt is consistent of [**qualias**](https://en.wikipedia.org/wiki/Qualia) - instances of **subjective experience**. 
 
 ## Experience is composite
 Subjectiveness of experience comes from the types of information species are able to recognise. A set of such abilities available for a specie is called a perceptional system.
-@Image(source: eyes, alt: "")
+
+@Image(source: eyes, alt: "") {
+    Evolution made different eyes see what is needed
+}
 
 
 ## Sensory systems of different species
-@Image(source: senses, alt: "")
+@Row {
+   @Column {
+      @Image(source: eye, alt: "") {
+          Sight
+      }
+   }
+   @Column {
+      @Image(source: touch, alt: "") {
+          Touch
+      }
+   }
+   @Column {
+      @Image(source: mouth, alt: "") {
+          Taste
+      }
+   }
+   @Column {
+      @Image(source: ear, alt: "") {
+          Sound
+      }
+   }
+   @Column {
+      @Image(source: nose, alt: "") {
+          Smell
+      }
+   }
+}
+
 Creatures are differentiated by their evolutionary development: for example, humans and cats are of one biological class - mammals. 
 
 All mammals are capable of developing the same kinds of cells for particular receptional organs. 

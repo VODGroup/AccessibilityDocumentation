@@ -19,8 +19,6 @@ Control an iPhone using an external physical keyboard.
                   label: "General Knowledge")
 }
 
-## Overview
-
 Full Keyboard Access is a feature that enables using an external physical keyboard to *fully* control an iPhone or (more commonly) an iPad. 
 
 @Image(source: iphone-with-keyboard, alt: "")

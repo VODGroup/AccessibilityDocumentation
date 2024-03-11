@@ -1,5 +1,7 @@
 # VoiceOver
 
+VoiceOver is a **screen reader** built into iOS.
+
 @Comment {
     https://www.apple.com/voiceover/info/guide/_1121.html
 }
@@ -21,14 +23,23 @@
                 label: "General Knowledge")
 }
 
-VoiceOver is a **screen reader** built into iOS.
 
 ## Screen-Reading Technology
 A screen reader is a form of [**assistive technology**](<doc:AccessibilityFeatures>) — a program that conveys *visual* content into *non-visual* output. It allows people who cannot visually perceive information from the screen to be able to receive it in audial or tactile forms. 
 
 ## Text-to-speech
-@Image(source: non-visual-output, alt: "")
-
+@Row {
+   @Column {
+      @Image(source: "speech-output", alt: "") {
+          **Audial form** comes in **synthesised speech** or **sound icons**
+      }
+   }
+   @Column {
+      @Image(source: "braille-output", alt: "") {
+          **Tactile form** comes in **braille script** or **haptic feedback**
+      }
+   }
+}
 Screen readers are essential for users who...
 1) have *visual disablements*, such as **blindness** or **poor eyesight**;
 2) experience **dyslexia** or other *cognitive impairments*;

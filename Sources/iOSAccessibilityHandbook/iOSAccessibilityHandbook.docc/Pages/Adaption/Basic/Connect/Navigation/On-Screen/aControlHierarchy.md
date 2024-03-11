@@ -4,8 +4,8 @@
     @PageColor(blue)
     @TitleHeading("First Things First")
     @PageImage(
-               purpose: flowchart, 
-               source: "-", 
+               purpose: icon, 
+               source: "flowchart", 
                alt: "")
     @PageImage(
                purpose: card, 
