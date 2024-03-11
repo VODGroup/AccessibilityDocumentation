@@ -17,6 +17,16 @@
                 label: "General Knowledge")
 }
 
+> Note: Jepa
+
+> Tip: Jepa
+
+> Important: Jepa
+
+> Warning: Jepa
+
+> Experiment: Jepa
+
 ## UI Frameworks Differences
 First | Second | Third |
 ----- | ------ | ----- |
