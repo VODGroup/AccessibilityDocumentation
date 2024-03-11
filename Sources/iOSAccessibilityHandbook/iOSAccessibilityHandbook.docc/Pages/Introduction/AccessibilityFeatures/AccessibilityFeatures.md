@@ -1,4 +1,6 @@
-# 🥸 Accessibility Features
+# Accessibility Features
+
+A brief overview of Accessibility Features available on iOS
 
 @Metadata {
     @PageColor(blue)
@@ -17,23 +19,43 @@
                 label: "General Knowledge")
 }
 
-Introduction
+## Accessibility Features Explained
 
 @Image(source: settings-features, alt: "")
-@Image(source: features-list, alt: "")
 
+As any other Apple's operational system iOS supports a great variety of assistive technology **right out of the box**.
 
-## Accessibility Users 
-Overview
-### Not only permanent disabilities
+@Links(visualStyle: compactGrid) {
+    - <doc:iOSAccessibility>
+    - <doc:UIFrameworks>
+}
 
-## Disabilities
-Overview
-### Vision
-### Hearing
-### Motor
-### Cognitive 
+### Introduction to Accessible Interfaces
 
-## Grid
+To get familiar with the *concepts* exploited by assistive technology hover to the explanatory article of [**how interfaces support Accessibility Features**](<doc:BasicTechniques>). 
 
-## To roadmap
+@Image(source: "placeholder", alt: "")
+
+### List of Essential Software
+
+To have a closer look at the features available proceed to the series of descriptive articles below.
+
+@Links(visualStyle: detailedGrid) {
+    - <doc:VoiceOver>
+    - <doc:VoiceControl>
+    - <doc:SwitchControl>
+    - <doc:DynamicType>
+    - <doc:FullKeyboardAccess>
+    - <doc:GuidedAccess>
+    - <doc:AssistiveAccess>
+    - <doc:AssistiveTouch>
+    - <doc:AAC>
+}
+
+## Supporting Accessibility Features
+
+To make non-native application work as flawlessly see the [**Table of Contents**](https://vodgroup.github.io/AccessibilityDocumentation/tutorials/adaptionstrategy) for working with Accessibility API documentation. 
+
+@Image(source: roadmap, alt: "")
+
+## Have fun!

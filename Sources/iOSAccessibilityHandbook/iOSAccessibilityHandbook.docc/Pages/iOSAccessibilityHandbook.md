@@ -1,6 +1,6 @@
 # ``iOSAccessibilityHandbook``
 
-Make your iOS application accessible for everyone with help of interactive guides.
+Make your iOS application accessible for everyone
 
 @Metadata {
     @DisplayName("iOS Accessibility Handbook")
@@ -20,7 +20,7 @@ iOS Accessibility Handbook is an open-source **educational project** about makin
 @Image(source: features-2, alt: "")
 
 ### Interactive Learning
-This handbook provides *extended documentation* of [**Accessibility Features**](<doc:AccessibilityFeatures>), including:
+This handbook provides *extended documentation* of [**Accessibility Features**](<doc:AccessibilityFeatures>) API, including:
 - verbose *articles* on the topic;
 - interactive *guides* to follow step-by-step;
 - various media, such as *video tutorials*.
@@ -28,7 +28,7 @@ This handbook provides *extended documentation* of [**Accessibility Features**](
 In other words, materials here cover **everything one could ever need to know about accessibility on iOS**. 
 
 ### Target Audience
-The project is dedicated to help *developers*, *designers*, *researchers* and so on — in other words, to *everyone working with accessibility* on iOS. There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and to *share* relevant real-life experience of contributing *accessibility experts*.
+The project is dedicated to help *developers*, *designers*, *researchers* and so on — in other words, to *everyone working with accessibility* on iOS. There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and to *share* relevant real-life experience of contributing *accessibility professionals*.
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
@@ -38,9 +38,9 @@ The project is dedicated to help *developers*, *designers*, *researchers* and so
 
 ## — How does it work? 
 
-The handbook is somewhat of a *complete course* of **how to make iOS applications accessible** regardless of the stage of its development. The material is split into conceptual *topics* and categorised by its relation to particular assistive technologies and levels of *importance*. 
+The handbook is somewhat of a *complete course* of **how to make iOS applications accessible** regardless of the stage of its development. The material is split into conceptual *topics* and categorised by its relation to particular assistive technologies and field of implementation. 
 
-To know more about the book's structure scroll down to the bottom of the page where table of contents is.
+To know more about the book's structure scroll down to the bottom of the page where the [**table of contents**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/#topics) is.
 
 ### Technical Implementation
 At the moment the project's form is defined by being a *documentation catalog* ([**DocC**](https://www.swift.org/documentation/docc)) hosted by [**GitHub pages**](https://pages.github.com). 
@@ -52,7 +52,7 @@ The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at
 @Image(source: "aboutAccessibility-sample", alt: "-")
 
 ### VoiceOver Designer
-Reading the book you may sometimes notice screenshots of iOS applications with *mark-ups* related to accessibility design over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessibility scenarios* over a screenshot of an app. 
+Reading the book one may sometimes notice screenshots of iOS applications with *mark-ups* related to accessibility design over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessibility scenarios* over a screenshot of an app. 
 @Image(source: "vod-sample", alt: "-")
 
 

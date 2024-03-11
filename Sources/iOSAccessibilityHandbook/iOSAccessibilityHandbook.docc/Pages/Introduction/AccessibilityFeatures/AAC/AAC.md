@@ -1,5 +1,9 @@
 # Alternative Communication 
 
+@Comment {
+    https://www.apple.com/newsroom/2023/05/assistiveware-ushers-in-next-generation-of-aac-technology/
+}
+
 @Metadata {
     @PageColor(blue)
     @TitleHeading("Language Sucks")
