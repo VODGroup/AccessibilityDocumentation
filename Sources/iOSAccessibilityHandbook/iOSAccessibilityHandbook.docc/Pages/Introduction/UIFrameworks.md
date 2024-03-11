@@ -1,4 +1,4 @@
-# 🔒 Accessibility in UIKit and SwiftUI
+# Accessibility in UIKit and SwiftUI
 
 @Metadata {
     @PageColor(blue)

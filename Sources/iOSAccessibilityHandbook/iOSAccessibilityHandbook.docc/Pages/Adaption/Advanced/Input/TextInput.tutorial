@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "🔒 How Text Input Works") {
+    @Intro(title: "How Text Input Works") {
         
     }
     

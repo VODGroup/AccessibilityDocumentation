@@ -1,4 +1,4 @@
-# 🔒 Guided Access
+# Guided Access
 
 @Metadata {
     @PageColor(blue)

@@ -1,4 +1,4 @@
-# 🔒 AssistiveTouch
+# AssistiveTouch
 
 @Metadata {
     @PageColor(blue)

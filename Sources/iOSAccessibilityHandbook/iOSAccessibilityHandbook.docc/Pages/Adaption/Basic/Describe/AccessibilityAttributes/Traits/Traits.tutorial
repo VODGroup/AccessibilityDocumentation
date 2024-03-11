@@ -500,23 +500,40 @@
     }
     
     @Section(title: "Hidden Traits") {
+        
         @ContentAndMedia {
-            It is known that there are UIAccessibilityTraits not mentioned in UIKit documentation, but they are present in the code.
-            
             @Image(source: placeholder-image, alt: "")
+            It is known that there are `UIAccessibilityTraits` not mentioned in `UIKit`'s documentation, but they are present in the code.
         }
         
-        @Steps {
-            @Step {
-                jep
-                
-                @Image(source: placeholder-image, alt: "")
+        @Stack {
+            @ContentAndMedia {
+                | Bytes | Description                                                                 |
+                | ----- | --------------------------------------------------------------------------- |
+                | 19 | `Pickeritem`                                                                   |
+                | 20 | `Radio button`                                                                 |
+                | 23 | `Status bar item`                                                              |  
+                | 25 | `Inactive`                                                                     | 
+                | 26 | `Footer`                                                                       |
+                | 28 | `Tab`                                                                          |
+                | 35 | `Tap and hold, then move up and down to select index`                          | 
+                | 38 | `Draggable. Double tap and hold, wait for the sounds, then drag to re-arrange` |
             }
-            
-            @Step {
-                jep
-                
-                @Image(source: placeholder-image, alt: "")
+
+
+            @ContentAndMedia {  
+                | Bytes | Description                    |
+                | ----- | ------------------------------ |
+                | 32 | `Visited`                         |
+                | 39 | No description                    |
+                |   40  | `Pop-up button`                | 
+                |   42  | `Maths`                        |
+                |   45  | No description                 | 
+                |   50  | `Folder`                       |
+                |   52  | `Menu item`                    | 
+                |   53  | `Double tap to toggle settings`|
+                |   59  | `Video playback`               |
+                |   60  | `Icon`                         |          
             }
         }
     }

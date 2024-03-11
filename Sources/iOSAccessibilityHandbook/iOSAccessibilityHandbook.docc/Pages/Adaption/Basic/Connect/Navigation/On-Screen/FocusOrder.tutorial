@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "🔒 Focus Order") {
+    @Intro(title: "Focus Order") {
         
     }
     

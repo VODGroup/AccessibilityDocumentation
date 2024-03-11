@@ -1,4 +1,4 @@
-# 🥸 Enhancing Accessible Experience
+# Enhancing Accessible Experience
 
 @Metadata {
     @PageColor(blue)

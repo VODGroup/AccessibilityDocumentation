@@ -1,5 +1,5 @@
 @Tutorial(time: 30) {
-    @Intro(title: "🔒 Default Actions With Rotor") {
+    @Intro(title: "Default Actions With Rotor") {
         @Image(source: rotor-safari, alt: "")
 
     }
