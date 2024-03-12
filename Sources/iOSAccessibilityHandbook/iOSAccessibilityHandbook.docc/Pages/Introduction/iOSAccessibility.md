@@ -45,6 +45,115 @@ In this book we are going to discuss how to make iOS applications accessible. Du
 From June 8, 2009 Apple hasn't stopped for a second to promote accessible design. [**Inclusivity**](https://www.apple.com/diversity/) is one of the core values the company has been always exposing and [**accessibility**](https://www.apple.com/accessibility/) is an immanent part of it. Aiming to make a product as universal so everyone can use it led Apple to unmeasurable efforts put to assistive technology support. 
 @Image(source: inclusion, alt: "")
 
+@Row {
+   @Column {
+      @Image(source: house, alt: "") {
+          Class
+      }
+   }
+   @Column {
+      @Image(source: music, alt: "") {
+          Culture
+      }
+   }
+   @Column {
+      @Image(source: three-people, alt: "") {
+          Ethnicity
+      }
+   }
+   @Column {
+      @Image(source: languages, alt: "") {
+          Language
+      }
+   }
+   @Column {
+      @Image(source: pencil, alt: "") {
+          Education
+      }
+   }
+}
+@Row {
+   @Column {
+      @Image(source: newspaper, alt: "") {
+          Political beliefs
+      }
+   }
+   @Column {
+      @Image(source: books, alt: "") {
+          Philosophical beliefs
+      }
+   }
+   @Column {
+      @Image(source: script, alt: "") {
+          Religion
+      }
+   }
+   @Column {
+      @Image(source: globe, alt: "") {
+          Race
+      }
+   }
+   @Column {
+      @Image(source: person, alt: "") {
+          Genders
+      }
+   }
+}
+@Row {
+   @Column {
+      @Image(source: flag, alt: "") {
+          Sexual orientation
+      }
+   }
+   @Column {
+      @Image(source: calendar, alt: "") {
+          Age
+      }
+   }
+   @Column {
+      @Image(source: walk, alt: "") {
+          Abilities
+      }
+   }
+   @Column {
+      @Image(source: accessibility-fill, alt: "") {
+          Disabilities
+      }
+   }
+   @Column {
+      @Image(source: palm, alt: "") {
+          Handedness
+      }
+   }
+}
+@Row {
+   @Column {
+      @Image(source: stand, alt: "") {
+          Body measurements
+      }
+   }
+   @Column {
+      @Image(source: idk, alt: "") {
+          Environment
+      }
+   }
+   @Column {
+      @Image(source: location, alt: "") {
+          Location
+      }
+   }
+   @Column {
+      @Image(source: wifi, alt: "") {
+          Connectivity
+      }
+   }
+   @Column {
+      @Image(source: tech, alt: "") {
+          Modern tech
+      }
+   }
+}
+
 ### Available Features
 As for today here is the list of all [**Accessible Features**](<doc:AccessibilityFeatures>) on iOS. 
 @Image(source: features-list, alt: "")
