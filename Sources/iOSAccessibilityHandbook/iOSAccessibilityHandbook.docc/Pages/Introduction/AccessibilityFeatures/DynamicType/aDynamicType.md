@@ -1,4 +1,4 @@
-# 🔒 Dynamic Type
+# Dynamic Type
 
 Nothing here yet!
 

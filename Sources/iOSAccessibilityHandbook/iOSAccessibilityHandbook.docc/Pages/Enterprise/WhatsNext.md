@@ -1,4 +1,4 @@
-# 🔒 What's Next?
+# What's Next?
 
 @Metadata {
     @PageColor(blue)

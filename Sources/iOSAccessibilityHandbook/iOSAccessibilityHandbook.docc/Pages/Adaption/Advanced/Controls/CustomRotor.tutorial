@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "🔒 Custom Actions With Rotor") {
+    @Intro(title: "Custom Actions With Rotor") {
         
     }
     

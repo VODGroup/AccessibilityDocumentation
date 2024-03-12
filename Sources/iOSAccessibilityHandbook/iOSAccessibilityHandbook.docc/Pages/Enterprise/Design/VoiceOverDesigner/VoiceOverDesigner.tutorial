@@ -1,5 +1,5 @@
 @Tutorial(time: 15) {
-    @Intro(title: "🔒 VoiceOver Designer") {
+    @Intro(title: "VoiceOver Designer") {
         
     }
     

@@ -1,4 +1,4 @@
-# 🔒 Accessibility of Mobile Applications
+# Accessibility of Mobile Applications
 
 An introduction to working with Accessibility API
 

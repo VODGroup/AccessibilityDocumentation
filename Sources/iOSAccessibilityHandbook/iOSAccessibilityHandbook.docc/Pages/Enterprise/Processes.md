@@ -1,4 +1,4 @@
-# 🔒 Processes
+# Processes
 
 @Metadata {
     @PageColor(blue)
