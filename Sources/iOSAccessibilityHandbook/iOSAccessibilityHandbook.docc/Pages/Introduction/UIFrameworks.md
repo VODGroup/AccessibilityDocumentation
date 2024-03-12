@@ -17,7 +17,7 @@
                 label: "General Knowledge")
 }
 
-> Note: Jepa
+> Note: Jepa ↑↓→ ← стрелочки
 
 > Tip: Jepa
 
