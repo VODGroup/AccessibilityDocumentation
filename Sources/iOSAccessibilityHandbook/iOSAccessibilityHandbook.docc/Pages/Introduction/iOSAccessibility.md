@@ -43,7 +43,6 @@ In this book we are going to discuss how to make iOS applications accessible. Du
 
 ### Current State
 From June 8, 2009 Apple hasn't stopped for a second to promote accessible design. [**Inclusivity**](https://www.apple.com/diversity/) is one of the core values the company has been always exposing and [**accessibility**](https://www.apple.com/accessibility/) is an immanent part of it. Aiming to make a product as universal so everyone can use it led Apple to unmeasurable efforts put to assistive technology support. 
-@Image(source: inclusion, alt: "")
 
 @Row {
    @Column {
