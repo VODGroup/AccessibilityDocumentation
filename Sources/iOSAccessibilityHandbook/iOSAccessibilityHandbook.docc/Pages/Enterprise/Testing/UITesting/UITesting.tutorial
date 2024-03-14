@@ -1,4 +1,9 @@
 @Tutorial(time: 30) {
+    
+    @Comment {
+        https://www.deque.com/axe/devtools/mobile-accessibility/
+    }
+    
     @Intro(title: "UI Testing") {
         Михаил Рубанов знает.
     }
