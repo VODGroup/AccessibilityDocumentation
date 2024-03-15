@@ -23,12 +23,11 @@ An accessible mode of simplified iOS
 ## Meet Assistive Access
 **Assistive Access** is a new [**Accessibility Feature**](<doc:AccessibilityFeatures>) presented at **WWDC23**. 
 
-[![Alternate Text](meet-assistive-access)](https://developer.apple.com/wwdc23/10032
- "Meet Assistive Access")
+[![Alternate Text](aa-wwdc)](https://developer.apple.com/wwdc23/10032)
 
 The feature is purposed to provide a drastically **simplified UI of the whole system** with help of [**Dynamic Type**](<doc:DynamicType>) and fundamentally different layouts of **adapted apps** to lighten *cognitive load* for those in need. 
 
-@Image(source: aa-1, alt: "")
+@Image(source: aa-promo-1, alt: "")
 
 ------------------------------------------------------
 
@@ -38,7 +37,7 @@ The feature is dedicated to enable anyone use their device **independently** reg
 
 The technology's task is to **reduce applications functionality** to the point when the possibility that everyone can find app's interface understandable is *maximal*. 
 
-@Image(source: aa-2, alt: "")
+@Image(source: aa-promo-2, alt: "")
 
 
 So people who have **cognitive** or **learning impairments** could easily use iPhones *on their own*. 
