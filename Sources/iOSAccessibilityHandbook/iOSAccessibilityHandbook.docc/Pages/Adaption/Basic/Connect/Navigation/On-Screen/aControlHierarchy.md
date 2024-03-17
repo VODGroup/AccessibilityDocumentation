@@ -1,4 +1,4 @@
-# ControlHierarchy
+# Control Hierarchy
 
 @Metadata {
     @PageColor(blue)

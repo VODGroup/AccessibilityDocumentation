@@ -19,7 +19,8 @@ This is a fucking glossary. Mikhail Rubanov I swear to God if you ever look at t
                 label: "General Knowledge")
 }
 
-
+assistive technology
+accessibility feature
 interface
 UI
 UX
