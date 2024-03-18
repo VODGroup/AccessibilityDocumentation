@@ -23,7 +23,7 @@ Operate an iPhone by using various switches
                 label: "General Knowledge")
 }
 
-Switch Control is a feature that allows to operate an iPhone using *switches*. **Switch** is a *receptive device* that takes a signal sent by its user and passes it forward as a **controlling action input**. 
+**Switch Control** is a feature that allows to operate an **iPhone** using *switches*. **Switch** is a *receptive device* that takes a signal sent by its user and passes it forward as a **controlling action input**. 
 
 [![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
 
@@ -54,7 +54,7 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
       }
    }
    @Column {
-      @Image(source: eyetracker, alt: "") {
+      @Image(source: eye-tracker, alt: "") {
           An eye tracker
       }
    }
@@ -86,13 +86,13 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
 The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the phone with particular *dexterity*. 
 
 @Image(source: sady-at, alt: "") {
-    Sady Paulson, a video editor with **cerebral palsy** uses Switch Control to do what she wants
+    **Sady Paulson**, a video editor with **cerebral palsy** uses **Switch Control** to do what she wants
 }
 
 Switches are often placed on *mobility aid constructions* such as wheelchairs and beds to assist people with **low mobility**. 
 
 @Image(source: hawking, alt: "") {
-    Stephen Hawking, a scientist and an author had **ALS** (**A**myotrophic **L**ateral **S**clerosis) and, probably, is the most recognised user of assistive technology
+    **Stephen Hawking**, a scientist and an author had **ALS** (**A**myotrophic **L**ateral **S**clerosis) and, probably, is the most recognised user of assistive technology
 }
 
 ### Connecting switches to the device
@@ -115,7 +115,7 @@ An important notice: **switches cannot be connected to a computer directly**. In
 
    @Tab("Usage") {
        @Image(source: xbox-access, alt: "") {
-           Xbox Adaptive Controller is an *accessible* alternative to a [**regular gamepad**](https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller#white).
+           Xbox Adaptive Controller is an *accessible* alternative to a [**regular gamepad**](https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller#white)
        }
    }
 }
