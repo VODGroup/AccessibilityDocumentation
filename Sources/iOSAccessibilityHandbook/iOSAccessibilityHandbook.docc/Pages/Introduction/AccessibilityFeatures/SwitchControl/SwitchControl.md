@@ -1,5 +1,7 @@
 # Switch Control
 
+Operate an iPhone by using various switches
+
 @Comment {
     https://www.youtube.com/watch?v=XB4cjbYywqg
 }
@@ -21,32 +23,146 @@
                 label: "General Knowledge")
 }
 
-Switch Control is a software that allows to operate with the use of external devices that take anything as an input. 
+Switch Control is a feature that allows to operate an iPhone using *switches*. **Switch** is a *receptive device* that takes a signal sent by its user and passes it forward as a **controlling action input**. 
 
-## How does Switch Control work
+[![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
 
-## Importance of accessibility adaption
+### Variety of switches
+Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally whatever that is able to *recognise signals* sent by its user. 
 
-## Switches
+@Row {
+   @Column {
+      @Image(source: jelly-bean, alt: "") {
+          A single button switch
+      }
+   }
+   @Column {
+      @Image(source: pedal, alt: "") {
+          A foot switch -- a pedal
+      }
+   }
+   @Column {
+      @Image(source: blue2, alt: "") {
+          Multiple switches on one board
+      }
+   }
+}
+@Row {
+   @Column {
+      @Image(source: sip-n-puff, alt: "") {
+          A sip-and-puff interface
+      }
+   }
+   @Column {
+      @Image(source: eyetracker, alt: "") {
+          An eye tracker
+      }
+   }
+   @Column {
+      @Image(source: muscle-sensor, alt: "") {
+          A muscle contraction sensor
+      }
+   }
+}
+@Row {
+   @Column {
+      @Image(source: dualshock-2, alt: "") {
+          A gamepad
+      }
+   }
+   @Column {
+      @Image(source: iphone-15, alt: "") {
+          A smartphone
+      }
+   }
+   @Column {
+      @Image(source: numeric-keyboard, alt: "") {
+          A keyboard
+      }
+   }
+}
 
-## Users 
+### Switch Control users
+The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the phone with particular *dexterity*. 
 
-## Trying out Switch Control
+@Image(source: sady-at, alt: "") {
+    Sady Paulson, a video editor with **cerebral palsy** uses Switch Control to do what she wants
+}
 
-## Directions
+Switches are often placed on *mobility aid constructions* such as wheelchairs and beds to assist people with **low mobility**. 
 
-Connected devices exploit the binary nature of the world and use any extrinsic signal made my users to implement interactions within the system. 
+@Image(source: hawking, alt: "") {
+    Stephen Hawking, a scientist and an author had **ALS** (**A**myotrophic **L**ateral **S**clerosis) and, probably, is the most recognised user of assistive technology
+}
 
-Depending on the device connected Switch Control enables using a phone with the use of breathing patterns, sounds, face recognition, muscle stretches and presses of buttons of any size and shape.  
+### Connecting switches to the device
+An important notice: **switches cannot be connected to a computer directly**. Instead, a middleman is required -- a **switch interface** device to which the switches are *plugged*.
 
-The mechanism of Switch Control is to put a grid over visible interface and let user "touch" a specified area of the screen by sending a single when the focus is moved to desired position. 
-
-Moving the focus may be done by the use of switches too but if there is only type of command send by the user the program will move the focus on its own so one action is enough to fully operate the device.
-
-The grid's layout is highly dependant on the level of interface's adaption so the more an application is adapted for Accessibility Feature the easier navigating will be.
-
-
-
+@TabNavigator {
+   @Tab("Interface") {
+      @Image(source: xbox-switch-interface, alt: "") {
+          [**Xbox Adaptive Controller**](https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller) is an example of a **switch interface**
+      }
+   }
 
 
-![Switch Control modes: focus groups on elements, cross selection and submenu](switch-control-overview)
+   @Tab("Switches") {
+       @Image(source: xbox-switches, alt: "") {
+           Various [**compatible switches**](https://www.xbox.com/en-US/accessories#assistive) can be *plugged* to the interface
+       }
+   }
+
+
+   @Tab("Usage") {
+       @Image(source: xbox-access, alt: "") {
+           Xbox Adaptive Controller is an *accessible* alternative to a [**regular gamepad**](https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller#white).
+       }
+   }
+}
+
+## iPhone as a switch
+An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, are *built* into the phone. 
+@Video(source: placeholder-video, alt: "")
+
+### Gliding Cursor
+**Gliding Cursor** is a controlling mode for Switch Control that allows to navigate within *inaccessible* applications or to perform **item selection of *high* precision**. The mode enables navigation by selecting a *point* on a screen by **scanning crosshairs**.
+@Video(source: placeholder-video, alt: "")
+The mechanism is very similar to **Grid Layout** of [**Voice Control**](<doc:VoiceControl>).
+
+
+### Switch Control Head Tracking
+On iPhone models with [**FaceID**](https://en.wikipedia.org/wiki/Face_ID) it is possible to use *head movements* and *facial expressions* as **controlling actions**. As for today Switch Control recognises 9 different head movements and allows to bind one of 13 actions to such control option. Additional settings provide *adjustability* of **recognition sensitivity**, **tracking modes** and **pointer speed**. 
+@Video(source: misha, alt: "")
+
+
+## Switch Control Settings 
+
+To turn Switch Control on, in **Settings** app choose **Accessibility** settings and find **Switch Control** feature. 
+
+@Image(source: sc-setup, alt: "")
+
+> Warning: Do not turn Switch Control on unless you are confident that you can turn it off. Switch Control changes the control of the device to the most unusual state (out of other Accessibility Features) so it may be very difficult or nearly impossible to turn it off for an unfamiliar user. 
+
+
+
+## Adapting Applications for Switch Control 
+
+Support of Switch Control in accessible apps is represented by the accessible design of **navigational patterns**: the easier it is to *navigate within the app* the more delightful the experience for this feature users will be. 
+
+### Featured
+@Links(visualStyle: detailedGrid) {
+    - <doc:FocusManagement>
+    - <doc:Navigation>
+}
+
+> Important: Since Switch Control does not have an impact on the display of apps there is nothing to do with applications's view specifically for the feature. But do not forget that a person who uses Switch Control can use it in combination with other Accessibility Features. 
+
+
+## See Also
+@Links(visualStyle: list) {
+    - <doc:MotorDisabilities>
+    - <doc:VoiceControl>
+    - <doc:FullKeyboardAccess>
+    - <doc:AssistiveTouch>
+    - <doc:AAC>
+}
