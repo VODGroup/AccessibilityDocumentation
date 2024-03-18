@@ -33,51 +33,51 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
 @Row {
    @Column {
       @Image(source: jelly-bean, alt: "") {
-          A single button switch
+          A single button **switch**
       }
    }
    @Column {
       @Image(source: pedal, alt: "") {
-          A foot switch -- a pedal
+          A **foot switch** -- a pedal
       }
    }
    @Column {
       @Image(source: blue2, alt: "") {
-          Multiple switches on one board
+          Multiple switches on one **board**
       }
    }
 }
 @Row {
    @Column {
       @Image(source: sip-n-puff, alt: "") {
-          A sip-and-puff interface
+          A **sip-and-puff** interface
       }
    }
    @Column {
       @Image(source: eye-tracker, alt: "") {
-          An eye tracker
+          An **eye tracker**
       }
    }
    @Column {
       @Image(source: muscle-sensor, alt: "") {
-          A muscle contraction sensor
+          A muscle contraction **sensor**
       }
    }
 }
 @Row {
    @Column {
       @Image(source: dualshock-2, alt: "") {
-          A gamepad
+          A **gamepad**
       }
    }
    @Column {
       @Image(source: iphone-15, alt: "") {
-          A smartphone
+          A **smartphone**
       }
    }
    @Column {
       @Image(source: numeric-keyboard, alt: "") {
-          A keyboard
+          A **keyboard**
       }
    }
 }
