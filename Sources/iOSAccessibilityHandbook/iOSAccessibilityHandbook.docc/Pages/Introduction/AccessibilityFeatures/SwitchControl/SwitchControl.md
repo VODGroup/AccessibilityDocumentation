@@ -27,7 +27,7 @@ Operate an iPhone by using various switches
 
 [![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
 
-### Variety of switches
+### Variety of Switches
 Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally whatever that is able to *recognise signals* sent by its user. 
 
 @Row {
@@ -82,7 +82,7 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
    }
 }
 
-### Switch Control users
+### Switch Control Users
 The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the phone with particular *dexterity*. 
 
 @Image(source: sady-at, alt: "") {
@@ -95,7 +95,7 @@ Switches are often placed on *mobility aid constructions* such as wheelchairs an
     **Stephen Hawking**, a scientist and an author had **ALS** (**A**myotrophic **L**ateral **S**clerosis) and, probably, is the most recognised user of assistive technology
 }
 
-### Connecting switches to the device
+### Connecting Switches to a Device
 An important notice: **switches cannot be connected to a computer directly**. Instead, a middleman is required -- a **switch interface** device to which the switches are *plugged*.
 
 @TabNavigator {
@@ -121,7 +121,7 @@ An important notice: **switches cannot be connected to a computer directly**. In
 }
 
 
-## iPhone as a switch
+## iPhone as a Switch
 An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, are *built* into the phone. 
 @Video(source: placeholder-video, alt: "")
 
