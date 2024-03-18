@@ -120,9 +120,11 @@ An important notice: **switches cannot be connected to a computer directly**. In
    }
 }
 
+
 ## iPhone as a switch
 An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, are *built* into the phone. 
 @Video(source: placeholder-video, alt: "")
+
 
 ### Gliding Cursor
 **Gliding Cursor** is a controlling mode for Switch Control that allows to navigate within *inaccessible* applications or to perform **item selection of *high* precision**. The mode enables navigation by selecting a *point* on a screen by **scanning crosshairs**.
@@ -136,9 +138,7 @@ On iPhone models with [**FaceID**](https://en.wikipedia.org/wiki/Face_ID) it is 
 
 
 ## Switch Control Settings 
-
 To turn Switch Control on, in **Settings** app choose **Accessibility** settings and find **Switch Control** feature. 
-
 @Image(source: sc-setup, alt: "")
 
 > Warning: Do not turn Switch Control on unless you are confident that you can turn it off. Switch Control changes the control of the device to the most unusual state (out of other Accessibility Features) so it may be very difficult or nearly impossible to turn it off for an unfamiliar user. 
@@ -146,8 +146,8 @@ To turn Switch Control on, in **Settings** app choose **Accessibility** settings
 
 
 ## Adapting Applications for Switch Control 
-
 Support of Switch Control in accessible apps is represented by the accessible design of **navigational patterns**: the easier it is to *navigate within the app* the more delightful the experience for this feature users will be. 
+
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
