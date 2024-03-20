@@ -75,6 +75,9 @@ This layout option is truly **unconditional** because other two depend on the *a
 - **Show Item Numbers** will enumerate elements if they are marked as [**accessibility elements**](<doc:AccessibilityAttributes>);
 - **Grid Layout** just draws the *same* grid on top of **any interface**. 
 
+@Image(source: vc-layouts, alt: "")
+
+
 #### Voice Control Is... Switch Control 
 Considering the fact that we are in **iOS Accessibility Handbook** and have to have a *deeper understanding* of [**assistive software**](<doc:AccessibilityFeatures>), **Voice Control** is essentially a case of [**Switch Control**](<doc:SwitchControl>). It just uses a *microphone* as a **switch interface** and has much more **actions** possible to perform. 
 
@@ -84,7 +87,7 @@ At the moment **Voice Control** is only available in English, French, German, Sp
 ### Speechless Voice Control
 Though one always can control the device by [**sounds**](https://en.wikipedia.org/wiki/Paralanguage) that are not inherent to *any* language or voice at all. It can be done in [**Switch Control**](<doc:SwitchControl>) settings by choosing **Sound** option in **switches menu**. 
 
-@Image(source: sc-sound-setup, alt: "")
+@Image(source: sc-sounds-setup, alt: "")
 
 This feature is useful for those people who **cannot produce speech** but are still able to make sounds. It is a common case for **speech disfunction**, whose pathogenesis diversity is above this book's level.
 

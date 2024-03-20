@@ -1,5 +1,7 @@
 # AssistiveTouch
 
+Perform complex gestures and  
+
 @Metadata {
     @PageColor(blue)
     @TitleHeading("No Precision")
