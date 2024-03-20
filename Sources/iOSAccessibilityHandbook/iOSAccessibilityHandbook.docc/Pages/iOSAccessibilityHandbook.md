@@ -89,44 +89,49 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 ### Adapting Strategy
 - <doc:AdaptionStrategy>
 
-### Must-Have Functionality
+### Accessible Elements
 - <doc:BasicTechniques>
 - <doc:AccessibilityAttributes>
 - <doc:AdaptCells>
-- <doc:Containers>
+
+### Accessible Scenarios
 - <doc:Navigation>
-- <doc:FocusOrder>
-- <doc:aControlHierarchy>
+- <doc:OnScreen-Navigation>
 - <doc:OnScreen-Navigation>
 - <doc:Between-ScreensNavigation>
+
+
+### Accessible Interface
+- <doc:Containers>
+- <doc:FocusManagement>
+- <doc:aControlHierarchy>
 
 ### Greater Accessible Experience
 - <doc:AdvancedTechniques>
 
-### Accessible Graphics
+### Accessible Appearance
 - <doc:ColorsAndShapes>
 - <doc:DynamicType>
+- <doc:AdaptedPrivacy>
 
-### Adapt Content
+### Accessible Description
 - <doc:SensorySystem>
 - <doc:AlternativeDescription>
 - <doc:AccessibleReading>
 - <doc:AccessibleListening>
 - <doc:AccessibleCharts>
 
-### Controls
+### Accessible Controls
 - <doc:MotorDisabilities>
+- <doc:TextInput>
 - <doc:aAdjustableElements>
 - <doc:CustomActions>
-- <doc:Rotor>
-- <doc:CustomRotor>
+
 - <doc:aVerticalSwipes>
 
-### Input
-- <doc:TextInput>
-
-### Miscellaneous
-- <doc:AdaptedPrivacy>
+### Accessible Navigation
+- <doc:Rotor>
+- <doc:CustomRotor>
 
 ### What's Next?
 - <doc:WhatsNext>

@@ -1,0 +1,17 @@
+@Tutorial(time: 20) {
+    @Intro(title: "Custom Actions") {
+        
+    }
+    
+    @Section(title: "<#text#>") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+}

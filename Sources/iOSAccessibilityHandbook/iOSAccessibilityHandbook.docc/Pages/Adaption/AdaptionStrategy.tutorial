@@ -33,7 +33,7 @@
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
-        @Chapter(name: "Reduce Number of Controls") {
+        @Chapter(name: "Simplify User Scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Re-structure complex collections that way so it is easier to navigate between them.
@@ -48,7 +48,7 @@
             
             @TutorialReference(tutorial: "doc:OnScreen-Navigation")
             @TutorialReference(tutorial: "doc:Containers")
-            @TutorialReference(tutorial: "doc:FocusOrder")
+            @TutorialReference(tutorial: "doc:FocusManagement")
             @TutorialReference(tutorial: "doc:Between-ScreensNavigation")
         }
     }
@@ -73,6 +73,8 @@
             
             @TutorialReference(tutorial: "doc:AdjustableElements")
             @TutorialReference(tutorial: "doc:HideUselessControls")
+            @TutorialReference(tutorial: "doc:TextInput")
+            @TutorialReference(tutorial: "doc:ErrorPrevention")
         }
 
         @Chapter(name: "Provide Details") {
@@ -86,16 +88,7 @@
             @TutorialReference(tutorial: "doc:AlternativeDescription")
         }
         
-        @Chapter(name: "Adapt Content") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            There are several options that is rare needed, but you can be interested in
-            
-            @TutorialReference(tutorial: "doc:TextInput")
-            @TutorialReference(tutorial: "doc:ErrorPrevention")
-        }
-        
-        @Chapter(name: "Colors And Shapes") {
+        @Chapter(name: "Appearance") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Follow specific guidelines to make your GUI easy to comprehend.

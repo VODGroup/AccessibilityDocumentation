@@ -1,0 +1,37 @@
+@Tutorial(time: 15) {
+    @Intro(title: "Writing Accessible Texts") {
+        Even though there is no problem for screen readers to speak textual information there are a few moments one should consider to make reading comfortable for everyone. Text layout, fonts used, proper language - let's discuss everything that may become an obstacle for a user.
+        
+        @Image(source: <#file#>, alt: "<#accessible description#>")
+    }
+    
+    @Comment {
+        https://developer.apple.com/wwdc19/248
+        Intro
+        WWDC
+        Details
+        Quiz
+    }
+    
+    @Section(title: "<#text#>") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+            
+            @Step {
+                <#text#>
+                
+                @Code(name: "<#display name#>", file: <#filename.swift#>)
+            }
+        }
+    }
+}
