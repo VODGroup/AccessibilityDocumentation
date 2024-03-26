@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "Unit Testing") {
+    @Intro(title: "Unit Accessibility Testing") {
         Михаил Рубанов знает.
     }
     

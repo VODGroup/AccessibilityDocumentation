@@ -29,6 +29,8 @@ container
 layout
 control
 element
+focus
+label
 picker
 slider
 segmented control

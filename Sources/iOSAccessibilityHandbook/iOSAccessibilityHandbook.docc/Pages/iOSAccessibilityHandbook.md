@@ -22,7 +22,7 @@ Make your iOS application accessible for everyone
 
 ## — What is this?
 
-iOS Accessibility Handbook is an open-source **educational project** about making iOS applications *accessible*. Accessible application is such application that works with various *assistive technologies*, such as [**VoiceOver**](https://www.apple.com/accessibility/voiceover), [**Voice Control**](https://support.apple.com/en-us/HT210417) and [**Switch Control**](https://support.apple.com/en-us/HT201370), which enable *people with disabilities* use the application. 
+iOS Accessibility Handbook is an open-source **educational project** about making iOS applications *accessible*. Accessible application is such application that works with various *assistive technologies*, such as [**VoiceOver**](https://www.apple.com/accessibility/voiceover), [**Voice Control**](https://support.apple.com/en-us/HT210417) and [**Switch Control**](https://support.apple.com/en-us/HT201370), which enable **people with disabilities** use the application. 
 @Image(source: features-1, alt: "")
 @Image(source: features-2, alt: "")
 
@@ -35,7 +35,7 @@ This handbook provides *extended documentation* of [**Accessibility Features**](
 In other words, materials here cover **everything one could ever need to know about accessibility on iOS**. 
 
 ### Target Audience
-The project is dedicated to help *developers*, *designers*, *researchers* and so on — in other words, to *everyone working with accessibility* on iOS. There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and to *share* relevant real-life experience of contributing *accessibility professionals*.
+The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to *everyone working with accessibility* on iOS. There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and  *share* relevant real-life experience of contributing *accessibility professionals*.
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
@@ -145,8 +145,10 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 
 ### Testing
 - <doc:AccessibilityQualityAssurance>
+- <doc:AccessibilityChecklists>
 - <doc:UITesting>
 - <doc:UnitTesting>
+- <doc:SnapshotTesting>
 - <doc:AccessibilityInspector>
 
 ### Maintenance

@@ -4,7 +4,7 @@
         https://www.deque.com/axe/devtools/mobile-accessibility/
     }
     
-    @Intro(title: "UI Testing") {
+    @Intro(title: "UI Accessibility Testing") {
         Михаил Рубанов знает.
     }
     

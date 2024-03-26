@@ -121,8 +121,10 @@
             How to test accessible apps.
             <doc:AccessibilityQualityAssurance>
             
+            @TutorialReference(tutorial: "doc:AccessibilityChecklists")
             @TutorialReference(tutorial: "doc:AccessibilityInspector")
             @TutorialReference(tutorial: "doc:UnitTesting")
+            @TutorialReference(tutorial: "doc:SnapshotTesting")
             @TutorialReference(tutorial: "doc:UITesting")
         }
         
