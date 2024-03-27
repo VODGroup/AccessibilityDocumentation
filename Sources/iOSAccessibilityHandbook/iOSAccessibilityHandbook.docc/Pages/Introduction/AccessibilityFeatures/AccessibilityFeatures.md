@@ -19,43 +19,85 @@ A brief overview of Accessibility Features available on iOS
                 label: "General Knowledge")
 }
 
-## Accessibility Features Explained
+## What is Accessibility Features?
+**Accessibility Features** is a collection of *software* aimed to **help users use the device**. 
 
 @Image(source: settings-features, alt: "")
 
-As any other Apple's operational system iOS supports a great variety of assistive technology **right out of the box**.
 
-@Links(visualStyle: compactGrid) {
-    - <doc:iOSAccessibility>
-    - <doc:UIFrameworks>
-}
+### Accessibility Features Are a Form of Assistive Technology
+**Accessibility Features** are essentially programmed to **personalise user experience** by adjusting the operation system's behaviour to meet users' needs and enable them to use the given device using *external* assistive technology if required. 
 
-### Introduction to Accessible Interfaces
+@Image(source: placeholder-image, alt: "")
 
-To get familiar with the *concepts* exploited by assistive technology hover to the explanatory article of [**how interfaces support Accessibility Features**](<doc:BasicTechniques>). 
 
-@Image(source: "placeholder", alt: "")
+### Assistive Technology Helps People with Disabilities
+**Assistive technology** is a term that defines software, hardware and combined solutions to make life of **people with disabilities** easier. Every **Accessibility Feature** is an **assistive technology** on its own, but some features are purposed to **support external assistive technology** devices which provide alternative *input* and *output* interfaces for the system. 
 
-### List of Essential Software
+@Image(source: placeholder-image, alt: "")
 
-To have a closer look at the features available proceed to the series of descriptive articles below.
+For example, **control devices** such as **switches** and **keyboards**, **hearing aids** and **Braille displays** are considered external because iOS devices don't have them as a part of the devices' *native functionality*. 
+
+@Image(source: placeholder-image, alt: "")
+
+### iOS Is Accessible from the Start
+Nevertheless, most of the features that enhance approachability of the system do not require anything extrinsic and work out of the box. Excluding the possibly needed external devices, native accessibility functionality of the iOS devices covers a wide range of needs of users with disabilities.  
+
+@Image(source: placeholder-image, alt: "")
+
+## Accessibility Features on iOS
+Here is the list of **Accessibility Features** available on iOS. 
+
+@Image(source: features-list, alt: "")
+
+
+In this book we're not going to take a precise look at each of them separately, but there are features that have to be thoroughly researched to understand the accessibility of iOS. 
 
 @Links(visualStyle: detailedGrid) {
     - <doc:VoiceOver>
     - <doc:VoiceControl>
     - <doc:SwitchControl>
-    - <doc:DynamicType>
+    - <doc:aDynamicType>
     - <doc:FullKeyboardAccess>
-    - <doc:GuidedAccess>
-    - <doc:AssistiveAccess>
     - <doc:AssistiveTouch>
+    - <doc:aGuidedAccess>
+    - <doc:AssistiveAccess>
     - <doc:AAC>
 }
 
-## Supporting Accessibility Features
+Each article above contains an overview of a feature that explains what this feature does and who does it help with directions to further investigation of how to support it in your application. 
 
-To make non-native application work as flawlessly see the [**Table of Contents**](https://vodgroup.github.io/AccessibilityDocumentation/tutorials/adaptionstrategy) for working with Accessibility API documentation. 
+@Image(source: placeholder-image, alt: "")
 
-@Image(source: roadmap, alt: "")
+## Supporting Accessibility Features in Your App
+
+Accessibility Features use the semantic language of an application and change some of its interfacial properties to alternate the usability of its interface. To see how accessibility integrates to interfaces proceed to <doc:BasicTechniques> -- the heading article of Adapting Interfaces volume, which is purposed to break down the integration proceses.
+
+@Links(visualStyle: detailedGrid) {
+    - <doc:BasicTechniques>
+}
+
+@Image(source: placeholder-image, alt: "")
+
+Integrating accessibility for a particular feature usually fully or partially enables other features to be used in the app, but it is important to understand the logic between specific accessibility attributes of mobile interfaces to provide the equal experience. To know how user experience changes with various Accessibility Features used visit the <doc:AdvancedTechniques> page, which is a heading article of the detailed volume dedicated to polishing accessible experience.
+
+@Links(visualStyle: detailedGrid) {
+    - <doc:AdvancedTechniques>
+}
+
+@Image(source: placeholder-image, alt: "")
 
 ## Have fun!
+
+## Additional Resources 
+
+### Apple Accessibility Support Web Page
+https://support.apple.com/accessibility
+
+### Apple Accessibility Support Youtube Playlist
+"From using your iPhone without seeing the screen, to adapting gestures to your physical needs, discover how the accessibility features built into your Apple devices can help you do more."
+https://youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu&si=qZLjV9A6rNikJS9n
+
+### Assistive Technology in Action
+https://www.youtube.com/playlist?list=PLMe9zDtTPTVe62Gb6b9Dkk_IPBUTGQHoD
+
