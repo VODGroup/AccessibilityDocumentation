@@ -22,8 +22,20 @@ A brief overview of Accessibility Features available on iOS
 ## What is Accessibility Features?
 **Accessibility Features** is a collection of *software* aimed to **help users use the device**. 
 
-@Image(source: settings-features, alt: "")
-
+@Row {
+    @Column {
+       @Image(source: settings-af, alt: "") {
+       }
+    }
+   @Column {
+      @Image(source: af-1, alt: "") {
+      }
+   }
+   @Column {
+      @Image(source: af-2, alt: "") {
+      }
+   }
+}
 
 ### Accessibility Features Are a Form of Assistive Technology
 **Accessibility Features** are essentially programmed to **personalise user experience** by adjusting the operation system's behaviour to meet users' needs and enable them to use the given device using *external* assistive technology if required. 

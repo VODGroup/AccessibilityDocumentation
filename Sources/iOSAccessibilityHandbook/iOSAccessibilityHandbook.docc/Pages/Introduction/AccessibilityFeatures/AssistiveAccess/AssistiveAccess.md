@@ -49,8 +49,21 @@ So people who have **cognitive** or **learning impairments** could easily use iP
 2. Choose **Accessibility** category
 3. Find **Assistive Access** at the bottom
 4. Follow feature's **instructions**
-@Image(source: aa-setup, alt: "")
 
+@Row {
+    @Column {
+       @Image(source: settings-af, alt: "") {
+       }
+    }
+   @Column {
+      @Image(source: settings-aa, alt: "") {
+      }
+   }
+   @Column {
+      @Image(source: aa, alt: "") {
+      }
+   }
+}
 
 ## Principles of Assistive Access
 To make an application **easy to operate** there are three directions to work on: 
