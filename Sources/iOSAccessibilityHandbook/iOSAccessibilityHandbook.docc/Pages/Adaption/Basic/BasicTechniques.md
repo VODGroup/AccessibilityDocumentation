@@ -58,9 +58,11 @@ Additionally it is desired to provide accessible experience in the same manner a
 ## How to make accessible interfaces
 To think with thoroughness. Not to use overlays, widgets, and not to mindlessly follow step-by-step guides. 
 
-Accessibility is a part of inclusion. It is impossible to empower people without considering where they come from. Lack of empathy only results in misconceptions and no good product can be build on wrong predicaments. So to make sure you have the knowledge that is ready to be implemented read the rest of the book thourghlly and pay attention to the details. Be curious and critical: the smallest detail considered in your app can enable a huge range of people to use it.
+Accessibility is a part of inclusion. It is impossible to empower people without considering where they come from. Lack of empathy only results in misconceptions and no good product can be build on wrong predicaments. So to make sure you have the knowledge that is ready to be implemented read the rest of the book thoroughly and pay attention to the details. Be curious and critical: the smallest detail considered in your app can enable a huge range of people to use it.
 
 If you are ready to learn let's dive into accessibility. The topics discussed in this part of the book are presented by three categories:
+
+@Image(source: book-content, alt: "")
 
 ## Introduction
 ## Interface's data exposure
