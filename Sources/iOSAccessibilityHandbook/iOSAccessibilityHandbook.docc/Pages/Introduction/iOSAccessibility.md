@@ -172,7 +172,7 @@ To know more about *specific features*, their concepts and implementations visit
     - <doc:AssistiveAccess>
 }
 
-### Community Guidelines
+### Community Practices
 Finally, we came to the point where stating the purpose of this book is possible. [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) is a collection of guidelines of how to develop software for iOS which supports [**Accessible Features**](<doc:AccessibilityFeatures>) and promotes [**accessible design**](<doc:AccessibleDesign>). 
 @Image(source: human-interface-guidelines, alt: "")
 

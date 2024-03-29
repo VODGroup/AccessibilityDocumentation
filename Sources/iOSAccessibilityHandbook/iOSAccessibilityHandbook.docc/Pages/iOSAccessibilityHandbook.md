@@ -156,4 +156,5 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 
 ### Activism
 - <doc:AccessibilityActivism>
+- <doc:AccessibilitySettingsStatistics>
 

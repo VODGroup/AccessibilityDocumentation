@@ -1,6 +1,6 @@
 # Switch Control
 
-Operate an iPhone by using various switches
+Navigate through iOS by using various switches
 
 @Comment {
     https://www.youtube.com/watch?v=XB4cjbYywqg
@@ -23,9 +23,12 @@ Operate an iPhone by using various switches
                 label: "General Knowledge")
 }
 
-**Switch Control** is a feature that allows to operate an **iPhone** using *switches*. **Switch** is a *receptive device* that takes a signal sent by its user and passes it forward as a **controlling action input**. 
+**Switch Control** is a feature that allows to operate an iOS device using *switches*. **Switch** is a *receptive device* that takes a signal sent by its user and passes it forward as a **controlling action input**. 
 
 [![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
+
+### Switch Access Scanning
+Typing on keyboard, touching a screen and using pointers to move a cursor are examples of direct selection techniques. On the contrary, there is indirect selection: such methods firstly scan the collection of items. Switch access, just as screen-reading technology enables manual or automated scanning of the elements on the screen.
 
 ### Variety of Switches
 Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally whatever that is able to *recognise signals* sent by its user. 
@@ -124,7 +127,6 @@ An important notice: **switches cannot be connected to a computer directly**. In
 ## iPhone as a Switch
 An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, are *built* into the phone. 
 @Video(source: placeholder-video, alt: "")
-
 
 ### Gliding Cursor
 **Gliding Cursor** is a controlling mode for Switch Control that allows to navigate within *inaccessible* applications or to perform **item selection of *high* precision**. The mode enables navigation by selecting a *point* on a screen by **scanning crosshairs**.

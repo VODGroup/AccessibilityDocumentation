@@ -141,10 +141,12 @@
         @Chapter(name: "Activism") {
             @Image(source: chapter-placeholder.png, alt: "")
             <doc:AccessibilityActivism>
-
+            
             Burn some shit in front of your пенсионный фонд.
             
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
+            @TutorialReference(tutorial: "doc:AccessibilitySettingsStatistics")
+            
         }
     }
 }
