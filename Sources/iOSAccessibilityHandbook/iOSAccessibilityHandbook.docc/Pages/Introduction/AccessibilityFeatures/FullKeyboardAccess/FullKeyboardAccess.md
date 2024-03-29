@@ -11,7 +11,7 @@ Control an iPhone using an external physical keyboard.
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "fka-card", 
                alt: "")
     @CallToAction(
                   url: "https://www.apple.com/accessibility/",

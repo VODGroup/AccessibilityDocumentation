@@ -11,7 +11,7 @@ Perform complex gestures and press buttons by a simple touch
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "at-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
@@ -27,7 +27,7 @@ AssistiveTouch is aimed to help people who have fine motor impairments or unable
 
 @Row {
     @Column {
-       @Image(source: settings-af, alt: "") {
+       @Image(source: settings-at, alt: "") {
        }
     }
    @Column {

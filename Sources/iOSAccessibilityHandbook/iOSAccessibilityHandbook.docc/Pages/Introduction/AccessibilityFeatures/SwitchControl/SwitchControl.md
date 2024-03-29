@@ -15,7 +15,7 @@ Navigate through iOS by using various switches
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "switch-control-picker-example", 
+               source: "sc-card", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

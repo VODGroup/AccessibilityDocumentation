@@ -11,7 +11,7 @@ Nothing here yet!
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "dt-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

@@ -9,7 +9,8 @@
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "ga-card
+               ", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

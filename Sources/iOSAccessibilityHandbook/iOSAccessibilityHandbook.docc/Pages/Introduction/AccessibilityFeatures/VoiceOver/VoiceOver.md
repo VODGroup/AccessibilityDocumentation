@@ -15,7 +15,7 @@ A **screen reader** native for iOS
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "voiceOver-picker-example", 
+               source: "vo-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

@@ -11,7 +11,7 @@ Use voice to operate an iPhone
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "voice-control-picker-example", 
+               source: "vc-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
