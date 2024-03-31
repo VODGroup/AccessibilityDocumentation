@@ -11,7 +11,7 @@ A brief overview of **Accessibility Features** available on iOS
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "features-list", 
+               source: "af-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
