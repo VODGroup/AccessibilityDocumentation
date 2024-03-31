@@ -11,7 +11,7 @@ A quick dip back into primordial soup to understand why everyone experiences the
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "perception-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

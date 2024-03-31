@@ -1,5 +1,24 @@
 # Motor Disabilities
 
+Nothing here yet!
+
+@Metadata {
+    @PageColor(blue)
+    @TitleHeading("Health Limitations")
+    @PageImage(
+               purpose: icon, 
+               source: "wheelchair", 
+               alt: "")
+    @PageImage(
+               purpose: card, 
+               source: "disabilities-card", 
+               alt: "")
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
+}
+
 @Comment {
     There are universal ways human beings
     experience the world. All people have
