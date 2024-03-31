@@ -1,31 +1,31 @@
 @Tutorials(name: "AdaptionStrategy") {
     @Intro(title: "iOS Applications Accessibility Adaption Guide") {
-        Here is the **roadmap** of what one can do to make their app *accessible*.     
+        Here is the **roadmap** of what one can do to make their application *accessible*.     
         
         ### Essentiality
-        The *level of importance* — whether an enhancement is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
+        The *level of importance* — whether an accessibility adoption is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
         
         ### Familiarity
-        If you are not familiar with the topic, see the **introductory pages**.
+        If you are not familiar with the **related terminology**, see the **introductory pages**.
 
         @Links(visualStyle: detailedGrid) {
             - <doc:AccessibilityFeatures>
             - <doc:AdaptionStrategy>
         }
         
-        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient* and their cohesion is decorative. 
+        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient*. 
     }
     
-    @Volume(name: "Making Accessibility Work") {
+    @Volume(name: "Adopting Accessibility") {
         
-        Here are the guides about implementing *essential* for assistive technology to function features.
+        Here are the guides about **adopting features** *essential* for assistive technology to function.
         
         @Image(source: placeholder-image.png, alt: "")
         
         @Chapter(name: "Expose Application's Data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Provide a detailed description to everything so assistive technologies know how to deal with them.
+            Provide a detailed description to everything in the interface so assistive technologies know how to deal with it.
             
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:Traits")
@@ -33,10 +33,10 @@
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
-        @Chapter(name: "Simplify User Scenarios") {
+        @Chapter(name: "Adapt User Scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Re-structure complex collections that way so it is easier to navigate between them.
+            Think over the goals users have to be able to achieve using your app to enable them to do it.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
         }
@@ -44,7 +44,7 @@
         @Chapter(name: "Make Navigation Possible") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Adapt navigation within a screen for Accessibility Features and see how navigation between screens can be implemented.
+            Integrate **alternative controlling** to enable people use the app however they are *able* or *willing* to. 
             
             @TutorialReference(tutorial: "doc:OnScreen-Navigation")
             @TutorialReference(tutorial: "doc:Containers")
@@ -55,32 +55,14 @@
     
     @Volume(name: "Polishing Accessible Experience") {
         
-        The tutorials here are dedicated to making the *experience* of Accessibility Features users more **comfortable** and **immersive**.
+        The next tutorials are dedicated to making the *experience* of [**Accessibility Features**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive** -- just as it as for regular users.
         
         @Image(source: placeholder-image.png, alt: "")
-        
-        @Chapter(name: "Simplify Interactions") {
-            @TutorialReference(tutorial: "doc:Rotor")
-            @TutorialReference(tutorial: "doc:CustomActions")
-            @TutorialReference(tutorial: "doc:CustomRotor")
-            @Image(source: chapter-placeholder.png, alt: "")
-        }
-        
-        @Chapter(name: "Speed Up Navigation") {
-            @Image(source: chapter-placeholder.png, alt: "")
-            
-            Horizontal swipes are used for navigation, but vertical swipes allows to control inner values of an element. Read about  <doc:aVerticalSwipes>
-            
-            @TutorialReference(tutorial: "doc:AdjustableElements")
-            @TutorialReference(tutorial: "doc:HideUselessControls")
-            @TutorialReference(tutorial: "doc:TextInput")
-            @TutorialReference(tutorial: "doc:ErrorPrevention")
-        }
 
-        @Chapter(name: "Provide Details") {
+        @Chapter(name: "Accessible Description") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            There are several options that is rare needed, but you can be interested in
+            **Describe the interface** to that extent so accessibility API and its users has **no ambiguity in its interpretation**.
             
             @TutorialReference(tutorial: "doc:AccessibleCharts")
             @TutorialReference(tutorial: "doc:AccessibleListening")
@@ -88,10 +70,29 @@
             @TutorialReference(tutorial: "doc:AlternativeDescription")
         }
         
-        @Chapter(name: "Appearance") {
+        @Chapter(name: "Accessible Controls") {
+            Adopt **extended controlling options** to make the accessible experience **smoother**.
+            @TutorialReference(tutorial: "doc:Rotor")
+            @TutorialReference(tutorial: "doc:CustomActions")
+            @TutorialReference(tutorial: "doc:CustomRotor")
+            @Image(source: chapter-placeholder.png, alt: "")
+        }
+        
+        @Chapter(name: "Accessible Navigation") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Follow specific guidelines to make your GUI easy to comprehend.
+            Develop **sufficient paths** to enable people **complete the tasks** they are supposed to within the given app.
+            
+            @TutorialReference(tutorial: "doc:AdjustableElements")
+            @TutorialReference(tutorial: "doc:HideUselessControls")
+            @TutorialReference(tutorial: "doc:TextInput")
+            @TutorialReference(tutorial: "doc:ErrorPrevention")
+        }
+        
+        @Chapter(name: "Accessible Appearance") {
+            @Image(source: chapter-placeholder.png, alt: "")
+            
+            Follow specific guidelines to make your **GUI easier to be comprehended**.
             
             @TutorialReference(tutorial: "doc:ColorsAndShapes")
             @TutorialReference(tutorial: "doc:DynamicType")
@@ -99,16 +100,16 @@
         }
     }
     
-    @Volume(name: "Processes") {
+    @Volume(name: "Extend On Enterprise Processes") {
         
-        Additional resources expanding on the topic of Accessibility and its integration to design, development and production.
+        Additional resources expanding on the topic of accessibility and its integration at various stages of the product's **life cycle**.
         
         @Image(source: placeholder-image.png, alt: "")
         
         @Chapter(name: "Design") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            How to design accessible apps.
+            Get familiar with the ideas and **reasoning behind accessibility**.
             <doc:AccessibleDesign>
 
             @TutorialReference(tutorial: "doc:AccessibilityTree")
@@ -118,7 +119,7 @@
         @Chapter(name: "Testing") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            How to test accessible apps.
+            **Tools** and **tactics** aimed to observe the accessibility of iOS applications.
             <doc:AccessibilityQualityAssurance>
             
             @TutorialReference(tutorial: "doc:AccessibilityChecklists")
@@ -131,7 +132,7 @@
         @Chapter(name: "Maintenance") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            How to maintain accessible apps.
+            A few thoughts on **preserving the results**.
             <doc:Maintenance>
 
             @TutorialReference(tutorial: "doc:Maintenance")
@@ -142,7 +143,7 @@
             @Image(source: chapter-placeholder.png, alt: "")
             <doc:AccessibilityActivism>
             
-            Burn some shit in front of your пенсионный фонд.
+            Participate in the life of **a11y community** and advocate for accessibility outside of it. 
             
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
             @TutorialReference(tutorial: "doc:AccessibilitySettingsStatistics")

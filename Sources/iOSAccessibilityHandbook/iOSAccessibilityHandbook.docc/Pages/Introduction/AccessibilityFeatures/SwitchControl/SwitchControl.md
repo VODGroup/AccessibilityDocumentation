@@ -166,5 +166,4 @@ Support of Switch Control in accessible apps is represented by the accessible de
     - <doc:VoiceControl>
     - <doc:FullKeyboardAccess>
     - <doc:AssistiveTouch>
-    - <doc:AAC>
 }
