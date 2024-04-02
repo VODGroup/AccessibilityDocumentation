@@ -28,10 +28,10 @@ Navigate through iOS by using various switches
 [![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
 
 ### Switch Access Scanning
-Typing on keyboard, touching a screen and using pointers to move a cursor are examples of direct selection techniques. On the contrary, there is indirect selection: such methods firstly scan the collection of items. Switch access, just as screen-reading technology enables manual or automated scanning of the elements on the screen.
+Typing on keyboard, touching a screen and using pointers to move a cursor are examples of **direct selection** techniques. On the contrary, there is the **indirect selection**: such methods firstly *scan* the **collection of items** forming the interface. **Switch access**, just as screen-reading technology enables **manual** or **automated scanning** of the elements on the screen.
 
 ### Variety of Switches
-Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally whatever that is able to *recognise signals* sent by its user. 
+Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally anything that is able to *recognise signals* sent by its user. 
 
 @Row {
    @Column {
@@ -86,7 +86,7 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
 }
 
 ### Switch Control Users
-The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the phone with particular *dexterity*. 
+The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the device with particular *dexterity*. 
 
 @Image(source: sady-at, alt: "") {
     **Sady Paulson**, a video editor with **cerebral palsy** uses **Switch Control** to do what she wants
@@ -125,7 +125,7 @@ An important notice: **switches cannot be connected to a computer directly**. In
 
 
 ## iPhone as a Switch
-An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, are *built* into the phone. 
+An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, that are *built* into the phone. 
 @Video(source: placeholder-video, alt: "")
 
 ### Gliding Cursor

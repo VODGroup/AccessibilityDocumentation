@@ -76,7 +76,7 @@ In this book we're not going to take a precise look at each of them separately, 
     - <doc:AssistiveAccess>
 }
 
-Each article above contains an overview of a feature that explains **what this feature does** and **who does it help** with directives to further investigation of **how to support it in your applications**. 
+Each article above contains an overview of a feature that explains **what this feature does** with directives to further investigation of **how to support it in your applications**. 
 
 @Image(source: placeholder-image, alt: "")
 

@@ -1,6 +1,6 @@
 # Accessibility of Mobile Applications
 
-Start working with **Accessibility API**
+Working with **Accessibility API**
 
 @Metadata {
     @PageColor(blue)
@@ -21,7 +21,7 @@ Start working with **Accessibility API**
 
 ## First Things First: Why Support Accessibility
 
-Perceive it as a *disclaimer* of some kind.
+Perceive this part as a *disclaimer* of some kind.
 @Image(source: "placeholder", alt: "")
 
 ### The Clientele Exists and Is Visible
@@ -37,21 +37,22 @@ Moreover, accessibility is essentially an engine of **people with disabilities i
 
 
 ### Compliance and Conformance
-The answer to "Why support accessibility?" question is different for every person working *around* accessibility. Some people believe that [**accessible design**](<doc:AccessibleDesign>) is an *immanent* part of **universal design** and conforming to accessibility makes the product better for everyone. Other chase the **auditory expansion** by PR stunts to attract good will. A few countries oblige organisations to make accessible products by **civil rights law** and such developers are **dodging lawsuits** by complying to the standards. 
+The answer to "Why support accessibility?" question is different for every person working *around* accessibility. Some people believe that [**accessible design**](<doc:AccessibleDesign>) is an *immanent* part of **universal design** and conforming to **accessibility guidelines** makes the product better for everyone. Other chase the **auditory expansion** by PR stunts to attract good will. A few countries oblige organisations to make accessible products by **civil rights law** and such developers are **dodging lawsuits** by complying to the standards. 
 @Image(source: "placeholder", alt: "")
 
 ### Real Accessibility Is Intentional
 The more the production is influenced by *external* pressure the less accessible the result will be. Complying to **extrinsic standards** has *nothing* in common with providing accessible experience: only **empathy** allows people to consider others. It is impossible to support accessibility properly without a *clear* realisation of the situation and *genuine* motivation to change it.
 @Image(source: "placeholder", alt: "")
+Moreover, **incorrect adoption** of accessibility guidelines leads to a dramatic **decrease of approachability** of the app. Integrating anything only increases **complexity** of applications so one has to be aware of the consequences of their actions. **The simpler interfaces are the more accessible they are.**
 
 ### Choice Is Yours
-Only the person themself decides *why* they want to enable more people to use the product whose development is under their influence.
+All in all, only the person themself decides *why* they want to enable more people to use the product whose development is under their influence.
 
 ### Accessibility Is a Privilege
-It is a difficult journey for anyone to integrate accessibility into the project under their influence, regardless of their specialty and position. [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) project has no goal to *propagate* any values. We just support accessibility **the way it should be done** and share that experience. 
+Additionally, integrating accessibility into the project is a difficult journey for anyone, regardless of their specialty and position. [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) project has no goal to *propagate* any values. We just support accessibility **the way it should be done** and share that experience. 
 @Image(source: "placeholder", alt: "")
 
-**So if you are here it means that you *too* have a reason to do the right thing.** 
+**So if you are here it means that you have a reason to do the thing.** 
 
 ## Accessibility API
 
@@ -80,7 +81,7 @@ Constructing an interface out of **default elements** majorly covers the functio
 
 @Image(source: "placeholder", alt: "")
 
-Having **custom elements** designed *specifically* for your interface requires a little bit more work done on supporting [**Accessible Features**](<doc:AccessibilityFeatures>) but it's definitely not exhausting, too. 
+Having **custom elements** designed *specifically* for your interface requires a little bit more work done on supporting [**Accessible Features**](<doc:AccessibilityFeatures>) but it's definitely not exhausting too. 
 
 ### UIKit and SwiftUI
 

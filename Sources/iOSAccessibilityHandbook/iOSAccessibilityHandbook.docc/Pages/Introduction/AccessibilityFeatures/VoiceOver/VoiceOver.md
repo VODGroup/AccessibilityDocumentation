@@ -26,7 +26,7 @@ A **screen reader** native for iOS
 
 ## Screen-Reading Technology
 
-A screen reader is a form of [**assistive technology**](<doc:AccessibilityFeatures>) — a program that conveys *visual* content into *non-visual* output. It allows people who cannot visually perceive information from the screen to be able to receive it in audial or tactile forms. 
+A screen reader is a form of [**assistive technology**](<doc:AccessibilityFeatures>) — a program that conveys *visual* content into *non-visual* output. It allows people who cannot *visually* perceive information from the screen to be able to receive it in **audial** or **tactile** forms. 
 
 @Video(source: voiceover-commercial, alt: "") {
     Apple's VoiceOver commercial video
@@ -46,7 +46,7 @@ In other words, screen reading technology serves people who are *unable* to **vi
 }
 
 ### Implementation
-Not being able to perceive information **visually** is the hugest obstacle on the way to the access to technology. The reason is that approximately 90% of the environmental information received by humans comes through the visual channel. Which makes the visual perception the primary way to perceive reality. 
+Not being able to perceive information **visually** is the hugest obstacle on the way to the access to technology. The reason is that approximately 90% of the environmental information received by humans comes through the **visual channel**. Which makes the visual perception the primary way of **reality perception**. 
 
 @Image(source: ninety-percent, alt: "")
 
@@ -71,7 +71,7 @@ Thanks to the natural order of things **information is formless** and humans hav
 }
 
 ### VoiceOver enables alternative control
-Visual impairments do not only disable the ability to perceive information but affect the control of things that are distinguishable visually solely. It results in being unable for a person who struggles to see to operate the touch screens. People with visual impairment don't see buttons, people with cognitive impairments that affect the visual perception don't recognise buttons. So there must be a way to access the controls without visual navigation.
+Visual impairments do not only disable the ability to perceive information but affect the control of things that are distinguishable solely *visually*. For a person who struggles to see it results in being unable to operate touch screens. People with visual impairment don't see controls, people with cognitive impairments that affect the visual perception don't recognise them. So there must be a way to access the interface without visual navigation.
 
 @Image(source: service-dog, alt: "") {
     Longboard surfer Scott Leason and his seeing dog wait for the ride
@@ -81,7 +81,7 @@ Talking about using screen readers on *mobile* devices it brings different contr
 
 ## VoiceOver Gestures
 @Image(source: voiceover-gestures, alt: "")
-In the case of VoiceOver there is [**a list of standard VoiceOver gestures**](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios). Default control can be expanded with the use of [**Rotor**](<doc:Rotor>) and [**Custom Actions**](<doc:CustomActions>).
+In the case of VoiceOver there is [**a list of standard VoiceOver gestures**](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios). Default controlling can be expanded with the use of [**Rotor**](<doc:Rotor>) and [**Custom Actions**](<doc:CustomActions>).
 
 If the user uses VoiceOver combined with the use of an external physical keyboard the screen readers provide full control of the interface by using the keyboard. To learn more about using a keyboard instead of a touchscreen to operate the phone and its own nuances see <doc:FullKeyboardAccess> article.
 
@@ -98,7 +98,7 @@ VoiceOver as Apple's variant of screen reader was introduced in 2009 for macOS. 
 ## Setting Up VoiceOver
 @Image(source: vo-setup, alt: "")
 
-## Additional esources
+## Additional resources
 @Image(source: vo-resources-1, alt: "") {
     [Apple, creatives, and disability rights activists reflect on 30 years of the Americans with Disabilities Act](https://www.apple.com/newsroom/2020/07/apple-creatives-and-disability-rights-activists-reflect-on-30-years-of-the-americans-with-disabilities-act/)
 }

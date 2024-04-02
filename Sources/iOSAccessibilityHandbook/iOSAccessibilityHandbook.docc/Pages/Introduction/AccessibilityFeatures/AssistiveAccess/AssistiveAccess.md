@@ -1,6 +1,6 @@
 # Assistive Access
 
-An accessible mode of simplified iOS
+A simplified mode of iOS
 
 @Metadata {
     @PageColor(blue)
@@ -33,7 +33,7 @@ The feature is purposed to provide a drastically **simplified UI of the whole sy
 
 
 ## What Assistive Access is for
-The feature is dedicated to enable anyone use their device **independently** regardless of how hard it is for them to use the phone in original mode. 
+The feature is dedicated to enable anyone use their device **independently** regardless of how hard it is for them to use the phone in regular mode. 
 
 The technology's task is to **reduce applications functionality** to the point when the possibility that everyone can find app's interface understandable is *maximal*. 
 

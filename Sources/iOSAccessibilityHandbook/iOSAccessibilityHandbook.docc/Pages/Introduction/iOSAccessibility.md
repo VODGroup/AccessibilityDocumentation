@@ -29,7 +29,7 @@ There are many reasons why one would want to *include* more people — from stra
 @Image(source: fifteen-percent, alt: "")
 
 ## Computer Accessibility
-Computer accessibility, often referred to as **a11y**, includes a wide range of solutions that are aimed to enhance approachability of digital technology. It can be done by using **assistive technology**, which is specialised *software* or *hardware*, or a *combination* of both.
+Computer accessibility, often referred to as **a11y**, includes a wide range of solutions that are aimed to enhance approachability of digital products. It can be done by using **assistive technology**, which is specialised *software* or *hardware*, or a *combination* of both.
 @Image(source: a11y, alt: "")
 
 ## iOS Accessibility

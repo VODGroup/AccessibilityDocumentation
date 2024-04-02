@@ -1,6 +1,6 @@
 # Voice Control
 
-Use voice to operate an iPhone
+Use voice to operate iOS
 
 @Metadata {
     @PageColor(blue)
@@ -19,7 +19,7 @@ Use voice to operate an iPhone
                 label: "General Knowledge")
 }
 
-**Voice Control** is a feature that enables *controlling* an **iPhone** with **speech commands**.
+**Voice Control** is a feature that enables *controlling* an iOS device with **speech commands**.
 
  [![Alternate Text](ian)](https://www.youtube.com/watch?v=eePfgI2TT_Q)
 
@@ -72,24 +72,25 @@ Yes, the **Voice Control** experience is heavily influenced by *accessibility* o
 
 This layout option is truly **unconditional** because other two depend on the *accessibility* of interface elements:
 - **Show Item Names** will show **captions** for only those elements that have [**labels stated**](<doc:AccessibilityAttributes>);
-- **Show Item Numbers** will enumerate elements if they are marked as [**accessibility elements**](<doc:AccessibilityAttributes>);
-- **Grid Layout** just draws the *same* grid on top of **any interface**. 
+- **Show Item Numbers** will enumerate elements if they are marked as [**accessibility elements**](<doc:AccessibilityAttributes>).
+
+**Grid Layout** just draws the *same* grid on top of **any interface**. 
 
 @Image(source: vc-layouts, alt: "")
 
 
 #### Voice Control Is... Switch Control 
-Considering the fact that we are in **iOS Accessibility Handbook** and have to have a *deeper understanding* of [**assistive software**](<doc:AccessibilityFeatures>), **Voice Control** is essentially a case of [**Switch Control**](<doc:SwitchControl>). It just uses a *microphone* as a **switch interface** and has much more **actions** possible to perform. 
+Considering the fact that we are in **iOS Accessibility Handbook** and have to have a *deeper understanding* of [**assistive software**](<doc:AccessibilityFeatures>), **Voice Control** is essentially a highly sophisticated case of [**Switch Control**](<doc:SwitchControl>). It just uses a *microphone* as a **switch interface** and has much more **actions** possible to perform. 
 
 ### Languages Voice Control Understands
-At the moment **Voice Control** is only available in English, French, German, Spanish, Japanese and Chinese languages, so it won't be possible to fully operate an iPhone by speech it does not yet support. 
+At the moment **Voice Control** is only available in English, French, German, Spanish, Japanese and Chinese languages, so it won't be possible to fully operate a device by speech it does not yet support. 
 
 ### Speechless Voice Control
 Though one always can control the device by [**sounds**](https://en.wikipedia.org/wiki/Paralanguage) that are not inherent to *any* language or voice at all. It can be done in [**Switch Control**](<doc:SwitchControl>) settings by choosing **Sound** option in **switches menu**. 
 
 @Image(source: sc-sounds-setup, alt: "")
 
-This feature is useful for those people who **cannot produce speech** but are still able to make sounds. It is a common case for **speech disfunction**, whose pathogenesis diversity is above this book's level.
+This feature is useful for those people who **cannot produce speech** but are still able to make sounds. It is a common case for **speech disfunction**, whose pathogenesis diversity is above this book's educational capabilities.
 
 @Image(source: nonverbal, alt: "")
 

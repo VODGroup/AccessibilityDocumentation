@@ -3,14 +3,14 @@
         Here is the **roadmap** of what one can do to make their application *accessible*.     
         
         ### Essentiality
-        The *level of importance* — whether an accessibility adoption is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
+        The *level of importance* — whether accessibility adoption is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
         
         ### Familiarity
         If you are not familiar with the **related terminology**, see the **introductory pages**.
 
         @Links(visualStyle: detailedGrid) {
             - <doc:AccessibilityFeatures>
-            - <doc:AdaptionStrategy>
+            - <doc:AccessibilityAdaption>
         }
         
         Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient*. 
@@ -25,7 +25,7 @@
         @Chapter(name: "Expose Application's Data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Provide a detailed description to everything in the interface so assistive technologies know how to deal with it.
+            Provide a **detailed description** to everything in the interface so assistive technologies know how to deal with it.
             
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:Traits")
@@ -36,7 +36,7 @@
         @Chapter(name: "Adapt User Scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Think over the goals users have to be able to achieve using your app to enable them to do it.
+            Think over the **goals** users have to be able to achieve using your app to enable them to do it.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
         }
@@ -62,7 +62,7 @@
         @Chapter(name: "Accessible Description") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            **Describe the interface** to that extent so accessibility API and its users has **no ambiguity in its interpretation**.
+            **Describe the interface** to that extent so accessibility API and its users has **less ambiguity in its interpretation**.
             
             @TutorialReference(tutorial: "doc:AccessibleCharts")
             @TutorialReference(tutorial: "doc:AccessibleListening")
@@ -92,7 +92,7 @@
         @Chapter(name: "Accessible Appearance") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Follow specific guidelines to make your **GUI easier to be comprehended**.
+            Follow specific guidelines to make your **GUI easier to be visually comprehended**.
             
             @TutorialReference(tutorial: "doc:ColorsAndShapes")
             @TutorialReference(tutorial: "doc:DynamicType")
