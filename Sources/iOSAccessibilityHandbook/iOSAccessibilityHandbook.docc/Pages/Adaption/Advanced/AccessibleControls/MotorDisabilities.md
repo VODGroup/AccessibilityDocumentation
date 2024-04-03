@@ -53,29 +53,12 @@ Nothing here yet!
     simply designing well.
 }
 
-@Metadata {
-    @PageColor(blue)
-    @TitleHeading("-")
-    @PageImage(
-               purpose: icon, 
-               source: "wheelchair", 
-               alt: "")
-    @PageImage(
-               purpose: card, 
-               source: "placeholder-image", 
-               alt: "")
-    @CallToAction(
-                url: "https://www.apple.com/accessibility/",
-                purpose: link, 
-                label: "Advanced Techniques")
-}
+## How People Operate Computers 
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+## Classification of Physical Limitations
 
-## Overview
+## Item Selection
+### Direct Selection
+### Indirect Selection 
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
 
-### Section header
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
