@@ -43,7 +43,7 @@ Customisation of **text appearance** is the most common accessibility setting ch
 ### Use Cases: Symbols Recognition
 @Image(source: text-sizes, alt: "")
 
-Font scaling is purposed to **enhance the visual perception** so people have better **reading experience**. According to statistics, most of the users who change the font size prefer to **enlarge** text. Which, well, sounds reasonable: **farsightness** is not only *inevitably* degrading by age, but **widely present** among vision impairments inherent to *any* age. 
+Font scaling is purposed to **enhance the visual perception** so people have better **reading experience**. According to statistics, most of the users who change the font size prefer to **enlarge** text. Which, well, sounds reasonable: vision loss is not only *inevitably* obtained by age, but **widely present** in *any* age. 
 
 @Row {
     @Column {
@@ -53,12 +53,12 @@ Font scaling is purposed to **enhance the visual perception** so people have bet
     }
    @Column {
       @Image(source: myopia, alt: "") {
-          Nearsightness
+          Nearsightedness
       }
    }
    @Column {
       @Image(source: hyperopia, alt: "") {
-          Farsightness
+          Farsightedness
       }
    }
    @Column {
