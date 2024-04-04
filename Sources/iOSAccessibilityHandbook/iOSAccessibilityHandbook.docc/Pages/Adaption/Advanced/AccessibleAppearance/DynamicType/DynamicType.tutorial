@@ -21,18 +21,6 @@
         }
     }
     
-    @Section(title: "Elastic Interface") {
-        @ContentAndMedia {
-            <#text#>
-        }
-        
-        @Steps {
-            @Step {
-                <#Work in progress#>
-            }
-        }
-    }
-    
     @Section(title: "Large Text") {
         @ContentAndMedia {
             <#text#>

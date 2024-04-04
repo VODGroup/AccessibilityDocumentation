@@ -330,7 +330,7 @@
         @ContentAndMedia {
             Causes Page Turn trait triggers an automatic page turn when VoiceOver finishes reading the content of the element with this trait stated.
             
-            @Image(source: placeholder-image, alt: "")
+            @Image(source: causes-page-turn, alt: "")
         }
         
         @Steps {
