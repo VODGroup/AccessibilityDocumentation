@@ -50,6 +50,9 @@ Font scaling is purposed to **enhance the visual perception** so people have bet
 
 Not only *enlargement*, but also **bold appearance** of fonts is used to aid people **recognise symbols**. 
 
+### Text Styles 
+To write structured text a consistent use of text styles required.
+
 ### Use Cases: Helping To Focus
 Adjusting the size of texts can also be helpful for those people who prefer **to have lesser amount of information present on a screen**, so it is, for example, **easier to comprehend** the interface. 
 
