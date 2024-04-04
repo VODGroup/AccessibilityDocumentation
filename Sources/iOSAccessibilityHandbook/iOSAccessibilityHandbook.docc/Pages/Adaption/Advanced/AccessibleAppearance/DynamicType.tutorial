@@ -9,7 +9,7 @@
     }
     
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Tracking Dynamic Type") {
         @ContentAndMedia {
             <#text#>
         }
@@ -17,6 +17,178 @@
         @Steps {
             @Step {
                 <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Elastic Interface") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Large Text") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Bold Text") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Outlines, Icons and Other Symbols") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Enlarged Images") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Fitting Larger Content Into a Screen") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "What now") {
+        @ContentAndMedia {
+            Congratulations! 
+            
+            What about a little `quiz` to revise the topic? 🔎
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        
+        @Steps {
+            @Step {
+                Text.
+                @Image(source: placeholder-image, alt: "")
+            }
+        }
+    }
+    @Assessments {
+        @MultipleChoice {
+            Question?
+            
+            @Choice(isCorrect: false) {
+                Yes
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+                      
+            @Choice(isCorrect: true) {
+                No
+                @Justification(reaction: "That's right!") {
+                    text
+                }
+            }
+                            
+            @Choice(isCorrect: false) {
+                Maybe
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+        }
+        
+        @MultipleChoice {
+            Question?
+            
+            @Choice(isCorrect: false) {
+                Yes
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+                      
+            @Choice(isCorrect: true) {
+                No
+                @Justification(reaction: "That's right!") {
+                    text
+                }
+            }
+                            
+            @Choice(isCorrect: false) {
+                Maybe
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+        }
+        
+        @MultipleChoice {
+            Question?
+            
+            @Choice(isCorrect: false) {
+                Yes
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+                            
+            @Choice(isCorrect: false) {
+                No
+                @Justification(reaction: "Try again!") {
+                    text
+                }
+            }
+            
+            @Choice(isCorrect: true) {
+                All
+                @Justification(reaction: "That's right!") {
+                    text
+                }
+            }
+            
+            @Choice(isCorrect: false) {
+                None
+                @Justification(reaction: "Try again!") {
+                    text
+                }
             }
         }
     }
