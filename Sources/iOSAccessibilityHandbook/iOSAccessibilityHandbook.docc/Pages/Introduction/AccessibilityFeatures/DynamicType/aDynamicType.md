@@ -25,8 +25,28 @@ According to [**WHO**](https://www.who.int/news-room/fact-sheets/detail/blindnes
 
 Talking about **Dynamic Type** we are going to discuss those **visual impairments** that affect the *sharpness* of the perceived picture. To learn more about **color blindness** or **major vision loss** visit [**Colors and Shapes**](<doc:ColorsAndShapes>) tutorial and [**VoiceOver**](<doc:VoiceOver>) article accordingly.
 
-@Image(source: vision-loss, alt: "")
-
+@Row {
+    @Column {
+       @Image(source: normal-vision, alt: "") {
+           Normal eyesight (no visual defects)
+       }
+    }
+   @Column {
+      @Image(source: myopia, alt: "") {
+          Nearsightedness (myopia)
+      }
+   }
+   @Column {
+      @Image(source: hyperopia, alt: "") {
+          Farsightedness (hyperopia)
+      }
+   }
+   @Column {
+      @Image(source: astigmatism, alt: "") {
+          Astigmatism 
+      }
+   }
+}
 ## What Is Dynamic Type 
 
 **Dynamic Type** is **Apple**'s technology that automatises [**scaling of fonts**](https://support.apple.com/en-us/102453).
@@ -44,29 +64,6 @@ Customisation of **text appearance** is the most common accessibility setting ch
 @Image(source: text-sizes, alt: "")
 
 Font scaling is purposed to **enhance the visual perception** so people have better **reading experience**. According to statistics, most of the users who change the font size prefer to **enlarge** text. Which, well, sounds reasonable: vision loss is not only *inevitably* obtained by age, but **widely present** in *any* age. 
-
-@Row {
-    @Column {
-       @Image(source: normal-vision, alt: "") {
-           Normal eyesight
-       }
-    }
-   @Column {
-      @Image(source: myopia, alt: "") {
-          Nearsightedness
-      }
-   }
-   @Column {
-      @Image(source: hyperopia, alt: "") {
-          Farsightedness
-      }
-   }
-   @Column {
-      @Image(source: astigmatism, alt: "") {
-          Astigmatism 
-      }
-   }
-}
 
 
 ### Bold Text
