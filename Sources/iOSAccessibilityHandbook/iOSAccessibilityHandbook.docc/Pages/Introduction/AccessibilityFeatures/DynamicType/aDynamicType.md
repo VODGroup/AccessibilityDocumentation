@@ -41,7 +41,7 @@ Customisation of **text appearance** is the most common accessibility setting ch
 
 
 ### Use Cases: Symbols Recognition
-@Image(source: large-text, alt: "")
+@Image(source: text-sizes, alt: "")
 
 Font scaling is purposed to **enhance the visual perception** so people have better **reading experience**. According to statistics, most of the users who change the font size prefer to **enlarge** text. Which, well, sounds reasonable: **close-sight** is not only *inevitably* degrading by age, but **widely present** among vision impairments inherent to *any* age. 
 
@@ -51,6 +51,8 @@ Font scaling is purposed to **enhance the visual perception** so people have bet
 Not only *enlargement*, but also **bold appearance** of fonts is used to aid people **recognise symbols**. 
 
 ### Text Styles 
+@Image(source: text-styles, alt: "")
+
 To write structured text a consistent use of text styles required.
 
 ### Use Cases: Helping To Focus
