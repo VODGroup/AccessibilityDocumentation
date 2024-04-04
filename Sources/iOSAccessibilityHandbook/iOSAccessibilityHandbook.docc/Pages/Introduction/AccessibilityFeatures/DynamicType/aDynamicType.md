@@ -51,9 +51,47 @@ Talking about **Dynamic Type** we are going to discuss those **visual impairment
 
 **Dynamic Type** is **Apple**'s technology that automatises [**scaling of fonts**](https://support.apple.com/en-us/102453).
 
+@Row {
+    @Column {
+       @Image(source: regular-penguins, alt: "") {
+           Regular text
+       }
+    }
+   @Column {
+      @Image(source: large-penguins, alt: "") {
+          Larger text
+      }
+   }
+   @Column {
+      @Image(source: accessible-penguins, alt: "") {
+          Even larger text
+      }
+   }
+}
+
 A **font** is a family of **glyphs** of the same style used to represent **symbols** -- units of the *written* language. 
 
 **Font scaling** is a term that describes **changing the size of symbols** both to *lesser* or *bigger* degrees. 
+
+@Image(source: text-sizes, alt: "")
+
+
+### Adjust System Fonts Size
+To see **Dynamic Type** in action, go to **Settings**, proceed to **Accessibility** category and find **Display & Text Size** settings. **Large Text** scaler is available among other **accessible appearance settings**.
+@Row {
+    @Column {
+       @Image(source: settings-dt, alt: "") {
+       }
+    }
+   @Column {
+      @Image(source: larger-text, alt: "") {
+      }
+   }
+   @Column {
+      @Image(source: larger-text-settings, alt: "") {
+      }
+   }
+}
 
 ## Adjusting Text Size
 Customisation of **text appearance** is the most common accessibility setting chosen by users of various displaying means. **Mobile devices** are more exposed to the need of font scaling support due to a relatively small size of their displays which may be found *inconvenient* for some people to interact with.
@@ -61,7 +99,6 @@ Customisation of **text appearance** is the most common accessibility setting ch
 
 
 ### Use Cases: Symbols Recognition
-@Image(source: text-sizes, alt: "")
 
 Font scaling is purposed to **enhance the visual perception** so people have better **reading experience**. According to statistics, most of the users who change the font size prefer to **enlarge** text. Which, well, sounds reasonable: vision loss is not only *inevitably* obtained by age, but **widely present** in *any* age. 
 
@@ -98,4 +135,4 @@ Moreover, Apple provides a powerful instrument that allows developers to scale v
 To support **Dynamic Type** the appropriate **forms of a font** have to be *available* for the application. 
 
 ### Dynamic Type Enablement
-To learn **how to enable your application to have scaling fonts**, see the [**appropriate tutorial**](<doc:DynamicType>. 
+To learn **how to enable your application to have scaling fonts**, see the [**appropriate tutorial**](<doc:DynamicType>). 
