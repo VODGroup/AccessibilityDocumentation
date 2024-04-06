@@ -1,5 +1,5 @@
 @Tutorials(name: "AdaptionStrategy") {
-    @Intro(title: "iOS Applications Accessibility Adaption Guide") {
+    @Intro(title: "iOS Accessibility Adoption Guide") {
         Here is the **roadmap** of what one can do to make their application *accessible*.     
         
         ### Essentiality
@@ -16,13 +16,13 @@
         Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient*. 
     }
     
-    @Volume(name: "Adopting Accessibility") {
+    @Volume(name: "Integrating interfaces with accessibility") {
         
         Here are the guides about **adopting features** *essential* for assistive technology to function.
         
         @Image(source: placeholder-image.png, alt: "")
         
-        @Chapter(name: "Expose Application's Data") {
+        @Chapter(name: "Expose interfacial data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Provide a **detailed description** to everything in the interface so assistive technologies know how to deal with it.
@@ -33,15 +33,18 @@
             @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
-        @Chapter(name: "Adapt User Scenarios") {
+        @Chapter(name: "Adapt user scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Think over the **goals** users have to be able to achieve using your app to enable them to do it.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
+            @TutorialReference(tutorial: "doc:Article")
+
+
         }
         
-        @Chapter(name: "Make Navigation Possible") {
+        @Chapter(name: "Make navigation possible") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Integrate **alternative controlling** to enable people use the app however they are *able* or *willing* to. 
@@ -53,7 +56,7 @@
         }
     }
     
-    @Volume(name: "Polishing Accessible Experience") {
+    @Volume(name: "Providing accessible experience") {
         
         The next tutorials are dedicated to making the *experience* of [**Accessibility Features**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive** -- just as it as for regular users.
         

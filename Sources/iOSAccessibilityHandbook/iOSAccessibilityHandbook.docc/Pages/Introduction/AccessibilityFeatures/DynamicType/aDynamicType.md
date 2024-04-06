@@ -71,6 +71,8 @@ Talking about **Dynamic Type** we are going to discuss those **visual impairment
 
 A **font** is a family of **glyphs** of the same style used to represent **symbols** -- units of the *written* language. 
 
+@Image(source: fonts, alt: "")
+
 **Font scaling** is a term that describes **changing the size of symbols** both to *lesser* or *bigger* degrees. 
 
 @Image(source: text-sizes, alt: "")

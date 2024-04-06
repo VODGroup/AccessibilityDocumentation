@@ -1,0 +1,5 @@
+@Article(time: 20) {
+    @Intro(title: String) {
+        
+    }
+}
