@@ -1,0 +1,5 @@
+@Article(time: 15) {
+    @Intro(title: "Integrating Accessibility Into Product Processes") {
+        
+    }
+}

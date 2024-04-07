@@ -82,78 +82,15 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 - <doc:AssistiveAccess>
 
 ### Accessibility In Code
-- <doc:AccessibilityAdaption>
+- <doc:MobileAccessibility>
 - <doc:UIFrameworks>
 
 ### Adapting Strategy
-- <doc:AdaptionStrategy>
+- <doc:AdoptionGuide>
 
-### Accessible Elements
-- <doc:BasicTechniques>
-- <doc:AccessibilityAttributes>
-- <doc:AdaptCells>
-
-### Accessible Scenarios
-- <doc:Navigation>
-- <doc:OnScreen-Navigation>
-- <doc:OnScreen-Navigation>
-- <doc:Between-ScreensNavigation>
-
-
-### Accessible Interface
-- <doc:Containers>
-- <doc:FocusManagement>
-- <doc:aControlHierarchy>
-
-### Greater Accessible Experience
-- <doc:AdvancedTechniques>
-
-### Accessible Appearance
-- <doc:ColorsAndShapes>
-- <doc:DynamicType>
-- <doc:AdaptedPrivacy>
-
-### Accessible Description
+### Resources
 - <doc:SensorySystem>
-- <doc:AlternativeDescription>
-- <doc:AccessibleReading>
-- <doc:AccessibleListening>
-- <doc:AccessibleCharts>
-
-### Accessible Controls
 - <doc:MotorDisabilities>
-- <doc:TextInput>
-- <doc:aAdjustableElements>
-- <doc:CustomActions>
-
-- <doc:aVerticalSwipes>
-
-### Accessible Navigation
-- <doc:Rotor>
-- <doc:CustomRotor>
-
-### What's Next?
-- <doc:WhatsNext>
-- <doc:Processes>
-
-### Design
-- <doc:AccessibleDesign>
-- <doc:AccessibilityTree>
-- <doc:VoiceOverDesigner>
-- <doc:ErrorPrevention>
-
-### Testing
-- <doc:AccessibilityQualityAssurance>
-- <doc:AccessibilityChecklists>
-- <doc:UITesting>
-- <doc:UnitTesting>
-- <doc:SnapshotTesting>
-- <doc:AccessibilityInspector>
-
-### Maintenance
-- <doc:Maintenance>
-
-### Activism
-- <doc:AccessibilityActivism>
-- <doc:AccessibilitySettingsStatistics>
+- <doc:Glossary>
+- <doc:Credits>
 

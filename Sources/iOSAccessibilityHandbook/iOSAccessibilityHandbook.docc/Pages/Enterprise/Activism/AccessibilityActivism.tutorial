@@ -1,4 +1,4 @@
-@Tutorial(time: 10) {
+@Article(time: 10) {
     @Intro(title: "Making The World Accessible") {
         
         @Comment {
@@ -6,17 +6,5 @@
             IAAP
         }
         
-    }
-    
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-        }
-        
-        @Steps {
-            @Step {
-                <#Work in progress#>
-            }
-        }
     }
 }

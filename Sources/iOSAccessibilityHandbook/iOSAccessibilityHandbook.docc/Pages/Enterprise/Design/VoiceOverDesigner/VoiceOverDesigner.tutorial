@@ -1,17 +1,5 @@
-@Tutorial(time: 15) {
+@Article(time: 15) {
     @Intro(title: "VoiceOver Designer") {
         
-    }
-    
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-        }
-        
-        @Steps {
-            @Step {
-                <#Work in progress#>
-            }
-        }
     }
 }

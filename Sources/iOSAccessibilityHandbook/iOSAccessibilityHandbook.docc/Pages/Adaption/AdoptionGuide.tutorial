@@ -105,14 +105,12 @@
         
         Additional resources expanding on the topic of accessibility and its integration at various stages of the product's **life cycle**.
         
-        @Image(source: placeholder-image.png, alt: "")
-        
         @Chapter(name: "Design") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Get familiar with the ideas and **reasoning behind accessibility**.
             <doc:AccessibleDesign>
-
+            @TutorialReference(tutorial: "doc:AccessibleDesign")
             @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
@@ -123,6 +121,7 @@
             **Tools** and **tactics** aimed to observe the accessibility of iOS applications.
             <doc:AccessibilityQualityAssurance>
             
+            @TutorialReference(tutorial: "doc:AccessibilityQualityAssurance")
             @TutorialReference(tutorial: "doc:AccessibilityChecklists")
             @TutorialReference(tutorial: "doc:AccessibilityInspector")
             @TutorialReference(tutorial: "doc:UnitTesting")
@@ -145,7 +144,6 @@
             <doc:AccessibilityActivism>
             
             Participate in the life of **a11y community** and advocate for accessibility outside of it. 
-            
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
             @TutorialReference(tutorial: "doc:AccessibilitySettingsStatistics")
             

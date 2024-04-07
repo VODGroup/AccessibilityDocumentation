@@ -118,16 +118,16 @@ The book's guidelines are structured *that* way so there is some **entry-level t
 @Image(source: book-content, alt: "")
 
 ### Course Plan
-To see the *whole* curriculum visit the [**Table of Contents**](<doc:AdaptionStrategy>). 
+To see the *whole* curriculum visit the [**Table of Contents**](<doc:AdoptionGuide>). 
 
 @Image(source: roadmap, alt: "")
 
 ### Tutorials
-To start right with **practicing** something new, go to [**Based**](<doc:BasicTechniques>) or [**Advanced**](<doc:AdvancedTechniques>) level heading pages according to what you want to learn.
+To start right with **practicing** something new, go to [**Based**](<doc:AccessibleUI>) or [**Advanced**](<doc:AccessibleUX>) level heading pages according to what you want to learn.
 
 @Links(visualStyle: detailedGrid) {
-    - <doc:BasicTechniques>
-    - <doc:AdvancedTechniques>
+    - <doc:AccessibleUI>
+    - <doc:AccessibleUX>
 }
 
 ## Have fun!

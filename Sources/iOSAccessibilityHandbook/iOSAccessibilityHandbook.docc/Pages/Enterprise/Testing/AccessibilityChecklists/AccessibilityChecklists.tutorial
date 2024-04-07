@@ -1,35 +1,11 @@
-@Tutorial(time: 15) {
+@Article(time: 15) {
     
     @Comment {
         https://w3c.github.io/Mobile-A11y-TF-Note/
         https://www.w3.org/TR/wcag2ict-22/
     }
     
-    @Intro(title: "<#text#>") {
+    @Intro(title: "Accessibility Compliance") {
         <#text#>
-        
-        @Image(source: <#file#>, alt: "<#accessible description#>")
-    }
-    
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-            
-            @Image(source: <#file#>, alt: "<#accessible description#>")
-        }
-        
-        @Steps {
-            @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
-            }
-        }
     }
 }

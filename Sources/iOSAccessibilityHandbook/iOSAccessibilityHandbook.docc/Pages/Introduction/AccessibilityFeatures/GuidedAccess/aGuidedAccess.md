@@ -7,10 +7,8 @@
                purpose: icon, 
                source: "guided-access", 
                alt: "")
-    @PageImage(
-               purpose: card, 
-               source: "ga-card
-               ", 
+    @PageImage(purpose: card, 
+               source: "ga-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

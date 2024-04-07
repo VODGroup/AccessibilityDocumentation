@@ -1,4 +1,4 @@
-@Tutorial(time: 15) {
+@Article(time: 15) {
     
     @Comment {
         https://www.deque.com/axe/developer-hub/
@@ -6,28 +6,5 @@
     
     @Intro(title: "Accessibility Maintenance") {
         If supported, any application grows in complexity even if there is no additional functionality added. 
-        
-        @Image(source: placeholder-image, alt: "")
-    }
-    
-    @Section(title: "No Fucking Idea") {
-        @ContentAndMedia {
-            Text!
-            
-            @Image(source: chapter-placeholder, alt: "")
-        }
-        
-        @Steps {
-            @Step {
-                Text?
-                
-                @Image(source: placeholder-image, alt: "")
-            }
-            @Step {
-                Text.
-                
-                @Image(source: chapter-placeholder, alt: "")
-            }
-        }
     }
 }
