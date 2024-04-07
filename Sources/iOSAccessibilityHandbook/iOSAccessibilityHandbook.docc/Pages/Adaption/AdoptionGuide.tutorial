@@ -1,4 +1,4 @@
-@Tutorials(name: "AdaptionStrategy") {
+@Tutorials(name: "AdoptionGuide") {
     @Intro(title: "iOS Accessibility Adoption Guide") {
         Here is the **roadmap** of what one can do to make their application *accessible*.     
         
@@ -10,7 +10,7 @@
 
         @Links(visualStyle: detailedGrid) {
             - <doc:AccessibilityFeatures>
-            - <doc:AccessibilityAdaption>
+            - <doc:AdoptionGuide>
         }
         
         Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient*. 
@@ -26,7 +26,7 @@
             @Image(source: chapter-placeholder.png, alt: "")
             
             Provide a **detailed description** to everything in the interface so assistive technologies know how to deal with it.
-            
+            @TutorialReference(tutorial: "doc:AccessibleUI")
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:Traits")
             @TutorialReference(tutorial: "doc:Frame")
@@ -39,8 +39,6 @@
             Think over the **goals** users have to be able to achieve using your app to enable them to do it.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
-            @TutorialReference(tutorial: "doc:Article")
-
 
         }
         
@@ -66,7 +64,7 @@
             @Image(source: chapter-placeholder.png, alt: "")
             
             **Describe the interface** to that extent so accessibility API and its users has **less ambiguity in its interpretation**.
-            
+            @TutorialReference(tutorial: "doc:AccessibleUX")
             @TutorialReference(tutorial: "doc:AccessibleCharts")
             @TutorialReference(tutorial: "doc:AccessibleListening")
             @TutorialReference(tutorial: "doc:AccessibleReading")
@@ -153,4 +151,36 @@
             
         }
     }
+    @Resources {
+            Explore more resources for learning about sloths.
+
+            @Documentation(destination: "https://www.example.com/sloth-videos/") {
+
+                Watch cute videos of sloths climbing, eating, and sleeping.
+                - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
+
+            }            
+            @Forums(destination: "https://www.example.com/sloth-videos/") {
+                Watch cute videos of sloths climbing, eating, and sleeping.
+
+            }
+            @SampleCode(destination: "https://www.example.com/sloth-videos/") {
+                Watch cute videos of sloths climbing, eating, and sleeping.
+                - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
+
+            }
+            @Videos(destination: "https://www.example.com/sloth-videos/") {
+                Watch cute videos of sloths climbing, eating, and sleeping.
+
+
+                - [Treetop Breakfast](https://www.example.com/sloth-videos/breakfast/)
+                - [Slow Ascent](https://www.example.com/sloth-videos/climb/)
+                - [Rest Time](https://www.example.com/sloth-videos/snoozing/)
+            }
+
+
+            @Downloads(destination: "https://www.example.com/images/sloth-wallpaper/") {
+                Download the cutest sloth wallpaper for your iPhone, iPad, or Mac.
+            }
+        }
 }
