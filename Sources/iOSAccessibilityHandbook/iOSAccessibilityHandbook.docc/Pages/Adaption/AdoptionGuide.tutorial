@@ -1,31 +1,29 @@
 @Tutorials(name: "AdoptionGuide") {
-    @Intro(title: "iOS Accessibility Adoption Guide") {
-        Here is the **roadmap** of what one can do to make their application *accessible*.     
+    @Intro(title: "iOS Accessibility Guide") {
+        This collection of guides may be perceived as a complete course on accessibility of iOS apps: from the very basics to professional system design solution. 
         
-        ### Essentiality
-        The *level of importance* — whether accessibility adoption is **basic** or **advanced** — decided by its requirement for assistive technologies to *simply* function. To make the accessible experience more *delightful* some **additional tinkering** has to be done. 
-        
-        ### Familiarity
-        If you are not familiar with the **related terminology**, see the **introductory pages**.
+        ### Course plan
+        The course starts with the tasks essential for implementation -- without them the assistive technology won't simply function within the app. Volume by volume the broadness of topics and cost of integration will rise.
+                
+        ### Tutorials layout
+        Each tutorial from every chapter covers the theory behind the given topic and provides sufficient amount of real-life examples, additional resources and source-code for both UIKit and SwiftUI so you can apply new knowledge right away.
 
-        @Links(visualStyle: detailedGrid) {
-            - <doc:MobileAccessibility>
-            - <doc:AccessibilityFeatures>
-        }
+        ### Let's dive in!
         
-        Otherwise you may start straight from the first guide or a tutorial of your particular interest — the separated materials are *self-sufficient*. 
+        @Image(source: placeholder-image, alt: "")
     }
     
     @Volume(name: "Integrating interfaces with accessibility") {
         
-        This volume covers tasks crucial for implementation. Unsolved issues from the inner chapters exclude users of assistive technology.
+        This volume covers the **tasks crucial for implementation**: unsolved issues from the inner chapters *exclude* users of [**assistive technology**](<doc:AccessibilityFeatures>).
         
         @Image(source: placeholder-image.png, alt: "")
         
         @Chapter(name: "Expose interfacial data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Describe every non-decorative element sufficiently so both users and assistive technology know what's happening.
+            First of all, every functional element of the interface has to be sufficiently *described*.
+            
             @TutorialReference(tutorial: "doc:AccessibleUI")
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:Traits")
@@ -36,7 +34,7 @@
         @Chapter(name: "Ensure that navigation is possible") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Integrate alternative controlling of both direct and indirect selection so users of assistive technology can freely navigate the app.
+            Secondly, to reconnect the elements into a integral interface certain alternative controlling options have to be enabled.
             
             @TutorialReference(tutorial: "doc:OnScreen-Navigation")
             @TutorialReference(tutorial: "doc:FocusManagement")
@@ -46,7 +44,7 @@
         @Chapter(name: "Secure user scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Ensure that users of assistive technology are able to complete the tasks they are supposed to achieve without having to deal with misleading layouts.
+            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are supposed to achieve review the layout of the accessible interface.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
             @TutorialReference(tutorial: "doc:Containers")
@@ -60,7 +58,7 @@
         
         @Image(source: placeholder-image.png, alt: "")
 
-        @Chapter(name: "Accessible Description") {
+        @Chapter(name: "Accessible description") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             **Describe the accessible interface** to that extent so its users have **less ambiguity in its interpretation**.
@@ -71,7 +69,7 @@
             @TutorialReference(tutorial: "doc:AlternativeDescription")
         }
         
-        @Chapter(name: "Accessible Controls") {
+        @Chapter(name: "Accessible controls") {
             Implement **alternative accessible controlling options** to make the experience **smoother**.
             @TutorialReference(tutorial: "doc:Rotor")
             @TutorialReference(tutorial: "doc:CustomActions")
@@ -79,7 +77,7 @@
             @Image(source: chapter-placeholder.png, alt: "")
         }
         
-        @Chapter(name: "Accessible Navigation") {
+        @Chapter(name: "Accessible navigation") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Develop **sufficient paths** to enable people **conveniently complete the tasks** they are supposed to.
@@ -90,7 +88,7 @@
             @TutorialReference(tutorial: "doc:ErrorPrevention")
         }
         
-        @Chapter(name: "Accessible Appearance") {
+        @Chapter(name: "Accessible appearance") {
             @Image(source: chapter-placeholder.png, alt: "")
             
             Make your **GUI easier to be visually comprehended** for people with visual or mental impairments.
@@ -101,7 +99,7 @@
         }
     }
     
-    @Volume(name: "Extend On Enterprise Processes") {
+    @Volume(name: "Extend on enterprise processes") {
         
         This volume provides additional insights on the topic of accessibility and its integration at various stages of the product's **life cycle**.
         
