@@ -2,20 +2,20 @@
 
 
 ## — What is this?
-This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) website, which is an educational resource dedicated to help developers, designers, testers and researchers work on [approachability](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
+This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) online documentation, which is an **educational resource** dedicated to help **developers**, **designers**, **testers** and **researchers** work on [**approachability**](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
 
-The book is a collection of **interactive guides** and **thorough articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about implementing accessibility.
+The book is a collection of **interactive guides** and **detailed articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about **implementing accessibility**.
 
 <img width="876" alt="Screenshot 2024-01-27 at 11 38 37 (2)" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/3d27a208-0c3f-44db-a4f0-8ecf8691758e">
 
-The material is split into **Chapters** by its relation to a certain topic. The Chapters are joined into **Volumes** by the depth of the knowledge inside. So everyone can find something interesting for themselves *regardless* of their level of expertise.
+The material is split into **chapters** by its relation to a *certain topic*. The chapters are joined into **volumes** by the *depth of the knowledge* inside. This way everyone can find something useful for themselves *regardless* of their level of expertise.
 
 
-## — Who writes this?
+## — Who is responsible of this?
 Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). 
 ![prs](./Samples/aboutAccessibility~dark.png#gh-dark-mode-only)
 ![prs](./Samples/aboutAccessibility~light.png#gh-light-mode-only)
-The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language exclusively — sucks. So here we are, happily putting videos and samples of code on the pages! Have fun.  
+The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language *exclusively* — sucks. So here we are, happily putting **videos** and **code samples** on the documentation pages! Have fun.  
 
 ## — Why make it a website? 
 *Websites* is an exemplary **cross-platform solution**. Having resources available on the Net widens its **availability** — one has to have nothing more than a web browser and an Internet connection to **access the resource**. 
@@ -38,7 +38,7 @@ Yes, **everyone is welcome to influence the project**, especially considering it
 ![prs](./Samples/prs~dark.png#gh-dark-mode-only)
 ![prs](./Samples/prs~light.png#gh-light-mode-only)
 
-- **get in contact with one of the [responsible contributors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they've provided.
+- **get in contact with one of the [responsible editors](https://github.com/VODGroup/AccessibilityDocumentation/graphs/contributors)** by using the *credential information* they've provided.
 ![contributors](./Samples/contributors~dark.png#gh-dark-mode-only)
 ![contributors](./Samples/contributors~light.png#gh-light-mode-only)
 

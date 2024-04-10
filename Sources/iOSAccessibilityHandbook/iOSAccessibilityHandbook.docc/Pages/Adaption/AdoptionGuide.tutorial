@@ -15,14 +15,14 @@
     
     @Volume(name: "Integrating interfaces with accessibility") {
         
-        This volume covers the **tasks crucial for implementation**: unsolved issues from the inner chapters *exclude* users of [**assistive technology**](<doc:AccessibilityFeatures>).
+        This volume covers the **tasks crucial for implementation**: unsolved issues discussed here *exclude* users of [**assistive technology**](<doc:AccessibilityFeatures>).
         
         @Image(source: placeholder-image.png, alt: "")
         
         @Chapter(name: "Expose interfacial data") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            First of all, every functional element of the interface has to be sufficiently *described*.
+            First of all, every **functional element** of the interface has to be sufficiently *described*.
             
             @TutorialReference(tutorial: "doc:AccessibleUI")
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
@@ -34,7 +34,7 @@
         @Chapter(name: "Ensure that navigation is possible") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Secondly, to reconnect the elements into a integral interface certain alternative controlling options have to be enabled.
+            Secondly, to *reconnect* the elements into a integral interface certain **alternative controlling options** have to be enabled.
             
             @TutorialReference(tutorial: "doc:OnScreen-Navigation")
             @TutorialReference(tutorial: "doc:FocusManagement")
@@ -44,7 +44,7 @@
         @Chapter(name: "Secure user scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are supposed to achieve review the layout of the accessible interface.
+            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we have to **review the layout** of the accessible interface.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
             @TutorialReference(tutorial: "doc:Containers")
@@ -54,7 +54,7 @@
     
     @Volume(name: "Providing accessible experience") {
         
-        This volume is dedicated to making the *experience* of [**Accessibility Features**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive** -- just as it as for regular users.
+        This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive** -- just as it is for "regular" users.
         
         @Image(source: placeholder-image.png, alt: "")
 
@@ -101,7 +101,7 @@
     
     @Volume(name: "Extend on enterprise processes") {
         
-        This volume provides additional insights on the topic of accessibility and its integration at various stages of the product's **life cycle**.
+        This volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
         
         @Chapter(name: "Design") {
             @Image(source: chapter-placeholder.png, alt: "")

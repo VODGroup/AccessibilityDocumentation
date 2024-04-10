@@ -27,7 +27,7 @@ A simplified mode of iOS
 
 The feature is purposed to provide a drastically **simplified UI of the whole system** with help of [**Dynamic Type**](<doc:DynamicType>) and fundamentally different layouts of **adapted apps** to lighten *cognitive load* for those in need. 
 
-@Image(source: aa-promo-1, alt: "")
+@Image(source: aa-promo-1, alt: "Promotional screenshots of Assistive Access presenting the simplified interfaces of Music, Photos and Camera")
 
 ------------------------------------------------------
 
@@ -37,7 +37,7 @@ The feature is dedicated to enable anyone use their device **independently** reg
 
 The technology's task is to **reduce applications functionality** to the point when the possibility that everyone can find app's interface understandable is *maximal*. 
 
-@Image(source: aa-promo-2, alt: "")
+@Image(source: aa-promo-2, alt: "Other promotional screenshots of Assistive Access presenting the simplified interfaces of Home Screen, Calls and Messages")
 
 
 So people who have **cognitive** or **learning impairments** could easily use iPhones *on their own*. 
@@ -80,13 +80,15 @@ To learn more about *reasons* behind these guidelines visit our articles on the 
 
 ------------------------------------------------------
 
-## How to adapt your app
+## How to integrate it in your app
 
-@Image(source: aa-adapted, alt: "")
+@Image(source: aa-adapted, alt: "Promotional screenshots of an unknown application supporting Assistive Access")
 
 As for today **Assistive Access** is more of a prototype than a real feature: **there is no comprehensible guidelines (and options at all) of how to *adapt* applications**. 
 
-@Image(source: aa-support, alt: "")
+@Image(source: aa-support, alt: "A screenshot of one of the Assistive Access code properties documentation") {
+    This is not a lie, but is useless.
+}
 
 @Comment {
     https://x.com/akaDuality/status/1722764671806038319?s=20
@@ -100,5 +102,14 @@ Moreover, at the moment there are only **Messages**, **Calls**, **Music**, **Pho
 
 Nevertheless, if **Apple** *decides* that they should invest their resources into proper development of the feature this page is going to turn into a complete guide of how to adapt applications for **Assistive Access**. As for now...
 
-@Image(source: tbc, alt: "")
+@Image(source: tbc, alt: "A large text Keynote slide saying \"... to be continued?\"")
 
+## See Also
+- <doc:AccessibilityFeatures>
+- <doc:VoiceOver>
+- <doc:VoiceControl>
+- <doc:SwitchControl>
+- <doc:aDynamicType>
+- <doc:FullKeyboardAccess>
+- <doc:AssistiveTouch>
+- <doc:aGuidedAccess>
