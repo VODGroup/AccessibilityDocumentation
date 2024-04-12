@@ -44,7 +44,7 @@
         @Chapter(name: "Secure user scenarios") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we have to **review the layout** of the accessible interface.
+            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we should **review the layout** of the accessible interface.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
             @TutorialReference(tutorial: "doc:Containers")
@@ -52,10 +52,9 @@
         }
     }
     
-    @Volume(name: "Providing accessible experience") {
+    @Volume(name: "Enhancing accessible experience") {
         
-        This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive** -- just as it is for "regular" users.
-        
+        This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive**.
         @Image(source: placeholder-image.png, alt: "")
 
         @Chapter(name: "Accessible description") {
@@ -70,7 +69,7 @@
         }
         
         @Chapter(name: "Accessible controls") {
-            Implement **alternative accessible controlling options** to make the experience **smoother**.
+            Implement **advanced alternative accessible controlling options** to make the experience **smoother**.
             @TutorialReference(tutorial: "doc:Rotor")
             @TutorialReference(tutorial: "doc:CustomActions")
             @TutorialReference(tutorial: "doc:CustomRotor")
@@ -91,7 +90,7 @@
         @Chapter(name: "Accessible appearance") {
             @Image(source: chapter-placeholder.png, alt: "")
             
-            Make your **GUI easier to be visually comprehended** for people with visual or mental impairments.
+            Make your **GUI easier to be visually comprehended** for people with **visual** or **mental impairments**.
             
             @TutorialReference(tutorial: "doc:ColorsAndShapes")
             @TutorialReference(tutorial: "doc:DynamicType")
@@ -101,7 +100,7 @@
     
     @Volume(name: "Extend on enterprise processes") {
         
-        This volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
+        Concluding the course, the last volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
         
         @Chapter(name: "Design") {
             @Image(source: chapter-placeholder.png, alt: "")

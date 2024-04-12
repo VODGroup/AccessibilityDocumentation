@@ -22,7 +22,7 @@ Make your iOS application accessible for everyone
 
 ## Welcome to iOS Accessibility Handbook
 
-[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications *accessible*. Accessible application is such application that works with various *assistive technologies*, such as [**VoiceOver**](https://www.apple.com/accessibility/voiceover), [**Voice Control**](https://support.apple.com/en-us/HT210417) and [**Switch Control**](https://support.apple.com/en-us/HT201370), which enable **people with disabilities** use the application. 
+[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications *accessible*. Accessible application is such application that works with various *assistive technologies*, such as [**VoiceOver**](https://www.apple.com/accessibility/voiceover), [**Voice Control**](https://support.apple.com/en-us/HT210417) and [**Switch Control**](https://support.apple.com/en-us/HT201370), which enable **people with disabilities** to use the application. 
 @Image(source: features-1, alt: "")
 @Image(source: features-2, alt: "")
 
