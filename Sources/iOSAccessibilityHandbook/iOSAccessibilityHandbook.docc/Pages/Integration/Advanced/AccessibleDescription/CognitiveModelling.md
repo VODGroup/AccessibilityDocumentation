@@ -1,10 +1,10 @@
-# Human Perception
+# Cognitive Modelling
 
 A quick dip back into primordial soup to understand how everyone experiences the same world differently
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("Cognitive Models of Information")
+    @TitleHeading("Perception of Information")
     @PageImage(
                purpose: icon, 
                source: "brain", 

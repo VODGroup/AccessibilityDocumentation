@@ -1,10 +1,10 @@
-# Motor Disabilities
+# Interface Interaction
 
 Nothing here yet!
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("Health Limitations")
+    @TitleHeading("Controlling Options")
     @PageImage(
                purpose: icon, 
                source: "wheelchair", 
