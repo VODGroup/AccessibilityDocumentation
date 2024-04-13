@@ -91,7 +91,7 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 - <doc:AdoptionGuide>
 
 ### Resources
-- <doc:CognitiveModelling>
+- <doc:InterfacePerception>
 - <doc:InterfaceInteractions>
 - <doc:Glossary>
 - <doc:Credits>

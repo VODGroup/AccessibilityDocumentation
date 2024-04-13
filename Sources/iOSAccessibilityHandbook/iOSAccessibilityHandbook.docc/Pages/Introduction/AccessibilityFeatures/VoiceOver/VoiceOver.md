@@ -52,8 +52,8 @@ Not being able to perceive information **visually** is the hugest obstacle on th
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
-    - <doc:SensorySystem>
-    - <doc:AlternativeDescription>
+    - <doc:InterfacePerception>
+    - <doc:InterfaceInteractions>
 }
 
 Thanks to the natural order of things **information is formless** and humans have other senses to receive it. Thus screen readers transform the graphic interface into an audial or tactile form. 

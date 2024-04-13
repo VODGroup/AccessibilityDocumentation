@@ -189,8 +189,8 @@ To dive right into the process of developing accessible applications open the [*
 
 Otherwise, if you want to **learn about accessibility** in general first, take a look at the articles from **General Knowledge** category. 
 @Links(visualStyle: detailedGrid) {
-    - <doc:SensorySystem>
-    - <doc:MotorDisabilities>
+    - <doc:InterfacePerception>
+    - <doc:InterfaceInteractions>
     - <doc:MobileAccessibility>
     - <doc:AccessibilityFeatures>
     - <doc:AccessibleUI>
