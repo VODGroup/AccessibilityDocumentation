@@ -1,4 +1,4 @@
-# Cognitive Modelling
+# Interface Perception
 
 A quick dip back into primordial soup to understand how everyone experiences the same world differently
 
@@ -129,6 +129,8 @@ It is possible to be born with a sensory system capabilities different from what
     Albinism often comes with **congenital visual disability**
 }
 
+> Important: People who **were born** without an ability to use a particular sense, for example, those who are *congenitally* completely **blind** or **deaf** have no idea about visual or audial forms of information in the terms of how sighted or hearing people perceive it. **Their cognitive *image* of the world are different.**
+
 ### Obtained impairments
 Being born with **fully functional sensory system does not guarantee the integrity of perception forever**. Typical perception may be adjusted **temporary** or **permanently** during the life as a result of **changes within the receptive or processing organs**. 
 
@@ -138,7 +140,23 @@ Being born with **fully functional sensory system does not guarantee the integri
 
 @Image(source: magnifying-glass, alt: "") {
     It is natural for people to experience **vision loss** from **aging-related degradation of sensory organs**
-}
+    }
+    
+## -- Ok. How does this all information helps me create accessible products? 
+The *most* important point that can be taken from this page (after the fact that no one is safe from losing abilities to sense, of course) is that **the meaning behind any cause is the same regardless of its interpretation**. 
+    
+@Image(source: placeholder-image, alt: "")
+    
+    
+For example, a mobile applications implementing pizza delivery solves the same task **with** and **without** graphic interface **available to be perceived**. The **experience** of making an order will be different, but the **mental model** of the process is the same for everyone. Because it was *designed* this way. 
 
-## What To Do With All This Information
+As *accessibility experts* it is our **goal** to create interfaces that are **perceivable in different conditions**, i.e. have the **content** as independent as possible of its **form**.
+    
+## See Also
+- <doc:VoiceOver>
+- <doc:AccessibleUI>
+- <doc:AccessibleUX>
+- <doc:ColorsAndShapes>
+- <doc:AlternativeDescription>
+
 
