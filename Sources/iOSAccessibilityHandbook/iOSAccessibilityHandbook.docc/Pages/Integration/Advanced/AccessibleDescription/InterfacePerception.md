@@ -25,7 +25,7 @@ Operating a computing device is essentially an **exchange of data**: the device 
 ### Multimodal Interfaces
 **Information** transmitted by the device may take one of three forms of **content types** supported by the modern technology: **visual**, **auidial** and **tactile**. 
 
-@Image(source: placeholder-image, alt: "") 
+@Image(source: multimodality, alt: "") 
 
 But the thing is the **form of the content doesn't define the matter**. The same message may be presented by various **media types**. A birthday postcard, balloons animation in iMessage and a voice call may represent the absolutely same experience of being congratulated -- they convey the same **cognitive model**. 
 @Image(source: placeholder-image, alt: "") 
