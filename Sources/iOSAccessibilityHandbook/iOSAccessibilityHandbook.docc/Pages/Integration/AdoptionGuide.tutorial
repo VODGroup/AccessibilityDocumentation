@@ -107,6 +107,11 @@
             
             Get familiar with the ideas and **reasoning behind accessibility**.
             <doc:AccessibleDesign>
+            @TutorialReference(tutorial: "doc:Processes")
+            @TutorialReference(tutorial: "doc:Guidelines")
+            @TutorialReference(tutorial: "doc:Standarts")
+            @TutorialReference(tutorial: "doc:Privacy")
+            @TutorialReference(tutorial: "doc:ErrorPrevention")
             @TutorialReference(tutorial: "doc:AccessibleDesign")
             @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
@@ -124,7 +129,7 @@
             @TutorialReference(tutorial: "doc:UnitTesting")
             @TutorialReference(tutorial: "doc:SnapshotTesting")
             @TutorialReference(tutorial: "doc:UITesting")
-            @TutorialReference(tutorial: "doc:Maintenance")
+            @TutorialReference(tutorial: "doc:Manual")
             @TutorialReference(tutorial: "doc:GuidedAccess")
         }
         

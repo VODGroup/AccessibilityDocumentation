@@ -2,4 +2,15 @@
     @Intro(title: "Integrating Accessibility Into Product Processes") {
         
     }
+    
+
+    @ContentAndMedia {
+        ## Grassroot efforts
+        @Image(source: placeholder-image, alt: "")
+    }
+     
+     @ContentAndMedia {
+         ## Grassroot efforts
+         @Image(source: placeholder-image, alt: "")
+     }
 }
