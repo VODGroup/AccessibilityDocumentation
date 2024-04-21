@@ -1,7 +1,5 @@
 # Accessibility
 
-Enable people use your application with help of assistive technology
-
 @Metadata {
     @PageColor(blue)
     @TitleHeading("What Are We Even Talking About")

@@ -71,11 +71,12 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 }
 
 ## Topics
-### General Knowledge
+### Introduction
+- <doc:Accessibility>
 - <doc:iOSAccessibility>
 - <doc:AccessibilityFeatures>
 
-### Assistive Technology
+### Accessibility Features
 - <doc:VoiceOver>
 - <doc:VoiceControl>
 - <doc:SwitchControl>
@@ -85,16 +86,17 @@ Reading the book one may sometimes notice screenshots of iOS applications with *
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>
 
-### Accessibility In Code
-- <doc:MobileAccessibility>
+### Applications Accessibility
+- <doc:AccessibleUI>
+- <doc:AccessibleUX>
 - <doc:UIFrameworks>
 
-### Adapting Strategy
+### Integrating Accessibility
 - <doc:AdoptionGuide>
 
 ### Resources
-- <doc:InterfacePerception>
-- <doc:InterfaceInteractions>
+- <doc:Information>
+- <doc:Disability>
 - <doc:Glossary>
 - <doc:Credits>
 

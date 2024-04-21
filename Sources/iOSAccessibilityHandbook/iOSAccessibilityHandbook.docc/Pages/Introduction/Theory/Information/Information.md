@@ -30,44 +30,51 @@ But the thing is the **form of the content doesn't define the matter**. The same
 ## Informational models and their singularity
 To start with, let's define information. Information is an abstract concept of data provided by an object. 
 
-An object is a conceptual unit of objective reality -- a conceptional model consisting of facts that define everything embedded in the universe.
-
+### Objective reality
 @Image(source: milky-way, alt: "") {
     *"Reality"* often refers to the **observable universe**
 }
+An object is a conceptual unit of objective reality -- a conceptional model consisting of facts that define everything embedded in the universe.
 
-Regardless of how (if at all) this information is processed, the matter behind the cause stays the same.
+
+Regardless of whether this information is received or not, the matter behind the cause stays the same.
 
 @Image(source: earth, alt: "") {
-    There is only one Earth
+    With or without knowledge of this fact, Earth as a floating rock will exist
 }
 
-But does it mean that the same information is equally perceived by everyone able to receive it? 
+But does the singularity of matter mean that its informational models are equally perceived by everyone able to recognise it? 
 
 ## Cognitive models are plural
 
-Ability to receive information is called perception -- **ability to receive output from the outer world** inherent to living creatures.
+First things first, perception is an **ability to receive output from the outer world**. Inherent to living creatures, of course, as far as we know, rocks do not react on stimuli, otherwise they would be considered living.
 
-The complexity of reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth **share the same nature**. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - all living creatures are made of the same elements by the same rules and live **in the same world**.
+### Living creatures
+The complexity of yet singular reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth **share the same nature**. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - all living creatures are made of the same elements by the same rules and live **in the same world**.
 
 @Image(source: fish, alt: "") {
     Lifeforms **diversity** is unmeasurable 
 }
 
+### Sentience
 Nevertheless, those living creatures who are **sentient**, i.e. **able to sense**, perceive the world *differently*. Each species have their own **knowledge of the world** -- their own **worldview**, defined by the set of **perceptional abilities** available for them. 
 
 > Note: A model of **cognised environment** is called [**umwelt**](https://en.wikipedia.org/wiki/Umwelt), and an umwelt is consistent of [**qualias**](https://en.wikipedia.org/wiki/Qualia) - instances of **subjective experience**. 
 
-### Experience is subjective
+### Experience
 **Subjectiveness of experience** comes from the **types of information** species are able to **recognise**. A **set** of such abilities available for a specie is called a **perceptional system**.
 
+
+## Different perceptional systems perceive differently
 @Image(source: eyes, alt: "") {
     Evolution made different eyes to see in **different conditions**
 }
+*Taxonomically* creatures are differentiated by their **evolutionary development**. Humans and cats are of one biological class -- **mammals** -- because these species are similar in their development.
 
-*Taxonomically* creatures are differentiated by their **evolutionary development**: for example, humans and cats are of one biological class -- **mammals** -- because these species are similar in their development.
+Members of a particular **biological class** are capable of developing the same kinds of **cells** for particular **receptive organs**. The situation is different for species of *other* classes, those with different kinds of **receptive cells**, and, therefore, **sensory organs**. 
 
-Members of a particular **biological class** are capable of developing the same kinds of **cells** for particular **receptive organs**. Even though **humans** and **cats** perceive the reality drastically differently, their perceptions have **the same underlayment** -- but *implementation* is different. 
+Even though **humans** and **cats** perceive the reality drastically differently, their perceptions have **the same underlayment**.
+
 @Row {
    @Column {
       @Image(source: eye, alt: "") {
@@ -95,9 +102,8 @@ Members of a particular **biological class** are capable of developing the same 
       }
    }
 }
-The situation is different for species of *other* classes, those with different kinds of **receptive cells**, and, therefore, **sensory organs**. 
 
-For examples, **insects** are able to **sense humidity** by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Insects *just* feel wetness -- by *hygroreceptors* - specific **sensory cells**. 
+In the contrary, **insects**, which are not mammals, are able to **sense humidity** by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Insects *just* feel wetness -- by *hygroreceptors* - specific **sensory cells**. 
 @Image(source: butterfly, alt: "") {
     It knows it is wet
 }
