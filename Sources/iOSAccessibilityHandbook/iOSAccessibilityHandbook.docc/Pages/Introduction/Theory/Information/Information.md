@@ -1,10 +1,10 @@
-# Interface Perception
+# Human Perception and Informational Models
 
 A quick dip back into primordial soup to understand how everyone experiences the same world differently
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("Perception of Information")
+    @TitleHeading("Perceiving Information")
     @PageImage(
                purpose: icon, 
                source: "brain", 
@@ -19,39 +19,34 @@ A quick dip back into primordial soup to understand how everyone experiences the
                 label: "General Knowledge")
 }
 
-### Interfaces are just inputs and outputs
-Operating a computing device is essentially an **exchange of data**: the device *provides information* to be received and *gets information* from the user.
-
-### Multimodal Interfaces
-**Information** transmitted by the device may take one of three forms of **content types** supported by the modern technology: **visual**, **auidial** and **tactile**. 
+## Multimodality of Information
+Operating a computing device is essentially an **exchange of data**: the device *provides information* to be received and *gets information* from the user.  As for today, **information** transmitted by the device may take one of three forms of **content types** supported by the modern technology: **visual**, **auidial** and **tactile**. 
 
 @Image(source: multimodality, alt: "") 
 
-But the thing is the **form of the content doesn't define the matter**. The same message may be presented by various **media types**. A birthday postcard, balloons animation in iMessage and a voice call may represent the absolutely same experience of being congratulated -- they convey the same **cognitive model**. 
+But the thing is the **form of the content doesn't define the matter**. The same message may be presented by various **media types**. A birthday postcard, balloons animation in iMessage and a voice call may represent the absolutely same experience of being congratulated -- they convey the same **informational model**. 
 @Image(source: placeholder-image, alt: "") 
 
-### Cognitive models of information
-To understand why *different* **output forms** may have the same **meaning** let's research the mechanism of **perception** -- one's **ability to receive output from the outer world**.
+## Informational models and their singularity
+To start with, let's define information. Information is an abstract concept of data provided by an object. 
 
-## Reality is singular
-
-To start with, being a living creature means **continuous communication with *reality***. But what exactly *is* reality? 
-
-### Reality is a set of objects with stated properties
+An object is a conceptual unit of objective reality -- a conceptional model consisting of facts that define everything embedded in the universe.
 
 @Image(source: milky-way, alt: "") {
     *"Reality"* often refers to the **observable universe**
 }
 
-**Reality** as a conceptional model consisting of facts that define everything embedded in the universe. A *worldview*, which is **knowledge of the world**, is built of **perception** of these facts.
-
-
-### One world - many worldviews
+Regardless of how (if at all) this information is processed, the matter behind the cause stays the same.
 
 @Image(source: earth, alt: "") {
-    All life lives on the same Earth
+    There is only one Earth
 }
 
+But does it mean that the same information is equally perceived by everyone able to receive it? 
+
+## Cognitive models are plural
+
+Ability to receive information is called perception -- **ability to receive output from the outer world** inherent to living creatures.
 
 The complexity of reality made carbon-based lifeforms diverse that much so it's hard to believe that all inhabitants of Earth **share the same nature**. Bacteria, insects, fish, cats, humans, corals, pine trees and mushrooms - all living creatures are made of the same elements by the same rules and live **in the same world**.
 
@@ -59,19 +54,20 @@ The complexity of reality made carbon-based lifeforms diverse that much so it's 
     Lifeforms **diversity** is unmeasurable 
 }
 
-## Perception is plural
+Nevertheless, those living creatures who are **sentient**, i.e. **able to sense**, perceive the world *differently*. Each species have their own **knowledge of the world** -- their own **worldview**, defined by the set of **perceptional abilities** available for them. 
 
-Nevertheless, those living creatures who are **sentient**, i.e. **able to sense**, perceive the world *differently*. Each species have their own **knowledge of the world** -- their own **worldview**, defined by the set of **perceptional abilities** available for them. A model of **cognised environment** is called [**umwelt**](https://en.wikipedia.org/wiki/Umwelt), and an umwelt is consistent of [**qualias**](https://en.wikipedia.org/wiki/Qualia) - instances of **subjective experience**. 
+> Note: A model of **cognised environment** is called [**umwelt**](https://en.wikipedia.org/wiki/Umwelt), and an umwelt is consistent of [**qualias**](https://en.wikipedia.org/wiki/Qualia) - instances of **subjective experience**. 
 
-### Experience is composite
+### Experience is subjective
 **Subjectiveness of experience** comes from the **types of information** species are able to **recognise**. A **set** of such abilities available for a specie is called a **perceptional system**.
 
 @Image(source: eyes, alt: "") {
     Evolution made different eyes to see in **different conditions**
 }
 
+*Taxonomically* creatures are differentiated by their **evolutionary development**: for example, humans and cats are of one biological class -- **mammals** -- because these species are similar in their development.
 
-### Sensory systems of similar species
+Members of a particular **biological class** are capable of developing the same kinds of **cells** for particular **receptive organs**. Even though **humans** and **cats** perceive the reality drastically differently, their perceptions have **the same underlayment** -- but *implementation* is different. 
 @Row {
    @Column {
       @Image(source: eye, alt: "") {
@@ -99,12 +95,6 @@ Nevertheless, those living creatures who are **sentient**, i.e. **able to sense*
       }
    }
 }
-
-*Taxonomically* creatures are differentiated by their **evolutionary development**: for example, humans and cats are of one biological class -- **mammals** -- because these species are similar in their development.
-
-Members of a particular **biological class** are capable of developing the same kinds of **cells** for particular **receptive organs**. Even though **humans** and **cats** perceive the reality drastically differently, their perceptions have **the same underlayment** -- but *implementation* is different. 
-@Image(source: placeholder-image, alt: "")
-
 The situation is different for species of *other* classes, those with different kinds of **receptive cells**, and, therefore, **sensory organs**. 
 
 For examples, **insects** are able to **sense humidity** by a completely different perception than humans. Humans decide whether they are wet or not based on the feeling of temperature difference between their skin and the environment. Insects *just* feel wetness -- by *hygroreceptors* - specific **sensory cells**. 
@@ -112,7 +102,7 @@ For examples, **insects** are able to **sense humidity** by a completely differe
     It knows it is wet
 }
 
-It is not required to be of a different specie to have different cognitive model of the world: *levels* of perception of a particular sense differ from a specie to specie. Dogs smell in a range thousands times wider than cats and moles are nearly completely blind, but as mammals they **all are able to see, hear, touch, smell and taste -- just to different degrees**.
+Nevertheless, it is not required to be of a different specie to have different cognitive model of the world: *levels* of perception of a particular sense differ from a specie to specie. Dogs smell in a range thousands times wider than cats and moles are nearly completely blind, but as mammals they **all are able to see, hear, touch, smell and taste -- just to different degrees**.
 
 @Image(source: color-blindness, alt: "")
 
@@ -129,7 +119,7 @@ It is possible to be born with a sensory system capabilities different from what
     Albinism often comes with **congenital visual disability**
 }
 
-> Important: People who **were born** without an ability to use a particular sense, for example, those who are *congenitally* completely **blind** or **deaf** have no idea about visual or audial forms of information in the terms of how sighted or hearing people perceive it. **Their cognitive *image* of the world are different.**
+> Important: People who **were born** without an ability to use a particular sense, for example, those who are *congenitally* completely **blind** or **deaf** have no idea about visual or audial forms of information in the terms of how sighted or hearing people perceive it. **Their *cognitive models* of the world are different.**
 
 ### Obtained impairments
 Being born with **fully functional sensory system does not guarantee the integrity of perception forever**. Typical perception may be adjusted **temporary** or **permanently** during the life as a result of **changes within the receptive or processing organs**. 
@@ -142,6 +132,8 @@ Being born with **fully functional sensory system does not guarantee the integri
     It is natural for people to experience **vision loss** from **aging-related degradation of sensory organs**
     }
     
+    
+## Differences in processing recieved information
 ## -- Ok. How does this all information helps me create accessible products? 
 The *most* important point that can be taken from this page (after the fact that no one is safe from losing abilities to sense, of course) is that **the meaning behind any cause is the same regardless of its interpretation**. 
     
@@ -158,5 +150,3 @@ As *accessibility experts* it is our **goal** to create interfaces that are **pe
 - <doc:AccessibleUX>
 - <doc:ColorsAndShapes>
 - <doc:AlternativeDescription>
-
-
