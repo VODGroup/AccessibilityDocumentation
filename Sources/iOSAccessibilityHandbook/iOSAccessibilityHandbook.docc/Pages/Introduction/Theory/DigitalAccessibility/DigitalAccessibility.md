@@ -1,4 +1,4 @@
-# Digital Accessibility
+# Accessibility
 
 Enable people use your application with help of assistive technology
 
@@ -22,33 +22,61 @@ Enable people use your application with help of assistive technology
 
 ## What is accessibility 
 
-**Accessibility** is a property of *things* that measures its **approachability**. Most commonly the term is used to refer to those qualities of objects that make them accessible for people with special needs, for example, people with disabilities or users of assistive technology. 
+**Accessibility** is a property of *things* that measures its **approachability**. Most commonly the term is used to refer to those qualities of objects that make them accessible for people with special needs, for example, people with disabilities or users of assistive technology.
+
+>Important: Accessibility as a term cannot be used to solely refer to solutions aimed to assist people with special needs. Accessibility is for everyone.
 
 ### People with disabilities
 Disability as a term is defined in relation to its model. Regardless of the focus of the model -- whether it is more medical or social -- disability is a reason of diversity of people's abilities in communicating, which consist of receiving input (perception) and providing output (interaction), with their environment. 
 
+### Featured
+@Links(visualStyle: detailedGrid) {
+    - <doc:InterfacePerception>
+    - <doc:InterfaceInteractions>
+}
+
 ### Users of assistive technology
 Assistive technology are those technological solutions that are aimed to ease the life of people by providing an equitable access to the life activities. 
 
+For example, hearing aids is a technology that helps people who have hearing impairments to hear better.
+
 ### People with special needs
-Nevertheless, people with disabilities and users of assistive technology are not the same. There is requirement to have a disability to use assistive technology, as well as a person with a disability may not use any of assistive technology.
+Despite the compatibility of people with disabilities needs and assistive technology solutions, users of assistive technology cannot be defined as people with disabilities. There is no requirement to have a disability to use assistive technology, as well as a person with a disability may not use any of assistive technology.
 
-### -- So... for whom accessibility is then? 
-For everyone. Accessibility is a part of universal design whose purpose is not to exclude its potential users by their differences in abilities to perceive and interact with the designed object.
+### Computer accessibility
+Accessibility is applicable to objects of any nature, most commonly to anthropogenic products. Computers, one of the most influential inventions of humanity, may be accessible too. 
 
-### -- Ok. Just consider everyone.
-No, it is impossible to include everyone. Users are essentially unknowable and it is a dangerous act to consider that anyone is able to make any predictions based on the expectations of users behaviour. But it is possible to not exclude anyone, both intentionally and unintentionally. By accessibility.
+Considering humanitarian values in societies, computers must be accessible. A great deal of everyday life of an average modern person is about being involved in using computational devices. 
 
-### Accessibility best practices
-To make something accessible it is required to use the established means in providing equitable access for as many people as possible based on what the humanity has learned about its diversity.
+As persons involved in production of digital solutions, we are responsible of providing equitable access to the product. 
 
-### Assistive technology benefits accessibility
-Assistive technology are functioning that way so their support explicitly benefits accessibility of the product.
+## Supporting accessibility
+There may be many arguments against support of accessibility, from insufficient production resources to explicit discrimination of users of assistive technology. Unless there is no intention in people of special needs exclusion, accessibility got a proven beneficial potential. 
 
-## iOS Accessibility Book
+### Universal design
+Accessibility is an aspect of universal design and its adoption affects the general usability of products. The more accessible the product is for minor parts of its audience, the more comfortable the user experience will be for everyone.
 
-### Accessibility of user interfaces
-In this book we are going to work on accessibility of iOS application, which are programs ran on iOS devices. Computer programs is a well-discovered phenomenon and their accessibility is measured by approachability of their user interface -- space that includes every means of communication between the user and the machine. 
+### Inclusion
+Supporting accessibility is an engine of people with disabilities inclusion. If your organisational values include such concepts as diversity, equity and inclusion (DEI), accessibility cannot be omitted. 
 
-### Accessibility of iOS
-Next, we are going to discuss accessibility of iOS and mobile devices that run this system. 
+### Better products
+Moreover, accessibility of products directly benefits the business. By increasing approachability of the products their producer expand the audience and provide better customer experience. 
+
+### Straight profit
+Obviously enough (due to cultural trends of civilised world), there are studies showing that people tend to trust companies who adopt accessibility by 10% more than those who don't.
+
+Hopefully, that was a persuasive reasoning why accessibility should be considered. For those who decided to work on this aspect, this website exist. 
+
+## iOS Accessibility Handbook
+iOS Accessibility Handbook is an educational resource dedicated to help people responsible of iOS applications to integrate accessibility into their products. 
+
+### Learn and practice
+Integration digital products with accessibility is a complex and everlasting job for everyone involved in the product processes. During the course we are going to research accessibility of iOS applications by both theoretical and practical sides, so the course content sufficiently covers everything that one has to know to make iOS apps accessible. 
+
+Theoretical side of the book provides up-to-date knowledge of interface theory and best accessibility practices. Practical one is focused on successfully implementing these practices both into organisational and productional aspects of products.
+
+### Getting started
+Knowing what is ahead, let's get started with the work. First of all, make sure that you are familiar with the concepts required to be able to successfully work with the practical materials. 
+
+Once you are ready to implement the knowledge, proceed to the Accessibility Adoption Guide.
+
