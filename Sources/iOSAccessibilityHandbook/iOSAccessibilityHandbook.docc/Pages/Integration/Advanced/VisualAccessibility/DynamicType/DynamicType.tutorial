@@ -1,24 +1,15 @@
-@Tutorial(time: 15) {
-    @Intro(title: "Accessible Colors And Shapes") {
-        это для сотрудников арт лебедев
-        @Image(source: visual-properties, alt: "")
-        @Comment {
-            https://support.apple.com/en-us/111773
-            https://www.whocanuse.com
-            https://www.funkify.org
-            https://wise.design
-            https://www.oxo.com
-            спиздить у кирилла слайд про мужиков
-            https://www.figma.com/file/i3Xh0rnBgNTqlPbRKO3aYc/Apple-Design-Resources-–-iOS-17-and-iPadOS-17-(Community)?type=design&node-id=0-2194&mode=design&t=PkyE043rZ0FZtHNs-0
-        }
+@Tutorial(time: 30) {
+    @Intro(title: "Interface Scale with Dynamic Type") {
+        
+        7 РАЗМЕРОВ ШРИФТА ДЛЯ ПЕРЕБИРАНИЯ ХАРЧАМИ, 5 ДЛЯ ТЕХ КОМУ РЕАЛЬНО НАДО
+        
+        https://developer.apple.com/wwdc19/261
+        
+        @Image(source: vision-loss, alt: "")
     }
-
     
     
-    > Note: Accessibility Inspector has a built-in instrument
-    
-    
-    @Section(title: "Accessible Appearance of Controls") {
+    @Section(title: "Tracking Dynamic Type") {
         @ContentAndMedia {
             <#text#>
         }
@@ -30,7 +21,7 @@
         }
     }
     
-    @Section(title: "Dark Mode Support") {
+    @Section(title: "Large Text") {
         @ContentAndMedia {
             <#text#>
         }
@@ -42,7 +33,7 @@
         }
     }
     
-    @Section(title: "Color Blindness") {
+    @Section(title: "Bold Text") {
         @ContentAndMedia {
             <#text#>
         }
@@ -54,7 +45,7 @@
         }
     }
     
-    @Section(title: "Sufficient Contrast") {
+    @Section(title: "Outlines, Icons and Other Symbols") {
         @ContentAndMedia {
             <#text#>
         }
@@ -66,7 +57,19 @@
         }
     }
     
-    @Section(title: "Dynamic Type") {
+    @Section(title: "Enlarged Images") {
+        @ContentAndMedia {
+            <#text#>
+        }
+        
+        @Steps {
+            @Step {
+                <#Work in progress#>
+            }
+        }
+    }
+    
+    @Section(title: "Fitting Larger Content Into a Screen") {
         @ContentAndMedia {
             <#text#>
         }

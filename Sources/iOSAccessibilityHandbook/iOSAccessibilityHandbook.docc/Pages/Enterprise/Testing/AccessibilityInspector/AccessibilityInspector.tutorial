@@ -1,5 +1,5 @@
 @Tutorial(time: 10) {
-    @Intro(title: "Inspect Accessibility Right In Xcode") {
+    @Intro(title: "Inspect Accessibility Right in Xcode") {
         <#text#>
         
     }

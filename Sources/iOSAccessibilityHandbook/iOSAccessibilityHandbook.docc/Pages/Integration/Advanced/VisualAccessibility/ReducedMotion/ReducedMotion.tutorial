@@ -1,11 +1,11 @@
 @Tutorial(time: 15) {
-    @Intro(title: "<#text#>") {
+    @Intro(title: "Reduced Motion") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }
     
-    @Section(title: "What Is Considered Motion in an Interface") {
+    @Section(title: "What is considered a movement") {
         @ContentAndMedia {
             <#text#>
             
@@ -21,7 +21,7 @@
         }
     }
     
-    @Section(title: "How Motion Sickness Functions") {
+    @Section(title: "Motion sickness and mental impairments") {
         @ContentAndMedia {
             <#text#>
             
@@ -37,7 +37,7 @@
         }
     }
     
-    @Section(title: "Limit Amount of Moving Pictures") {
+    @Section(title: "Create a safe interface") {
         @ContentAndMedia {
             <#text#>
             
@@ -53,7 +53,7 @@
         }
     }
     
-    @Section(title: "Cross-fade Transition") {
+    @Section(title: "Limiting amount of animation") {
         @ContentAndMedia {
             <#text#>
             
@@ -69,7 +69,23 @@
         }
     }
     
-    @Section(title: "Gaming Without Motion Sickness") {
+    @Section(title: "Cross-fade transition") {
+        @ContentAndMedia {
+            <#text#>
+            
+            @Image(source: <#file#>, alt: "<#accessible description#>")
+        }
+        
+        @Steps {
+            @Step {
+                <#text#>
+                
+                @Image(source: <#file#>, alt: "<#accessible description#>")
+            }
+        }
+    }
+    
+    @Section(title: "Reduced movement in games") {
         @ContentAndMedia {
             <#text#>
             

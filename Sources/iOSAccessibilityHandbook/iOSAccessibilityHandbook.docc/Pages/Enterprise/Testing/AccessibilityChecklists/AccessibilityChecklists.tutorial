@@ -5,7 +5,7 @@
         https://www.w3.org/TR/wcag2ict-22/
     }
     
-    @Intro(title: "Accessibility Compliance") {
+    @Intro(title: "Accessibility Conformance Tools") {
         <#text#>
     }
 }

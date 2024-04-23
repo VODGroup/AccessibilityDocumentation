@@ -1,5 +1,5 @@
 @Article(time: 20) {
-    @Intro(title: "User scenarios for vertical swipes") {
+    @Intro(title: "Vertical Swipes") {
         Vertical swipe have a lot of possible actions and all of them depends on focus'es context.
 
         ## Overview

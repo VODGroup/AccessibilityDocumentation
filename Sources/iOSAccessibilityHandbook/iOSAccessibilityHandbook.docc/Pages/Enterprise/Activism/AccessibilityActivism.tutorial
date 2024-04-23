@@ -1,5 +1,5 @@
 @Article(time: 10) {
-    @Intro(title: "Making The World Accessible") {
+    @Intro(title: "Advocating for Accessibility as an iOS Developer") {
         
         @Comment {
             axe-con

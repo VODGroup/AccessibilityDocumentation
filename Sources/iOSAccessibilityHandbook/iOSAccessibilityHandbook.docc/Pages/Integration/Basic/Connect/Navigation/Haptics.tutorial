@@ -1,6 +1,6 @@
-@Tutorial(time: 5) {
-    @Intro(title: "Protect User's Confidential Information") {
-        я знаю что здесь делать 
+@Tutorial(time: 10) {
+    @Intro(title: "Haptic Feedback") {
+        <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")
     }

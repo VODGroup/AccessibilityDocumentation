@@ -1,0 +1,5 @@
+@Article(time: 15) {
+    @Intro(title: "Accessibility Settings Usage Statistics") {
+        Text
+    }
+}

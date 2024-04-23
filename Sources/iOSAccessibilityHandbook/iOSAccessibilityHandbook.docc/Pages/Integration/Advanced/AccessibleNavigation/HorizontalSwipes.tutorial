@@ -1,5 +1,5 @@
-@Tutorial(time: <#number#>) {
-    @Intro(title: "Manual Testing of iOS Applications") {
+@Tutorial(time: 30) {
+    @Intro(title: "Horizontal Swipes") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")

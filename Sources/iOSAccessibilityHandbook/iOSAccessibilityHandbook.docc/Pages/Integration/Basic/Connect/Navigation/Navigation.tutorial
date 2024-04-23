@@ -1,5 +1,5 @@
 @Article(time: 20) {
-    @Intro(title: "Navigation") {
+    @Intro(title: "Accessible Navigation") {
         
     }
 }

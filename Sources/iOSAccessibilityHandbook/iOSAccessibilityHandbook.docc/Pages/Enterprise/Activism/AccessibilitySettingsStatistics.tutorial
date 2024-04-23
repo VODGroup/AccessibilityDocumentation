@@ -1,5 +1,0 @@
-@Article(time: 15) {
-    @Intro(title: "Accessibility Settings Statistics") {
-        <#text#>
-}
-}

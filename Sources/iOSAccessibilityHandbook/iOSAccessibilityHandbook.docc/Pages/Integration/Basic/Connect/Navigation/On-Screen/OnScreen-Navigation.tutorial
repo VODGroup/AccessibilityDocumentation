@@ -1,5 +1,5 @@
 @Tutorial(time: 15) {
-    @Intro(title: "Navigation Within A Screen") {
+    @Intro(title: "Iterating Elements within a Screen") {
         
     }
     
