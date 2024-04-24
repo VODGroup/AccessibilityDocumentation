@@ -20,7 +20,7 @@
         @Image(source: placeholder-image.png, alt: "")
         
         @Chapter(name: "Expose interfacial data") {
-            @Image(source: chapter-describe.png, alt: "")
+            @Image(source: chapter-1-1.png, alt: "")
             
             First of all, every **functional element** of the interface has to be sufficiently *described*.
             
@@ -32,21 +32,23 @@
         }
         
         @Chapter(name: "Ensure that navigation is possible") {
-            @Image(source: chapter-connect.png, alt: "")
+            @Image(source: chapter-1-2.png, alt: "")
             
             Secondly, to *reconnect* the elements into a integral interface certain **alternative controlling options** have to be enabled.
             
             @TutorialReference(tutorial: "doc:OnScreen-Navigation")
             @TutorialReference(tutorial: "doc:FocusManagement")
             @TutorialReference(tutorial: "doc:Between-ScreensNavigation")
+            @TutorialReference(tutorial: "doc:Notifications")
         }
         
         @Chapter(name: "Secure user scenarios") {
-            @Image(source: chapter-simplify.png, alt: "")
+            @Image(source: chapter-1-3.png, alt: "")
             
             Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we should **review the layout** of the accessible interface.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
+            @TutorialReference(tutorial: "doc:AdaptCells")
             @TutorialReference(tutorial: "doc:Containers")
 
         }
@@ -58,7 +60,7 @@
         @Image(source: placeholder-image.png, alt: "")
 
         @Chapter(name: "Accessible description") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-2-1.png, alt: "")
             
             **Describe the accessible interface** to that extent so its users have **less ambiguity in its interpretation**.
             @TutorialReference(tutorial: "doc:AccessibleUX")
@@ -71,16 +73,19 @@
         @Chapter(name: "Accessible controls") {
             Implement **advanced alternative accessible controlling options** to make the experience **smoother**.
             @TutorialReference(tutorial: "doc:Rotor")
+            @TutorialReference(tutorial: "doc:CustomRotor")
             @TutorialReference(tutorial: "doc:CustomActions")
             @TutorialReference(tutorial: "doc:CustomRotor")
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-2-2.png, alt: "")
         }
         
         @Chapter(name: "Accessible navigation") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-2-3.png, alt: "")
             
             Develop **sufficient paths** to enable people **conveniently complete the tasks** they are supposed to.
             
+            @TutorialReference(tutorial: "doc:HorizontalSwipes")
+            @TutorialReference(tutorial: "doc:VerticalSwipes")
             @TutorialReference(tutorial: "doc:AdjustableElements")
             @TutorialReference(tutorial: "doc:HideUselessControls")
             @TutorialReference(tutorial: "doc:TextInput")
@@ -88,7 +93,7 @@
         }
         
         @Chapter(name: "Accessible appearance") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-2-4.png, alt: "")
             
             Make your **GUI easier to be visually comprehended** for people with **visual** or **mental impairments**.
             
@@ -103,22 +108,20 @@
         Concluding the course, the last volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
         
         @Chapter(name: "Design") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-3-1.png, alt: "")
             
             Get familiar with the ideas and **reasoning behind accessibility**.
             <doc:AccessibleDesign>
             @TutorialReference(tutorial: "doc:Processes")
-            @TutorialReference(tutorial: "doc:Guidelines")
             @TutorialReference(tutorial: "doc:Standarts")
             @TutorialReference(tutorial: "doc:Privacy")
-            @TutorialReference(tutorial: "doc:ErrorPrevention")
             @TutorialReference(tutorial: "doc:AccessibleDesign")
             @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
         
         @Chapter(name: "Testing") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-3-2.png, alt: "")
             
             **Tools** and **tactics** aimed to observe the accessible state of iOS applications.
             <doc:AccessibilityQualityAssurance>
@@ -134,12 +137,12 @@
         }
         
         @Chapter(name: "Activism") {
-            @Image(source: chapter-placeholder.png, alt: "")
+            @Image(source: chapter-3-3.png, alt: "")
             <doc:AccessibilityActivism>
             
             Participate in the life of **a11y community** and be an advocate for accessibility in the outer world.
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
-            @TutorialReference(tutorial: "doc:AccessibilitySettingsStatistics")
+            @TutorialReference(tutorial: "doc:Statistics")
             
         }
     }

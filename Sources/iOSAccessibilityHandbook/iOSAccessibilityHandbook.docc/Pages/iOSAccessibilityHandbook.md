@@ -79,8 +79,8 @@ Illustrative materials created exclusively for the book can be found [**here**](
 - <doc:iOSAccessibility>
 
 ### Interface Theory
-- <doc:AccessibleUI>
-- <doc:AccessibleUX>
+- <doc:InterfaceInteractions>
+- <doc:MediaTypes>
 
 ### General Knowledge
 - <doc:Information>
