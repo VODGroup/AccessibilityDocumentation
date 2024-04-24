@@ -10,14 +10,14 @@
 
         ### Let's dive in!
         
-        @Image(source: placeholder-image, alt: "")
+        @Image(source: guide-table, alt: "")
     }
     
     @Volume(name: "Integrating interfaces with accessibility") {
         
         This volume covers the **tasks crucial for implementation**: unsolved issues discussed here *exclude* users of [**assistive technology**](<doc:AccessibilityFeatures>).
         
-        @Image(source: placeholder-image.png, alt: "")
+        @Image(source: volume-1.png, alt: "")
         
         @Chapter(name: "Expose interfacial data") {
             @Image(source: chapter-1-1.png, alt: "")
@@ -57,7 +57,7 @@
     @Volume(name: "Enhancing accessible experience") {
         
         This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive**.
-        @Image(source: placeholder-image.png, alt: "")
+        @Image(source: volume-2.png, alt: "")
 
         @Chapter(name: "Accessible description") {
             @Image(source: chapter-2-1.png, alt: "")
@@ -107,6 +107,8 @@
         
         Concluding the course, the last volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
         
+        @Image(source: volume-3.png, alt: "")
+
         @Chapter(name: "Design") {
             @Image(source: chapter-3-1.png, alt: "")
             
