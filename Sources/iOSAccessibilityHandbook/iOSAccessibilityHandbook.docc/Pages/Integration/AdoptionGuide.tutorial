@@ -57,7 +57,7 @@
     @Volume(name: "Enhancing accessible experience") {
         
         This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive**.
-        @Image(source: placeholder-image.png, alt: "")
+        @Image(source: volume-2.png, alt: "")
 
         @Chapter(name: "Accessible description") {
             @Image(source: chapter-2-1.png, alt: "")
@@ -75,7 +75,7 @@
             @TutorialReference(tutorial: "doc:Rotor")
             @TutorialReference(tutorial: "doc:CustomRotor")
             @TutorialReference(tutorial: "doc:CustomActions")
-            @TutorialReference(tutorial: "doc:CustomRotor")
+            @TutorialReference(tutorial: "doc:KeyboardShortcuts")
             @Image(source: chapter-2-2.png, alt: "")
         }
         
@@ -85,7 +85,7 @@
             Develop **sufficient paths** to enable people **conveniently complete the tasks** they are supposed to.
             
             @TutorialReference(tutorial: "doc:HorizontalSwipes")
-            @TutorialReference(tutorial: "doc:VerticalSwipes")
+            @TutorialReference(tutorial: "doc:aVerticalSwipes")
             @TutorialReference(tutorial: "doc:AdjustableElements")
             @TutorialReference(tutorial: "doc:HideUselessControls")
             @TutorialReference(tutorial: "doc:TextInput")
@@ -106,7 +106,7 @@
         
         Concluding the course, the last volume provides **additional insights** on the topic of accessibility and its integration at various stages of the **product's life cycle**.
         
-        @Image(source: placeholder-image.png, alt: "")
+        @Image(source: volume-3.png, alt: "")
 
         @Chapter(name: "Design") {
             @Image(source: chapter-3-1.png, alt: "")
