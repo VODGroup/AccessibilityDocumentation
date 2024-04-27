@@ -1,6 +1,6 @@
 # ``iOSAccessibilityHandbook``
 
-Make your iOS application accessible for everyone
+Make your iOS applications **accessible**
 
 @Options(scope: global) {
     @AutomaticSeeAlso(disabled)
@@ -36,34 +36,38 @@ In other words, materials here cover **everything one could ever need to know ab
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
-    - <doc:MobileAccessibility>
-    - <doc:AdoptionGuide>
+    - <doc:iOSAccessibility>
+    - <doc:AccessibilityFeatures>
 }
 
 ### Target audience
-The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to *everyone working with accessibility* on iOS. 
+The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to *everyone working with accessibility* on iOS.
 
-There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and  *share* relevant real-life experience of contributing *accessibility professionals*.
+@Comment {
+    Working as an iOS engineer in a *corporation*? Publishing applications as an independent developer? Responsible for interface design of products on mobile platforms? Regardless of what you are doing, as long as you have to deal with iOS products and wish to make them accessible, this book is for you. 
+}
+
+There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and  **share** relevant real-life experience of contributing *accessibility professionals*.
 
 ## Book structure
 
-The handbook is somewhat of a *complete course* of **how to make iOS applications accessible**. The material is split into conceptual *topics* and categorised by its relation to particular assistive technologies and field of implementation. 
+The handbook is somewhat of a *complete course* of **how to make iOS applications accessible**. The material is split into conceptual *topics* and categorised by its relation to a particular [**assistive technology**](<doc:AccessibilityFeatures>) and its field of implementation. 
 
 @Image(source: book-content, alt: "")
 
-To know more about the book's structure take a look at the left side of the page where the [**table of contents**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/#topics) is.
+To know more about the book's structure take a look at the left side of the page where the [**table of contents**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/#topics) is located.
 
 ### Technical implementation
 At the moment the project's form is defined by being a *documentation catalog* ([**DocC**](https://www.swift.org/documentation/docc)) hosted by [**GitHub pages**](https://pages.github.com). 
 
-To contribute to the project visit its [GitHub page](https://github.com/VODGroup/AccessibilityDocumentation) and see the instruction of how you may help.
+To **contribute** to the project visit its [GitHub page](https://github.com/VODGroup/AccessibilityDocumentation) and see the instruction of how you may help.
 
 ### Contributors
 The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [**Dodo Brands**](https://dodobrands.io), an accessibility activist and the author of ["**About Accessibility on iOS**"]( https://rubanov.dev/a11y-book) book. Exemplary and illustrative materials are based on his *working experience*. 
 @Image(source: "aboutAccessibility-sample", alt: "-")
 
 ### VoiceOver Designer
-Reading the book you may sometimes notice screenshots of iOS applications with *mark-ups* related to accessibility design over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessibility scenarios* over a screenshot of an app. 
+Reading the book you may notice screenshots of iOS applications with *mark-ups* related to **accessibility design** over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessible interfaces* over a screenshot of an app. 
 @Image(source: "vod-sample", alt: "-")
 
 ### Design Resources
