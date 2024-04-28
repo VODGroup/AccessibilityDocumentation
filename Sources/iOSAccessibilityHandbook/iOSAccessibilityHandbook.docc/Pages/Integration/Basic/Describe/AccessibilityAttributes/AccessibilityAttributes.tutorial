@@ -1,41 +1,50 @@
 @Tutorial(time: 15) {
     
-    @Intro(title: "Describing Interface For Assistive Technology") {
+    @Intro(title: "Describing Interface for Accessibility API") {
         In this tutorial we're going to discuss unquestionably the most important thing to make an interface accessible — properly **describe its elements** for both users and assistive technology. 
         
         ## What elements are considered accessible?
         To enable [accessibility applications](<doc:AccessibilityFeatures>) work as intended for a particular *element* it has to have *certain properties* specified. Sometimes elements inherit such information by default — if they are of an *accessible class* (like [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)), but most of the times we have to manually set properties for the items present on the screen to make it not only *function*, but *be pleasant* to use.
         
-        Let's grab a coffee and go over *core* attributes of [`UIAccessibilityElement`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement) to figure out **why** and **when** we should use them.
+        To know more about how Accessibility API decides whether the element is accessible, take a step back to [**Accessibility in Code**](<doc:AccessibilityInCode>).
+        
+        Once you know what is an accessible element, let's grab a coffee and go over their *core* attributes of to figure out **why** and **when** we should specify them.
 }
     
     @Section(title: "Label") {
         @ContentAndMedia {
             
-            We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*. Firstly, let's take a closer look at each of them.
+            We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*. To start with, let's take a closer look at each of them.
 
-            ### Label — Identification
-            [`accessibilityLabel`](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel) is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology used.
+            ### Label — Identification, a Name
+            `Label` is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology used.
 
             @Video(source: coffee)
         }
         
         @Steps {
             @Step {
-                Let's start with elements that are *purely informative*, such as "Drink Name" text on a drink page.
+                Let's start with elements that are *purely informative*, such as "Drink Name" text on a drink page. How should we call it?
                 
                 @Image(source: americano-view-name, alt: "")
             }
             
             @Step {
-                Since there is nothing more than a *very specific* piece of data stored in the element we **use its `Value` as `Label`**. 
+                Since there is nothing more than a *very specific* piece of data stored in the element we **use its "value" as `Label`**. 
                 
                 @Image(source: americano-view-name-label, alt: "")
             }
             
             @Step {
-                There is `accessibilityValue` property, but in this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. It would be an **inconvenient* experience for users.
-                
+                -- But there is `Value` property! Shouldn't we put this information there?
+                @Image(source: americano-view-name-verbosity, alt: "")
+            }
+            @Step {
+                A sharp notice. In this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. It would be an **inconvenient experience** for users.
+                @Image(source: americano-view-name-verbosity, alt: "")
+            }
+            @Step {
+                Deciding between `Label` and `Value`, remember that the former one is a required attribute for any accessibility element. An accessible element may have no value, but having no label makes the element inaccessible.
                 @Image(source: americano-view-name-verbosity, alt: "")
             }
         }
@@ -45,19 +54,19 @@
         @ContentAndMedia {    
             
             ### Value — Details
-            Then there is [`accessibilityValue`](https://developer.apple.com/documentation/objectivec/nsobject/1615117-accessibilityvalue). Basically this property is used to store any *additional information* about the element that is unnecessary for `Label` to contain.
+            Then there is `accessibilityValue`. Basically, this property is used to store any *additional information* about the element that is unnecessary for `Label` to contain, i.e. excessive for element's identification.
             
             @Video(source: coffee)
         }
         
         @Steps {
             @Step {
-                Now comes a little bit of *complexity*. An element that represents a song in a music player — there is *lots* of data to be described.
+                This adds a little bit of *depth* to our description. An element that represents a song in a music player — there is *lots* of data to be described.
                 
                 @Image(source: chapter-placeholder.png, alt: "")
             }
             @Step {
-                To *succinctly identify* the song we will risk to use its name as `Label`.
+                To *succinctly identify* the song we will risk to use its name as `Label`. Nothing else is needed to recognise this song among other correctly.
                 
                 @Image(source: placeholder-image.png, alt: "")
             }
@@ -69,7 +78,7 @@
             }
             
             @Step {
-                And... this is it for "plain" elements. To continue pocking at accessible elements' properties let's move to the next one and see how its presence affects already familiar `Label` and `Value`.
+                And... this is it for "informative" elements. Those elements who only provide output and do not trigger any program behaviour. To continue pocking at accessible elements' properties let's move to the next one and see how its interactiity affects already familiar `Label` and `Value`.
                 
                 @Image(source: placeholder-image.png, alt: "")
             }
@@ -78,11 +87,9 @@
     
     @Section(title: "Label vs Value") {
         @ContentAndMedia {    
-            ### Fine Line Between Label And Value
+            ### Fine line between label and value
             To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
-            
-            To learn how to fluently use these traits let's work on some more exemplary elements.
-            
+                        
             @Video(source: coffee)
 
         }
@@ -105,11 +112,11 @@
     
     @Section(title: "Traits") {
         @ContentAndMedia {
-            A value stored in [`accessibilityTraits`](https://developer.apple.com/documentation/objectivec/nsobject/1615202-accessibilitytraits) property points at the *functionality* of the element. By the default it is [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stated [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) trait - it only exists for convenience so it is easier for humans to comprehend the role of the element.
+            A value stored in `Traits` property points at the *functionality* of an element. By the default it is `none` and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stating `staticText` trait - it only exists for convenience so it is easier for humans to comprehend the role of the element. (Use it.)
             
-            If an element has *more* than --none-- purely informative role **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so users and assistive technology know how to deal with this item.
+            If an element has *more* than --none-- purely informative role **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so both users and assistive technology know how to deal with this item.
             
-            To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has an example of each them.
+            To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has a living example of each them.
             
             @Video(source: traits-scroll)
         }

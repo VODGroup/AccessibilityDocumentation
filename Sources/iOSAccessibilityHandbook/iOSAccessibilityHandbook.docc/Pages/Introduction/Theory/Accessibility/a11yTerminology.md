@@ -1,5 +1,7 @@
 # Digital Accessibility
 
+Accessibility **terminology** crash course
+
 @Metadata {
     @PageColor(blue)
     @TitleHeading("What Are We Even Talking About")

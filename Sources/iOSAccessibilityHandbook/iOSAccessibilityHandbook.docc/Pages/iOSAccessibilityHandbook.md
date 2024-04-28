@@ -79,16 +79,9 @@ Illustrative materials created exclusively for the book can be found [**here**](
 
 ## Topics
 ### Introduction
-- <doc:Accessibility>
 - <doc:iOSAccessibility>
-
-### Interface Theory
-- <doc:InterfaceInteractions>
-- <doc:MediaTypes>
-
-### General Knowledge
-- <doc:Information>
-- <doc:Disability>
+- <doc:a11yTerminology>
+- <doc:AccessibilityInCode>
 
 ### Assistive Technology
 - <doc:AccessibilityFeatures>
@@ -101,13 +94,5 @@ Illustrative materials created exclusively for the book can be found [**here**](
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>
 
-### Accessibility in Code
-- <doc:UIFrameworks>
-
 ### Integrating Accessibility
 - <doc:AdoptionGuide>
-
-### Miscellaneous
-- <doc:Glossary>
-- <doc:Credits>
-
