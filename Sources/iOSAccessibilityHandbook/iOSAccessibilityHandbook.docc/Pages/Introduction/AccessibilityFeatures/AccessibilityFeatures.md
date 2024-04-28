@@ -1,6 +1,6 @@
 # Accessibility Features
 
-A brief overview of assistive technology supported by iOS
+A brief overview of **assistive technology** supported by iOS
 
 @Metadata {
     @PageColor(blue)
@@ -21,7 +21,7 @@ A brief overview of assistive technology supported by iOS
 
 **Accessibility Features** is a collection of *software* aimed to **help people use the device**. 
 
-You can find **Accessibility Features** available for your device in **Settings**, in **Accessibility** category.
+You can find **Accessibility Features** available for your device in **Settings**, under **Accessibility** category.
 
 @Row {
     @Column {
