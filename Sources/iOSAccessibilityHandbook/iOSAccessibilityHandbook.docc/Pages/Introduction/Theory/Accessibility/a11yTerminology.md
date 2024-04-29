@@ -1,6 +1,6 @@
-# Digital Accessibility
+# Accessibility Terminology
 
-Accessibility **terminology** crash course
+Digital accessibility crash course
 
 @Metadata {
     @PageColor(blue)
