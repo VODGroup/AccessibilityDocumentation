@@ -24,9 +24,6 @@
 
     @Section(title: "Label") {
         @ContentAndMedia {
-
-            
-            
             **Label** is the only **accessibility attribute** that **cannot be omitted**. In other words, **Label** is *required* to be specified for an element for it to be considered **accessible**.
 
             ### Identifying elements
@@ -112,117 +109,171 @@
             }
 
         }
+    }
 
-        @Section(title: "Label vs Value") {
-            @ContentAndMedia {    
-                ### Fine line between label and value
-                To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, **Label** is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be **independent of unnecessary information** to avoid *ambiguity*. 
-                
-                In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage. 
-            }
-        }
-
-        @Section(title: "Traits") {
-            @ContentAndMedia {
-                A value stored in `Traits` property points at the *functionality* of an element. By the default it is `none` and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stating `staticText` trait - it only exists for convenience so it is easier for humans to comprehend the role of the element. (Use it.)
-
-                If an element has *more* than --none-- purely informative role **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so both users and assistive technology know how to deal with this item.
-
-                To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has a living example of each them.
-
-                @Video(source: traits-scroll)
-            }
-
-        @Steps {
-                @Step {
-
-                }
-
-                @Step {
-
-                }
-
-                @Step {
-
-                }
-
-                @Step {
-
-                }
-
-                @Step {
-
-                }
-
-                @Step {
-                
-                }
-
-                @Step {
-               
-                }
-                
-                @Step {
-                
-                }
-                
-                @Step {
-
-                }
-
-                @Step {
-                
-                }
-
-                @Step {
-                    
-                }
-
-                @Step {
-
-                }
-                
-                @Step {
-
-                }
+    @Section(title: "Label vs Value") {
+        @ContentAndMedia {    
+            ### Fine line between label and value
+            To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, **Label** is heavily exploited by [**Voice Control**](<doc:VoiceControl>) and has to be **independent of unnecessary information** to avoid *ambiguity*. 
+            
+            In the meantime **Value** is that part of element's description that is changeable by [**AdjustableTrait**](<doc:AdjustableElements>)'s usage. 
         }
     }
+
+    @Section(title: "Traits") {
+        @ContentAndMedia {
+            
+            ## Functionality
+            
+            A value stored in **Traits** property points at the **functionality** of an element. 
+            
+            ### none
+            By default it is `none` and means that **there is nothing you can do with this element**.
+            
+            ### staticText
+            Though exactly same behaviour is implemented by explicitly stating `staticText` trait - it only exists for convenience so it is easier for humans to comprehend the role of the element. (Use it. Unless you indeed have elements of pure nothingness.)
+
+            ### Interactive elements
+            If an element has *more* than ~~none~~ purely textually-informative role **it has to be specified in this property** by stating one of **Traits** so both users and assistive technology know **what to do** with this item.
+
+            To see the complete list of **Traits** available visit the [**appropriate tutorial**](<doc:Traits>) - it has a living example for each of them.
+
+            @Video(source: traits-scroll)
+        }
+
+        @Steps {
+            @Step {
+                Hawaiian pizza, with price of 449 roubles and some pineapples -- the choice was made. How do we order it though?
+            }
+
+            @Step {
+                To order the pizza we need to put this one to the cart. The actions of moving a certain product to the cart is the main action of this product element and it can be done by performing a simple action on it.
+            }
+
+            @Step {
+                An interactive element that has no specific meaning (like those weird .playsSound and .causesPageTurn guys from [**Traits**](<doc:Traits>) tutorial) is a button. Yes, our product card... is... exactly a button. 
+            }
+
+            @Step {
+                **Button** trait will be the most common **type of controls** on your accessible elements path, so don't overestimate the power of this statement.
+            }
+        }
+    }
+            
+    @Section(title: "Multiple traits") {
+        @ContentAndMedia {
+            But if there is more [**Traits**](<doc:Traits>) that are suitable to portray the type of our element? Like, what is Hawaiian pizza product card is indeed a button, but there is no pineapples available and therefore no pizza?
+            
+            ### OptionSet
+            This is exactly why in UIKit **Trait** attribute is stated by using `OptionSet` **methods** and not as a **given value** as for other attributes. There may be *many* suitable traits and they may be set in accordance with the situation. For example, an abstract button will always be *a button*, but **whether it's available or not... is a conditional question**.
+            
+            ### -- Would multiple traits conflict with each other?
+            Functionally -- no, it's just a description. The responsibility of giving an appropriate set of **Traits** is on you. **VoiceOver** knows how to deal with situations like this.
+        }
+        @Steps {
+            @Step {
+                To gain confidence of this, let's peep into our order summary. 
+            }
+            @Step {
+                See this curious complex cell reviewing the place of our order? Let's hear its description. 
+            }
+            @Step {
+                Selected. At pizzeria, Mikluho-Maklaya st., 36A. Unavailable, button. Double tap to activate
+                }
+            @Step {
+                THREE traits at once and everything is natural.
+            }
+            @Step {
+                Whether an item is selected or not is the most important users should hear first.
+            }
+            @Step {
+                Then we can deal with what exactly was selected: **Label**, a separating pause, **Value** of this element. 
+            }
+            @Step {
+                Traits time. Element is indeed a button, but an unavailable button is completely different story. State first.
+            }
+            @Step {
+                Aaand, after a short pause, a hint. Always the last. Wait. What hint?
+            }
+        }
+    }
+
 
     @Section(title: "Hint") {
         @ContentAndMedia {
 
-            [`accessibilityHint`](https://developer.apple.com/documentation/objectivec/nsobject/1615093-accessibilityhint) is a *description* of what happens if the user *interacts* with an element. But there is a tricky moment.
+            The last accessibility attribute. A localised string, again. **Hint** is a *description* of what happens if the user *interacts* with an element. But there is a tricky moment.
 
-            *Every* interactive element has its own `Hint` specified *by default*. The problem is that these hints are repetitive and **majority of `Accessibility Features` users turn it off** so there is very little chance that someone will ever see your *customised* hints. 
+            ## Tricky moment
+            *Every* standard interactive element has its own **Hint** specified **by default**. The problem is that these hints are *repetitive* and **majority of Accessibility Features users turn hints off** so there is very little chance that someone will ever see your *customised* hints. 
 
-            The reason why you should customise the hints for your controls is that if there are [`Custom Actions`](<doc:Rotor>) a curious user may survey them in order to see **how *well* the application is adapted**.
+            ## Very little chance
+            The reason why you should customise the hints for your controls is that if there are [**Custom Actions**](<doc:CustomActions>) available. A curious user will always enable hints for the introductory session with the app first time they open it to see **how *well* the application is adapted**. We adapt application **darn well**.
         }
 
         @Steps {
             @Step {
-
+                Is there is anything to be written as a **Hint** for our product card? 
             }
 
             @Step {
-
+                At the moment no. Custom Actions are yet ahead and we have no idea how powerful we are in advanced accessibility functionality.
             }
 
             @Step {
-
+                But we can write what we already know. Just to praise ourselves. 
             }
         }
     }
 
-    @Section(title: "What now") {
+    @Section(title: "THAT'S ALL FOR NOW") {
         @ContentAndMedia {
-            Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology** they use. 
-
-            What about a little `quiz` to revise the topic? 🔎
+            Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology**. 
+            
+            ### -- Is that really all?
+            Obviously the topic of **accessibility description** cannot be taught by a single example, even if it's a complicated one. But working on accessibility of applications will require you to **describe every single element** of its interfaces, so don't worry! We will cover as many **description cases** as possible through the course. **But the foundation is set.**
+            
+            ### NOW YOU KNOW:
+            - how to succinctly identify elements and give them an accessible **Label**;
+            - what details should be mentioned in its accessibility **Value**;
+            - what **Traits** exist and why it is that crucial to specify them;
+            - that anyone unlikely will appreacite your work on **Hints**, but we don't do it for appreciation.
+            
+            ### ... OR DON'T YOU?
+            Find the truth about yourself by participating in this **quiz** of true expertise.
         }
 
     }
         
     @Assessments {
+        @MultipleChoice {
+            
+            [**❤**](<doc:Traits>)
+            
+            What is this element?
+            
+            @Choice(isCorrect: false) {
+                   A button
+                   @Justification(reaction: "Try again!") {
+                       No, it is a deadly sin to specify links as buttons. Buttons do something, links open links. 
+                   }
+            }
+            
+            @Choice(isCorrect: true) {
+                   A link
+                   @Justification(reaction: "That's right!") {
+                       Yep. Definitely not a button.
+                   }
+            }
+            
+            @Choice(isCorrect: false) {
+                   It's not even an element
+                   @Justification(reaction: "Try again!") {
+                       DocC doesn't allow images in quizzes, please be kind to involve your imagination.
+                   }
+            }
+        }
+        
         @MultipleChoice {
             Is this item accessible?
 
@@ -245,7 +296,6 @@
                 @Justification(reaction: "Try again!") {
                     text
                 }
-            }
         }
     }
 }
