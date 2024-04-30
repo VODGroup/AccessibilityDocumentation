@@ -1,354 +1,360 @@
-@Tutorial(time: 15) {
+@Tutorial(time: 30) {
     
     @Intro(title: "Describing Interface for Accessibility API") {
-        In this tutorial we're going to discuss unquestionably the most important thing to make an interface accessible — properly **describe its elements** for both users and assistive technology. 
-        
-        ## What elements are considered accessible?
-        To enable [accessibility applications](<doc:AccessibilityFeatures>) work as intended for a particular *element* it has to have *certain properties* specified. Sometimes elements inherit such information by default — if they are of an *accessible class* (like [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)), but most of the times we have to manually set properties for the items present on the screen to make it not only *function*, but *be pleasant* to use.
-        
-        To know more about how Accessibility API decides whether the element is accessible, take a step back to [**Accessibility in Code**](<doc:AccessibilityInCode>).
-        
-        Once you know what is an accessible element, let's grab a coffee and go over their *core* attributes of to figure out **why** and **when** we should specify them.
-}
-    
+        In this tutorial we're going to discuss unquestionably *the most* important thing to make an interface accessible — properly **describe its elements** for both users and assistive technology. 
+
+        ## Importance of data exposure
+        **Accessible description** of elements allows Accessibility API to deal with the interface: explicitly stating functionality of an element you enable different [**Accessibility Features**](<doc:AccessibilityFeatures>) to correctly *recognise* the **purpose** of components and therefore give them an appropriate **accessible representation**. 
+
+        ### For users
+        Moreover, accessible description is used to portray user interfaces in **different forms** than the "regular" one. Unless elements are properly described, an abstract user of [**VoiceOver**](<doc:VoiceOver>) who relies on **semantic structure** of the interface *only* will never be able to **figure out what is happening on the screen of their device**.
+
+        ### For API
+        Absence of description also affects methods of both **direct** and **indirect selection**: an element without description cannot be *called by name* with [**Voice Control**](<doc:VoiceControl>) or *recognised* by [**Switch Control**](<doc:SwitchControl>) or [**Full Keyboard Access**](<doc:FullKeyboardAccess>) to enable **elements iteration**.
+
+        ## What elements are considered described?
+        To enable [Accessibility Features](<doc:AccessibilityFeatures>) work as intended for a particular *element* it has to have *certain properties* specified. Sometimes elements inherit such information **by default** — if they are of an *accessible class* (children of the standard `View`), but **most of the times we have to manually set properties for the items present on the screen to make it not only *function*, but *be pleasant* to use**.
+
+        ### Description of accessible elements
+        To remind yourself how Accessibility API decides whether the element is **accessible** (therefore can have **accessible description**), take a step back to [**Accessibility in Code**](<doc:AccessibilityInCode>).
+
+        ### Accessibility attributes
+        On iOS accessible description is *composed* of four **accessible attributes**: **Label**, **Value**, **Traits** and **Hint**. Once you are ready to meet them, let's go out for some **accessibly described** pizza.
+    }
+
     @Section(title: "Label") {
         @ContentAndMedia {
+
             
-            We are going to deal with `Label` and `Value` at the same time as they are similar in their nature: both are *localised strings* and of *informative purpose*. To start with, let's take a closer look at each of them.
+            
+            **Label** is the only **accessibility attribute** that **cannot be omitted**. In other words, **Label** is *required* to be specified for an element for it to be considered **accessible**.
 
-            ### Label — Identification, a Name
-            `Label` is the *main property* of the element's description. It is said that `Label` "succinctly identifies the element", which is, translated to human-readable language, means that **users must be able to get everything they need to get about the element by only hearing its label**. Or *call* this exact element by calling its name. Depends on the technology used.
+            ### Identifying elements
+            **Label** is the **main property** of the element's **accessible description**. It is essentially a unique identifier that is used by users to recognise this particular element as something singular. Represented by a **localised string**.
+            
+            ### Appropriate naming
+            To be the best name for an element a **Label** must:
+            - be as **short** as possible;
+            - convey everything needed for users to be able to know **what this element is for**;
+            - not contain any **detailed description** (to not double **Value**);
+            - include any information referring to its **type** (to not double **Traits**);
+            - be unique among the items of the current screen.
+            
+            Why? Let's figure out by choosing the pizza.
 
-            @Video(source: coffee)
         }
-        
+
         @Steps {
             @Step {
-                Let's start with elements that are *purely informative*, such as "Drink Name" text on a drink page. How should we call it?
-                
-                @Image(source: americano-view-name, alt: "")
+                The menu is a list of product cards. Each card is a complex element containing multiple interfacial elements, but our accessibility element is the whole card, because each of them represents a particular position in menu.
+
             }
-            
+
             @Step {
-                Since there is nothing more than a *very specific* piece of data stored in the element we **use its "value" as `Label`**. 
-                
-                @Image(source: americano-view-name-label, alt: "")
+                We need to choose which pizza we're going to order. How are we going to refer to the pizza of our choice? 
+
             }
-            
+
             @Step {
-                -- But there is `Value` property! Shouldn't we put this information there?
-                @Image(source: americano-view-name-verbosity, alt: "")
+                By its unique identifier, which in this case is "pizza name".
             }
             @Step {
-                A sharp notice. In this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. It would be an **inconvenient experience** for users.
-                @Image(source: americano-view-name-verbosity, alt: "")
+            In this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. Every element in this menu is pizza. It would be an **inconvenient experience** for users.
             }
             @Step {
-                Deciding between `Label` and `Value`, remember that the former one is a required attribute for any accessibility element. An accessible element may have no value, but having no label makes the element inaccessible.
-                @Image(source: americano-view-name-verbosity, alt: "")
+                So just the name will be enough to distinguish this one out of the rest of the menu.
             }
         }
     }
-        
+
     @Section(title: "Value") {
         @ContentAndMedia {    
-            
-            ### Value — Details
-            Then there is `accessibilityValue`. Basically, this property is used to store any *additional information* about the element that is unnecessary for `Label` to contain, i.e. excessive for element's identification.
-            
-            @Video(source: coffee)
-        }
-        
-        @Steps {
-            @Step {
-                This adds a little bit of *depth* to our description. An element that represents a song in a music player — there is *lots* of data to be described.
-                
-                @Image(source: chapter-placeholder.png, alt: "")
-            }
-            @Step {
-                To *succinctly identify* the song we will risk to use its name as `Label`. Nothing else is needed to recognise this song among other correctly.
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
-            
-            @Step {
-                Everything else ever possible goes to `Value`: songs' author, the album it belongs to, the date of its release, its length and so on. There may be many songs sang by "The Police", but only one "Message In A Bottle" — thus we define properties. 
-                
-                @Image(source: chapter-placeholder.png, alt: "")
-            }
-            
-            @Step {
-                And... this is it for "informative" elements. Those elements who only provide output and do not trigger any program behaviour. To continue pocking at accessible elements' properties let's move to the next one and see how its interactiity affects already familiar `Label` and `Value`.
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
-        }
-    }
-    
-    @Section(title: "Label vs Value") {
-        @ContentAndMedia {    
-            ### Fine line between label and value
-            To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
-                        
-            @Video(source: coffee)
+
+            ### Details
+            Another accessibility attribute is **Value**. Basically, this property is used to store any *additional information* about the element that is unnecessary for **Label** to contain, i.e. excessive for element's identification. Also a **localised string**.
 
         }
-        
+
         @Steps {
             @Step {
-                Let's order some coffee. To do so, we have to choose a particular drink we want from a menu. 
-                @Image(source: espresso-based, alt: "")
+
             }
-            
             @Step {
-                To display the difference between certain drinks in the menu some additional information has to be previewed. For example, the price. It is an important factor to be presented for a customer so VoiceOver will speak the price since it is in its .value.
+
             }
-            
+
             @Step {
-                But the price is not important to identify the drink - thus we have its name as the cell's label and can navigate to it by its calling its name to Voice Control.
+
+            }
+
+            @Step {
+
             }
         }
-    }
-    
-    @Section(title: "Traits") {
+
+        @Section(title: "Label vs Value") {
+            @ContentAndMedia {    
+                ### Fine line between label and value
+                To properly adapt an interface for various [**Accessibility Features**](<doc:AccessibilityFeatures>) one has to clearly differentiate between these two traits. For example, `Label` is heavily exploited by [`Voice Control`](<doc:VoiceControl>) and has to be independent of unnecessary information to avoid ambiguity. In the meantime `Value` is that part of element's description that is changeable by [`AdjustableTrait`](<doc:AdjustableElements>)'s usage.
+                        
+                @Video(source: coffee)
+            }
+
+            @Steps {
+                @Step {
+                    Let's order some coffee. To do so, we have to choose a particular drink we want from a menu. 
+                    @Image(source: espresso-based, alt: "")
+                }
+
+                @Step {
+                    To display the difference between certain drinks in the menu some additional information has to be previewed. For example, the price. It is an important factor to be presented for a customer so VoiceOver will speak the price since it is in its .value.
+                }
+
+                @Step {
+                    But the price is not important to identify the drink - thus we have its name as the cell's label and can navigate to it by its calling its name to Voice Control.
+                }
+            }
+        }
+
+        @Section(title: "Traits") {
         @ContentAndMedia {
             A value stored in `Traits` property points at the *functionality* of an element. By the default it is `none` and means that the element is plain and textual and there is nothing you can do about it. Same behaviour is implemented by explicitly stating `staticText` trait - it only exists for convenience so it is easier for humans to comprehend the role of the element. (Use it.)
-            
+
             If an element has *more* than --none-- purely informative role **it has to be specified in this property** by stating one of [`UIAccessibilityTraits`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits) so both users and assistive technology know how to deal with this item.
-            
+
             To see the complete list of traits available visit the [**Traits**](<doc:Traits>) tutorial - it has a living example of each them.
-            
+
             @Video(source: traits-scroll)
-        }
-        
-        @Steps {
-            @Step {
-                Going back to the examples we've already worked with, the "Song" example should have [`header`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620170-header) trait. This trait indicates that the element is essentially a divider, such as *titles* and *navigation bars*. Users perceive such elements as a section's name. 
-                
-                @Image(source: placeholder-image.png, alt: "")
+    }
+
+    @Steps {
+        @Step {
+            Going back to the examples we've already worked with, the "Song" example should have [`header`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620170-header) trait. This trait indicates that the element is essentially a divider, such as *titles* and *navigation bars*. Users perceive such elements as a section's name. 
+
+            @Image(source: placeholder-image.png, alt: "")
             }
-            
+
             @Step {
-                "Views Count" could either have [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) or [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) if the trait is explicitly stated, saying that the element has *no functionality besides informativity*.
-                
-                @Image(source: chapter-placeholder.png, alt: "")
+            "Views Count" could either have [`none`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620179-none) or [`staticText`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620206-statictext) if the trait is explicitly stated, saying that the element has *no functionality besides informativity*.
+
+            @Image(source: chapter-placeholder.png, alt: "")
             }
-            
+
             @Step {
-                But there are always elements that are *interactive*. Such as `buttons`. Buttons should have [`button`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620194-button) trait. 
-                
-                > Important: Without specifying this trait it won't be possible to use the application with Accessibility Features.
-                
-                @Image(source: placeholder-image.png, alt: "")
+            But there are always elements that are *interactive*. Such as `buttons`. Buttons should have [`button`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620194-button) trait. 
+
+            > Important: Without specifying this trait it won't be possible to use the application with Accessibility Features.
+
+            @Image(source: placeholder-image.png, alt: "")
             }
-            
+
             @Step {
-                The simplest example of an element with `button` trait would be a straightforward button representing an *action*.
-                
-                
-                @Image(source: chapter-placeholder.png, alt: "")
+            The simplest example of an element with `button` trait would be a straightforward button representing an *action*.
+
+
+            @Image(source: chapter-placeholder.png, alt: "")
             }
-            
+
             @Step {
-                Pay attention that *action buttons* should have **short and comprehensible labels that describe what this button does**. Do not use the word "button" in its label: if spoken by [`VoiceOver`](<doc:VoiceOver>), it is doubled since having `Trait` specified causes the screenreader to tell the user that the element is a button.
-                
-                
-                @Image(source: placeholder-image.png, alt: "")
+            Pay attention that *action buttons* should have **short and comprehensible labels that describe what this button does**. Do not use the word "button" in its label: if spoken by [`VoiceOver`](<doc:VoiceOver>), it is doubled since having `Trait` specified causes the screenreader to tell the user that the element is a button.
+
+
+            @Image(source: placeholder-image.png, alt: "")
             }
-            
+
             @Step {
-                It is unusual for action buttons to have a *value*, but if there is any additional information that the button represents it should be mentioned. Like, if the "Next" button spoilers the next song.
-                
-                @Image(source: chapter-placeholder.png, alt: "")
+            It is unusual for action buttons to have a *value*, but if there is any additional information that the button represents it should be mentioned. Like, if the "Next" button spoilers the next song.
+
+            @Image(source: chapter-placeholder.png, alt: "")
             }
-            
+
             @Step {
-                By its definition a `button` is an element that can be *pressed*. So if there is a *complex* element that is hard to identify as a `button` from the first sight you should remember that if it's intractable it's still a button.
-                
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
-            @Step {
-                Let's look at a particular pizza in an abstract menu. The element of this drink on the screen may contain *lots* of information, but pressing on the card will result in adding this position to the cart. "Drink" element is a `button`.
-                
-                
-                @Image(source: chapter-placeholder.png, alt: "")
+            By its definition a `button` is an element that can be *pressed*. So if there is a *complex* element that is hard to identify as a `button` from the first sight you should remember that if it's intractable it's still a button.
+
+
+            @Image(source: placeholder-image.png, alt: "")
             }
             @Step {
-                Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
-                
-                @Image(source: placeholder-image.png, alt: "")
+            Let's look at a particular pizza in an abstract menu. The element of this drink on the screen may contain *lots* of information, but pressing on the card will result in adding this position to the cart. "Drink" element is a `button`.
+
+
+            @Image(source: chapter-placeholder.png, alt: "")
             }
-            
             @Step {
-                Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
-                
-                Notice that if both stated, `Label` and `Value` are separated by a *comma* in speech — [`VoiceOver`](<doc:VoiceOver>) will put a *pause* between them on its own. But everything that happens inside the properties in terms of **pronunciation** is *our* responsibility. **Don't forget to use *punctuation marks* to help `VoiceOver` read texts *easier* for humans to listen to**.
-                
-                
-                @Image(source: chapter-placeholder.png, alt: "")
+            Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
+
+            @Image(source: placeholder-image.png, alt: "")
             }
-            
+
             @Step {
-                To finish with `Traits` let's take a look at another popular type of *interactive* elements: controls that allow **adjustment through a range of values**. *Sliders*, *pickers*, everything that has *a range of values* and *changes* something.
-                @Image(source: placeholder-image.png, alt: "")
+            Breaking the provided information into categories, drink's name will serve as `Label` and everything else will go to `Value`.
+
+            Notice that if both stated, `Label` and `Value` are separated by a *comma* in speech — [`VoiceOver`](<doc:VoiceOver>) will put a *pause* between them on its own. But everything that happens inside the properties in terms of **pronunciation** is *our* responsibility. **Don't forget to use *punctuation marks* to help `VoiceOver` read texts *easier* for humans to listen to**.
+
+
+            @Image(source: chapter-placeholder.png, alt: "")
+            }
+
+            @Step {
+            To finish with `Traits` let's take a look at another popular type of *interactive* elements: controls that allow **adjustment through a range of values**. *Sliders*, *pickers*, everything that has *a range of values* and *changes* something.
+            @Image(source: placeholder-image.png, alt: "")
 
             }
-            
+
             @Step {
-                The trait for such elements is [`adjustable`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620177-adjustable).
-                @Image(source: chapter-placeholder.png, alt: "")
+            The trait for such elements is [`adjustable`](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620177-adjustable).
+            @Image(source: chapter-placeholder.png, alt: "")
             }
             @Step {
                 Element's name is its `Label`, *adjustable value* is at `Value`. 
-                
+
                 At this point we can consider we're done, but let's take a look at another attribute that may be helpful.
                 @Image(source: placeholder-image.png, alt: "")
             }
         }
     }
-    
-    @Section(title: "Hint") {
-        @ContentAndMedia {
-            
-            [`accessibilityHint`](https://developer.apple.com/documentation/objectivec/nsobject/1615093-accessibilityhint) is a *description* of what happens if the user *interacts* with an element. But there is a tricky moment.
-            
-            *Every* interactive element has its own `Hint` specified *by default*. The problem is that these hints are repetitive and **majority of `Accessibility Features` users turn it off** so there is very little chance that someone will ever see your *customised* hints. 
-            
-            The reason why you should customise the hints for your controls is that if there are [`Custom Actions`](<doc:Rotor>) a curious user may survey them in order to see **how *well* the application is adapted**.
-            
-            
-            @Image(source: chapter-placeholder.png, alt: "")
-        }
-        
-        @Steps {
-            @Step {
-                Let's take care of that with our *interactive* examples.
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
-            
-            @Step {
-                The *strategy* for providing `custom hints` is to be *brief* and *precise* in **describing the action**. Don't put anything that sounds like a *command* or *extraneous information*.
-                            
-                @Image(source: chapter-placeholder.png, alt: "")
-            }
-            
-            @Step {
-                To get a better understanding of how to hint at controls with proper grace, see [Apple's guidelines](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619585-accessibilityhint).
-                
-                @Image(source: placeholder-image.png, alt: "")
-            }
-        }
-    }
-    
-    @Comment {
-        Еще была картинка с полной формулой, но я не понимаю как ее в туториал вставить в полную ширину
-    }
-    
-    @Section(title: "What now") {
-        @ContentAndMedia {
-            Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology** they use. 
-            
-            What about a little `quiz` to revise the topic? 🔎
-            
 
-            
-            @Comment {
-                Тут надо раскрыть, что на описание еще могут влиять другие трейты и контейнеры, но об этом позже
-            }
-            
-            @Image(source: attributes-order, alt: "")
-        }
-        
-        @Steps {
-            @Step {
-                Text.
-                @Image(source: placeholder-image.png, alt: "")
-            }
-        }
+    @Section(title: "Hint") {
+    @ContentAndMedia {
+
+    [`accessibilityHint`](https://developer.apple.com/documentation/objectivec/nsobject/1615093-accessibilityhint) is a *description* of what happens if the user *interacts* with an element. But there is a tricky moment.
+
+    *Every* interactive element has its own `Hint` specified *by default*. The problem is that these hints are repetitive and **majority of `Accessibility Features` users turn it off** so there is very little chance that someone will ever see your *customised* hints. 
+
+    The reason why you should customise the hints for your controls is that if there are [`Custom Actions`](<doc:Rotor>) a curious user may survey them in order to see **how *well* the application is adapted**.
+
+
+    @Image(source: chapter-placeholder.png, alt: "")
+    }
+
+    @Steps {
+    @Step {
+    Let's take care of that with our *interactive* examples.
+
+    @Image(source: placeholder-image.png, alt: "")
+    }
+
+    @Step {
+    The *strategy* for providing `custom hints` is to be *brief* and *precise* in **describing the action**. Don't put anything that sounds like a *command* or *extraneous information*.
+                
+    @Image(source: chapter-placeholder.png, alt: "")
+    }
+
+    @Step {
+    To get a better understanding of how to hint at controls with proper grace, see [Apple's guidelines](https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619585-accessibilityhint).
+
+    @Image(source: placeholder-image.png, alt: "")
+    }
+    }
+    }
+
+    @Comment {
+    Еще была картинка с полной формулой, но я не понимаю как ее в туториал вставить в полную ширину
+    }
+
+    @Section(title: "What now") {
+    @ContentAndMedia {
+    Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology** they use. 
+
+    What about a little `quiz` to revise the topic? 🔎
+
+
+
+    @Comment {
+    Тут надо раскрыть, что на описание еще могут влиять другие трейты и контейнеры, но об этом позже
+    }
+
+    @Image(source: attributes-order, alt: "")
+    }
+
+    @Steps {
+    @Step {
+    Text.
+    @Image(source: placeholder-image.png, alt: "")
+    }
+    }
     }
     @Assessments {
         @MultipleChoice {
-            Is this item accessible?
-            
-            @Choice(isCorrect: false) {
-                Yes
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
-                      
-            @Choice(isCorrect: true) {
-                No
-                @Justification(reaction: "That's right!") {
-                    text
-                }
-            }
-                            
-            @Choice(isCorrect: false) {
-                It is accessible, but the experience could be better
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
+        Is this item accessible?
+
+        @Choice(isCorrect: false) {
+        Yes
+        @Justification(reaction: "Try again!") {
+            text
         }
-        
-        @MultipleChoice {
-            And what about this item? 
-            
-            @Choice(isCorrect: false) {
-                Accessible
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
-                      
-            @Choice(isCorrect: true) {
-                Unaccessible
-                @Justification(reaction: "That's right!") {
-                    text
-                }
-            }
-                            
-            @Choice(isCorrect: false) {
-                Could be better
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
         }
-        
+              
+        @Choice(isCorrect: true) {
+        No
+        @Justification(reaction: "That's right!") {
+            text
+        }
+        }
+                    
+        @Choice(isCorrect: false) {
+        It is accessible, but the experience could be better
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
+        }
+
         @MultipleChoice {
-            What trait is a fake (i.e. there is no such value of `UIAccessibilityTraits`)`?
-            
-            @Choice(isCorrect: false) {
-                `keyboardKey`
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
-                            
-            @Choice(isCorrect: false) {
-                `selected`
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
-            
-            @Choice(isCorrect: true) {
-                All of them are real
-                @Justification(reaction: "That's right!") {
-                    text
-                }
-            }
-            
-            @Choice(isCorrect: false) {
-                `image`
-                @Justification(reaction: "Try again!") {
-                    text
-                }
-            }
+        And what about this item? 
+
+        @Choice(isCorrect: false) {
+        Accessible
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
+              
+        @Choice(isCorrect: true) {
+        Unaccessible
+        @Justification(reaction: "That's right!") {
+            text
+        }
+        }
+                    
+        @Choice(isCorrect: false) {
+        Could be better
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
+        }
+
+        @MultipleChoice {
+        What trait is a fake (i.e. there is no such value of `UIAccessibilityTraits`)`?
+
+        @Choice(isCorrect: false) {
+        `keyboardKey`
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
+                    
+        @Choice(isCorrect: false) {
+        `selected`
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
+
+        @Choice(isCorrect: true) {
+        All of them are real
+        @Justification(reaction: "That's right!") {
+            text
+        }
+        }
+
+        @Choice(isCorrect: false) {
+        `image`
+        @Justification(reaction: "Try again!") {
+            text
+        }
+        }
         }
     }
 }
