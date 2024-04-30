@@ -20,6 +20,9 @@
 
         ### Accessibility attributes
         On iOS accessible description is *composed* of four **accessible attributes**: **Label**, **Value**, **Traits** and **Hint**. Once you are ready to meet them, let's go out for some **accessibly described** pizza.
+        
+        @Image(source: attributes-order-7, alt: "")
+
     }
 
     @Section(title: "Label") {
@@ -44,22 +47,25 @@
         @Steps {
             @Step {
                 The menu is a list of product cards. Each card is a complex element containing multiple interfacial elements, but our accessibility element is the whole card, because each of them represents a particular position in menu.
-
+                @Image(source: attributes-hawaiian-1, alt: "")
             }
 
             @Step {
                 We need to choose which pizza we're going to order. How are we going to refer to the pizza of our choice? 
-
+                @Image(source: attributes-hawaiian-2, alt: "")
             }
 
             @Step {
                 By its unique identifier, which in this case is "pizza name".
+                @Image(source: attributes-hawaiian-3, alt: "")
             }
             @Step {
             In this particular case it is **unreasonable** to separate the fact that it's "name" and its name into two different properties. Every element in this menu is pizza. It would be an **inconvenient experience** for users.
+            @Image(source: attributes-hawaiian-4, alt: "")
             }
             @Step {
                 So just the name will be enough to distinguish this one out of the rest of the menu.
+                @Image(source: attributes-hawaiian-5, alt: "")
             }
         }
     }
@@ -75,17 +81,22 @@
         @Steps {
             @Step {
                 Ok, Hawaiian pizza. But how did we make this choice? We didn't pick pizza based on how its name sounds.
+                @Image(source: attributes-hawaiian-5, alt: "")
+
             }
             @Step {
                 Accessibility **Value**. The first **optional** attribute on our path: if there is additional information about the element, but it's too much to be put in **Label**.
+                @Image(source: attributes-hawaiian-5-and-half, alt: "")
             }
 
             @Step {
                 Product card as a **pattern** has a lot of **additional information** that tells customers *more* about the product. Do we just move *everything* there?
+                @Image(source: attributes-hawaiian-pseudo-6, alt: "")
             }
 
             @Step {
                 Nope. Well, yes, but not exactly. Accessibility **Value** serves one purpose: **to describe an element to users of [**VoiceOver**](<doc:AccessibilityFeatures>)**. Without an explicitly stated **Value** they can't access this information any other way.
+                @Image(source: attributes-hawaiian-6, alt: "")
             }
             
             @Step {
@@ -94,18 +105,23 @@
             
             @Step {
                 In our case there is this questionable **preview** of pizza. There is nothing wrong with willing to describe pizza, but we already have key **ingredients** listed in the card and it will be **sufficient** for this exact pizza **description**. 
+                @Image(source: attributes-hawaiian-7, alt: "")
             }
             
             @Step {
                 No photo of pizza. Yes ingredients. What about **the price**?
+
             }
             
             @Step {
                 Descriptions tend to get *wordy*. Manipulating customers attention, selling pizza to [**VoiceOver**](<doc:VoiceOver>) users should follow the same marketing strategies as to everyone else.
+                @Image(source: attributes-hawaiian-9, alt: "")
             }
             
             @Step {
                 Whenever you have to put a lengthy description into **Value**, make sure you place its components **in the order of importance**. Some people would listen to the whole description to know whether there are pineapples in a pizza, but majority prefers to know the price first. Maybe it won't be pineapples to make a user not consider the pizza.
+                @Image(source: attributes-hawaiian-8, alt: "")
+
             }
 
         }
@@ -147,11 +163,13 @@
             }
 
             @Step {
-                To order the pizza we need to put this one to the cart. The actions of moving a certain product to the cart is the main action of this product element and it can be done by performing a simple action on it.
+                To order the pizza we need to put this one to the cart. The actions of moving a certain product to the cart is the **main action** of this product element and it can be done by **performing a simple action** on it.
             }
 
             @Step {
                 An interactive element that has no specific meaning (like those weird .playsSound and .causesPageTurn guys from [**Traits**](<doc:Traits>) tutorial) is a button. Yes, our product card... is... exactly a button. 
+                @Image(source: attributes-hawaiian-10, alt: "")
+
             }
 
             @Step {
@@ -179,21 +197,31 @@
             }
             @Step {
                 Selected. At pizzeria, Mikluho-Maklaya st., 36A. Unavailable, button. Double tap to activate
+                @Image(source: attributes-order-1, alt: "")
                 }
             @Step {
                 THREE traits at once and everything is natural.
+                @Image(source: attributes-order-2, alt: "")
             }
             @Step {
                 Whether an item is selected or not is the most important users should hear first.
+                @Image(source: attributes-order-3, alt: "")
+
             }
             @Step {
                 Then we can deal with what exactly was selected: **Label**, a separating pause, **Value** of this element. 
+                @Image(source: attributes-order-4, alt: "")
+
             }
             @Step {
                 Traits time. Element is indeed a button, but an unavailable button is completely different story. State first.
+                @Image(source: attributes-order-5, alt: "")
+
             }
             @Step {
                 Aaand, after a short pause, a hint. Always the last. Wait. What hint?
+                @Image(source: attributes-order-6, alt: "")
+
             }
         }
     }
@@ -214,6 +242,7 @@
         @Steps {
             @Step {
                 Is there is anything to be written as a **Hint** for our product card? 
+                @Image(source: attributes-hawaiian-5-and-half, alt: "")
             }
 
             @Step {
@@ -222,6 +251,7 @@
 
             @Step {
                 But we can write what we already know. Just to praise ourselves. 
+                @Image(source: attributes-hawaiian-11, alt: "")
             }
         }
     }
@@ -237,7 +267,7 @@
             - how to succinctly identify elements and give them an accessible **Label**;
             - what details should be mentioned in its accessibility **Value**;
             - what **Traits** exist and why it is that crucial to specify them;
-            - that anyone unlikely will appreacite your work on **Hints**, but we don't do it for appreciation.
+            - that anyone unlikely will appreciate your work on **Hints**, but we don't do it for appreciation.
             
             ### ... OR DON'T YOU?
             Find the truth about yourself by participating in this **quiz** of true expertise.
