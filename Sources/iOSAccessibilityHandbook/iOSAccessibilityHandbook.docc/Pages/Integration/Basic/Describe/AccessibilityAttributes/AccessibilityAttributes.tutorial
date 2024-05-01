@@ -65,7 +65,9 @@
             }
             @Step {
                 So just the name will be enough to distinguish this one out of the rest of the menu.
-                @Image(source: attributes-hawaiian-5, alt: "")
+                @Code(name: "Label.swift", file: hawaiianLabel.swift) {
+                    @Image(source: attributes-hawaiian-5, alt: "")
+                }
             }
         }
     }
@@ -110,7 +112,6 @@
             
             @Step {
                 No photo of pizza. Yes ingredients. What about **the price**?
-
             }
             
             @Step {
