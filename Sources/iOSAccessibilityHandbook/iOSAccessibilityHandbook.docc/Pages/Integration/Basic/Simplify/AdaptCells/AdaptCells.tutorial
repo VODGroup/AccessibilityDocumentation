@@ -1,59 +1,71 @@
 @Tutorial(time: 20) {
-    @Intro(title: "Simplifying Cells' Structure") {
+    @Intro(title: "Simplifying Cells") {
+        
+        We've just learnt how to **describe** every possible **element** with [**Accessibility Attributes](<doc:AccessibilityAttributes>) to make them visible for [**Accessibility Features**](<doc:AccessibilityFeatures>). But the problem is that so far we've been defining element as a **singular independent item** of the interface.
+        
+        ## Complex cells
+        Just as the main character of [previous tutorial](<doc:AccessibilityAttributes>) -- a *product card* -- there are many **combinations of multiple elements that are *perceived* as a whole**.
+        
+        In this tutorial we are going to research the phenomena of **complex cells** -- multiple elements used together to convey a *meaning* of an **integral item** of an interface.
     
-    @Comment {
-        Описание ячеек выглядит как хорошее продолжение темы лейблов и вэлью: если мы видим элемент как единое целое, то описывать мы его тоже должны как один элемент. При этом случаи бывают сложные, например, когда надо порядок элементов решать. Ну и типо го разберем, заодно и код посмотрим
+        ### Assistive technology
+        To have [**Accessibility Features**](<doc:AccessibilityAttributes>) work as *intended* sometimes it is needed to **simplify complex cells** to such degree so there is **no difference for accessibility features** between *differentiated abstractions* that are stored in such cells. 
+        
+        ### Accessibility representation
+        In other words, we are going to learn how, why and when to **represent complex cells as a singular accessible element** and what to do with its **complicated functionality**.
+        
+        Let's start with an already familiar example.
+        
     }
     
-        To have **Accessibility Features** work as intended sometimes it is needed to **simplify complex cells** to such degree so there is no difference for accessibility features between *differentiated abstractions* that are stored in cells. 
-        
-        In other words, if there is a cell with pizza's description it is reasonable to distinguish data by its nature: have an image as an illustration, a title, a list of ingredients and a price - but it complicates the work for VoiceOver, Voice Control and Switch Control. 
-        
-        Such detailed layout makes automated adaption of the cell's contents **wrong**. 
-        
-        Let's take a look of **what can be done to help our digital assistants navigate through the cognitive models we come up with**.
-        
-    }
-    
-    @Section(title: "What Is Wrong With The \"Normal\" Layout") {
+    @Sections(title: "A card as a complex cells") {
         @ContentAndMedia {
-            Even though the cell looks simple it is not enough — such layout would lead to several *accessibility issues*. Let's see **how exactly different Accessibility Features *struggle* with that**.
+            This product card as a pattern built of multiple components of different types. It is done because a product card is purpose to display an object such way so it attracts customer's attention and gives a succinct preview without providing unnecessary for choice-making process details.  
+            
+            ### Multiple means of attraction
+            As an interfacial components card is usually something of a heading label, its content's description, an illustration of previewing kind and an action that can be done to this card. The purpose of a card is to represent something among other cards and provide every information needed to distinguish this card from the others.
+            
+            ### Essential information
+            Talking about product cards it is used to sell a certain product. Therefore the image must be attractive, label easily-recognizable and description must cover everything that may affect customers choice. In our choice it is ingredients and price, because people would prefer to know it as soon as possible.
+        }
+    }
+    
+    @Section(title: "Inaccessibility of complex cells") {
+        @ContentAndMedia {
+            Complex cells are easily recognised if not overwhelming with details and uncertainty of actions. But even the simplest basic cells must be treated with full seriousness if is about to become accessible.
             
             @Image(source: "chicken-bbq", alt: "Cell of Chicken BBQ containing an image, a title, ingredients and a price.")
         }
         
         @Steps {
             @Step {
-                Firstly, **there is a definite problem for *VoiceOver* to adapt such interfaces**.
-                The thing is that **the focus works such way so it outlines *every* single element of a cell starting from *the title***.
+                First of all, a complex cell is always a combination of multiple elements. If these elements are accessible, assistive technology will treat them as separate items. Such rendering causes two problems.
                                                 
-                > Note: Pay attention that **images are hidden from VoiceOver *by default***, therefore are *inaccessible* to be focused on.
+                > Important: Remember that **images are hidden from VoiceOver *by default***, therefore are *inaccessible* to be focused on.
                 
                 @Image(source: "chicken-bbq-label", alt: "Focus outlines the title of the cell first.")
             }
             
             @Step {
-                After a swipe to the right (which triggers **moving to the next element**) the focus moves to **the list of ingredients**.
+                First one is that it is hard for users to perceive these elements as a part of something whole. For example, listening to a list of inaccessible cards (but accessible elements) will lead to ambiguity of what inner elements are inherent by which objects. 
                 
                 @Image(source: "chicken-bbq-value", alt: "In our case, secondly the focus outlines the ingredients' list.")
             }
             
             @Step {
-                Same way the consequent swipe will move the focus to **the price button**. 
-                
-                > Note: The *only* possibility **for a user to understand that this element is interactive by hearing VoiceOver say that's it's a *button***. It can be made possible by **specifying its `.button` *trait***.
+                Second one is that the order of elements is uncontrolled. Unless specified explicitly, a screen reader may read a product's price first and its identifier somewhere in the middle. Even more confusing than the previous issue, especially if the list is lengthy. 
                 
                 @Image(source: "chicken-bbq-price", alt: "Consequently the focus outlines the button with the price.")
             }
             
-            @Step {                
-                Overall the number of the swipes needed to go through a single cell is three. This is way *too* many: never forget that we're talking about a list of pizzas and **each pizza is an *independent* cell**. 
+            @Step {        
+                Moreover, fragmentation of cell's content leads to an increased amount of actions to be done to scroll the list. Your list is of 20 cards? Have 60 swipes to go through them all.
                 
                 @Code(name: "Several Cells, Wrong Rhyme", file: "DescribeCell_3_0.swift")
             }
             
             @Step {                
-                Moreover such discretion leads to a decrease in *comprehensibility*: users can easily **lose track of what pizza in particular they are going through at the moment**. 
+                Obviously such discretion leads to a decrease in *navgitableness* (sorry) of the interface: users can easily **lose track of what card in particular they are going through at the moment**. 
                 
                 @Code(name: "Several Cells, Wrong Rhyme", file: "DescribeCell_3_1.swift") {
                     @Image(source: "DescribeCell_3_3", alt: "Focus outlines the button with the price.")
@@ -61,7 +73,7 @@
             }
             
             @Step {                
-                For example, **the price button* may be perceived connected to the next title** which is something we really don't want to have. Normally prices are playing a critical role in choice-making.
+                As an obvious example, in our card **the price button* may be perceived connected to the next title** which is something we really don't want to happen. Again, prices are commonly playing a critical role in decision-making processes.
                 
                 @Code(name: "Several Cells, Wrong Rhyme", file: "DescribeCell_3_2.swift") {
                     @Image(source: "DescribeCell_3_3", alt: "Focus outlines the button with the price.")
@@ -70,142 +82,148 @@
             
             @Step {
                 
-                Talking about *price buttons*, there are ***Voice Control* and *Switch Control* that prioritise *interactive buttons*** and thus *struggle* with such layout too. As a result of their adapting behaviour **the only label shown will be the price button's *label***. To press the whole cell users would have to, for example, pronounce *"Tap From AED thirty"* — which is a nonsense.
-                
-                > Tip: The solution here is to **use *the title* as the cell's *label***.
+                Extending on *action buttons*, there are indirect selection features such as [**Voice Control**](<doc:VoiceControl>), [**Switch Control**](<doc:SwitchControl>) and [**Full Keyboard Access*](<doc:FullKeyboardAccess>) that iterate through **interactive elements** and therefore *struggle* with fragmented layout. 
                 
                 @Image(source: "chicken-bbq-price-pronunciation", alt: "Voice Control shows the badge over the button with the price")
+            }
+            
+            @Step {
+                As a result of their behaviour **the only label shown will be the action button's *label***. To interact with the whole cell users would have to, for example, [**Voice Control**](<doc:VoiceControl>), pronounce *"Tap From AED thirty"* —-  which is a nonsense. 
             }
         }
     }
     
-    @Section(title: "What Can Be Done: Cell's Description") {
+    @Section(title: "Accessible complex cells") {
         @ContentAndMedia {
-            *VoiceOver's adaption* is all about **telling the user what's happening on the screen**.
+            Accessibility description is all about **telling the user what's happening on the screen**. Let's do that with grace, even for complex cases.
             
-            In order to **properly *describe* the cell so VoiceOver can read it correctly** we have to transfer the text from *labels* to the *accessibility description* of the cell in a *correct order* and with a *correct type*. Let's try to do so.
+            In order to **properly *describe*s the cell so VoiceOver can read it correctly** we have to transfer the text from *labels* to the *accessibility description* of the cell in a *correct order* and with a *correct type*. Let's try to do so.
             
             @Image(source: "cell-priority", alt: "Order in which elements are read is controlled by designers' vision.")
         }
         
         @Steps {
             @Step {
-                We will start with a simple cell with an *explicit* `ViewModel`.
+                Let's have an even more difficult card of Hawaiian pizza -- as a position from the cart.
                 
                 @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_6.swift")
             }
             
             @Step {
-                First of all we have to **specify that the cell will be a *focusable element***. By doing that we ***reduce* the number of elements available on the screen**, which is, as you remember from the previous section, really helpful for *adaption*.
-                There is no need to *explicitly* hide other elements - setting the cell with `accessibleElements` property is enough. To see **how it works *exactly*** take a look at <doc:ControlHierarchy> where everything is explained in *greater* detail than we can afford in *tutorials*.
-                
-                @Comment {
-                    // TODO: why the cell's button is visible at pizza?
-                }
-                
-                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_7.swift")
+                What do we have here? An image, a header, a description, 3 controls, 2 of which adjust the quantity and 1 quantity indicator.
             }
             
             @Step {
-                As mentioned previously **the title** will take place in `accessibilityLabel`. **Ingredients** go to the `accessibilityValue` property.
+                The "Change" control represent the action performed if any point of the card is pressed unless precisely tapping at adjusting controls.
+            }
+            
+            @Step {
+                Let's see how the element will be iterated without accessibility adoption.
+            }
+            
+            @Step {
+                Yeah, sounds like a whole lotta work. But in reality the beast is not that scary. Especially if dealt step by step
+            }
+            
+            @Step {
+                First of all, we need to represent the card as a singular element. By making the whole cell focusable now there 5 times less accessible elements on the screen: because without joint focus the number of focusable elements was 5.
+            }
+            
+            @Step {
+                Now users can iterate through items in the cart, not their controls.
+            }
+            
+            @Step {
+                There is no need to explicitly hide inner elements -- making the cell an accessible element is enough. Remember that Accessibility API goes through contained elements only if the container is inaccessible.
+            }
+            
+            @Step {
+                Also notice that the frame outlines card's image. We know that images are hidden from Accessibility Features by default, but to enhance user experience of "blind" direct touch we've' extended the focusable area.
+            }
+            
+            @Step {
+                Now accessibility description. This we know how to do. As anticipated, the card's header will server as the **Label**. **Ingredients**, **price** and **quantity** will go to the **Value**.
+                
+                > Important: Don't forget about the importance of order.
                 
                 @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_8.swift")
-                
-                @Comment {
-                    // TODO: Add Voice Control screenshot
-                }
             }
             
             @Step {
-
-                Not to forget there is also *the price* which is **an *essential* part of cells with a *product offer***.
-                To adapt it *correctly* we need to follow the strategy controlled by *the cell's design* whose concept is to make users *notice* the product.
-                Its **image is what *attracts the attention***, then **title is read and understood *loud and clear*** - it's on top and visually distinguished by a *bolder* font used. 
-                Next the attention may be *interrupted* by a **bright coloured button**.
-                **Ingredients are least prior** to the attention and this is in their nature: this elements is of an *informative matter*, therefore not about *attention attraction*.
-                Logically **we place the price *after* the title**. Pay attention that **to keep label simple the price has to be put in the beginning of `accessibilityValue`**.
-                
-                @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_9.swift") {
-                    @Image(source: "DescribeCell_9_preview", alt: "Reading order is controlled by people who want to sell this pizza to you.")
-                }
+                But what about type? The cell seems a button, but there is this stepper inside. How are we going to deal with the stepper at all?
             }
             
             @Step {
-                Everything is *described* and VoiceOver is happy, but *most importantly* we shouldn't forget to **mark the interactive element with `.button` trait*. 
-                After that *specifying* we are done and did great!
+                But what about **Trait**? The cell seems a button, but there is this stepper inside. How are we going to deal with the stepper at all?
+            }
+            
+            @Step {
+                Relax, we got it. What we didn't get is that actually we missed one important point about the cell.
+            }
+            
+            @Step {
+                Talking about actions presented by this card, there is not only going to the product's page and changing properties, and adjusting quantity. There is a swipe that deletes the item from the cart.
+            }
+            
+            @Step {
+                Let's call such stunt a contextual action. Most of the lists on iOS have swipe-triggered contextual actions available for items. Delete, edit, archive, move, to spam, whatever -- these all represent an alternative of a context menu. 
+            }
+            
+            @Step { 
+                So the situation just got worse. Thankfully, there is something that will save us.
+            }
+            
+            @Step {
+                Custom Actions. Custom Actions is essentially an alternative form of context actions. If there is any specific action that can be done to an element and there is more than one of such action -- we use Custom Actions. Custom Actions solves the problems for us.
+            }
+            
+            @Step {
+                We have 3 actions possible to be performed with this card: 
+                - change (main action, takes the user to the product's page);
+                - adjust quantity (decrease and increase, that stepper);
+                - remove the position at all (left swipe).
+            }
+            
+            @Step {
+                Implementing Custom Action will allow us to provide the access to all these three ways of interacting with the item.
+            }
+            
+            @Step {
+                First we write up the actions, then we add them to the Custom Actions of this accessible element.
+            }
+            
+            @Step {
+                Now users can choose the action they want to perform to the item in addition to default main one.
+            }
+            
+            @Step {
+                And that's basically it. We won't provide any explicit information in **Traits** attribute, but if you really want you can state that the card is a button because it is a button, though it has functionality of adjustable element due to one of the Custom Actions. 
+                
+                > Important: The absence of **Traits** is helpful for this particular cell. Think critically of necessity of this information to be specified.
+            }
+            
+            @Step {
+                But we shouldn't forget that it would be great if besides "Custom Actions available" appendix the user will hear a brief instructions of how to use them. 
+            }
+            
+            @Step {
+                Otherwise we are done and did great! We are nearly proficient in describing elements, and have learnt about Custom Actions -- a powerful tool in accessibility on iOS.
                 
                 @Code(name: "Cell and VoiceOver.swift", file: "DescribeCell_10.swift")
             }
         }
     }
-    
-    @Section(title: "What Can Be Done: Ease Scrolling") {
+
+    @Section(title: GREAT JOB!) {
         @ContentAndMedia {
-            In VoiceOver the **default *scrolling* is implemented by a *three-finger swipe***. The gesture will announce where the user correctly is, i.e. VoiceOver will **read the number of the *visible* page**. For example, *"4 out of 20*".
+            This is only the second tutorial of the book and we've already learnt the most of basics in accessibility of iOS application. Please, don't get scared of the further studying: the next tutorial will wrap-up the foundation, and afterwards everything contained in the second volume is about everything we mentioned here but in much greater detail. 
             
-            **Going through *tables* of cells functions *exactly* the same way**. For example, *"from 25 to 40 out of 120"* will be said during going over the rows.
+            Now we know how to make the components of interfaces accessible. But interfaces consist of not only elements, there is also connections between them that make the interface meaningful. 
             
-            Seemingly there is not much we can do to **simplify the scrolling**, but in reality technologies win. People who are responsible of these inventions are indeed smart, aren't they? So:
-            
-            **Providing *description* for *visible* area allows to use *commands* that increase the *precision* of actions desired to be done**. Like, for example, *asking to read all titles* of the products which would result in hearing *"Chicken BBQ, Meat King Supreme, Hawaii"*. 
-            
-            @Image(source: "DescribeCell_11", alt: "Describe the screen after a scroll.")
-        }
-        
-        @Steps {
-            @Step {
-                To **implement *comfortable* user experience** regardless of the fact that the interface is *adapted*, let's start with `MenuViewController` extension.
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11_0.swift")
-            }
-            
-            @Step {
-                We will use `UIScrollViewAccessibilityDelegate` to **add *description* that can be used by any `firstResponder`**.
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_11.swift")
-            }
-            
-            @Step {
-                Which means we will **provide description for *all* visible cells**. Sounds exhausting, but is it so in reality? Let's try and see.
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_12.swift")
-            }
-            
-            @Step {
-                To start we **convert *cells* to *models***.
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_13.swift")
-            }
-            
-            @Step {
-                From models **the *titles* can be easily extracted** — we do so.
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_14.swift")
-            }
-            
-            @Step {
-                Once we get the titles we join them in *a single row*, separated by *commas*. 
-                
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_15.swift")
-            }
-            
-            @Step {
-                And, as a result, **three-finger swipe will cause the *titles* to be listed outloud**. 
-                We are happy, VoiceOver is happy, but, most importantly, the user would not have to do anything unnecessary to see what's available on the menu. Congratulations!
-             
-                @Comment {
-                    //   Additionally you can add some quantity expectation after everything described above is done.
-                    // TODO: михаил рубанов что ты делаешь. что ты хочешь сказать строкой сверху. 
-                }
-             
-                @Code(name: "Describe screen after scroll.swift", file: "DescribeCell_16.swift")
-                
-                @Comment {
-                    // TODO: Add preview
-                }
-            }
+            That will be our next lesson, but before me move forward how about a little quiz of mastery? 
         }
     }
+
     
     @Assessments {
         @MultipleChoice {
