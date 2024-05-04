@@ -18,7 +18,7 @@
         
     }
     
-    @Sections(title: "A card as a complex cells") {
+    @Section(title: "A card as a complex cells") {
         @ContentAndMedia {
             This product card as a pattern built of multiple components of different types. It is done because a product card is purpose to display an object such way so it attracts customer's attention and gives a succinct preview without providing unnecessary for choice-making process details.  
             
@@ -179,9 +179,9 @@
             
             @Step {
                 We have 3 actions possible to be performed with this card: 
-                - change (main action, takes the user to the product's page);
-                - adjust quantity (decrease and increase, that stepper);
-                - remove the position at all (left swipe).
+                change (main action, takes the user to the product's page);
+                adjust quantity (decrease and increase, that stepper);
+                remove the position at all (left swipe).
             }
             
             @Step {

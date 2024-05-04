@@ -24,11 +24,7 @@
             
             First of all, every **functional element** of the interface has to be sufficiently *described*.
             
-            @TutorialReference(tutorial: "doc:AccessibleUI")
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
-            @TutorialReference(tutorial: "doc:Traits")
-            @TutorialReference(tutorial: "doc:Frame")
-            @TutorialReference(tutorial: "doc:AdaptCells")
         }
         
         @Chapter(name: "Ensure that navigation is possible") {
@@ -36,10 +32,6 @@
             
             Secondly, to *reconnect* the elements into a integral interface certain **alternative controlling options** have to be enabled.
             
-            @TutorialReference(tutorial: "doc:OnScreen-Navigation")
-            @TutorialReference(tutorial: "doc:FocusManagement")
-            @TutorialReference(tutorial: "doc:Between-ScreensNavigation")
-            @TutorialReference(tutorial: "doc:Notifications")
         }
         
         @Chapter(name: "Secure user scenarios") {
@@ -47,10 +39,7 @@
             
             Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we should **review the layout** of the accessible interface.
             
-            @TutorialReference(tutorial: "doc:ControlHierarchy")
             @TutorialReference(tutorial: "doc:AdaptCells")
-            @TutorialReference(tutorial: "doc:Containers")
-
         }
     }
     

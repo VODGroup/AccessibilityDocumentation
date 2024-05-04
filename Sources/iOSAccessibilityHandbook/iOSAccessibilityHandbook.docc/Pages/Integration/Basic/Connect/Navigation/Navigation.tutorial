@@ -1,8 +1,65 @@
-@Article(time: 20) {
-    @Intro(title: "Accessible Navigation") {
+@Tutorial(time: 20) {
+    @Intro(title: "Navigating Between Elements") {
+        Previously we learnt how to provide interfacial elements with everything to be accessible. But interfaces are not just elements -- there is also coherence between them, implemented by meaningful connection between its elements. 
+                
+        In this tutorial we are going to conclude foundation of making accessible interfaces: how to connect everything so it flawlessly work as intended with any assistive technology.
+    }
+    
+    @Section(title: "Direct and indirect selection") {
+        @ContentAndMedia {
+            Accessing elements of an interface may be accomplished two ways: by direct and indirect selection. 
+            
+            ### Direct selection
+            Direct selection is navigating within an interface by precisely aiming at a target element of free choice by using pointer devices such as mouses, trackballs, touchpads, eye-trackers and so on. Modern personal computers are designed to be primarily used with pointers, thus it is important for developers to not forget about another way.
+            
+            ### Indirect selection
+            Indirect selection is oppose to the former on: all elements available on a screen are consequently iterated in a particular order. In case of iOS, the order is how users visually perceive the content -- it's called reading order. Talking about English language, its speakers read top to bottom and left to right, so an English screen-reader will do the same on iOS.
+            
+            ### Physical controls of indirect selection
+            Assistive technology enabling indirect selection do so because there is no requirement to be able to precisely aim with pointer devices, therefore it provides access to an interface for people who struggle with dexterity (fine motor skills) or visual perception. To see how exactly various Accessible Features use indirect selection, visit [**Switch Control**](<doc:SwitchControl>) and [**VoiceOver**](<doc:VoiceOver>) articles.
+            
+            Talking about our mission in this tutorial we are going to learn how to ensure that every elements on a screen is reachable with usage of assistive technology, so let's start to figure out what may be an issue.
+        }
         
+        @Section(title: "Horizontal swipes and accessible scroll") {
+            @ContentAndMedia {
+                We already know how [**Accessibility Features**](<doc:AccessibilityFeatures>) build their Accessibility Tree. Our goal is to make sure that the elements are presented in the right order and are accessible for consequential selection.
+            }
+            
+            @Steps {
+                @Step {
+                    Let's continue from the point we stopped at the previous tutorial. We were working on accessibility of a complex cell and that cell was placed in a list of such elements.
+                }
+                
+                @Step {
+                    So we have to deal with a list of complex cells.
+                }
+                
+                @Step {
+                    First of all, such construction is a list, so let's omit the fact of complexity of its components and see how indirect selection works in scrolling of such lists.
+                }
+                
+                @Step {
+                    Swipe to left, right key button, "to next item" switch recipe and other implementations of proceeding to the next item puts the focus frame on an appropriate element and allows interaction with it.
+                }
+                
+                @Step {
+                    Our task is to ensure that elements iterated in the order that repeats the order of visual perception of the interface to convey the same cognitive model.
+                }
+                
+                @Step {
+                    Let's take a look at our screen and flatten it to a textual description of elements in the order they are placed on the screen. But is it how we present it?
+                }
+                
+                @Step {
+                    Nope, it's not an ideal representation of the idea. 
+                }
+            }
+        }
+
     }
 }
+
 @Comment {
     To simplify navigation developer had to achieve several goals: call a notification to update accessibility tree, manage focus when a new screen is opened, support action for closing or completing the screen. 
 
