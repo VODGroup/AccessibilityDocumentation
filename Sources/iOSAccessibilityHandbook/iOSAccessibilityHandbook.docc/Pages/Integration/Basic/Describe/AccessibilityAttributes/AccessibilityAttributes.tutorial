@@ -257,7 +257,7 @@
         }
     }
 
-    @Section(title: "THAT'S ALL FOR NOW") {
+    @Section(title: "Wrap-up") {
         @ContentAndMedia {
             Congratulations! Now you know everything needed to fully **describe elements for *both* users and assistive technology**. 
             

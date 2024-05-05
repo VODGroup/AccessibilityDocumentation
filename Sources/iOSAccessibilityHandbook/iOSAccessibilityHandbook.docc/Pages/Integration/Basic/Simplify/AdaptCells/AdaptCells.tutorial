@@ -214,7 +214,7 @@
         }
     }
 
-    @Section(title: GREAT JOB!) {
+    @Section(title: "Wrap-up") {
         @ContentAndMedia {
             This is only the second tutorial of the book and we've already learnt the most of basics in accessibility of iOS application. Please, don't get scared of the further studying: the next tutorial will wrap-up the foundation, and afterwards everything contained in the second volume is about everything we mentioned here but in much greater detail. 
             

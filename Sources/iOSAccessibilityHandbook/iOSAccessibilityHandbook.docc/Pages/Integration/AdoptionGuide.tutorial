@@ -1,4 +1,4 @@
-@Tutorials(name: "AdoptionGuide") {
+@Tutorials(name: "iOS Accessibility") {
     @Intro(title: "iOS Accessibility Guide") {
         This collection of guides may be perceived as a complete course on accessibility of iOS apps: from the very basics to professional system design solution. 
         
@@ -27,19 +27,20 @@
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
         }
         
-        @Chapter(name: "Ensure that navigation is possible") {
-            @Image(source: chapter-1-2.png, alt: "")
-            
-            Secondly, to *reconnect* the elements into a integral interface certain **alternative controlling options** have to be enabled.
-            
-        }
-        
         @Chapter(name: "Secure user scenarios") {
             @Image(source: chapter-1-3.png, alt: "")
             
-            Lastly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we should **review the layout** of the accessible interface.
+            Secondly, to make sure that the users of assistive technology are able to complete the tasks they are *supposed* to achieve we should **review the layout** of the accessible interface.
             
             @TutorialReference(tutorial: "doc:AdaptCells")
+        }
+        
+        @Chapter(name: "Ensure that navigation is possible") {
+            @Image(source: chapter-1-2.png, alt: "")
+            
+            Lastly, to *reconnect* the elements into a integral interface certain **alternative controlling options** have to be enabled.
+            @TutorialReference(tutorial: "doc:Navigation")
+            
         }
     }
     
