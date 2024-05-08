@@ -11,7 +11,7 @@ How accessibility is **programmed**
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "code-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

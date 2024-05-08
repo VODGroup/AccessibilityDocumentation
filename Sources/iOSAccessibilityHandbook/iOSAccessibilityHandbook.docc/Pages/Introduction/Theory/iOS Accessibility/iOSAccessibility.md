@@ -11,7 +11,7 @@ An **introduction** to accessibility on iOS
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "inclusion", 
+               source: "ios-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",

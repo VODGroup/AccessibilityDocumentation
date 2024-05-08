@@ -11,7 +11,7 @@ Digital accessibility crash course
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "placeholder-image", 
+               source: "terms-card", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
