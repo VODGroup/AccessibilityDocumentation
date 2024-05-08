@@ -7,7 +7,7 @@ This is a fucking glossary. Mikhail Rubanov I swear to God if you ever look at t
     @TitleHeading("Book's Language")
     @PageImage(
                purpose: icon, 
-               source: "dic", 
+               source: "glossary-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

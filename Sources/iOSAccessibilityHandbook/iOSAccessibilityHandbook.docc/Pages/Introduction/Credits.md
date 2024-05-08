@@ -5,7 +5,7 @@
     @TitleHeading("Thank You")
     @PageImage(
                purpose: icon, 
-               source: credits, 
+               source: "credits-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

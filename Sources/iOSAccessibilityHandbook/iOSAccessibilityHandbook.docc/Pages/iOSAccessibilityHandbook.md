@@ -10,6 +10,7 @@ Make your iOS applications **accessible**
 }
 
 @Metadata {
+    @PageColor(blue)
     @DisplayName("iOS Accessibility Handbook")
     @TitleHeading("An educational resource")
     
@@ -17,7 +18,10 @@ Make your iOS applications **accessible**
         purpose: icon, 
         source: "book-icon", 
         alt: "")
-    @PageColor(blue)
+    @CallToAction(
+                url: "https://www.apple.com/accessibility/",
+                purpose: link, 
+                label: "General Knowledge")
 }
 
 ## Welcome to iOS Accessibility Handbook

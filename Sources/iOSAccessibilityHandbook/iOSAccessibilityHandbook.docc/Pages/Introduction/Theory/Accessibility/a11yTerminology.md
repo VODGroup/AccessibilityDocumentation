@@ -7,7 +7,7 @@ Digital accessibility crash course
     @TitleHeading("What Are We Even Talking About")
     @PageImage(
                purpose: icon, 
-               source: "a11y-icon", 
+               source: "terms-icon", 
                alt: "")
     @PageImage(
                purpose: card, 
