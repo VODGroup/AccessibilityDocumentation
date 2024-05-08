@@ -8,7 +8,7 @@ A **screen reader** native for iOS
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("The Screen Reader")
+    @TitleHeading("iOS Screen Reader")
     @PageImage(
                purpose: icon, 
                source: "voiceover", 

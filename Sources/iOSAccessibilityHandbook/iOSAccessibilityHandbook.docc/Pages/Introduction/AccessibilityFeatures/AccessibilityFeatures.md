@@ -65,6 +65,7 @@ Here is the list of some **Accessibility Features** available on iOS.
 
 In this book we're not going to take a precise look at each of them separately, but only at the features that have to be **implicitly supported** to *function*. 
 
+### Accessibility Features
 @Links(visualStyle: detailedGrid) {
     - <doc:VoiceOver>
     - <doc:VoiceControl>
@@ -80,16 +81,16 @@ Each article above contains an overview of a feature that explains **what this f
 
 @Image(source: placeholder-image, alt: "")
 
-## Adopting Accessibility Features
+## Supporting Accessibility Features
 
-### Accessible User Interface
+### Accessible user interface
 [**Accessibility Features**](<doc:AccessibilityFeatures>) use the **semantic language** of an application and change some of its *interfacial* properties to alternate the **usability** of its interface. To see how accessibility is **integrated to interfaces** proceed to [**Accessible Interface**](<doc:AccessibleUI>) -- the heading article of **Integrating Accessibility** volume, which is purposed to break down the **accessibility adoption** process.
 
 @Links(visualStyle: detailedGrid) {
     - <doc:AccessibleUI>
 }
 
-### Accessible User Experience
+### Accessible user experience
 Due to the **singularity of semantic language** within the app, supporting a particular feature usually fully or partially enables *other* features to be used in the app, but it is important to understand the meaning of specific **accessibility attributes** of **mobile interfaces** to provide the *equal experience*. To know how *user experience* changes with various [**Accessibility Features**](<doc:AccessibilityFeatures>) used visit the [**Accessible Experience**](<doc:AccessibleUX>) page, which is a heading article of the detailed volume dedicated to **polishing accessible experience**.
 
 @Links(visualStyle: detailedGrid) {

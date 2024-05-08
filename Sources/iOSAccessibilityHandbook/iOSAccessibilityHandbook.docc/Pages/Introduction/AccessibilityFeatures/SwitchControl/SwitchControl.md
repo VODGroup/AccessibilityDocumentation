@@ -27,10 +27,10 @@ Navigate through iOS by using various switches
 
 [![Alternate Text](sady)](https://www.youtube.com/watch?v=XB4cjbYywqg)
 
-### Switch Access Scanning
+### Switch access
 Typing on keyboard, touching a screen and using pointers to move a cursor are examples of **direct selection** techniques. On the contrary, there is the **indirect selection**: such methods firstly *scan* the **collection of items** forming the interface. **Switch access**, just as screen-reading technology enables **manual** or **automated scanning** of the elements on the screen.
 
-### Variety of Switches
+### Variety of switches
 Anything sensitive to human *intentional* input may be used as a switch. It may be a **button**, a **pedal** (foot switch), a hardware **interface sensitive to breathing or muscle contraction**, **face recognition software** and **eye tracking devices** -- literally anything that is able to *recognise signals* sent by its user. 
 
 @Row {
@@ -85,7 +85,7 @@ Anything sensitive to human *intentional* input may be used as a switch. It may 
    }
 }
 
-### Switch Control Users
+### Switch Control users
 The feature is essential for those who **lack the ability to operate the device** the conventional way: people with physical and cognitive limitations that won't allow them to use the device with particular *dexterity*. 
 
 @Image(source: sady-at, alt: "") {
@@ -98,7 +98,7 @@ Switches are often placed on *mobility aid constructions* such as wheelchairs an
     **Stephen Hawking**, a scientist and an author had **ALS** (**A**myotrophic **L**ateral **S**clerosis) and, probably, is the most recognised user of assistive technology
 }
 
-### Connecting Switches to a Device
+### Connecting switches to a device
 An important notice: **switches cannot be connected to a computer directly**. Instead, a middleman is required -- a **switch interface** device to which the switches are *plugged*.
 
 @TabNavigator {
@@ -124,7 +124,7 @@ An important notice: **switches cannot be connected to a computer directly**. In
 }
 
 
-## iPhone as a Switch
+## iPhone as a switch
 An iPhone *itself* can be used as various switches, since the device is *receptive* to a wide range of inputs due to diverse **sensors**, such as a **gyroscope**, an **accelerometer**, **FaceID powered camera**, and so on, that are *built* into the phone. 
 @Video(source: placeholder-video, alt: "")
 
@@ -134,12 +134,12 @@ An iPhone *itself* can be used as various switches, since the device is *recepti
 The mechanism is very similar to **Grid Layout** of [**Voice Control**](<doc:VoiceControl>).
 
 
-### Switch Control Head Tracking
+### Switch Control head tracking
 On iPhone models with [**FaceID**](https://en.wikipedia.org/wiki/Face_ID) it is possible to use *head movements* and *facial expressions* as **controlling actions**. As for today Switch Control recognises 9 different head movements and allows to bind one of 13 actions to such control option. Additional settings provide *adjustability* of **recognition sensitivity**, **tracking modes** and **pointer speed**. 
 @Video(source: misha, alt: "")
 
 
-## Switch Control Settings 
+## Switch Control settings 
 To turn Switch Control on, in **Settings** app choose **Accessibility** settings and find **Switch Control** feature. 
 @Image(source: sc-setup, alt: "")
 
@@ -147,7 +147,7 @@ To turn Switch Control on, in **Settings** app choose **Accessibility** settings
 
 
 
-## Adapting Applications for Switch Control 
+## Adapting applications for Switch Control 
 Support of Switch Control in accessible apps is represented by the accessible design of **navigational patterns**: the easier it is to *navigate within the app* the more delightful the experience for this feature users will be. 
 
 
