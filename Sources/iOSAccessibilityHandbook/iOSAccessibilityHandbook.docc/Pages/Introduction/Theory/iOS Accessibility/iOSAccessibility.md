@@ -7,7 +7,7 @@ An **introduction** to accessibility on iOS
     @TitleHeading("Technology for Everyone")
     @PageImage(
                purpose: icon, 
-               source: "iphone", 
+               source: "apple-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

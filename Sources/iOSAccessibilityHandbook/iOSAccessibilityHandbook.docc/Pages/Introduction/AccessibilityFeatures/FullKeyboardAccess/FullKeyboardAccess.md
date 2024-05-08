@@ -7,7 +7,7 @@ Operate iOS using an external physical keyboard
     @TitleHeading("Focus On")
     @PageImage(
                purpose: icon, 
-               source: "keyboard", 
+               source: "fka-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

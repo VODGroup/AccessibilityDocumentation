@@ -7,7 +7,7 @@ Perform complex gestures and press buttons by a simple touch
     @TitleHeading("No Precision")
     @PageImage(
                purpose: icon, 
-               source: "tap", 
+               source: "at-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

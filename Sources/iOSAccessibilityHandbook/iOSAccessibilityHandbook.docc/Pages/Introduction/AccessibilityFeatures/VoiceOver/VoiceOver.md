@@ -11,7 +11,7 @@ A **screen reader** native for iOS
     @TitleHeading("iOS Screen Reader")
     @PageImage(
                purpose: icon, 
-               source: "voiceover", 
+               source: "vo-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

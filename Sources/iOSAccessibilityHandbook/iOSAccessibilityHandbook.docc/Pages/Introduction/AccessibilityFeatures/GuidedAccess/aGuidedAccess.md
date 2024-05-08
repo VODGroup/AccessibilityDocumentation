@@ -5,7 +5,7 @@
     @TitleHeading("Focus On")
     @PageImage(
                purpose: icon, 
-               source: "guided-access", 
+               source: "ga-icon", 
                alt: "")
     @PageImage(purpose: card, 
                source: "ga-card", 

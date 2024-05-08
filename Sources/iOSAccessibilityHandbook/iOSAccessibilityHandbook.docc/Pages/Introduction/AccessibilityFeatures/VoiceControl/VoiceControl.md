@@ -7,7 +7,7 @@ Use your **voice** to operate iOS
     @TitleHeading("Command by Voice")
     @PageImage(
                purpose: icon, 
-               source: "voice-control", 
+               source: "vc-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

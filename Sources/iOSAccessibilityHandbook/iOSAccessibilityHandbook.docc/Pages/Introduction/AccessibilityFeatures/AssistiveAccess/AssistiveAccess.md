@@ -7,7 +7,7 @@ A simplified mode of iOS
     @TitleHeading("Keep It Simple")
     @PageImage(
                purpose: icon, 
-               source: "apps", 
+               source: "aa-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

@@ -7,7 +7,7 @@ Scale fonts in your interface automatically
     @TitleHeading("Look And See")
     @PageImage(
                purpose: icon, 
-               source: "text-size", 
+               source: "dt-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

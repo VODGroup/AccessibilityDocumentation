@@ -15,7 +15,7 @@ Make your iOS applications **accessible**
     
     @PageImage(
         purpose: icon, 
-        source: "icon", 
+        source: "book-icon", 
         alt: "")
     @PageColor(blue)
 }

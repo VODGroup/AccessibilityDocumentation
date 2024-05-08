@@ -7,7 +7,7 @@ A brief overview of **assistive technology** supported by iOS
     @TitleHeading("iOS Accessibility Kit")
     @PageImage(
                purpose: icon, 
-               source: "accessibility", 
+               source: "af-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

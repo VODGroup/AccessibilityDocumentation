@@ -11,7 +11,7 @@ Navigate through iOS by using various switches
     @TitleHeading("Command By Anything")
     @PageImage(
                purpose: icon, 
-               source: "switch-control", 
+               source: "sc-icon", 
                alt: "")
     @PageImage(
                purpose: card, 
