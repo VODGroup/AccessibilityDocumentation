@@ -1,9 +1,65 @@
-@Tutorial(time: 15) {
+@Article(time: 30) {
     @Intro(title: "Writing Accessible Texts") {
-        Even though there is no problem for screen readers to speak textual information there are a few moments one should consider to make reading comfortable for everyone. Text layout, fonts used, proper language - let's discuss everything that may become an obstacle for a user.
+        Здесь зачин.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+        @Image(source: placeholder-image, alt: "")
     }
+    
+    @ContentAndMedia {
+        ## Structured text
+        
+        ### Fragmentate blocks
+        
+        ### Style text layout
+        
+        ### Headings
+        
+        ### Bullet-points
+
+        ### Sentence case
+        
+        ### Embedded links
+    }
+    
+    @ContentAndMedia {
+        ## Plain language
+        
+        ### Short sentences
+        
+        ### No to specific terminology 
+        
+        ### Expand acronyms
+        
+        ### Write inclusively
+    }
+    
+    
+    
+    @ContentAndMedia {
+        ## Dyslexia-friendly typefaces
+        
+        ### Dyslexia
+        
+        ### Dyslexia-friendly typefaces properties
+        
+        ### Examples of dyslexia-friendly typefaces
+    }
+    
+    @ContentAndMedia {
+        ## Accessibility attributes
+        
+        ### Appropriate language passage
+        
+        ### Page enumeration 
+        
+        ### Lines enumeration 
+        
+        ### Automatic page-turning
+        
+        ### Accessible scroll
+    }
+}
+    
     
     @Comment {
         https://developer.apple.com/wwdc19/248
@@ -11,27 +67,91 @@
         WWDC
         Details
         Quiz
+    
+
+    @ContentAndMedia {
+        #Text
+        
+        ##text
+        
+        ###text
+        
+        text
+        
+        @Image(source: placeholder-image, alt: "")
+    }
+        
+    @ContentAndMedia {
+        #Text
+        
+        ##text
+        
+        ###text
+        
+        text
+    }
+
+    @Stack {
+        @ContentAndMedia {
+            @Image(source: placeholder-image, alt: "")
+        }
+    }
+    @Stack {
+        @ContentAndMedia {
+            #Text
+            
+            ##text
+            
+            ###text
+            
+            text
+            
+            @Image(source: placeholder-image, alt: "")
+        }
+        @ContentAndMedia {
+            #Text
+            
+            ##text
+            
+            ###text
+            
+            text
+            
+            @Image(source: placeholder-image, alt: "")
+        }
     }
     
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-            
-            @Image(source: <#file#>, alt: "<#accessible description#>")
-        }
-        
-        @Steps {
-            @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
-            }
+    @Assessments {
+            @MultipleChoice {
+                What element did you use to add space around and between your views?
+
+
+                @Choice(isCorrect: false) {
+                    A state variable.
+
+
+                    @Justification(reaction: "Try again!") {
+                        Remember, it's something you used to arrange views vertically.
+                    }
+                }
+
+
+                @Choice(isCorrect: true) {
+                    A `VStack` with trailing padding.
+
+
+                    @Justification(reaction: "That's right!") {
+                        A `VStack` arranges views in a vertical line.
+                    }
+                }
+
+
+                @Choice(isCorrect: false) {
+                  
+                  ...
+                  
+                }
+            }  
         }
     }
 }
