@@ -1,28 +1,17 @@
-@Tutorial(time: 10) {
+@Tutorial(time: 30) {
     @Intro(title: "Activation Point Constraints") {
-        <#text#>
+        Здесь зачин.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Frame") {
         @ContentAndMedia {
-            <#text#>
-            
-            @Image(source: <#file#>, alt: "<#accessible description#>")
+            Text
         }
-        
         @Steps {
             @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
+                An instructional sentence
             }
         }
     }

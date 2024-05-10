@@ -73,7 +73,7 @@ In this book we're not going to take a precise look at each of them separately, 
     - <doc:aDynamicType>
     - <doc:FullKeyboardAccess>
     - <doc:AssistiveTouch>
-    - <doc:aGuidedAccess>
+    - <doc:GuidedAccess>
     - <doc:AssistiveAccess>
 }
 

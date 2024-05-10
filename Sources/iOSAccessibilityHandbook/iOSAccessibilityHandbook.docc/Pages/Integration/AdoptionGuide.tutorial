@@ -49,11 +49,10 @@
         This volume is dedicated to making the *experience* of [**assistive technology**](<doc:AccessibilityFeatures>) users more **comfortable** and **immersive**.
         @Image(source: volume-2.png, alt: "")
 
-        @Chapter(name: "Accessible description") {
+        @Chapter(name: "Accessible content") {
             @Image(source: chapter-2-1.png, alt: "")
             
             **Describe the accessible interface** to that extent so its users have **less ambiguity in its interpretation**.
-            @TutorialReference(tutorial: "doc:AccessibleUX")
             @TutorialReference(tutorial: "doc:AccessibleCharts")
             @TutorialReference(tutorial: "doc:AccessibleListening")
             @TutorialReference(tutorial: "doc:AccessibleReading")
@@ -62,10 +61,12 @@
         
         @Chapter(name: "Accessible controls") {
             Implement **advanced alternative accessible controlling options** to make the experience **smoother**.
-            @TutorialReference(tutorial: "doc:Rotor")
-            @TutorialReference(tutorial: "doc:CustomRotor")
-            @TutorialReference(tutorial: "doc:CustomActions")
+            @TutorialReference(tutorial: "doc:AdjustableElements")
+            @TutorialReference(tutorial: "doc:Frame")
+            @TutorialReference(tutorial: "doc:Haptics")
             @TutorialReference(tutorial: "doc:KeyboardShortcuts")
+            @TutorialReference(tutorial: "doc:ControlHierarchy")
+            @TutorialReference(tutorial: "doc:Traits")
             @Image(source: chapter-2-2.png, alt: "")
         }
         
@@ -75,20 +76,22 @@
             Develop **sufficient paths** to enable people **conveniently complete the tasks** they are supposed to.
             
             @TutorialReference(tutorial: "doc:HorizontalSwipes")
-            @TutorialReference(tutorial: "doc:aVerticalSwipes")
-            @TutorialReference(tutorial: "doc:AdjustableElements")
-            @TutorialReference(tutorial: "doc:HideUselessControls")
-            @TutorialReference(tutorial: "doc:TextInput")
-            @TutorialReference(tutorial: "doc:ErrorPrevention")
+            @TutorialReference(tutorial: "doc:Notifications")
+            @TutorialReference(tutorial: "doc:VerticalSwipes")
+            @TutorialReference(tutorial: "doc:CustomActions")
+            @TutorialReference(tutorial: "doc:CustomRotor")
+            @TutorialReference(tutorial: "doc:Containers")
+            @TutorialReference(tutorial: "doc:Error-Handling")
         }
         
-        @Chapter(name: "Accessible appearance") {
+        @Chapter(name: "Visual accessibility") {
             @Image(source: chapter-2-4.png, alt: "")
             
             Make your **GUI easier to be visually comprehended** for people with **visual** or **mental impairments**.
             
-            @TutorialReference(tutorial: "doc:ColorsAndShapes")
-            @TutorialReference(tutorial: "doc:AdaptedPrivacy")
+            @TutorialReference(tutorial: "doc:ColoursAndShapes")
+            @TutorialReference(tutorial: "doc:InterfaceScale")
+            @TutorialReference(tutorial: "doc:ReduceMotion")
         }
     }
     
@@ -103,11 +106,8 @@
             
             Get familiar with the ideas and **reasoning behind accessibility**.
             <doc:AccessibleDesign>
-            @TutorialReference(tutorial: "doc:Processes")
             @TutorialReference(tutorial: "doc:Standarts")
-            @TutorialReference(tutorial: "doc:Privacy")
             @TutorialReference(tutorial: "doc:AccessibleDesign")
-            @TutorialReference(tutorial: "doc:AccessibilityTree")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
         }
         
@@ -124,7 +124,6 @@
             @TutorialReference(tutorial: "doc:SnapshotTesting")
             @TutorialReference(tutorial: "doc:UITesting")
             @TutorialReference(tutorial: "doc:Manual")
-            @TutorialReference(tutorial: "doc:GuidedAccess")
         }
         
         @Chapter(name: "Activism") {

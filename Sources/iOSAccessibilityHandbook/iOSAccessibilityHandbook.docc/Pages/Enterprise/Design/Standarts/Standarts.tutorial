@@ -1,29 +1,9 @@
-@Tutorial(time: 15) {
-    @Intro(title: "Accessibility Compliance of iOS Applications") {
-        <#text#>
-        
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+@Article(time: 15) {
+    @Intro(title: "iOS Applications Accessibility Conformance") {
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-            
-            @Image(source: <#file#>, alt: "<#accessible description#>")
-        }
-        
-        @Steps {
-            @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
-            }
-        }
+    @ContentAndMedia {
+        ## WCAG ICT
     }
 }

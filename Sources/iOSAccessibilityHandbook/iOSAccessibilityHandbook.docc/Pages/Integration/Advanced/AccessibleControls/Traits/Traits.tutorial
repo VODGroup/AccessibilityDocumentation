@@ -1,4 +1,4 @@
-@Tutorial(time: 15) {
+@Tutorial(time: 30) {
     
     @Comment {
         https://developer.apple.com/documentation/swiftui/accessibilitytraits swiftui cyka
@@ -389,7 +389,7 @@
     
     @Section(title: "Static Text") {
         @ContentAndMedia {
-            Static Text element is an element that is just a text and has possible interactions. Use it to explicitly state that the item cannot be activated and is purely decorative. Moreover, setting this trait tells <doc:AccessibilityTree> that there is no need to check on the element afterwards: it won't change.
+            Static Text element is an element that is just a text and has possible interactions. Use it to explicitly state that the item cannot be activated and is purely decorative. Moreover, setting this trait tells Accessibility API that there is no need to check on the element afterwards: it won't change.
             
             @Image(source: static-text, alt: "")
         }

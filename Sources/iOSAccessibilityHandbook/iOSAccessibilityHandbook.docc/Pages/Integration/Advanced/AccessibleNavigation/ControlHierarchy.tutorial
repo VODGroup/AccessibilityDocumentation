@@ -1,8 +1,9 @@
 @Article(time: 20) {
-    @Intro(title: "Control Hierarchy") {
+    @Intro(title: "Controls Hierarchy") {
         
     }
 }
+
 @Comment {
     ## Overview
 

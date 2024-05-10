@@ -1,11 +1,12 @@
 @Article(time: 15) {
-    @Intro(title: "Notifications") {
+    @Intro(title: "Haptic Feedback") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")
     }
     
     @ContentAndMedia {
-        Some header here.
+        ## Haptics
+        ## Notifications
     }
 }

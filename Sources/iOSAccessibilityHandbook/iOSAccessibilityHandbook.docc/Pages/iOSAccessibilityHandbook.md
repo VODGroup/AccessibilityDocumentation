@@ -92,8 +92,8 @@ Illustrative materials created exclusively for the book can be found [**here**](
 - <doc:VoiceOver>
 - <doc:VoiceControl>
 - <doc:SwitchControl>
-- <doc:aDynamicType>
-- <doc:aGuidedAccess>
+- <doc:DynamicType>
+- <doc:GuidedAccess>
 - <doc:FullKeyboardAccess>
 - <doc:AssistiveTouch>
 - <doc:AssistiveAccess>

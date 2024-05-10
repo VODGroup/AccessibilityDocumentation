@@ -153,7 +153,6 @@ Support of Switch Control in accessible apps is represented by the accessible de
 
 ### Featured
 @Links(visualStyle: detailedGrid) {
-    - <doc:FocusManagement>
     - <doc:Navigation>
 }
 
@@ -162,7 +161,6 @@ Support of Switch Control in accessible apps is represented by the accessible de
 
 ## See Also
 @Links(visualStyle: list) {
-    - <doc:MotorDisabilities>
     - <doc:VoiceControl>
     - <doc:FullKeyboardAccess>
     - <doc:AssistiveTouch>

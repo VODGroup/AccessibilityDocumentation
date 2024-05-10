@@ -1,29 +1,20 @@
 @Tutorial(time: 20) {
     @Intro(title: "Snapshot Accessibility Testing") {
-        <#text#>
+        Здесь зачин.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Title") {
         @ContentAndMedia {
-            <#text#>
+            Text.
             
-            @Image(source: <#file#>, alt: "<#accessible description#>")
+            @Image(source: placeholder-image, alt: "")
         }
         
         @Steps {
             @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
+                An instructional message.
             }
         }
     }
-}

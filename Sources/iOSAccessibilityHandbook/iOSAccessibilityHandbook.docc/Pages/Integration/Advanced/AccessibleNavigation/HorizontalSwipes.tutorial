@@ -1,29 +1,12 @@
-@Tutorial(time: 30) {
+@Article(time: 15) {
     @Intro(title: "Horizontal Swipes") {
-        <#text#>
+        Здесь зачин.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "<#text#>") {
-        @ContentAndMedia {
-            <#text#>
-            
-            @Image(source: <#file#>, alt: "<#accessible description#>")
-        }
-        
-        @Steps {
-            @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
-            }
-        }
+    @ContentAndMedia {
+        ## Item selection
+        ## Accessible scroll
     }
 }

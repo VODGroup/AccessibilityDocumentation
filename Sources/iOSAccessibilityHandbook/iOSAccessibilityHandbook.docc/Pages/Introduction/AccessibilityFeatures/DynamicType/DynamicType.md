@@ -23,7 +23,7 @@ According to [**WHO**](https://www.who.int/news-room/fact-sheets/detail/blindnes
 
 @Image(source: twenty-five-percent, alt: "")
 
-Talking about **Dynamic Type** we are going to discuss those **visual impairments** that affect the *sharpness* of the perceived picture. To learn more about **color blindness** or **major vision loss** visit [**Colors and Shapes**](<doc:ColorsAndShapes>) tutorial and [**VoiceOver**](<doc:VoiceOver>) article accordingly.
+Talking about **Dynamic Type** we are going to discuss those **visual impairments** that affect the *sharpness* of the perceived picture. To learn more about **color blindness** or **major vision loss** visit [**Colours and Shapes**](<doc:ColoursAndShapes>) tutorial and [**VoiceOver**](<doc:VoiceOver>) article accordingly.
 
 @Row {
     @Column {

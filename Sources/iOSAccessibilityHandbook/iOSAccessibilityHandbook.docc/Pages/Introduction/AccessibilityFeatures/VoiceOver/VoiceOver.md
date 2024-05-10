@@ -152,5 +152,5 @@ Since supporting screen readers heavily relies on the **semantic structure** of 
 - <doc:aDynamicType>
 - <doc:FullKeyboardAccess>
 - <doc:AssistiveTouch>
-- <doc:aGuidedAccess>
+- <doc:GuidedAccess>
 - <doc:AssistiveAccess>

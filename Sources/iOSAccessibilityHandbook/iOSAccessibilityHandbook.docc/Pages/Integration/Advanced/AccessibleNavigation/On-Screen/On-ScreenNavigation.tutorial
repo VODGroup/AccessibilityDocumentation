@@ -1,5 +1,5 @@
 @Article(time: 15) {
-    @Intro(title: "Notifications") {
+    @Intro(title: "On-Screen Navigation") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")

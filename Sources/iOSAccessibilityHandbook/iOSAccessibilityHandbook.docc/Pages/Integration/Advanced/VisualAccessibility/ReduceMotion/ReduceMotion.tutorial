@@ -1,0 +1,17 @@
+@Article(time: 20) {
+    @Intro(title: "Reduce Motion") {
+        Здесь зачин.
+        
+        @Image(source: placeholder-image, alt: "")
+    }
+    
+    @ContentAndMedia {
+        ## Motion sickness
+        ## Cognitive impairments
+        ## Motion in an interface
+        ## Animations
+        ## Transitions
+        ## Video content
+        ## Reduced movement in games
+    }
+}

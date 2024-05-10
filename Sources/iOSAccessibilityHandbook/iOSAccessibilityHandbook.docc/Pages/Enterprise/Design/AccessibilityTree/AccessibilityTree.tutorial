@@ -1,6 +1,0 @@
-@Tutorial(time: 10) {
-    @Intro(title: "Creating Mental Models of User Interfaces") {
-        <#text#>
-        
-    }
-}

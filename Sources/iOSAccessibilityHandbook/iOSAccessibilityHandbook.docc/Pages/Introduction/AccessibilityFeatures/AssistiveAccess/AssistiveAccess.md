@@ -73,7 +73,6 @@ To make an application **easy to operate** there are three directions to work on
 
 To learn more about *reasons* behind these guidelines visit our articles on the topic:
 @Links(visualStyle: list) {
-   - <doc:AdaptedPrivacy>
    - <doc:AccessibleDesign>
    - <doc:Navigation>
 }
@@ -112,4 +111,4 @@ Nevertheless, if **Apple** *decides* that they should invest their resources int
 - <doc:aDynamicType>
 - <doc:FullKeyboardAccess>
 - <doc:AssistiveTouch>
-- <doc:aGuidedAccess>
+- <doc:GuidedAccess>

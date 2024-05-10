@@ -275,7 +275,7 @@
                 A regular swipe
                 
                 @Justification(reaction: "Try again!") {
-                    Nope, ***vertical swipes* are used for *adjustable elements* and other <doc:Rotor> operations**. 
+                    Nope, ***vertical swipes* are used for *adjustable elements* and other Rotor operations**. 
                     
                     For example, **swipe from the *bottom* will close the current application**, the one **from the *top* will open Notifications Screen or Control Center**.
                 }

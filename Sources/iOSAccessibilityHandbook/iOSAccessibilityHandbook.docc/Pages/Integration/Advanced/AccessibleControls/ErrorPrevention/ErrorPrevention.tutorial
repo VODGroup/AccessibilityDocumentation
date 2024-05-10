@@ -1,5 +1,0 @@
-@Article(time: 20) {
-    @Intro(title: "Accessible Mistakes Correction") {
-        FUCK time limits
-    }
-}

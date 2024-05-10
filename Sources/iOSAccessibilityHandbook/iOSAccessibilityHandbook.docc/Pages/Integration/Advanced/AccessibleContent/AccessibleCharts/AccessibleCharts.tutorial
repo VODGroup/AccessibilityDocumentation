@@ -1,0 +1,38 @@
+@Tutorial(time: 20) {
+    @Intro(title: "Adapting Visual Data Representation") {
+        Здесь зачин.
+        
+        @Image(source: placeholder-image, alt: "")
+    }
+    
+    @Section(title: "Data charts") {
+        @ContentAndMedia {
+            Text
+        }
+        @Steps {
+            @Step {
+                An instructional sentence
+            }
+        }
+    }
+    @Section(title: "Charts description") {
+        @ContentAndMedia {
+            Text
+        }
+        @Steps {
+            @Step {
+                An instructional sentence
+            }
+        }
+    }
+    @Section(title: "Audio graphs") {
+        @ContentAndMedia {
+            Text
+        }
+        @Steps {
+            @Step {
+                An instructional sentence
+            }
+        }
+    }
+}

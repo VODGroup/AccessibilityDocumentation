@@ -1,28 +1,20 @@
-@Tutorial(time: <#number#>) {
+@Tutorial(time: 15) {
     @Intro(title: "Manual Testing of iOS Applications") {
-        <#text#>
+        Здесь зачин.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Title") {
         @ContentAndMedia {
-            <#text#>
+            Text.
             
-            @Image(source: <#file#>, alt: "<#accessible description#>")
+            @Image(source: placeholder-image, alt: "")
         }
         
         @Steps {
             @Step {
-                <#text#>
-                
-                @Image(source: <#file#>, alt: "<#accessible description#>")
-            }
-            
-            @Step {
-                <#text#>
-                
-                @Code(name: "<#display name#>", file: <#filename.swift#>)
+                An instructional message.
             }
         }
     }

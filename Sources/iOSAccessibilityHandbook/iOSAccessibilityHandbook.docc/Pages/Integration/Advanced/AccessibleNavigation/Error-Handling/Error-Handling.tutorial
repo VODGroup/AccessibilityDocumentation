@@ -1,0 +1,16 @@
+@Article(time: 45) {
+    @Intro(title: "Accessible Error-Handling") {
+        Здесь зачин.
+        
+        @Image(source: placeholder-image, alt: "")
+    }
+    
+    @ContentAndMedia {
+        ## Human design
+        ## Assistive-technology
+        ## Input forms 
+        ## Action confirmation 
+        ## Undoing actions 
+        ## Confidential data privacy
+    }
+}

@@ -1,0 +1,198 @@
+@Article(time: 15) {
+    @Intro(title: "ColoursAndShapes") {
+        Здесь зачин.
+        
+        @Image(source: placeholder-image, alt: "")
+    }
+    
+    @ContentAndMedia {
+        ## Colour blindness
+        ## Distinguish by both colour and shape
+        ## Sufficient contrast
+        ## Dark mode
+        ## Dynamic Type
+    }
+}
+
+@Comment {
+    @Tutorial(time: 15) {
+        @Intro(title: "Colors and Shapes") {
+            это для сотрудников арт лебедев
+            @Image(source: visual-properties, alt: "")
+            @Comment {
+                https://support.apple.com/en-us/111773
+                https://www.whocanuse.com
+                https://www.funkify.org
+                https://wise.design
+                https://www.oxo.com
+                спиздить у кирилла слайд про мужиков
+                https://www.figma.com/file/i3Xh0rnBgNTqlPbRKO3aYc/Apple-Design-Resources-–-iOS-17-and-iPadOS-17-(Community)?type=design&node-id=0-2194&mode=design&t=PkyE043rZ0FZtHNs-0
+            }
+        }
+
+        
+        
+        > Note: Accessibility Inspector has a built-in instrument
+        
+        
+        @Section(title: "Accessible Appearance of Controls") {
+            @ContentAndMedia {
+                <#text#>
+            }
+            
+            @Steps {
+                @Step {
+                    <#Work in progress#>
+                }
+            }
+        }
+        
+        @Section(title: "Dark Mode Support") {
+            @ContentAndMedia {
+                <#text#>
+            }
+            
+            @Steps {
+                @Step {
+                    <#Work in progress#>
+                }
+            }
+        }
+        
+        @Section(title: "Color Blindness") {
+            @ContentAndMedia {
+                <#text#>
+            }
+            
+            @Steps {
+                @Step {
+                    <#Work in progress#>
+                }
+            }
+        }
+        
+        @Section(title: "Sufficient Contrast") {
+            @ContentAndMedia {
+                <#text#>
+            }
+            
+            @Steps {
+                @Step {
+                    <#Work in progress#>
+                }
+            }
+        }
+        
+        @Section(title: "Dynamic Type") {
+            @ContentAndMedia {
+                <#text#>
+            }
+            
+            @Steps {
+                @Step {
+                    <#Work in progress#>
+                }
+            }
+        }
+        
+        @Section(title: "What now") {
+            @ContentAndMedia {
+                Congratulations! 
+                
+                What about a little `quiz` to revise the topic? 🔎
+                
+                @Image(source: placeholder-image, alt: "")
+            }
+            
+            @Steps {
+                @Step {
+                    Text.
+                    @Image(source: placeholder-image, alt: "")
+                }
+            }
+        }
+        @Assessments {
+            @MultipleChoice {
+                Question?
+                
+                @Choice(isCorrect: false) {
+                    Yes
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+                          
+                @Choice(isCorrect: true) {
+                    No
+                    @Justification(reaction: "That's right!") {
+                        text
+                    }
+                }
+                                
+                @Choice(isCorrect: false) {
+                    Maybe
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+            }
+            
+            @MultipleChoice {
+                Question?
+                
+                @Choice(isCorrect: false) {
+                    Yes
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+                          
+                @Choice(isCorrect: true) {
+                    No
+                    @Justification(reaction: "That's right!") {
+                        text
+                    }
+                }
+                                
+                @Choice(isCorrect: false) {
+                    Maybe
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+            }
+            
+            @MultipleChoice {
+                Question?
+                
+                @Choice(isCorrect: false) {
+                    Yes
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+                                
+                @Choice(isCorrect: false) {
+                    No
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+                
+                @Choice(isCorrect: true) {
+                    All
+                    @Justification(reaction: "That's right!") {
+                        text
+                    }
+                }
+                
+                @Choice(isCorrect: false) {
+                    None
+                    @Justification(reaction: "Try again!") {
+                        text
+                    }
+                }
+            }
+        }
+    }
+}

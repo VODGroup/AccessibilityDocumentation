@@ -82,7 +82,7 @@ To know more about *key features* -- those of our professional (as app creators)
 ## Wrap-up
 So, here we are. We came to the point where stating the **purpose of this book** is possible. 
  
- [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) is a collection of *guidelines* of how to create **iOS applications** that support [**Accessible Features**](<doc:AccessibilityFeatures>) and promote [**inclusive design**](<doc:InclusiveDesign>). 
+ [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) is a collection of *guidelines* of how to create **iOS applications** that support [**Accessible Features**](<doc:AccessibilityFeatures>) and promote [**inclusive design**](<doc:AccessibleDesign>). 
 @Image(source: human-interface-guidelines, alt: "A screenshot of Apple's Human Interface Guidelines web page")
 
 To dive right into the process of **developing accessible applications** don't hesitate to open the [**iOS Accessibility Guide**](https://vodgroup.github.io/AccessibilityDocumentation/tutorials/adaptionstrategy) map. *Everything* is there, you won't be left unprepared.

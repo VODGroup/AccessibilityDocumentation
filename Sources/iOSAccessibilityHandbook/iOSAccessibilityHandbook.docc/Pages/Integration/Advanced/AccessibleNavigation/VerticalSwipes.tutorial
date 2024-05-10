@@ -1,11 +1,14 @@
 @Article(time: 15) {
-    @Intro(title: "Notifications") {
+    @Intro(title: "Vertical Swipes") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")
     }
     
     @ContentAndMedia {
-        Some header here.
+        ## Additional information
+        ## Variable actions
+        ## Rotor
+        ## Text input
     }
 }
