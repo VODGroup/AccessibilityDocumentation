@@ -7,7 +7,7 @@ How accessibility is **programmed**
     @TitleHeading("Same Result, Different Means")
     @PageImage(
                purpose: icon, 
-               source: "code-icon", 
+               source: "swift-icon", 
                alt: "")
     @PageImage(
                purpose: card, 

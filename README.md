@@ -13,8 +13,8 @@ The material is split into **chapters** by its relation to a *certain topic*. Th
 
 ## — Who is responsible of this?
 Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). 
-![prs](./Samples/aboutAccessibility~dark.png#gh-dark-mode-only)
-![prs](./Samples/aboutAccessibility~light.png#gh-light-mode-only)
+![prs](./Samples/book~dark.png#gh-dark-mode-only)
+![prs](./Samples/book~light.png#gh-light-mode-only)
 The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language *exclusively* — sucks. So here we are, happily putting **videos** and **code samples** on the documentation pages! Have fun.  
 
 ## — Why make it a website? 

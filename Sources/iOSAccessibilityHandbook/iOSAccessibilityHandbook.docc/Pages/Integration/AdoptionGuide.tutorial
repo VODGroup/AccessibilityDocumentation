@@ -10,7 +10,7 @@
 
         ### Let's dive in!
         
-        @Image(source: guide-table, alt: "")
+        @Image(source: contents, alt: "")
     }
     
     @Volume(name: "Integrating interfaces with accessibility") {

@@ -68,7 +68,7 @@ To **contribute** to the project visit its [GitHub page](https://github.com/VODG
 
 ### Contributors
 The resources are provided by **Mikhail Rubanov**, Head of Mobile Development at [**Dodo Brands**](https://dodobrands.io), an accessibility activist and the author of ["**About Accessibility on iOS**"]( https://rubanov.dev/a11y-book) book. Exemplary and illustrative materials are based on his *working experience*. 
-@Image(source: "aboutAccessibility-sample", alt: "-")
+@Image(source: "book-sample", alt: "-")
 
 ### VoiceOver Designer
 Reading the book you may notice screenshots of iOS applications with *mark-ups* related to **accessibility design** over them. This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to design *accessible interfaces* over a screenshot of an app. 
