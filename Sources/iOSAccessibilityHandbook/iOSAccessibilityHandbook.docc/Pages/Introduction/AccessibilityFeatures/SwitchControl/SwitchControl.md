@@ -18,7 +18,7 @@ Navigate through iOS by using various switches
                source: "sc-card", 
                alt: "Switch Control with opened popover with actions: Select All, Deselect, Cut, Copy")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://support.apple.com/en-us/HT201370",
                 purpose: link, 
                 label: "General Knowledge")
 }

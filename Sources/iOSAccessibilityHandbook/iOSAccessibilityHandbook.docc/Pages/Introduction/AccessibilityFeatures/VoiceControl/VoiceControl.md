@@ -14,7 +14,7 @@ Use your **voice** to operate iOS
                source: "vc-card", 
                alt: "")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://support.apple.com/en-us/HT210417",
                 purpose: link, 
                 label: "General Knowledge")
 }

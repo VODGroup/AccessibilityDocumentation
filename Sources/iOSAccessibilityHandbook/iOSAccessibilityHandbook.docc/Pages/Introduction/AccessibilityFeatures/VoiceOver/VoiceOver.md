@@ -18,7 +18,7 @@ A **screen reader** native for iOS
                source: "vo-card", 
                alt: "")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://www.apple.com/accessibility/voiceover/",
                 purpose: link, 
                 label: "General Knowledge")
 }
@@ -49,12 +49,6 @@ In other words, screen reading technology *primarily* serves people who are *una
 Not being able to perceive information **visually** is the hugest obstacle on the way to the access to technology. The reason is that **approximately 90% of the environmental information** received by humans comes through the **visual channel**. Which makes the visual perception the primary way of **reality perception**. 
 
 @Image(source: ninety-percent, alt: "")
-
-### Featured
-@Links(visualStyle: detailedGrid) {
-    - <doc:InterfacePerception>
-    - <doc:InterfaceInteractions>
-}
 
 Thanks to the natural order of things **information is formless** and humans have other senses to receive it. Thus screen readers transform the graphic interface into an audial or tactile form. 
 

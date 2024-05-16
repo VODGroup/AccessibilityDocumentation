@@ -1,6 +1,6 @@
 # Accessibility Terminology
 
-Digital accessibility crash course
+**Digital accessibility** crash course
 
 @Metadata {
     @PageColor(blue)
@@ -22,29 +22,35 @@ Digital accessibility crash course
 
 ## What is accessibility 
 
-**Accessibility** is a property of *things* that measures its **approachability**. Most *commonly *the term is used to refer to those qualities of objects that make them **accessible** for people with **special needs**, for example, **people with disabilities** or **users of assistive technology**.
+**Accessibility** is a property of *things* that measures its **approachability**. Most *commonly* the term is used to refer to those qualities of objects that make them **accessible** for people with **special needs**, for example, **people with disabilities** or **users of assistive technology**.
 
 ### People with disabilities
+@Image(source: microsoft-people, alt: "")
 **Disability** as a term is defined in relation to its **model**. Regardless of the focus of the model -- whether it is more *medical* or *social* -- disability is the reason of **diversity** of people's abilities in **communicating with environment**.
 
 ### Environment
 Environment is *everything* around a person. In perspective of **this book**, we're going to deal with a specific type of environment: **user interfaces**. 
 
 ### User interface
+@Image(source: user-interface, alt: "")
 User interface is everything that happens between a machine and the person using it. The communication happening between these two subjects, which is essentially an exchange of information, consists of providing output and receiving input. 
 
 ### Input and output
+@Image(source: input-output, alt: "")
 People provide input by interacting with the interface and receive output by perceiving the interface. Consequently, a user interface contains elements of informative (which has to be perceived), interactive (which has to be interacted with) and combined nature.
 
 ### Disability
+@Image(source: disabilities, alt: "")
 Disabilities is something that affects the way users perceive or interact with user interfaces. 
 
 ### Users of assistive technology
+@Image(source: assistive-technology, alt: "")
 To enable people with disabilities use interfaces assistive technology is used. Assistive technology are those technological solutions that are aimed to ease the life of people by providing an equitable access to the life activities. 
 
 For example, hearing aids is a technology that helps people who have hearing impairments to hear better.
 
 ### Equity vs. equality
+@Image(source: equality-equity, alt: "")
 Notice that the word **equitable** is used instead of *equal*. It is done because demanding equal access is *delusional*: there is no equation between people. Every single person is different and have their own experience of being. 
 
 ### Inclusion
@@ -63,16 +69,18 @@ Supporting accessibility is an engine of people with disabilities inclusion. If 
 Accessibility is an aspect of inclusive design and its adoption affects the general usability of products. The more accessible the product is for minor parts of its audience, the more comfortable the user experience will be for everyone. There is no inclusivity without accessibility.
 
 ### Business profit
+@Image(source: dodo-stats, alt: "")
 Moreover, accessibility of products directly benefits the business. By increasing approachability of the products their producer expands the audience (which increases profit) and provides better customer experience (which also increases profit). 
 
 Just take a look at the studies showing that people tend to trust companies who adopt accessibility by 10% more than those who don't.
 
 ### Lawsuits safety
+@Image(source: lawsuits-stats, alt: "")
 Even if your organisation doesn't care about accessibility, there is a chance that your government does. Sooner or later the business will be hit with a lawsuit that will make you consider accessibility unless the further loss of money and reputation is desired.
+
 
 ### Humanitarian intention
 But most importantly, supporting accessibility is just a good thing to do. It is natural for any society to protect its members, and being a member of humanity requires you to advocate for diversity of your kind -- to make better future. And have better presence, already now.
-
 
 We've just covered the key terminology of the book's subject: accessibility. 
 
@@ -89,9 +97,11 @@ There is no accessibility bible. Humanitarian sciences research the diversity of
 But there are globally recognised guidelines that are of help to structure your work on accessibility.
 
 ### Human Interface Guidelines
+@Image(source: hig, alt: "")
 First of all, there is Human Interface Guidelines. As a person related to iOS applications development, you might have already heard of this name. Human Interface Guidelines is a collection of knowledge aimed to guide people create products for Apple platforms with according to the company's values experience. (Apple is about inclusion, we've figured it out in the [**iOS Accessibility**](<doc:iOSAccessibility>) article article.)
 
 ### WCAG (Web Content Accessibility Guidelines)
+@Image(source: wcag, alt: "")
 The keystone of digital accessibility. W3C (World Wide Web Consortium) and WAI (Web Accessibility Initiative) have been putting joint and unmeasurable efforts into international standardising of accessibility guidelines. There are the most researched and respected practices. 
 
 ### -- W is for Web. We're talking Mobile.
@@ -102,7 +112,18 @@ For example, iOS devices have the touchscreen. Every single one of them and from
 So we are talking mobile. We just greatly respect and recognise work of W3C. And not only us: people who are going to suit you in case when being unaccessible is illegal in your country are going to look at WCAG too. If there might be an accessibility bible WCAG is its draft.
 
 ### Inclusive Design Principles, Inclusive Components
+@Image(source: heydon-works, alt: "")
 Two resources talking about accessibility in light of inclusive design. Designing inclusively inevitably produces accessible products. Design with accessibility in mind and you won't ever need to refer to accessibility as to something extrinsic, and, therefore, requiring additional efforts. Shout out to Heydon Pickering. 
+@Image(source: inclusive-design-posters, alt: "")
+
+### Microsoft Inclusive Design
+@Image(source: microsoft-inclusion, alt: "")
+
+### Apple Developer Resources
+@Image(source: apple-developer, alt: "")
+
+### Apple Accessibility Support
+@Image(source: apple-support, alt: "")
 
 ## Directions 
 Now go learn and practice. [**Table of contents**](<doc:AdoptionGuide>) is at your service.

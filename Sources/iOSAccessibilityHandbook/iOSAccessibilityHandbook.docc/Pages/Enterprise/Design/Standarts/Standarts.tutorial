@@ -1,9 +1,0 @@
-@Article(time: 15) {
-    @Intro(title: "iOS Applications Accessibility Conformance") {
-        @Image(source: placeholder-image, alt: "")
-    }
-    
-    @ContentAndMedia {
-        ## WCAG ICT
-    }
-}
