@@ -6,15 +6,16 @@ This repository is the source code of [**iOS Accessibility Handbook**](https://v
 
 The book is a collection of **interactive guides** and **detailed articles** permeated with *lots* of **exemplary illustrations** that cover everything one could ever need to know about **implementing accessibility**.
 
-<img width="876" alt="Screenshot 2024-01-27 at 11 38 37 (2)" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/3d27a208-0c3f-44db-a4f0-8ecf8691758e">
+![prs](./Samples/site-sample~dark.png#gh-dark-mode-only)
+![prs](./Samples/site-sample~light.png#gh-light-mode-only)
 
 The material is split into **chapters** by its relation to a *certain topic*. The chapters are joined into **volumes** by the *depth of the knowledge* inside. This way everyone can find something useful for themselves *regardless* of their level of expertise.
 
 
 ## — Who is responsible of this?
 Majorly the project is based on the content of [**About Accessibility on iOS**](https://rubanov.dev/a11y-book) book written by [**Mikhail Rubanov**](https://github.com/akaDuality). 
-![prs](./Samples/book~dark.png#gh-dark-mode-only)
-![prs](./Samples/book~light.png#gh-light-mode-only)
+![prs](./Samples/book-sample~dark.png#gh-dark-mode-only)
+![prs](./Samples/book-sample~light.png#gh-light-mode-only)
 The book is essentially a **complete course** on accessibility of iOS applications, but being a traditional book — moreover available in Russian language *exclusively* — sucks. So here we are, happily putting **videos** and **code samples** on the documentation pages! Have fun.  
 
 ## — Why make it a website? 
