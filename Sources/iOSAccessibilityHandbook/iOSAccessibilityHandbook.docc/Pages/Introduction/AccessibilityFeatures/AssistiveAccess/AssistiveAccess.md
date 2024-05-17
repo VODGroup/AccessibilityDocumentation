@@ -11,7 +11,7 @@ A simplified mode of iOS
                alt: "")
     @PageImage(
                purpose: card, 
-               source: "aa-card", 
+               source: "placeholder", 
                alt: "")
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
