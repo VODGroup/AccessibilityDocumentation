@@ -16,13 +16,13 @@ An **introduction** to accessibility on iOS
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
                 purpose: link, 
-                label: "General Knowledge")
+                label: "Official page")
 }
 
 ## What does it mean for something to be accessible? 
 **Accessibility** is a *property* of products (e.g. devices, services, concepts, environments) that measures **approachability** — the widest possible range of people who can use it.
 
-Every person has their own *preferences*, *circumstances* and *capabilities*, therefore it is required to consider the *diversity* of products' audience if there is a wish to extend the **reach**. 
+Every person has their own *preferences*, *circumstances* and *capabilities*, therefore it is required to consider the *diversity* of products' audience if there is an aspiration to extend the **reach**. 
 @Image(source: fifteen-percent, alt: "A large text Keynote slide saying \"Approximately 15% of the world''s population live with disabilities\"")
 
 > Important: It is *impossible* to design products **universally convenient** for everyone. But it is *possible* to **not exclude** anyone intentionally. Audience is essentially **unknowable** and it is *the purpose* of [**inclusive design**](<doc:InclusiveDesign>) to not create products based on *prejudices*.
@@ -47,11 +47,14 @@ In the course of the book we are going to discuss **how to make iOS applications
 @Image(source: ios-history, alt: "A screenshot of the article's web page")
 
 ### Current state
-From June 8, 2009 Apple hasn't stopped for a second in promotion of **inclusive design**. [**Inclusivity**](https://www.apple.com/diversity/) is one of the *core values* the company has been always exposing and [**accessibility**](https://www.apple.com/accessibility/) is an immanent part of it. 
+From June 8, 2009 Apple hasn't stopped for a second in promotion of **inclusive design**. [**Inclusivity**](https://www.apple.com/diversity/) is one of the *core values* the company has been always exposing and [**accessibility**](https://www.apple.com/accessibility/) is an immanent part of it.
+
+@Image(source: inclusion-grid, alt: "")
 
 Aiming to make their products as *accessible* so everyone could use it led Apple to unmeasurable efforts put to [**assistive technology**](<doc:AccessibilityFeatures>) support. 
 
-@Image(source: inclusion-grid, alt: "")
+### Recent updates 
+Annually, on 16th of May, which is **GAAD** (**G**lobal **A**ccessibility **A**wareness **D**ay), Apple publishes [**updates on accessibility**](https://www.apple.com/newsroom/search/?q=global+accessibility+awareness+day) of their products. 
 
 ## Accessibility Features
 As for today, here is the list of some [**Accessible Features**](<doc:AccessibilityFeatures>) **available on iOS**. Its amount is continually increasing year by year. The stack is considered to be one of the most efficient *system* solutions of **assistive technology integration**, which provides sufficient **tools** for presenting **accessible interfaces** in accordance with modern [**accessibility guidelines**](<doc:Standards>).
@@ -80,11 +83,10 @@ To know more about *key features* -- those of our professional (as app creators)
 }
 
 ## Wrap-up
-So, here we are. We came to the point where stating the **purpose of this book** is possible. 
  
  [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) is a collection of *guidelines* of how to create **iOS applications** that support [**Accessible Features**](<doc:AccessibilityFeatures>) and promote [**inclusive design**](<doc:InclusiveDesign>). 
 @Image(source: hig, alt: "A screenshot of Apple's Human Interface Guidelines web page")
 
-To dive right into the process of **developing accessible applications** don't hesitate to open the [**iOS Accessibility Guide**](https://vodgroup.github.io/AccessibilityDocumentation/tutorials/adaptionstrategy) map. *Everything* is there, you won't be left unprepared.
+To dive right into the process of **developing accessible applications** don't hesitate to open the [**iOS Accessibility Guide**](https://vodgroup.github.io/AccessibilityDocumentation/tutorials/adaptionstrategy) map. *Everything* is there.
 
 ## Have fun!

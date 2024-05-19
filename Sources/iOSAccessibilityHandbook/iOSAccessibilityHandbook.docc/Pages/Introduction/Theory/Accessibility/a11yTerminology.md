@@ -33,63 +33,78 @@ Environment is *everything* around a person. In perspective of **this book**, we
 
 ### User interface
 @Image(source: user-interface, alt: "")
-User interface is everything that happens between a machine and the person using it. The communication happening between these two subjects, which is essentially an exchange of information, consists of providing output and receiving input. 
+User interface is *everything* that happens between a machine and the person using it. The communication happening between these two subjects, which is essentially an **exchange of information**, consists of mutual **providing output** and **receiving input**. 
 
 ### Input and output
 @Image(source: input-output, alt: "")
-People provide input by interacting with the interface and receive output by perceiving the interface. Consequently, a user interface contains elements of informative (which has to be perceived), interactive (which has to be interacted with) and combined nature.
+People provide **input** by *interacting* with the interface and receive **output** by *perceiving* the interface. Consequently, a user interface contains elements of **informative** (those to be perceived), **interactive** (those to be interacted with) and **combined nature**.
 
 ### Disability
 @Image(source: disabilities, alt: "")
-Disabilities is something that affects the way users perceive or interact with user interfaces. 
+Disabilities are *personal conditions* that affect the way users **perceive** or **interact** with user interfaces. 
 
 ### Users of assistive technology
 @Image(source: assistive-technology, alt: "")
-To enable people with disabilities use interfaces assistive technology is used. Assistive technology are those technological solutions that are aimed to ease the life of people by providing an equitable access to the life activities. 
+To enable **people with disabilities** use interfaces *assistive technology* is used. Assistive technology are those **technological solutions** that are aimed to *ease* the life of people by **providing an equitable access** to the life activities. 
 
-For example, hearing aids is a technology that helps people who have hearing impairments to hear better.
+For example, **hearing aids** is a technology that helps people who have **hearing impairments** to hear better.
 
 ### Equity vs. equality
+Notice that the word **equitable** is used instead of *equal*. It is done because demanding equal access is *delusional*: there is no equation between people. 
+
 @Image(source: equality-equity, alt: "")
-Notice that the word **equitable** is used instead of *equal*. It is done because demanding equal access is *delusional*: there is no equation between people. Every single person is different and have their own experience of being. 
+
+**Every single person is different** and have their own experience of being that is built *not only* by their abilities and disabilities, but countless **receptive** and **processing** factors. 
 
 ### Inclusion
-It has *nothing* to do with **human rights** and being able to **access** products of civilisation. If you don't want to *exclude* certain people **intentionally**, you should consider that everyone is **different** and **it is disrespectful to demand the same from the diverse**. 
+Accessibility is about **human rights** and being able to **access** products of civilisation. If you don't want to *exclude* certain people **intentionally**, you should embrace that everyone is **different** and **it is pointless to demand the same from the diverse**. 
 
 ### People with special needs
-Despite the compatibility of **people with disabilities needs** and **assistive technology solutions**, users of assistive technology *cannot* be defined as people with disabilities. **There is no requirement to have a disability to use assistive technology, as well as a person with a disability may not use any of assistive technology.**
+Despite the compatibility of **people with disabilities needs** and **assistive technology solutions**, users of assistive technology *cannot* be defined as people with disabilities. 
+
+**There is no requirement to have a disability to use assistive technology, as well as a person with a disability may not use any of assistive technology.**
 
 ## Supporting accessibility
-There may be many arguments against support of accessibility, from insufficient production resources to explicit discrimination of users of assistive technology. Unless there is no intention in exclusion of people of special needs, accessibility got a proven beneficial potential. 
+There may be many arguments *against* support of accessibility, from **insufficient production resources** to **explicit discrimination** of users of assistive technology. But unless there is an intention to *exclude* people with special needs, accessibility got a proven **beneficial potential**. 
 
 ### Protecting diversity
-Supporting accessibility is an engine of people with disabilities inclusion. If your organisational values include such concepts as diversity, equity and inclusion (DEI), accessibility cannot be omitted.
+Supporting accessibility is an **engine of people with disabilities inclusion**. If your organisational values include such concepts as **d**iversity, **e**quity or **i**nclusion (**DEI**), **accessibility cannot be omitted**.
 
 ### Inclusive design
-Accessibility is an aspect of inclusive design and its adoption affects the general usability of products. The more accessible the product is for minor parts of its audience, the more comfortable the user experience will be for everyone. There is no inclusivity without accessibility.
+Accessibility is an aspect of [**inclusive design**](<doc:InclusiveDesign>) and its adoption affects the **general usability** of products. 
+
+The more accessible the product is for *minor* parts of its audience, the more comfortable the user experience will be **for everyone**. **Accessibility is a well-designed (and well-developed) interfaces exclusive**.
 
 ### Business profit
-@Image(source: dodo-stats, alt: "")
-Moreover, accessibility of products directly benefits the business. By increasing approachability of the products their producer expands the audience (which increases profit) and provides better customer experience (which also increases profit). 
+@Image(source: dodo-stats, alt: "") {
+    Statistics of **visual accessibility settings** of [**Dodo Pizza**](https://dodobrands.io/post/dodopizza/) users in 24 June 2023 -- 24 October 2023
+}
+Moreover, accessibility of products **directly benefits the business**. By increasing approachability of the products their producer **expands the audience** (which increases profit) and **provides better customer experience** (which also increases profit). 
 
-Just take a look at the studies showing that people tend to trust companies who adopt accessibility by 10% more than those who don't.
+Just inspect [**the studies**](https://instituteforpr.org/voya-ipr-disability-report) showing that **people tend to trust companies who adopt accessibility** by 10% more than those who don't.
 
 ### Lawsuits safety
 @Image(source: lawsuits-stats, alt: "")
-Even if your organisation doesn't care about accessibility, there is a chance that your government does. Sooner or later the business will be hit with a lawsuit that will make you consider accessibility unless the further loss of money and reputation is desired.
-
+If your organisation doesn't care about accessibility, there is also a chance that your **government** does. Sooner or later the business will be hit with a **lawsuit** that is *supposed* make you consider accessibility unless the further loss of money and reputation is desired. 
+> Note: Yep, "supposed" because [**it doesn't work**](https://www.lflegal.com/2018/11/webaim-fear/). But as an *accessibility professional* you have to know that there are countries in which accessibility is a **civil right**. Visit Lainey Feingold's [**Global Law and Policy**](https://www.lflegal.com/global-law-and-policy/) overview page to learn more.
 
 ### Humanitarian intention
-But most importantly, supporting accessibility is just a good thing to do. It is natural for any society to protect its members, and being a member of humanity requires you to advocate for diversity of your kind -- to make better future. And have better presence, already now.
+But, most importantly, supporting accessibility is "the right thing to do" -- word-by-word quote from [**Apple's documentation**](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/iPhoneAccessibility/Accessibility_on_iPhone/Accessibility_on_iPhone.html#//apple_ref/doc/uid/TP40008785-CH100-SW1). 
 
-We've just covered the key terminology of the book's subject: accessibility. 
+It is *natural* for any society to protect its members, and being a member of humanity requires you to **advocate for diversity** of your kind -- **to make better future**. And **change lives now**.
 
-iOS Accessibility Handbook is an educational resource dedicated to help people responsible of iOS applications to integrate accessibility into their products. 
+## Wrap-up
+
+That was the **key terminology** of the book's subject: **accessibility**.
+
+Now we are ready to proceed with [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook), which is an **educational resource** dedicated to *help* people responsible of **iOS applications** to **integrate accessibility** into their products. 
 
 ## What's next?
 
 ### Learn and practice
-Integrating digital products with accessibility is a complex and everlasting job for everyone involved in the product processes. During the course we are going to research accessibility of iOS applications in both theoretical and practical aspects, so the course content sufficiently covers everything that one has to know to make iOS apps accessible. 
+Integrating digital products with accessibility is a complex and everlasting job for everyone involved in the product processes. 
+
+During the course we are going to research accessibility of iOS applications in both theoretical and practical aspects, so the course content sufficiently covers everything that one has to know to make iOS apps accessible. 
 
 ### -- What is the accessibility bible?
 There is no accessibility bible. Humanitarian sciences research the diversity of humanity, technological advancement brings up new ways to respect that.

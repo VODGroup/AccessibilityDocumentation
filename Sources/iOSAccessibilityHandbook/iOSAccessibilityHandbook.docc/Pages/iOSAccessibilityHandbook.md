@@ -45,21 +45,21 @@ In other words, materials here cover **everything one could ever need to know ab
 }
 
 ### Target audience
-The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to *everyone working with accessibility* on iOS.
+The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to **everyone working with accessibility** on iOS.
 
 @Comment {
     Working as an iOS engineer in a *corporation*? Publishing applications as an independent developer? Responsible for interface design of products on mobile platforms? Regardless of what you are doing, as long as you have to deal with iOS products and wish to make them accessible, this book is for you. 
 }
 
-There is **no commercial underlayment** and the only reason the project exists is to popularise the topic and  **share** relevant real-life experience of contributing *accessibility professionals*.
+There is **no commercial underlayment** and the only reason the project exists is to **popularise the topic** and  **share** relevant real-life experience of contributing **accessibility professionals**.
 
 ## Book structure
 
-The handbook is somewhat of a *complete course* of **how to make iOS applications accessible**. The material is split into conceptual *topics* and categorised by its relation to a particular [**assistive technology**](<doc:AccessibilityFeatures>) and its field of implementation. 
+The handbook is essentially a *complete course* of **how to make iOS applications accessible**. The materials are split into conceptual *topics* and categorised by its relation to a particular [**assistive technology**](<doc:AccessibilityFeatures>) and its field of implementation. 
 
 @Image(source: book-content, alt: "")
 
-To know more about the book's structure take a look at the left side of the page where the [**table of contents**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/#topics) is located.
+To know more about the book's structure take a look at the left side of the page where the [**Table of Contents**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook/#topics) is located.
 
 ### Technical implementation
 At the moment the project's form is defined by being a *documentation catalog* ([**DocC**](https://www.swift.org/documentation/docc)) hosted by [**GitHub pages**](https://pages.github.com). 
