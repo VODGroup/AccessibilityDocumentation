@@ -19,9 +19,7 @@ How accessibility is **programmed**
                 label: "General Knowledge")
 }
 
-Here we are, knowing what are things like *screen readers*, interface *controls* and *colour blindness*. If you're not sure that you are familiar with the **terminology** used visit the following pages to have a cohesive picture.
-
-### Featured
+Here we are, knowing what are things like *screen readers*, interface *controls* and *colour blindness*. If you're not sure that you are familiar with the **terminology** used visit the following pages to have a **cohesive picture**: 
 @Links(visualStyle: list) {
     - <doc:iOSAccessibility>
     - <doc:a11yTerminology>

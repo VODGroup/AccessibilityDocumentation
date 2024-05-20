@@ -95,51 +95,75 @@ It is *natural* for any society to protect its members, and being a member of hu
 
 ## Wrap-up
 
-That was the **key terminology** of the book's subject: **accessibility**.
+That was the **key terminology** of the book's subject -- **accessibility**.
 
 Now we are ready to proceed with [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook), which is an **educational resource** dedicated to *help* people responsible of **iOS applications** to **integrate accessibility** into their products. 
 
-## What's next?
+## What's ahead?
 
 ### Learn and practice
-Integrating digital products with accessibility is a complex and everlasting job for everyone involved in the product processes. 
+Integrating digital products with accessibility is a **complex** and **everlasting** job for *everyone* involved in the product processes. 
 
-During the course we are going to research accessibility of iOS applications in both theoretical and practical aspects, so the course content sufficiently covers everything that one has to know to make iOS apps accessible. 
+During the course we are going to research accessibility of iOS applications in both **fundamental** and **practical aspects**, so the course content sufficiently covers *everything* that one has to know to make iOS apps accessible. 
 
-### -- What is the accessibility bible?
-There is no accessibility bible. Humanitarian sciences research the diversity of humanity, technological advancement brings up new ways to respect that.
+Moreover, the knowledge contained in this book is based on **universally good design practices**. Perceive the materials as *general* education on accessibility **applied to iOS apps in particular**.
 
-But there are globally recognised guidelines that are of help to structure your work on accessibility.
+## Universally good practices
+Unfortunately, **there is no accessibility bible**. Humanitarian sciences research the diversity of humanity, technological advancement brings up new ways to respect that, **continuously**.
+
+But there are **globally recognised guidelines** that are of help to *reason* your work on accessibility.
 
 ### Human Interface Guidelines
 @Image(source: hig, alt: "")
-First of all, there is Human Interface Guidelines. As a person related to iOS applications development, you might have already heard of this name. Human Interface Guidelines is a collection of knowledge aimed to guide people create products for Apple platforms with according to the company's values experience. (Apple is about inclusion, we've figured it out in the [**iOS Accessibility**](<doc:iOSAccessibility>) article article.)
+First of all, there is [**Human Interface Guidelines**](https://developer.apple.com/design/human-interface-guidelines/). As a person related to **iOS applications development**, you might have already heard of this name. Human Interface Guidelines is a collection of knowledge aimed to guide people **create products for Apple platforms with accordance to the company's *vision***. 
+
+### Featured
+@Links(visualStyle: detailedGrid) {
+    - <doc:iOSAccessibility>
+}
 
 ### WCAG (Web Content Accessibility Guidelines)
 @Image(source: wcag, alt: "")
-The keystone of digital accessibility. W3C (World Wide Web Consortium) and WAI (Web Accessibility Initiative) have been putting joint and unmeasurable efforts into international standardising of accessibility guidelines. There are the most researched and respected practices. 
+The *keystone* of digital accessibility. [**W3C (World Wide Web Consortium)**](https://www.w3.org) and [**WAI (Web Accessibility Initiative)**](https://www.w3.org/WAI/) have been putting joint and unmeasurable efforts into **international standardising of accessibility guidelines**. 
+
+The document states **criteria necessary for digital products to be accessible**.
 
 ### -- W is for Web. We're talking Mobile.
-You're right, excuse me. WCAG2ICT is the standard we're going to take after. The thing is that as far as a user interface of a contemporary kind, it shares its everything on every platform. There are just few nuances that has to be considered talking about a particular platform. 
+You're right, excuse me. [**WCAG2ICT**](https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/) is the standard we're going to take after. The thing is that as far as a user interface of a *contemporary* kind, **it shares its everything on every platform**. There are just **few nuances** that has to be considered talking about a **particular platform**. 
 
-For example, iOS devices have the touchscreen. Every single one of them and from the very beginning of iOS history. Controlling a device with a touchscreen is a different experience than using a laptop or full-sized computer. Having a touchscreen, as an immanent part of device design, inevitably affects the design of its operational system. 
+For example, iOS devices have **touchscreens**. Every single one of them and from the very beginning of iOS history. Controlling a device with a touchscreen is a **different experience** than using a laptop or full-sized computer. **Having a touchscreen, as an immanent part of device design, inevitably affects the *design* of its operational system.** 
 
-So we are talking mobile. We just greatly respect and recognise work of W3C. And not only us: people who are going to suit you in case when being unaccessible is illegal in your country are going to look at WCAG too. If there might be an accessibility bible WCAG is its draft.
+So yes, we *are* talking mobile. We just greatly **respect** and **recognise** work of WAI. **If there might be an accessibility bible, WCAG is its draft.**
 
 ### Inclusive Design Principles, Inclusive Components
 @Image(source: heydon-works, alt: "")
-Two resources talking about accessibility in light of inclusive design. Designing inclusively inevitably produces accessible products. Design with accessibility in mind and you won't ever need to refer to accessibility as to something extrinsic, and, therefore, requiring additional efforts. Shout out to Heydon Pickering. 
-@Image(source: inclusive-design-posters, alt: "")
+Two resources talking about accessibility in perspective of [**inclusive design**](<doc:InclusiveDesign>). **Designing inclusively inevitably produces accessible products.** Design with **inclusion in mind** and you won't ever need to refer to accessibility as to something *extrinsic*, and, therefore, requiring additional efforts. Shout out to [**Heydon Pickering**](https://heydonworks.com). 
+@Image(source: inclusive-design-posters, alt: "") {
+    Series of printable posters attached to [**Inclusive Design Principles**](https://inclusivedesignprinciples.info)
+}
 
 ### Microsoft Inclusive Design
+The fortress of **accessibility knowledge** acquired, applied and promoted by Microsoft. [**Inclusive 101**](https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf) is a *must*. 
 @Image(source: microsoft-inclusion, alt: "")
 
 ### Apple Developer Resources
+Obviously, we're going to research the official [**API  documentation**](https://developer.apple.com/accessibility/) in order to *develop* accessibility. 
 @Image(source: apple-developer, alt: "")
 
+
+### WWDC
+But, most importantly, we're interested in **WWDC (World Wide Developers Conference) sessions** labeled with **Accessibility and inclusion** category.
+
+WWDC happens *annually*, in June, and its web resources suck. Download [**Apple Developer**](https://apps.apple.com/us/app/apple-developer/id640199958) app. Full *scripts* for each session are available.
+
 ### Apple Accessibility Support
+Here are some user guides and stories about [**Accessibility Features**](<doc:AccessibilityFeatures>), which we are going to **thoroughly inspect** in order to be *fluent* with [**accessibility of iOS**](<doc:iOSAccessibility>).
 @Image(source: apple-support, alt: "")
 
-## Directions 
-Now go learn and practice. [**Table of contents**](<doc:AdoptionGuide>) is at your service.
+## Conclusion
+Those were the **essential resources** we're going to refer to during the course. There are much more provenly great materials on **inclusion** and **accessibility**, but we're going to mention them locally to not overwhelm you at the start. **So far, have fun!**
 
+## Next step 
+@Links(visualStyle: detailedGrid) {
+    - <doc:AccessibilityInCode>
+}
