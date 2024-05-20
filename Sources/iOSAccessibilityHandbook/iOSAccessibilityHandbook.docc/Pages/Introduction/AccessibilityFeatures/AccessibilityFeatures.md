@@ -19,7 +19,7 @@ A brief overview of **assistive technology** supported by iOS
                 label: "General Knowledge")
 }
 
-**Accessibility Features** is a collection of *software* aimed to **help people use the device**. 
+**Accessibility Features** is a collection of *software* aimed to **help people use their devices**. 
 
 You can find **Accessibility Features** available for your device in **Settings**, under **Accessibility** category.
 
@@ -44,7 +44,7 @@ You can find **Accessibility Features** available for your device in **Settings*
 @Image(source: placeholder-image, alt: "")
 
 
-### People with disabilities
+### External devices
 **Assistive technology** is a term that defines software, hardware and combined solutions to make life of **people with disabilities** easier. Every **Accessibility Feature** is an **assistive technology** on its own, but some features are purposed to **support external assistive technology** devices which provide alternative *input* and *output* interfaces for the system. 
 
 @Image(source: placeholder-image, alt: "")
@@ -63,14 +63,14 @@ Here is the list of some **Accessibility Features** available on iOS.
 
 @Image(source: features-list, alt: "A large text Keynote slide listing Accessibility Features: Dynamic Type, VoiceOver, Zoom, Spoken Content features, Reduce Transparency, Switch Control, Reduce Motion, On and Off labels, AssistiveTouch, Full keyboard access, Voice Control, Bold Text, Pointer Control, Sound Recognition, Guided Access, Dwel Control, Type to Siri, Sound Actions, Button Shapes, Color Filters, Increase Contrast, Hearing Aids")
 
-In this book we're not going to take a precise look at each of them separately, but only at the features that have to be **implicitly supported** to *function*. 
+In this book we're not going to take a precise look at each of them separately, but only at the features that have to be **implicitly supported** to *function*. At the same time integrating *these* features support enables other ones -- they all share the same **semantic underlayment**.
 
 ### Accessibility Features
 @Links(visualStyle: detailedGrid) {
     - <doc:VoiceOver>
     - <doc:VoiceControl>
     - <doc:SwitchControl>
-    - <doc:aDynamicType>
+    - <doc:DynamicType>
     - <doc:FullKeyboardAccess>
     - <doc:AssistiveTouch>
     - <doc:GuidedAccess>
@@ -84,18 +84,10 @@ Each article above contains an overview of a feature that explains **what this f
 ## Supporting Accessibility Features
 
 ### Accessible user interface
-[**Accessibility Features**](<doc:AccessibilityFeatures>) use the **semantic language** of an application and change some of its *interfacial* properties to alternate the **usability** of its interface. To see how accessibility is **integrated to interfaces** proceed to [**Accessible Interface**](<doc:AccessibleUI>) -- the heading article of **Integrating Accessibility** volume, which is purposed to break down the **accessibility adoption** process.
-
-@Links(visualStyle: detailedGrid) {
-    - <doc:AccessibleUI>
-}
+[**Accessibility Features**](<doc:AccessibilityFeatures>) use the **semantic language** of an application and change some of its *interfacial* properties to alternate the **usability** of its interface. To see how accessibility is **integrated to interfaces** proceed to the Table of Contents of practical part of the course to see how they are implemented in code.
 
 ### Accessible user experience
-Due to the **singularity of semantic language** within the app, supporting a particular feature usually fully or partially enables *other* features to be used in the app, but it is important to understand the meaning of specific **accessibility attributes** of **mobile interfaces** to provide the *equal experience*. To know how *user experience* changes with various [**Accessibility Features**](<doc:AccessibilityFeatures>) used visit the [**Accessible Experience**](<doc:AccessibleUX>) page, which is a heading article of the detailed volume dedicated to **polishing accessible experience**.
-
-@Links(visualStyle: detailedGrid) {
-    - <doc:AccessibleUX>
-}
+Due to the **singularity of semantic language** within the app, supporting a particular feature usually fully or partially enables *other* features to be used in the app, but it is important to understand the meaning of specific **accessibility attributes** of **mobile interfaces** to provide the *equal experience*. To know how *user experience* changes with various [**Accessibility Features**](<doc:AccessibilityFeatures>) used, visit their own pages, which explain nuances of these settings.
 
 ## Have fun!
 

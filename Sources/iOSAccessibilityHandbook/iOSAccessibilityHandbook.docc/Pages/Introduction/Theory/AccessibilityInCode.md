@@ -30,13 +30,13 @@ Here we are, knowing what are things like *screen readers*, interface *controls*
 Ready? Good. Some **serious work** starts *right* from here.
 
 ## -- WAIT. As an UI designer, I am prototyping visual components on paper. Why would I ever need to be involved with code?
-Regardless of how and where the **image** of a user interface was created, it will always be **restricted** by technology used to implement it.
+Regardless of how and where the *image* of a user interface was created, the result will always be **restricted** by technology used to implement it.
 
 @Image(source: placeholder-image, alt: "")
 
 Every interfacial component is **coded** and representing *properties* and *methods* of the **program** it belongs to. It is impossible to design *good* interfaces without considering the **technical side** of the story. 
 
-Knowing how a button looks like ~~is respectable~~ may be **enough** to create *utilitarian* interfaces, but understanding how it functions **enables more ways** on working with this component. **Accessibility** is one of such *non-trivial* ways, so let's have a **proper research** of interfaces.
+Knowing how a button looks like ~~is respectable~~ may be **enough** to create *utilitarian* interfaces, but understanding how it functions **enables more ways** on working with this component. **Accessibility** is one of such *non-trivial* ways, so let's dive deep.
 
 
 ## Software applications
@@ -58,13 +58,13 @@ On the other hand, **SwiftUI** is a *relatively* new product of Apple, introduce
 
 ### Frameworks dichotomy
 @Image(source: dichotomy, alt: "")
-Even though Apple transfers all their **system interfaces** to SwiftUI day by day, the amount of applications written with UIKit is **prevailing**. Moreover, UIKit's life is not to be stopped in the observable future, so, we have to discuss interfaces built with **both SwiftUI and UIKit**. 
+Even though Apple transfers all their **system interfaces** to SwiftUI day by day, the amount of applications written with UIKit is still **prevailing**. In addition, UIKit's life is not to be stopped in the observable future, so we have to discuss interfaces built with **both SwiftUI and UIKit**. 
 
 @Image(source: placeholder-image, alt: "")
 
 
 ### Interfaces monotomy
-And it's not a problem at all. You won't drawn in code either way, we're talking *science* at the first place. All **concepts** of accessible interfaces are *shared* not only between different frameworks, but **platforms**. Thus accessibility can be adopted by *any* interface: as far as you know **what to do**.
+And that's not a problem at all. You won't drawn in code either way, we're talking *science* at the first place. All **concepts** of accessible interfaces are *shared* not only between different frameworks, but **platforms**. Thus accessibility can be adopted by *any* interface: as far as you know **what to do**.
 
 ## What to do
 
