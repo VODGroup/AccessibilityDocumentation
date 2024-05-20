@@ -1,8 +1,8 @@
 @Tutorial(time: 20) {
     @Intro(title: "Navigating between Elements") {
-        Previously we learnt how to provide interfacial elements with everything to be accessible. But interfaces are not just elements -- there is also coherence between them, implemented by meaningful connection between its elements. 
+        Previously we learnt how to provide interfacial elements with everything to be accessible. But interfaces are not just elements -- there is also coherence between them, implemented by meaningful **connections between its elements**. 
                 
-        In this tutorial we are going to conclude foundation of making accessible interfaces: how to connect everything so it flawlessly work as intended with any assistive technology.
+        In this tutorial we are going to conclude foundation of making accessible interfaces: how to connect everything so it *flawlessly* works as intended with *any* assistive technology.
     }
     
     @Section(title: "Direct and indirect selection") {
