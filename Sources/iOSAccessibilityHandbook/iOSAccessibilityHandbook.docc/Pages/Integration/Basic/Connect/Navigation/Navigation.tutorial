@@ -7,54 +7,62 @@
     
     @Section(title: "Direct and indirect selection") {
         @ContentAndMedia {
-            Accessing elements of an interface may be accomplished two ways: by direct and indirect selection. 
+            Accessing elements of an interface can be accomplished two ways: by **direct** and **indirect selection**. 
         }
         
         @Stack {
             @ContentAndMedia {
                 ### Direct selection
-                Direct selection is navigating within an interface by precisely aiming at a target element of free choice by using pointer devices such as mouses, trackballs, touchpads, eye-trackers and so on. Modern personal computers are designed to be primarily used with pointers, thus it is important for developers to not forget about another way.
+                Direct selection is navigating within an interface by *precisely* aiming at a target element of free choice by using **pointer devices** such as mouses, trackballs, touchpads, eye-trackers and so on. Modern personal computers are designed to be primarily used with pointers, thus it is important for developers to not forget about another way.
             }
             @ContentAndMedia {                
 
                 ### Indirect selection
-                Indirect selection is oppose to the former on: all elements available on a screen are consequently iterated in a particular order. In case of iOS, the order is how users visually perceive the content -- it's called reading order. Talking about English language, its speakers read top to bottom and left to right, so an English screen-reader will do the same on iOS.
+                Indirect selection is oppose to the former one: all elements available on a screen are **consequently iterated in a particular order**. In case of iOS, the order is how users *visually* perceive the content -- **reading order**. By default the sequence is determined by the **system language**: talking about English, its speakers read **top to bottom** and **left to right**, so a screen-reader will do the same on iOS English localisation.
             }
         }
     }
         
     @Section(title: "Physical controls of indirect selection") {
         @ContentAndMedia {
-            Assistive technology enabling indirect selection do so because there is no requirement to be able to precisely aim with pointer devices, therefore it provides access to an interface for people who struggle with dexterity (fine motor skills) or visual perception. To see how exactly various Accessible Features use indirect selection, visit [**Switch Control**](<doc:SwitchControl>) and [**VoiceOver**](<doc:VoiceOver>) articles.
+            Assistive technology work with *indirect* selection. They do so because such way there is **no requirement to be able to precisely aim with pointer devices**. Therefore it provides access to an interface for people who struggle with **dexterity** (fine motor skills) or **visual perception**, necessary for *direct* selection. 
             
-            Talking about our mission in this tutorial we are going to learn how to ensure that every elements on a screen is reachable with usage of assistive technology, so let's start to figure out what may be an issue.
+            ### Indirect selection in action
+            To see how exactly various [**Accessibility Features**](<doc:AccessibilityFeatures>) use *indirect* selection, visit [**Switch Control**](<doc:SwitchControl>), [**Full Keyboard Access**](<doc:FullKeyboardAccess>) and [**VoiceOver**](<doc:VoiceOver>) articles.
+            
+            ### Supporting indirect selection
+            Talking about accessibility adoption, in this tutorial we are going to nsure that every elements on a screen is:
+            - reachable with usage of assistive technology;
+            - iterated in the right order.
+            
+            So let's start figuring out what obstacles may appear on our way.
         }
     }
         
     @Section(title: "Horizontal swipes") {
         @ContentAndMedia {
-            We already know how [**Accessibility Features**](<doc:AccessibilityFeatures>) build their Accessibility Tree. Our goal is to make sure that the elements are presented in the right order and are accessible for consequential selection.
+            We already know how [**Accessibility Features**](<doc:AccessibilityFeatures>) build their **Accessibility Tree**. Exactly *this* structure ensures that the elements are **presented in the right order** and are **accessible for consequential selection**.
         }
         
         @Steps {
             @Step {
-                Let's continue from the point we stopped at the previous tutorial. We were working on accessibility of a complex cell and that cell was placed in a list of such elements.
+                Let's continue from the point where we stopped at the [**previous tutorial**](<doc:AdaptCells>). We were working on accessibility of a **complex cell** and that cell was placed in a *list* of such elements.
             }
             
             @Step {
-                So we have to deal with a list of complex cells.
+                So we have to deal with a **list of complex cells**.
             }
             
             @Step {
-                First of all, such construction is a list, so let's omit the fact of complexity of its components and see how indirect selection works in scrolling of such lists.
+                First of all, such construction is simply a **list**, so let's for now omit the complexity of its components and see how indirect selection works in **scrolling** of such lists.
             }
             
             @Step {
-                Swipe to left, right key button, "to next item" switch recipe and other implementations of proceeding to the next item puts the focus frame on an appropriate element and allows interaction with it.
+                Swipe to right (VoiceOver), right key button (Full Keyboard Access), "to next item" switch recipe (Switch Control) and other implementations of **proceeding to the next item** puts the **focus frame** on an appropriate element and allows *interaction* with it.
             }
             
             @Step {
-                Our task is to ensure that elements iterated in the order that repeats the order of visual perception of the interface to convey the same cognitive model.
+                Our task is to *ensure* that elements iterated in the order that **repeats the order of visual perception** of the interface to convey the same **cognitive model**.
             }
         }
     }
@@ -65,25 +73,45 @@
         }
         @Steps {
             @Step {
-                Let's take a look at our screen and flatten it to a textual description of elements in the order they are placed on the screen. But is it how we present it?
+                Let's inspect our screen and flatten the displayed interface to a textual description of elements in the order they are placed on the screen.
             }
             
             @Step {
-                Nope, it's not an ideal representation of the interface. First of all, it has 17 "accessible" elements. It's not that many, but a tailored layout will always have less.
+                But is it how we **perceive** it?
+            }
+            
+            @Step {
+                Nope, it's not how we read the screen. First of all, let's deal with the **amount of elements**. Our draft description has 17 "accessible" elements. It's not that many, but the less there are the **easier** it is to *perceive* such interface.
                 
-                > Note: And 7 inaccessible ones. Images are hidden by default.
+                > Note: Also 7 *inaccessible* ones. **Images are hidden by default**.
             }
             
             @Step {
-                Next we have a few product card available on the screen: smaller ones under "You'll enjoy it" header and normal ones of endless quantity under categories buttons. 
+                The amount of elements available can be reduced by **grouping** and **hiding items**. 
             }
             
             @Step {
-                The previous tutorial was fully dedicated to complex cells, so we already know how to make this experience more comfortable: without buttons of unclear context and meaningful semantics. 
+                Talking about the former way, you shouldn't hide anything meaningful. Even if the element is an image that is hidden by default by VoiceOver: some images display unique information, or users of VoiceOver may simply want to know that there is an image. 
             }
             
             @Step {
-                Now let's poke at something unknown yet.
+                So we label every image with an appropriate trait and provide sufficient alternative description to it. We will focus on adapting visual content in greater depth in [**Visual Accessibility**](<doc:AlternativeDescription>) article.
+            }
+            
+            @Step {
+                Grouping items is implemented by methods applicable to complex cells, adjustable elements and containers.
+            }
+            
+            @Step {
+                In regard of our example, the **complex elements** available on the screen are smaller **product cards** under "You'll enjoy it" header and regular ones of undetermined quantity under categories buttons. 
+            }
+            
+            @Step {
+                They are complex cells and we already know how to deal with them, nothing new.
+            }
+            
+            @Step {
+                But what are those adjustable elements and containers?
             }
         }
     }
