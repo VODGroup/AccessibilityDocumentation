@@ -1,7 +1,7 @@
 @Tutorial(time: 20) {
     @Intro(title: "Simplifying Cells") {
         
-        We've just learnt how to **describe** every possible **element** with [**Accessibility Attributes](<doc:AccessibilityAttributes>) to make them visible for [**Accessibility Features**](<doc:AccessibilityFeatures>). But the problem is that so far we've been defining element as a **singular independent item** of the interface.
+        We've just learnt how to **describe** every possible **element** with [**Accessibility Attributes**](<doc:AccessibilityAttributes>) to make them visible for [**Accessibility Features**](<doc:AccessibilityFeatures>). But the problem is that so far we've been defining element as a **singular independent item** of the interface.
         
         ## Complex cells
         Just as the main character of [previous tutorial](<doc:AccessibilityAttributes>) -- a *product card* -- there are many **combinations of multiple elements that are *perceived* as a whole**.
@@ -11,7 +11,7 @@
         ### Assistive technology
         To have [**Accessibility Features**](<doc:AccessibilityAttributes>) work as *intended* sometimes it is needed to **simplify complex cells** to such degree so there is **no difference for accessibility features** between *differentiated abstractions* that are stored in such cells. 
         
-        ### Accessibility representation
+        ### Accessible representation
         In other words, we are going to learn how, why and when to **represent complex cells as a singular accessible element** and what to do with its **complicated functionality**.
         
         Let's start with an already familiar example.
