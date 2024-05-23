@@ -6,7 +6,6 @@ Make your iOS applications **accessible**
     @AutomaticSeeAlso(disabled)
     @AutomaticTitleHeading(disabled)
     @AutomaticArticleSubheading(disabled)
-    @TopicsVisualStyle(hidden)
 }
 
 @Metadata {
