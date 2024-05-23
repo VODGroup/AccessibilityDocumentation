@@ -16,6 +16,7 @@
         
         Let's start with an already familiar example.
         
+        @Image(source: placeholder-tutorial, alt: "")
     }
     
     @Section(title: "A card as a complex cells") {
