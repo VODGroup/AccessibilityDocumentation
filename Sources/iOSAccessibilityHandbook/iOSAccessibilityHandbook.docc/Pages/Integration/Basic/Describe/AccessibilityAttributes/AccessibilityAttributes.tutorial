@@ -21,7 +21,7 @@
         ### Accessibility attributes
         On iOS accessible description is *composed* of four **accessible attributes**: **Label**, **Value**, **Traits** and **Hint**. Once you are ready to meet them, let's go out for some **accessibly described** pizza.
         
-        @Image(source: attributes-order-7, alt: "")
+        @Image(source: placeholder-tutorial, alt: "")
 
     }
 
