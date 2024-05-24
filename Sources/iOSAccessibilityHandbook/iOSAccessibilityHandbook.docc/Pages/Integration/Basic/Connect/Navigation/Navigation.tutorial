@@ -129,6 +129,28 @@
         }
     }
     
+    @Section(title: "Grouping") {
+        @ContentAndMedia {
+            
+        }
+        @Steps {
+            @Step {
+                
+            }
+        }
+    }
+    
+    @Section(title: "Containers") {
+        @ContentAndMedia {
+            
+        }
+        @Steps {
+            @Step {
+                
+            }
+        }
+    }
+    
     @Section(title: "Notifications") {
         @ContentAndMedia {
             
@@ -264,8 +286,4 @@
     @Comment {
         // TODO: Check VoiceOver grouping
     }
-
-    ## Topics
-    - <doc:ControlHierarchy>
-    - <doc:AdaptingCell>
 }
