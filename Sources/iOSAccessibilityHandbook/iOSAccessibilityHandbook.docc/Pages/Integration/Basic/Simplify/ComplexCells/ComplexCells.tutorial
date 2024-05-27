@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "Simplifying Cells") {
+    @Intro(title: "Accessible Representation") {
         
         We've just learnt how to **describe** every possible **element** with [**Accessibility Attributes**](<doc:AccessibilityAttributes>) to make them visible for [**Accessibility Features**](<doc:AccessibilityFeatures>). But the problem is that so far we've been defining element as a **singular independent item** of the interface.
         

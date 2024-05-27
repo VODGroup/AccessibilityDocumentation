@@ -1,5 +1,5 @@
 @Tutorial(time: 30) {
-    @Intro(title: "VoiceOver Extraneous Description") {
+    @Intro(title: "Adjustable Elements") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")

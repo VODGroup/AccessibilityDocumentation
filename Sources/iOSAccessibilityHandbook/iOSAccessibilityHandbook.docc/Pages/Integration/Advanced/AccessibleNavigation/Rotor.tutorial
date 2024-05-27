@@ -1,5 +1,5 @@
 @Tutorial(time: 20) {
-    @Intro(title: "Custom Rotor") {
+    @Intro(title: "Rotor") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")
