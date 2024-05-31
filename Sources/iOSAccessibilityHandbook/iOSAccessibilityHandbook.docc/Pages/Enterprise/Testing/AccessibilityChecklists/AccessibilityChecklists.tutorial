@@ -1,11 +1,13 @@
 @Article(time: 15) {
-    
-    @Comment {
-        https://w3c.github.io/Mobile-A11y-TF-Note/
-        https://www.w3.org/TR/wcag2ict-22/
+    @Intro(title: "Complying with Accessibility Standards") {
+        Здесь зачин.
+        
+        @Image(source: placeholder-image, alt: "")
     }
     
-    @Intro(title: "Accessibility Conformance Tools") {
-        <#text#>
+    @ContentAndMedia {
+        ## Standards
+        ## Checklists
+        ## Tools
     }
 }

@@ -1,5 +1,5 @@
 @Tutorial(time: 30) {
-    @Intro(title: "Context Actions") {
+    @Intro(title: "Multiple Traits at Once") {
         <#text#>
         
         @Image(source: <#file#>, alt: "<#accessible description#>")

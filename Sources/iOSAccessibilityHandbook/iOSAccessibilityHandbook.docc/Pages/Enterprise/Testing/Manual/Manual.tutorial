@@ -1,5 +1,5 @@
 @Tutorial(time: 15) {
-    @Intro(title: "Manual Testing of iOS Applications") {
+    @Intro(title: "Manual Accessibility Testing") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")

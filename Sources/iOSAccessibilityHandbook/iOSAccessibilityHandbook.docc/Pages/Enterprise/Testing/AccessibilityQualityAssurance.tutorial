@@ -1,5 +1,5 @@
 @Article(time: 30) {
-    @Intro(title: "Accessibility Quality Assurance") {
+    @Intro(title: "Accessibility Testing of iOS Applications") {
         Testing is an essential part of production. Just as any other functionality, accessibility of an app has to be tested to make sure that the app is approachable and intuitive.
 
 

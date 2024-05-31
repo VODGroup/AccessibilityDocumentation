@@ -1,21 +1,14 @@
-@Tutorial(time: 20) {
+@Article(time: 30) {
     @Intro(title: "Rotor") {
         Здесь зачин.
         
         @Image(source: placeholder-image, alt: "")
     }
     
-    @Section(title: "Title") {
-        @ContentAndMedia {
-            Text.
-            
-            @Image(source: placeholder-image, alt: "")
-        }
-        
-        @Steps {
-            @Step {
-                An instructional message.
-            }
-        }
+    @ContentAndMedia {
+        ## Rotor
+        ## Index Focus
+        ## Indices
+        ## Custom Rotor
     }
 }
