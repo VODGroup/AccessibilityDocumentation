@@ -25,7 +25,9 @@ Make your iOS applications **accessible**
 
 ## Welcome to iOS Accessibility Handbook
 
-[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications *accessible*. **Accessible application** is such application that works with various *assistive technologies*, such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable **people with disabilities** to use the application. 
+[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications *accessible*. 
+
+**Accessible application** is such application that works with various *assistive technologies*, such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable **people with disabilities** to use the application. 
 @Image(source: features-1, alt: "")
 @Image(source: features-2, alt: "")
 
@@ -37,22 +39,17 @@ This handbook provides *extended documentation* of [**Accessibility Features**](
 
 In other words, materials here cover **everything one could ever need to know about accessibility on iOS**. 
 
-### Featured
 @Links(visualStyle: detailedGrid) {
     - <doc:iOSAccessibility>
     - <doc:AccessibilityFeatures>
 }
 
 ### Target audience
-The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, to **everyone working with accessibility** on iOS.
-
-@Comment {
-    Working as an iOS engineer in a *corporation*? Publishing applications as an independent developer? Responsible for interface design of products on mobile platforms? Regardless of what you are doing, as long as you have to deal with iOS products and wish to make them accessible, this book is for you. 
-}
+The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, **everyone working with accessibility** on iOS.
 
 There is **no commercial underlayment** and the only reason the project exists is to **popularise the topic** and  **share** relevant real-life experience of contributing **accessibility professionals**.
 
-## Book structure
+## Site structure
 
 The handbook is essentially a *complete course* of **how to make iOS applications accessible**. The materials are split into conceptual *topics* and categorised by its relation to a particular [**assistive technology**](<doc:AccessibilityFeatures>) and its field of implementation. 
 
