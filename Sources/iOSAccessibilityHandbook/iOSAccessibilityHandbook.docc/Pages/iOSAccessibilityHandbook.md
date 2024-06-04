@@ -53,7 +53,7 @@ There is **no commercial underlayment**. The only reason the project exists is t
 @Row(numberOfColumns: 2) {
     @Column {
         ### Mikhail Rubanov
-        The resources are provided by [**Mikhail Rubanov**](https://rubanov.dev), **Head of Mobile Development** at [**Dodo Brands**](https://dodobrands.io), an accessibility professional and the author of ["**About iOS Accessibility**"]( https://rubanov.dev/a11y-book) book. 
+        The resources are provided by [**Mikhail Rubanov**](https://rubanov.dev), **Head of Mobile Development** at [**Dodo Brands**](https://dodobrands.io), an accessibility professional and the author of [**About iOS Accessibility**]( https://rubanov.dev/a11y-book) book. 
         
         Exemplary and illustrative materials are **based on his working experience**.
         }
@@ -71,7 +71,7 @@ There is **no commercial underlayment**. The only reason the project exists is t
 To know more about the *curriculum* visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
 
 ### Technical implementation
-At the moment the project is a **documentation catalog ([DocC](https://www.swift.org/documentation/docc))** hosted by [**GitHub pages**](https://pages.github.com). 
+At the moment the project is a **[DocC](https://www.swift.org/documentation/docc) (documentation catalog)** hosted by [**GitHub pages**](https://pages.github.com). 
 
 To **contribute** to the project visit its **repository on [GitHub](https://github.com/VODGroup/AccessibilityDocumentation)** and see the How to Help the Project **instruction**.
 
