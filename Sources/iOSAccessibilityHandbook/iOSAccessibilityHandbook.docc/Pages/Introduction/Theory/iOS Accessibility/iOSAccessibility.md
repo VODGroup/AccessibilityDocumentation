@@ -16,49 +16,60 @@ An **introduction** to accessibility on iOS
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
                 purpose: link, 
-                label: "Official page")
+                label: "Apple Accessibility")
 }
 
-## What does it mean for something to be accessible? 
-**Accessibility** is a *property* of products (e.g. devices, services, concepts, environments) that measures **approachability** — the widest possible range of people who can use it.
-
-Every person has their own *preferences*, *circumstances* and *capabilities*, therefore it is required to consider the *diversity* of products' audience if there is an aspiration to extend the **reach**. 
-@Image(source: fifteen-percent, alt: "A large text Keynote slide saying \"Approximately 15% of the world''s population live with disabilities\"")
-
-> Important: It is *impossible* to design products **universally convenient** for everyone. But it is *possible* to **not exclude** anyone intentionally. Audience is essentially **unknowable** and it is *the purpose* of [**inclusive design**](<doc:InclusiveDesign>) to not create products based on *prejudices*.
-
-There are many reasons why one would want to *include* more people — from straightforward sales increase to moral beliefs, but regardlessly of the case the **goal** is the same: *to provide equitable access to the same experience*.
-@Image(source: fifty-percent, alt: "A large text Keynote slide saying \"More than 50% is the average number of mobile users that turn on at least one of Accessibility settings\"")
-
-## Computer accessibility
-**Computer accessibility**, often referred to as **a11y**, includes a wide range of solutions that are aimed to enhance **approachability of digital products**. It can be done by using **assistive technology**, which is specialised *software* or *hardware*, or a *combination* of both.
-@Image(source: numeronym, alt: "A schematic explanation of the word ally being a numeronym: a + ccessibility (which is eleven letters) + y") {
-    **a11y** is a [**numeronym**](https://en.wikipedia.org/wiki/Numeronym) of **accessibility**
-}
-
-## Accessibility of iOS
-In the course of the book we are going to discuss **how to make iOS applications accessible**. Due to the current state of technological advancement the task may be narrowed to *adapting* your programs to the use of **assistive technology**, which involves nothing more than following [**specific design guidelines**](<doc:InclusiveDesign>) that support the usage of [**Accessibility Features**](<doc:AccessibilityFeatures>) and promote **inclusivity**. 
-
+## Accessibility of iOS applications
+ [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is essentially a complete course on **how to make *iOS* applications accessible**.
 @Image(source: ios-accessibility, alt: "A decorative image showing a smartphone symbol plus accessibility symbol") 
 
+ We have already figured [**what it means to be accessible**](<doc:a11yTerminology>). But how *exactly* do we achieve that talking about **iOS applications**? 
+
+Let's overview the **general state of iOS accessibility** and get familiar with relevant system **resources**, **features** and **tools**.
 
 ### History of iOS Accessibility
-[**"A Timeline of iOS Accessibility: It Started with 36 Seconds"**](https://www.macstories.net/stories/a-timeline-of-ios-accessibility-it-started-with-36-seconds/) is a marvellous research done by **Shelly Brisbin** that covers the **path** Apple has been following to make their devices accessible from the very beginning of iPhone story. 
+[**"A Timeline of iOS Accessibility: It Started with 36 Seconds"**](https://www.macstories.net/stories/a-timeline-of-ios-accessibility-it-started-with-36-seconds/) is a marvellous research done by **Shelly Brisbin** that covers the **path Apple has been going to make their devices accessible**. From the very beginning of iPhone story at 2007 to the current moment.
 @Image(source: ios-history, alt: "A screenshot of the article's web page")
 
-### Current state
-From June 8, 2009 Apple hasn't stopped for a second in promotion of **inclusive design**. [**Inclusivity**](https://www.apple.com/diversity/) is one of the *core values* the company has been always exposing and [**accessibility**](https://www.apple.com/accessibility/) is an immanent part of it.
+### Current moment
+Starting from *“We also care greatly about accessibility”* at June 8, 2009 Apple hasn't stopped for a second in promotion of **designing with accessibility in mind**.
 
-@Image(source: inclusion-grid, alt: "")
+### Accessibility and inclusion
+**Accessibility is the engine of people with disabilities inclusion.** Apple claims [**inclusivity**](https://www.apple.com/diversity/) of their products to be **one of the company core values** and puts [**unmeasurable efforts**](https://www.apple.com/accessibility/) into support of *disabilities community* and advancement of **assistive technology**.
 
-Aiming to make their products as *accessible* so everyone could use it led Apple to unmeasurable efforts put to [**assistive technology**](<doc:AccessibilityFeatures>) support. 
+## Apple accessibility
+### Human Interface Guidelines 
+[**Human Interface Guidelines**](https://developer.apple.com/design/human-interface-guidelines/) is a collection of materials dedicated to creating products for Apple platforms in accordance with the company's values.
 
-### Recent updates 
-Annually, on 16th of May, which is **GAAD** (**G**lobal **A**ccessibility **A**wareness **D**ay), Apple publishes [**updates on accessibility**](https://www.apple.com/newsroom/search/?q=global+accessibility+awareness+day) of their products. 
+[**Accessibility best practices**](https://developer.apple.com/design/human-interface-guidelines/accessibility) section contains essential information about adopting accessibility:
+- product design means focused on delivering **inclusive user experience**;
+- guidance for Apple developers on how to integrate applications with **assistive technology**.
 
-## Accessibility Features
-As for today, here is the list of some [**Accessible Features**](<doc:AccessibilityFeatures>) **available on iOS**. Its amount is continually increasing year by year. The stack is considered to be one of the most efficient *system* solutions of **assistive technology integration**, which provides sufficient **tools** for presenting **accessible interfaces** in accordance with modern [**accessibility guidelines**](<doc:Standards>).
+### Accessibility features
+Apple assistive technology is known as accessibility features. Accessibility features are native software solutions aimed to *"personalise how users interact with their devices in ways that work for them"*.
+
+Accessibility features stack provides similar user experience over various Apple platforms. In persective of the book we are going to discuss iOS accessibility kit, but the knowledge of these particular features can be extrapolated on other systems which have the appropriate functional.
+
+For example, VoiceOver, which is Apple screenreader, is available on all company's platforms for devices equipped with displays -- not only  iOS, but also macOS, iPadOS, tvOS, watchOS and visionOS.
+
+### Accessibility of iPadOS
+iPadOS is *very* similar to iOS, excluding features related to **multitasking** -- running multiple apps at once, and **expansibility** -- connecting external devices. 
+
+So keep in mind that **everything you learn about iOS accessibility features is also applicable to iPadOS**. 
+
+Despite [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) name, we *are* going to discuss a few moments **exclusive for iPads**. For example, in [**Full Keyboard Access**](<doc:FullKeyboardAccess>), which is also present on iPhones, but the **functionality** slightly differs. 
+
+It is done in purpose to build **foundational understanding** of digital accessibility practices. This way you will be able to **apply the acquired knowledge** on a bigger scale and longer distances.
+
+## iOS accessibility features
 @Image(source: features-list, alt: "A large text Keynote slide listing Accessibility Features: Dynamic Type, VoiceOver, Zoom, Spoken Content features, Reduce Transparency, Switch Control, Reduce Motion, On and Off labels, AssistiveTouch, Full keyboard access, Voice Control, Bold Text, Pointer Control, Sound Recognition, Guided Access, Dwell Control, Type to Siri, Sound Actions, Button Shapes, Color Filters, Increase Contrast, Hearing Aids")
+As for today, here is the list of [**Accessible Features**](<doc:AccessibilityFeatures>) **available on iOS**. Its amount is continually increasing year by year. 
+
+### Yearly accessibility updates
+Annually, on 16th of May, which is **GAAD** (**G**lobal **A**ccessibility **A**wareness **D**ay), Apple publishes [**updates on accessibility**](https://www.apple.com/newsroom/search/?q=global+accessibility+awareness+day) of their products. New accessibility features are usually announced this way.
+
+### Accessibility API
+The stack is considered to be one of the most efficient *system* solutions of **assistive technology integration**, which provides sufficient **tools** for providing **accessible user experience** in accordance with current [**accessibility best practices**](<doc:Standards>).
 
 ### Field research
 To check out the object of our interest go to **Settings** and try to **adjust your user experience**.

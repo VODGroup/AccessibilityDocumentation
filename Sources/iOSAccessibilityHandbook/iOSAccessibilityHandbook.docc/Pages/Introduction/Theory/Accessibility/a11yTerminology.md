@@ -19,7 +19,6 @@
                 label: "General Knowledge")
 }
 
-
 ## What is accessibility in general
 
 **Accessibility** is a property of *things* that measures its **approachability** -- whether it is **possible** or not **to interact with the *thing*** for a user of **unknown abilities**.
@@ -30,12 +29,15 @@
 Any product has a **target audience**. Nonetheless, those expectations are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ**. 
 
 ### Possible diverseness
-**Product audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain user groups, the **diversity** of potential users should be considered. 
+**Real audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain user groups, the **diversity** of potential users should be considered. 
 
 ### Diversity barriers
 Every person has unique **capabilities** and **experience**. There are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Accessibility reduces these barriers.**
 
 ## Digital accessibility in particular
+@Image(source: numeronym, alt: "A schematic explanation of the word ally being a numeronym: a + ccessibility (which is eleven letters) + y") {
+    **a11y** is a [**numeronym**](https://en.wikipedia.org/wiki/Numeronym) of **digital accessibility**
+}
 Talking about barriers in **digital products**, they happen on the scope of **user interfaces**. A **user interface** is *everything* that happens between a **product** and its **user**, the *communication* between these two subjects.
 
 ### Computer interfaces
@@ -45,22 +47,26 @@ User interfaces are essentially means of **informational exchange**: providing *
 To be accessible, a product has to provide **equitable access** for a user of being **able to perceive and control the interface**. It is possible to achieve by adopting **accessible design guidelines** and support of **assistive technology**.
 
 ## Accessible design
-According to **WCAG** (**W**eb **C**ontent **A**ccessibility **G**uidelines), which is the **international standard** of digital accessibility, all accessibility requirements can be grouped into 4 categories:
+According to [**Web Content Accessibility Guidelines (WCAG)**](https://www.w3.org/WAI/standards-guidelines/wcag/), which is an **international standard** of digital accessibility, all accessibility requirements can be grouped into 4 categories:
 - perceivable;
 - operable;
 - understandable;
 - robust.
 
-These are **principles of accessible design**. [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) respects, follows and is in agreement with **WCAG**, so will inspect each of them in detail later at the [**Accessible Design**](<doc:AccessibleDesign>) page.
+These are **principles of accessible design**. [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) greatly **respects**, **follows** and is in agreement with [**The World Wide Web Consortium Web Accessibility Initiative (W3C WAI)**](https://www.w3.org/WAI/). 
+
+We will study accessibility by these principles **in general** and inspect each of them in detail later at the [**Accessible Design**](<doc:AccessibleDesign>) page.
+
+> Note: Yes, there is **W** in WCAG, WAI and W3C, and we are talking **mobile**.
 
 ## Assistive technology
 But there are situations where *design means* are **not enough** for an interface to be accessible. Here comes **assistive technology**: software, hardware and combined solutions that *allow* users to be able to have **equitable interaction experience**.
 
 ### Equity vs. equality
-Notice that the word *equitable* is used instead of *equal*. It is done because **demanding equal access is delusional**: there is no equation between people, thus their **experiences are unique**. 
+Notice that the word *equitable* is used instead of *equal*. It is done because **demanding equal access is delusional**: there is **no equation between people**, everyone is **unique** and their experiences are too.
 
 ### Users of assistive technology
-Most commonly, assistive technology is used by people for whom ***otherwise* user interfaces would be inaccessible**.
+Most commonly, assistive technology is used by people for whom **otherwise* user interfaces would be inaccessible**.
 
 ### -- ... most commonly?
 Yep. **Assistive technology *are* for people with disabilities**. But there is no requirement to have a disability to use assistive technology. 
@@ -68,42 +74,60 @@ Yep. **Assistive technology *are* for people with disabilities**. But there is n
 **Users of assistive technology** is the term we're going to use when discussing appropriate **technical implementation**.
 
 ## People with disabilities
-Anyway, accessibility focuses on people with **disabilities**. Disability is an ambiguous term with a definition dependant on its **model**. 
+Nonetheless, accessibility *does* focus on people with **disabilities**. So we are as **accessibility professionals**. 
+
+### Disability
+Disability is an ambiguous term with a definition dependant on its **model**. 
 
 ### Disability models
-Regardless of whether it is [**medical**](jepa.ru), [**social**](jepa.ru), or [**something else**](jepa.ru), as *digital accessibility professionals* we will refer to a disability as to *something* that stands on the way between a **user with disability** and an interface **designed without proper consideration**.
+Regardless of whether it is [**medical**](https://en.wikipedia.org/wiki/Medical_model_of_disability), [**social**](https://en.wikipedia.org/wiki/Social_model_of_disability) or [**something else**](https://en.wikipedia.org/wiki/Disability#Other_models), as ***digital* accessibility professionals** we will refer to disability as to *something* that stands on the way between **users with disabilities** and an interface **designed without their consideration**.
 
 ### Human-machine interaction
 We've already figured out that **barriers** belong to **interfacial space**, which are essentially just **inputs** and **outputs**. Therefore, to *enable* people use an interface **various *perceptional* and *controlling* cases should be considered**.
 
-### Perceiving interfaces
-Humans perceive reality by a *sensory system* consistent of **visual**, **audial**, **olfactory** and **tactile** organs. User interfaces do not smell [yet], so we're only interested in **vision**, **hearing** and **touch** [so far].
+### Receiving information
+Humans perceive reality by a *sensory system* consistent of **visual**, **audial**, **olfactory** and **tactile** organs. User interfaces do not smell (yet), so we're only interested in **vision**, **hearing** and **touch** (so far).
 
-### Controlling computers 
+### Taking action
 Analogously, humans **perform actions** to reality. Talking about **providing output** to computer interfaces, we use **cognitive processes**, **speaking** and **motor abilities**. 
 
 ### Common disability categorisation  
 From now on, for structuring purposes we will *refer* to disabilities affecting **accessibility of an interface** by 4 groups:
-- **vision disabilities** --  affect **visual perception**;
-- **hearing disabilities** -- change the **ability to hear**;
-- **cognitive disabilities** -- everything that happens on **brain-level**, both **processing** and **producing**; 
-- and **mobile (motor) disabilities** -- how people may or may not **use their movable body-parts**, from eyelids that blink to fingers that tap.
+
+Type | Definition | Examples 
+---|---|---
+**visual** | **Visual perception** impairments | *Blindness*, *low sight*, *colour blindness* 
+**hearing** | Audial *perception* impairments | *Deafness*, *decreased hearing* 
+cognitive | **Neural impairments**, both **processing and producing** abilities | *Dyslexia*, *dementia*, *learning disorders*, *epilepsy*
+motor | Impairments of both **gross and fine motor skills** | *Cerebral palsy*, *injury*, *stroke*, *deformity* 
+
+> Important: Notice that we chose not to segregate **speech disabilities**. Remember that ability to speak can be compromised by **both motor and cognitive impairments**. 
+
 
 ## Disabling conditions
 
-In this dimension of existence being able to do something always requires **certain conditions**. These conditions can be affected by **physical state** of a person and their **circumstances**. 
+Being able to do something always requires **certain conditions**. These conditions can be affected by **physical state** of a person and the **circumstances** they are put in. 
 
 ### Situational, temporary and permanent disabilities
-This way a disability may be caused by **congenital** (i.e. present from birth) or **obtained health features**, as well as being put into a **particular situation** that has nothing to do with health.
+Which means that disability may be caused by **congenital** (i.e. present from birth) or **obtained health features** as well as being put into a **particular situation** that has nothing to do with health.
 
 ### Different circumstances, same result
-Holding a baby in one hand, then ordering a coffee and, in the end, having to hold both the baby and the coffee simultaneously makes a person with two hands as **motor disabled** as a person with no hands. 
+Holding a baby in one hand, then ordering a coffee and, in the end, having to hold both the baby and the coffee simultaneously makes a person with two hands as **motor disabled** as a person with no hands. It's just temporary for the former one and permanent for the later.
 
-### Same result, different reasons
+### Same result, different reasoning
 Same with driving a car. Focusing on the road makes a person **not less blind** than a... blind person. Wait, what? Hold on.
 
 ### Accessibility for everyone
 No, that's right. Don't forget what we are talking about: **digital accessibility**. We don't need to know *why* a person cannot use their hands to use our apps. **We just enable them to do so.**
+
+## Wrap-up
+**Digital accessibility** (often referred to as **a11y**) ensures that a wide range of people, including **people with disabilities**, are *able* to **access various digital goods**.
+
+**Assistive technology** is software, hardware and combined solutions that *extrinsically* **eliminate barriers for people with disabilities**.
+
+**Disabilities** can affect both **perceptional** and **functional features** of a person. The condition does not have to be **permanent** to be disabling.
+
+There is no need to know whether and why a user has disability to provide **equitable access**.
 
 ## What's next
 @Links(visualStyle: detailedGrid) {

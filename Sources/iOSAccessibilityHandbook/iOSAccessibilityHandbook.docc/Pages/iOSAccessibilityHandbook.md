@@ -27,13 +27,13 @@ Make your iOS applications **accessible**
 
 [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications **accessible**. 
 
-**Accessible applications** work with various [**assistive technologies**](<doc:AccessibilityFeatures>), such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable **people with disabilities** to use the application. 
+**Accessible applications** work with various [**assistive technologies**](<doc:AccessibilityFeatures>), such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable **people with disabilities** to use the applications. 
 @Image(source: features-1, alt: "")
 @Image(source: features-2, alt: "")
 
 ### Interactive learning
 The handbook provides **extended documentation** of **[Accessibility Features](<doc:AccessibilityFeatures>) API**, including:
-- detailed **articles** on essential topics;
+- detailed **articles** on fundametal topics;
 - interactive **guides** to follow step-by-step;
 - various media, such as **video tutorials**.
 
@@ -47,7 +47,7 @@ In other words, materials here cover **everything one could ever need to know ab
 ### Target audience
 The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, **everyone dealing with accessibility** on iOS.
 
-There is **no commercial underlayment**. The only reason the project exists is to **popularise the topic** and  **share the experience** of contributors.
+There is **no commercial underlayment**. The project is **non-profit** and the only reason *why* exists is to **popularise the topic** and  **share the relevant experience** of its contributors.
 
 ## Contributors
 @Row(numberOfColumns: 2) {
@@ -64,8 +64,7 @@ There is **no commercial underlayment**. The only reason the project exists is t
 
 ## About the website
 
-**iOS Accessibility Handbook** is essentially a **complete course** of modern [**digital accessibility**](<doc:a11yTerminology>) practices from the perspective of iOS development. 
-
+**iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the perspective of iOS development.
 @Image(source: book-content, alt: "")
 
 To know more about the *curriculum* visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
@@ -75,13 +74,20 @@ At the moment the project is a **[DocC](https://www.swift.org/documentation/docc
 
 To **contribute** to the project visit its **repository on [GitHub](https://github.com/VODGroup/AccessibilityDocumentation)** and see the How to Help the Project **instruction**.
 
-## VoiceOver Designer
+## Assets 
+### VoiceOver Designer
 Reading the book you may notice **screenshots of iOS applications with mark-ups** related to [**accessibility description**](<doc:AccessibilityAttributes>) over them.
 @Image(source: "vod-sample", alt: "-")
 This is [**VoiceOver Designer**](https://rubanov.dev/voice-over-designer), an [open-source](https://github.com/VODGroup/VoiceOverDesigner) macOS application that allows to **design accessible interfaces over a screenshot of an app**. 
 
-## Handbook design resources
-Graphic illustrations created exclusively for the course can be found [**here**]( https://www.figma.com/file/mBvxYSGy76H3666hve6v46/iOS-Accessibility-Handbook?type=design&node-id=0%3A1&mode=design&t=FsJalTP4YZeRBUoe-1).
+### iOS Accessibility Annotation Kit
+A little [**visual guide**](https://www.figma.com/design/pAxRZMK60t4WPGJQAuW3mz/iOS-Accessibility-Annotation?node-id=0-1&t=UAoFVtGH58BVVdVQ-1) on **accessibility annotation** of iOS applications for designers, editors and researches.
+
+### Accessible Components
+An open-source iOS application about **accessibility and its implementation of popular UI components**.
+
+### Design Resources
+Graphic illustrations created exclusively for the project can be found [**here**]( https://www.figma.com/file/mBvxYSGy76H3666hve6v46/iOS-Accessibility-Handbook?type=design&node-id=0%3A1&mode=design&t=FsJalTP4YZeRBUoe-1).
 
 @Small {
     *iOS Accessibility Handbook, 2024*
@@ -89,8 +95,8 @@ Graphic illustrations created exclusively for the course can be found [**here**]
 
 ## Topics
 ### Introduction
-- <doc:iOSAccessibility>
 - <doc:a11yTerminology>
+- <doc:iOSAccessibility>
 - <doc:AccessibilityInCode>
 
 ### Assistive Technology

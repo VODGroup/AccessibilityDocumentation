@@ -12,8 +12,8 @@
                source: "placeholder-image", 
                alt: "")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://www.no.link",
                 purpose: link, 
-                label: "General Knowledge")
+                label: "Here is no link")
 }
 

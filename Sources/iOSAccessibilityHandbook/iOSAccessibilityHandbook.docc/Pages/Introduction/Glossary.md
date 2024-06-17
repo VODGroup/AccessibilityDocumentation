@@ -14,9 +14,9 @@ This is a fucking glossary. Mikhail Rubanov I swear to God if you ever look at t
                source: "placeholder-image", 
                alt: "")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://www.no.link",
                 purpose: link, 
-                label: "General Knowledge")
+                label: "Nothing here")
 }
 
 assistive technology
