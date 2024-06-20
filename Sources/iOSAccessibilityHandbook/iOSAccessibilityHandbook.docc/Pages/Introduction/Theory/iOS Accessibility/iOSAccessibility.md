@@ -16,7 +16,7 @@ An **introduction** to accessibility on iOS
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
                 purpose: link, 
-                label: "Apple Accessibility")
+                label: "Apple Accessibility page")
 }
 
 ## Accessibility of iOS applications

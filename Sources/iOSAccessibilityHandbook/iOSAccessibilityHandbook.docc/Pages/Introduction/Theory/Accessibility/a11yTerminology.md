@@ -16,7 +16,7 @@
     @CallToAction(
                 url: "https://www.apple.com/accessibility/",
                 purpose: link, 
-                label: "General Knowledge")
+                label: "Apple Accessibility page")
 }
 
 ## What is accessibility in general
