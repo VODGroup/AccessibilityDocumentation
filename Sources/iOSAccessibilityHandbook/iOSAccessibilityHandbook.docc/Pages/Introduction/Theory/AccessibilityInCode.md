@@ -116,6 +116,23 @@ Accessibility representation is in essence an **accessible description** and **a
 ### Accessibility description 
 For example, accessibility API has to know **certain data** about the interface to be able to work with it. Any accessibility feature has to be provided with **everything needed** to do its job. 
 
-Otherwise it simply won't work. Or will **wrongly behave**, which is *worse* than not working at all.
+Otherwise it simply **won't work**. Or will **wrongly behave**, which is *worse* than not working at all.
 
-## Wrap-up
+## Tutorials start here 
+We won't let it happen though. The book is intended to teach how to **adopt accessibility**. To make our job **uncompromisable**, we are going to study:
+1) what **properties** of an interface contribute to accessibility;
+2) how to **design interfaces** that exhibit them;
+3) how to use this **semantic information** in order to provide **accessible experience** for *both* users and assistive technology. 
+
+Sounds overwhelming? There is a lot to learn indeed. 
+
+But the program was designed to build a **fundamental understanding** of digital accessibility practices. Consistent and comprehensible guidance on **applying this knowledge to iOS** is merely a bonus.
+
+> Note: As for the moment, **none of the contributors are affiliated with Apple**. Despite our goal to create seamless platform experience by the use of **native** solutions, do not forget that the resources here reflect **community knowledge** at the first place.
+
+### What's next
+Ready for the action? Let's get started.
+@Links(visualStyle: detailedGrid) {
+    - <doc:AdoptionGuide>
+}
+

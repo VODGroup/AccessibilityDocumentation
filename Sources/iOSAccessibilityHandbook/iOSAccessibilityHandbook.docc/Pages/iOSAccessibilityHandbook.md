@@ -47,9 +47,10 @@ In other words, materials here cover **everything one could ever need to know ab
 ### Target audience
 The project is dedicated to help *developers*, *designers*, *testers*, *researchers* and *mere users* — in other words, **everyone dealing with accessibility** on iOS.
 
-There is **no commercial underlayment**. The project is **non-profit** and the only reason *why* exists is to **popularise the topic** and  **share the relevant experience** of its contributors.
-
 ## Contributors
+
+> Note: [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) has **no commercial underlayment**. The project is **non-profit** and the only reason *why* exists is to **popularise the topic** and  **share the relevant experience** of its contributors.
+
 @Row(numberOfColumns: 2) {
     @Column {
         ### Mikhail Rubanov
@@ -64,7 +65,7 @@ There is **no commercial underlayment**. The project is **non-profit** and the o
 
 ## About the website
 
-**iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the perspective of iOS development.
+**iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the *perspective* of iOS development.
 @Image(source: book-content, alt: "")
 
 To know more about the *curriculum* visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
@@ -74,7 +75,7 @@ At the moment the project is a **[DocC](https://www.swift.org/documentation/docc
 
 To **contribute** to the project visit its **repository on [GitHub](https://github.com/VODGroup/AccessibilityDocumentation)** and see the How to Help the Project **instruction**.
 
-## Assets 
+## Course assets 
 ### VoiceOver Designer
 Reading the book you may notice **screenshots of iOS applications with mark-ups** related to [**accessibility description**](<doc:AccessibilityAttributes>) over them.
 @Image(source: "vod-sample", alt: "-")
