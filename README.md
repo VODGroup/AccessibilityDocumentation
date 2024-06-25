@@ -2,18 +2,31 @@
 
 
 ## — What is this?
+
+<img width="1552" alt="" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/69499dfe-2e9c-4f78-a423-ee9fb9268db7">
+
 This repository is the source code of [**iOS Accessibility Handbook**](https://vodgroup.github.io/AccessibilityDocumentation/documentation/iosaccessibilityhandbook) online documentation, which is an **educational resource** dedicated to help **developers**, **designers**, **testers** and **researchers** work on [**accessibility**](https://developer.apple.com/design/human-interface-guidelines/accessibility) of iOS applications.
+
+
+
+### Program content
+
+<img width="1552" alt="" src="https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/6009afe6-7bb2-4453-b0a8-e9fb4cd5be5f">
 
 The handbook is essentially a **complete course of digital accessibility practices with application to iOS**. **Interactive guides**, **detailed articles**, **various media assets** and **review assessments** form a holistic program with a curriculum designed such way that **everyone can find something useful**. Regardless of their current experience with the subject.
 
-![prs](./Samples/site-sample~dark.png#gh-dark-mode-only)
-![prs](./Samples/site-sample~light.png#gh-light-mode-only)
+
+
+### Course structure
+![book-content~dark](https://github.com/VODGroup/AccessibilityDocumentation/assets/94866528/e9ac6987-fdc8-432f-a3da-77bfde3a9845)
 
 The book is consistent of 4 sections:
 1. Introduction to digital accessibility 
 2. Digital accessibility basics
 3. Advanced accessibility practices
 4. Enterprise accessibility
+
+### Curriculum in detail
 Each volume offers a broad range of related knowledge packed in chapters. To inspect the curriculum in detail, visit the [**Miro board**](https://miro.com/app/board/uXjVKApi8PY=/?share_link_id=405322088188) overviewing the program content.
 
 ## — Who is responsible of this?
@@ -27,10 +40,16 @@ The book is exactly a **complete course** on accessibility of iOS applications, 
 
 
 ## — How does it function?
-The *interactivity* is implemented by relying on **[DocC](https://developer.apple.com/documentation/docc) technology, which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
+
+### DocC
+The *interactivity* is implemented by relying on **[DocC](https://developer.apple.com/documentation/docc) technology, which is a native rich documentation solution for [Swift projects](https://www.swift.org/packages)**. 
+
+### Markdown
+It uses **[Markdown](https://apple.github.io/swift-markdown/documentation/markdown)** as its *formatting language*.
 ![prs](./Samples/docc~dark.png#gh-dark-mode-only)
 ![prs](./Samples/docc~light.png#gh-light-mode-only)
 
+### GitHub Pages
 The resource is hosted by **[GitHub Pages](https://pages.github.com)**, which is a great option **to allow anyone to contribute to the project**. **GitHub Pages simply turns a GitHub repository into a *website*, which plays along *open-source development* fittingly**. 
 
  
