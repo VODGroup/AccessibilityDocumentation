@@ -1,6 +1,6 @@
 # Accessibility Features
 
-A brief overview of **assistive technology** supported by iOS
+In-built software **assistive technology** of iOS
 
 @Metadata {
     @PageColor(blue)
@@ -19,7 +19,48 @@ A brief overview of **assistive technology** supported by iOS
                 label: "General Knowledge")
 }
 
-**Accessibility Features** is a collection of *software* aimed to **help people use their devices**. 
+**Accessibility Features** are specialised system software purposed to customise user experience of Apple devices.
+
+Every person has a unique set of sensory, physical and cognitive features. There are people that encounter certain barriers while using information and communication technology (ICT).
+
+It is impossible to consider the whole diversity of users, which would be designing specifically for each member of world population. 
+
+Nonetheless, there are practices that are aimed to enable more people to access technology. When designing with accessibility in mind is not enough, assistive technology enter the game.
+
+Assistive technology are software, hardware and combined solutions. In this particular article, we are going to discuss Accessibility Features -- in-built system software purpose to customise user experience of Apple devices.
+
+Accessibility features let people adjust system settings that way so using a device becomes more comfortable or even simply possible for people in particular conditions. 
+
+It may be achieved with means out-of-the-box or by letting a user extend the device's functionality by connecting external devices. 
+
+Some accessibility features are fully autonomous and are supported automatically. Others require explicit consideration of developers.
+
+For example, classic Invert Colours perfectly works on its own, because this technology simply inverts every colour of the interface. 
+
+On the other hand, there is Smart Invert that does the same but is considerate of images, videos and media with already sufficient colour scheme. Smart Invert will work as intended only if supported explicitly -- if everything that shouldn't be inverted is marked inside of the application.
+
+On this page we are going to discuss accessibility features from a distance. It is essential to understand what can be done to an interface in order to provide accessible experience. 
+
+But there are accessibility features that require more of attention, because to enable them additional work has been done. Such features are discussed in greater detailed in next articles, one by one. 
+
+But before diving deep into details, let's get familiar with accessibility features and their functionality in general.
+
+
+## Speech 
+Speech accessibility features are aimed to adjust user experience for people in circumstances affecting their ability to speak. 
+
+## Vision
+Vision accessibility features work with the visual modality of an interface. 
+
+## Hearing
+Hearing accessibility feature are purposed to customise user experience for people with hearing disabilities.
+
+## Mobility
+
+
+## Cognitive
+
+There are various features that adjust or extend the functionality of iPhone to enable different people have an equitable experience.
 
 You can find **Accessibility Features** available for your device in **Settings**, under **Accessibility** category.
 

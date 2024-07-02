@@ -40,7 +40,7 @@ Every person has unique **capabilities** and **experience**. There are **conditi
 }
 Talking about barriers in **digital products**, they happen on the scope of **user interfaces**. A **user interface** is *everything* that happens between a **product** and its **user**, the *communication* between these two subjects.
 
-### Computer interfaces
+### Informational exchange
 User interfaces are essentially means of **informational exchange**: providing **input** and receiving **output**.
 
 ### Accessibility of user interfaces
@@ -57,19 +57,26 @@ These are **principles of accessible design**. [**iOS Accessibility Handbook**](
 
 We will study accessibility by these principles **in general** and inspect each of them in detail later at the [**Accessible Design**](<doc:AccessibleDesign>) page.
 
-> Note: Yes, there is **W** in WCAG, WAI and W3C, and we are talking **mobile**.
+### -- W is for Web. We're talking Mobile.
+That's right, excuse me. But the absence of widely-recognised standards for mobile accessibility should not be an obstacle on our way. 
+
+Interface theory is shared between various technology, accessibility principles are widely applicable. We just have to make sure that we understand what we're doing to get it right. And that's why this handbook exist.
 
 ## Assistive technology
-But there are situations where *design means* are **not enough** for an interface to be accessible. Here comes **assistive technology**: software, hardware and combined solutions that *allow* users to be able to have **equitable interaction experience**.
+There are situations where *design means* are **not enough** for an interface to be accessible. Here comes **assistive technology**: software, hardware and combined solutions that *allow* users to be able to have **equitable interaction experience**.
 
 ### Equity vs. equality
-Notice that the word *equitable* is used instead of *equal*. It is done because **demanding equal access is delusional**: there is **no equation between people**, everyone is **unique** and their experiences are too.
+Notice that the word *equitable* is used instead of *equal*. It is done because **demanding equal outcome is delusional**. There is **no equality between people**, everyone is **unique**. Treating *different* people the *same* way won't lead to the same results.
+
+Equality ensures that everyone gets the same -- *equal* -- treatment. Equity treats everyone differently, in accordance with their diversity, to achieve similar -- *equitable* -- results.
 
 ### Users of assistive technology
-Most commonly, assistive technology is used by people for whom **otherwise* user interfaces would be inaccessible**.
+Most commonly, assistive technology is used by people for whom ***otherwise* user interfaces would be inaccessible**.
 
 ### -- ... most commonly?
-Yep. **Assistive technology *are* for people with disabilities**. But there is no requirement to have a disability to use assistive technology. 
+Yep. **Assistive technology *are* for people with disabilities**. But there is no requirement to have a disability to use assistive technology.
+
+Many things used in everyday life of people who do not identify themselves as having a disabilities were *indeed designed* for people with disabilities. For example, ergonomic handles and speech recognition. Sometimes assistive technology 
 
 **Users of assistive technology** is the term we're going to use when discussing appropriate **technical implementation**.
 
@@ -98,8 +105,8 @@ Type | Definition | Examples
 ---|---|---
 **visual** | **Visual perception** impairments | *Blindness*, *low sight*, *colour blindness* 
 **hearing** | Audial *perception* impairments | *Deafness*, *decreased hearing* 
-cognitive | **Neural impairments**, both **processing and producing** abilities | *Dyslexia*, *dementia*, *learning disorders*, *epilepsy*
-motor | Impairments of both **gross and fine motor skills** | *Cerebral palsy*, *injury*, *stroke*, *deformity* 
+**cognitive** | **Neural impairments**, both **processing and producing** abilities | *Dyslexia*, *dementia*, *learning disorders*, *epilepsy*
+**motor** | Impairments of both **gross and fine motor skills** | *Cerebral palsy*, *injury*, *stroke*, *deformity* 
 
 > Important: Notice that we chose not to segregate **speech disabilities**. Remember that ability to speak can be compromised by **both motor and cognitive impairments**. 
 
