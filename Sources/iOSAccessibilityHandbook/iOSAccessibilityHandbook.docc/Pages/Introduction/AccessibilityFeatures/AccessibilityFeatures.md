@@ -34,6 +34,8 @@ Here comes assistive technology -- software, hardware and combined solutions int
 ### Apple's assistive technology 
 In this particular article, we are going to discuss **Accessibility Features** -- in-built system *software* purposed to **customise user experience** of Apple devices.
 
+> Experiment: If there is an iOS device at your possession, **explore accessibility features first-hand**. Accessibility settings are located at, well, **Settings** application, in the **Accessibility** category. If you haven't visited this place before, you may find something useful for yourself!
+
 ### Accessibility features
 Talking about accessibility of iOS, support and consideration of accessibility features is **the primary goal of our work**. Apple has done *tremendous* job by producing all these solutions. It would be a shame to neglect such impressive example of **native system accessibility**.
 
@@ -53,24 +55,25 @@ But as for an another user who is not only **blind, but deaf**, they are disable
 Tactile form is supported by VoiceOver, but not by devices on their own. There is nothing in an iPhone or an iPad that can **produce** Braille output. Therefore, to enable VoiceOver display information in the tactile form, an **external** refreshable Braille display is required.
 
 ### Variety of supported technology
-There is wide range of **external assistive technology devices** supported by Apple products. Later in the book we are going to get introduced to more examples of such devices, of both **input** and **output kinds**. To check them out yourself, browse [**Apple's third-party assistive technology devices page**](https://www.apple.com/accessibility/assistive-technologies/).
+There is wide range of **external assistive technology devices** supported by Apple products. Later in the book we are going to get introduced to more examples of such devices, of both **input** and **output kinds**. 
 
+> Experiment: You can check some of them out beforehand at [**Apple's third-party assistive technology devices page**](https://www.apple.com/accessibility/assistive-technologies/).
 
 ## Accessibility API 
-Some accessibility features are fully autonomous and are supported automatically. Others require explicit consideration of developers.
+Some accessibility features are fully *autonomous* and are **supported implicitly** -- automatically. Others require **explicit consideration of developers**.
 
 ### Straightforward accessibility
-For example, classic **Invert Colours** perfectly works **on its own**, because this technology simply inverts *every* colour of the interface. 
+For example, classic **Invert Colours** perfectly works **on its own**, because this technology simply inverts *every* colour of the interface. iOS is *definitely* capable of that. And such *senseless* invert sucks.
 
 ### Sophisticated technology
 On the other hand, there is **Smart Invert** that does the same *but is considerate* of images, videos and media **with already sufficient colour scheme**. Smart Invert will work *as intended* only if **supported explicitly** -- if everything that shouldn't be inverted is **correctly marked**. By developers, *inside* of the application.
 
 ## Wrap-up
 ### Defining the course
-On this page we are going to discuss accessibility features **from a distance**. It is *essential* to understand **what can be done to an interface** in order to provide accessible experience. 
+On this page we just *got familiar* with accessibility features. It is essential to know of their existence, specificity and functionality **to be simply able to consider their usage**.
 
 ### Closer look at some features
-But understanding is not enough. **There are accessibility features that need our help.** To know how to ensure their assistance, there is a series of articles highlighting those settings that need our **explicit involvement**.
+But this knowledge is not enough. To have an application accessible **there are accessibility features that need our help.** To know how to *ensure* their assistance, there is a **series of articles** highlighting those settings that need our **explicit involvement**.
 
 ## What's next
 @Links(visualStyle: detailedGrid) {
