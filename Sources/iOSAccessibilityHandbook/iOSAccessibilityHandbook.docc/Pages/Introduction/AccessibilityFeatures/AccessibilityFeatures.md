@@ -19,31 +19,70 @@ In-built software **assistive technology** of iOS
                 label: "General Knowledge")
 }
 
-**Accessibility Features** are specialised system software purposed to customise user experience of Apple devices.
 
-Every person has a unique set of sensory, physical and cognitive features. There are people that encounter certain barriers while using information and communication technology (ICT).
+### Hardship of using technology
+Every person has a **unique set** of sensory, physical and cognitive features. There are specific conditions that cause certain **barriers** for using information and communication technology (ICT).
 
-It is impossible to consider the whole diversity of users, which would be designing specifically for each member of world population. 
+### Universal design is a lie
+Unfortunately, it is practically impossible to consider the *whole* **diversity of users**, which would be designing specifically for *each* member of world population. 
 
-Nonetheless, there are practices that are aimed to enable more people to access technology. When designing with accessibility in mind is not enough, assistive technology enter the game.
+Nonetheless, we know there are practices that are specifically aimed to enable more people to **access technology**. But there are cases when designing with accessibility in mind is not enough.
 
-Assistive technology are software, hardware and combined solutions. In this particular article, we are going to discuss Accessibility Features -- in-built system software purpose to customise user experience of Apple devices.
+## Assistive technology
+Here comes assistive technology -- software, hardware and combined solutions intended to **enable people use technology**. 
 
-Accessibility features let people adjust system settings that way so using a device becomes more comfortable or even simply possible for people in particular conditions. 
+### Apple's assistive technology 
+In this particular article, we are going to discuss **Accessibility Features** -- in-built system *software* purposed to **customise user experience** of Apple devices.
 
-It may be achieved with means out-of-the-box or by letting a user extend the device's functionality by connecting external devices. 
+### Accessibility features
+Talking about accessibility of iOS, support and consideration of accessibility features is **the primary goal of our work**. Apple has done *tremendous* job by producing all these solutions. It would be a shame to neglect such impressive example of **native system accessibility**.
 
+## Adjusting system settings
+Accessibility features let people **adjust system settings** that way so using a device becomes **more convenient** or even **simply possible for people in particular conditions**. 
+
+### Internal and external means
+It may be achieved with **out-of-the-box solutions** or by letting a user *extend* the device's **functionality** by connecting **external devices**.
+
+### Using in-built technology
+For example, if a user is **blind, but is able to hear** they can use [**VoiceOver**](<doc:VoiceOver>) to listen to a **spoken description** of the interface. VoiceOver is available for *every* iOS device, since **to provide speech** the only functionality it needs is speakerphones.
+
+### Sometimes in-built is not enough
+But as for an another user who is not only **blind, but deaf**, they are disabled from using *audial* output of VoiceOver. Considering this person is able to read Braille, the only possible way for them to **perceive the interface** is in a *tactile* form.
+
+### External devices
+Tactile form is supported by VoiceOver, but not by devices on their own. There is nothing in an iPhone or an iPad that can **produce** Braille output. Therefore, to enable VoiceOver display information in the tactile form, an **external** refreshable Braille display is required.
+
+### Variety of supported technology
+There is wide range of **external assistive technology devices** supported by Apple products. Later in the book we are going to get introduced to more examples of such devices, of both **input** and **output kinds**. To check them out yourself, browse [**Apple's third-party assistive technology devices page**](https://www.apple.com/accessibility/assistive-technologies/).
+
+
+## Accessibility API 
 Some accessibility features are fully autonomous and are supported automatically. Others require explicit consideration of developers.
 
-For example, classic Invert Colours perfectly works on its own, because this technology simply inverts every colour of the interface. 
+### Straightforward accessibility
+For example, classic **Invert Colours** perfectly works **on its own**, because this technology simply inverts *every* colour of the interface. 
 
-On the other hand, there is Smart Invert that does the same but is considerate of images, videos and media with already sufficient colour scheme. Smart Invert will work as intended only if supported explicitly -- if everything that shouldn't be inverted is marked inside of the application.
+### Sophisticated technology
+On the other hand, there is **Smart Invert** that does the same *but is considerate* of images, videos and media **with already sufficient colour scheme**. Smart Invert will work *as intended* only if **supported explicitly** -- if everything that shouldn't be inverted is **correctly marked**. By developers, *inside* of the application.
 
-On this page we are going to discuss accessibility features from a distance. It is essential to understand what can be done to an interface in order to provide accessible experience. 
+## Wrap-up
+### Defining the course
+On this page we are going to discuss accessibility features **from a distance**. It is *essential* to understand **what can be done to an interface** in order to provide accessible experience. 
 
-But there are accessibility features that require more of attention, because to enable them additional work has been done. Such features are discussed in greater detailed in next articles, one by one. 
+### Closer look at some features
+But understanding is not enough. **There are accessibility features that need our help.** To know how to ensure their assistance, there is a series of articles highlighting those settings that need our **explicit involvement**.
 
-But before diving deep into details, let's get familiar with accessibility features and their functionality in general.
+## What's next
+@Links(visualStyle: detailedGrid) {
+    - <doc:VoiceOver>
+    - <doc:SwitchControl>
+    - <doc:VoiceControl>
+    - <doc:FullKeyboardAccess>
+    - <doc:DynamicType>
+    - <doc:AssistiveTouch>
+    - <doc:GuidedAccess>
+    - <doc:AssistiveAccess>
+}
 
 
 ## Speech 

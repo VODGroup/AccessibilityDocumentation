@@ -49,7 +49,7 @@ The project is dedicated to help *developers*, *designers*, *testers*, *research
 
 ## Contributors
 
-> Note: [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) has **no commercial underlayment**. The project is **non-profit** and the only reason *why* exists is to **popularise the topic** and  **share the relevant experience** of its contributors.
+> Note: [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) has **no commercial underlayment**. The project is **non-profit** and the only reason *why* exists is to **popularise the topic** and  **share the relevant experience** of its contributors. And praise unmeasurable efforts of Apple's accessibility specialists, of course.
 
 @Row(numberOfColumns: 2) {
     @Column {
