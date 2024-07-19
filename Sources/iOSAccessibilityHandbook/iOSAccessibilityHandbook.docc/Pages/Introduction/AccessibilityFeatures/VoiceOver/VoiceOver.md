@@ -20,7 +20,7 @@ A **screen reader** native for iOS
     @CallToAction(
                 url: "https://www.apple.com/accessibility/voiceover/",
                 purpose: link, 
-                label: "General Knowledge")
+                label: "VoiceOver's web page")
 }
 
 
@@ -33,11 +33,13 @@ A **screen reader** is a form of [**assistive technology**](<doc:AccessibilityFe
 }
 
 
-### Application
+### Users of screen-readers 
 Screen readers are **essential** for users who...
 1) have *visual disablements*, such as **blindness** or **poor eyesight**;
 2) experience **dyslexia** or other *cognitive impairments*;
 3) are simply in a *situation* that disables them from looking at the screen, such as driving. 
+
+>Important: Notice that **vision** can be affected by *both* sight and cognition impairment. We do indeed **look** with our eyes, but we only **see** with our brain. **Received visual stimuli are meaningless without cognitive procession.**
 
 In other words, screen reading technology *primarily* serves people who are *unable* to **visually** perceive information displayed on the screen.
 
@@ -45,7 +47,12 @@ In other words, screen reading technology *primarily* serves people who are *una
     Longboard surfer Scott Leason reviews surf reports using the Surfline app on his iPhone
 }
 
-### Implementation
+### People with visual impairments
+According to WHO (World Health Organisation), approximately 30% of world population has visual impairments. Eyes as an organ is even more fragile than everything else in the human body. There are dozens of genetic pathologies causing congenital and obtained visual impairments. But most importantly, eyesight inevitably degrades with age -- the eyeballs just deforms by longer exposure to gravity.
+
+> Note: Digital accessibility is often misinterpreted as serving screen-reader users exclusively. Now you know why such misunderstanding may be developed.
+
+### Inaccessibility of screens
 Not being able to perceive information **visually** is the hugest obstacle on the way to the access to technology. The reason is that **approximately 90% of the environmental information** received by humans comes through the **visual channel**. Which makes the visual perception the primary way of **reality perception**. 
 
 @Image(source: ninety-percent, alt: "")
@@ -65,30 +72,35 @@ Thanks to the natural order of things **information is formless** and humans hav
    }
 }
 
-### VoiceOver enables alternative control
-Visual impairments do not only *disable* the ability to perceive information but affect the **control** of things that are distinguishable solely *visually*. For a person who struggles to see it results in being **unable to operate touch screens**. 
+### Navigating interfaces using a screen
+Visual impairments do not only *disable* **consumption of visual content**, but affect the ability to **control** graphical interfaces. Graphical interfaces are designed to be controlled by interacting with elements distinguished solely *visually*. For a person who struggles to see it results in being **unable to visually operate screens**.
 
+### Navigating non-visual interfaces
 People with visual impairment don't see controls, people with cognitive impairments that affect the visual perception don't recognise them. So there must be a way to access the interface **without visual navigation**.
 
 @Image(source: service-dog, alt: "") {
     Longboard surfer Scott Leason and his seeing dog wait for the ride
 }
 
-Talking about using screen readers on *mobile* devices it brings different controls in. Navigating an interface with a screen reader on requires usage of **special gestures** on touchscreen or **external controllers** of non-direct touch. 
+### Indirect and direct selection
+Non-visual navigation primarily exploits a particular technology of **indirect selection**. Indirect selection is a way of interacting with interfacial elements implemented by **iterating through the elements *before* item selection**. 
 
-### Indirect selection
-Regardless of the control method they both exploit a particular technology of **indirect selection**. Indirect selection is a way of interacting with interfacial elements implemented by **iterating through the elements *before* item selection**. 
+This selection is opposite to the **direct selection**, during which the iteration doesn't *explicitly* happen: users can just select something they see.
 
-This selection is opposite to the **direct selection**, during which the iteration doesn't *explicitly* happen: users can just select something they see. 
+### Screen-readers elements iteration 
+In the case of screen-readers, indirect selection is paired with audial or tactile output of information provided by an interface. So users of screen-readers process interfacial elements by hearing or touching their description without having to look at the screen.
 
-### Featured
-@Links(visualStyle: detailedGrid) {
-    - <doc:MotorDisabilities>
-}
+Additionally, there are cases of direct selection usage in operating screen-readers. This way different -- non-visual -- controls are brought in. **Special gestures** on touchscreen, physical **keyboard shortcuts**, **voice commands** and **external controllers** are examples of direct selection implementation in non-visual interfaces.
 
-## VoiceOver Gestures
+
+## VoiceOver alternative controls
+
+### Standard touchscreen gestures
 @Image(source: voiceover-gestures, alt: "Some of VoiceOver gestures: Item selection, Activate the selected item, Rotor gestures, Scroll down, Dismiss or return, Magic Tap, To the first element, To the last element, Speak the entire screen from the top or the selected item, Mute or unmute VoiceOver, Turn off the screen, Navigate by touch")
-In the case of **VoiceOver** there is [**a list of standard VoiceOver gestures**](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios). Default **controlling options** can be expanded with the use of [**Rotor**](<doc:Rotor>) and [**Custom Actions**](<doc:CustomActions>).
+In the case of **VoiceOver** on touchscreen devices there is [**a list of standard VoiceOver gestures**](https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios). 
+
+### Custom touchscreen gestures
+Default **controlling options** can be expanded with the use of [**Rotor**](<doc:Rotor>) and [**Custom Actions**](<doc:CustomActions>).
 
 ### Navigate by touch
 **VoiceOver** provides an option of **unordered iteration through the elements** on the screen: **navigate by touch**. 
@@ -97,12 +109,8 @@ Basically it requires a person to **move a finger on the surface of the screen**
 
 To **select the focused item** it is possible to perform a double tap **without taking the "gliding" finger off**, so this controlling option may be *really helpful* in cases like **keyboard operation**. 
 
-### Keyboard access
+## VoiceOver keyboard access
 If a person uses **VoiceOver** *combined* with the use of an **external physical keyboard** the screen readers provide full control of the interface by using the keyboard. To learn more about **using a keyboard instead of a touchscreen** to operate the phone and its own nuances see <doc:FullKeyboardAccess> article.
-### Featured
-@Links(visualStyle: detailedGrid) {
-    - <doc:FullKeyboardAccess>
-}
 
 ## VoiceOver on other Apple devices
 
