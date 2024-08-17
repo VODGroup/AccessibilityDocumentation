@@ -26,13 +26,32 @@
 ## Unknown abilities
 
 ### Product target audience
-Any product has a **target audience**. Nonetheless, those expectations are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ**. 
+Anything human-made has a **target audience** -- an image of people *supposed* to use it. Even a person does something for *their personal use* -- for themself, the target audience of such product is existent -- it's **that very person**.
+
+### Public accommodations
+In the handbook we are going to discuss digital products **from a point of its users**. iOS applications, if published in the **App Store**, are available for use by *any* person who downloads the application from the store.
+
+Which is exactly the goal of publishing -- to **enable** others to use the product. But "others" is an ambiguous definition. Applications are made to perform *certain* tasks for its users -- its **target audience**.
+
+### Assumed user image
+Assumptions based on the image of a potential user are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ** from this image. 
 
 ### Possible diverseness
-**Real audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain user groups, the **diversity** of potential users should be considered. 
+Which is completely fine -- that's how the things work. If you sell pizza, your target audience is **people willing to buy some pizza**. 
+
+But the diversity of people within that category is **incomprehensible** -- they can posses any **traits** in addition to the expected ones. And they **will** affect their **user experience** of the product.
+
+### Private discrimination
+**Real audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain users, the **diversity** of potential users should be considered. To deliver the **desired user experience**. 
+
+### Everyone is unique
+What makes users diverse is that every person has unique **capabilities** and **experience**. The more users a product has, the more diverse is its audience.
+
+### Inclusive design
+Consequent to this difference, there are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Inclusive design *is* the wider consideration**.
 
 ### Diversity barriers
-Every person has unique **capabilities** and **experience**. There are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Accessibility reduces these barriers.**
+**Accessibility, as a part of inclusive design, is what reduces these barriers**.
 
 ## Digital accessibility in particular
 @Image(source: numeronym, alt: "A schematic explanation of the word ally being a numeronym: a + ccessibility (which is eleven letters) + y") {
@@ -44,7 +63,13 @@ Talking about barriers in **digital products**, they happen on the scope of **us
 User interfaces are essentially means of **informational exchange**: providing **input** and receiving **output**.
 
 ### Accessibility of user interfaces
-To be accessible, a product has to provide **equitable access** for a user of being **able to perceive and control the interface**. It is possible to achieve by adopting **accessible design guidelines** and support of **assistive technology**.
+To be accessible, a product has to provide **equitable access** for a user by **enabling them to perceive and control the interface**. It is possible to achieve by adopting **accessible design guidelines** and support of **assistive technology**.
+
+### There is no full-cover accessibility
+Accessibility is not a binary state: there is no accessible or inaccessible products. It is physically impossible to consider the whole diversity of humanity. 
+
+### Accessibility is determined by users
+Accessibility is *inseparable* from the users it enables. Or, to be more precise, from **user features** it considers. A product *may* be accessible for people who cannot see, by properties related to visual perception of its interface. But it has nothing to do with other aspects of the interface. A **deaf**, or a **blind *and* deaf** user may still be *completely excluded*. Because accessibility of visual aspect is **not enough** for *their* case.
 
 ## Accessible design
 According to [**Web Content Accessibility Guidelines (WCAG)**](https://www.w3.org/WAI/standards-guidelines/wcag/), which is an **international standard** of digital accessibility, all accessibility requirements can be grouped into 4 categories:

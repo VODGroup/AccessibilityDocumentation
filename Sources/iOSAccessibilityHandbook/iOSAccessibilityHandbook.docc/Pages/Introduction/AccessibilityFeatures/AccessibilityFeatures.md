@@ -20,19 +20,22 @@ In-built software **assistive technology** of iOS
 }
 
 
-### Hardship of using technology
-Every person has a **unique set** of sensory, physical and cognitive features. There are specific conditions that cause certain **barriers** for using information and communication technology (ICT).
+### Technology has requirements
+Every person has a **unique set** of sensory, physical and cognitive features. There are specific conditions that cause certain **barriers** for using information and communication technology (ICT). Because it was **initially designed** for people *outside* such conditions.
 
 ### Universal design is a lie
-Unfortunately, it is practically impossible to consider the *whole* **diversity of users**, which would be designing specifically for *each* member of world population. 
+Unfortunately, it is practically impossible to consider the *whole* **diversity of users**, which would be designing specifically for *each* member of world population.
 
-Nonetheless, we know there are practices that are specifically aimed to enable more people to **access technology**. But there are cases when designing with accessibility in mind is not enough.
+Nonetheless, we know there are practices that are specifically aimed to enable more people to **access technology**. And it's not limited to design workarounds.
 
 ## Assistive technology
-Here comes assistive technology -- software, hardware and combined solutions intended to **enable people use technology**. 
+When barriers are impassable for design means, **assistive technology** comes in. It is software, hardware and combined solutions *specifically* purposed to **enable people use technology**. 
 
-### Apple's assistive technology 
-In this particular article, we are going to discuss **Accessibility Features** -- in-built system *software* purposed to **customise user experience** of Apple devices.
+Assistive technology comes in sometimes surprising ways. But the most important thing for us to know is that there are people for whom absence of assistive technology support closes the door -- they won't able to access a product without them at all.
+
+### Apple systems and assistive technology 
+
+Apple has an impressive variety of **accessibility settings** available on different devices. They are called **Accessibility Features** -- in-built system *software* purposed to **customise user experience** of Apple devices.
 
 > Experiment: If there is an iOS device at your possession, **explore accessibility features first-hand**. Accessibility settings are located at, well, **Settings** application, in the **Accessibility** category. If you haven't visited this place before, you may find something useful for yourself!
 
