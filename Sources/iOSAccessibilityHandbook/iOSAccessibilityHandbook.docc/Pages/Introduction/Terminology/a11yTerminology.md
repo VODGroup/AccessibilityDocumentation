@@ -80,12 +80,17 @@ According to [**Web Content Accessibility Guidelines (WCAG)**](https://www.w3.or
 
 These are **principles of accessible design**. [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) greatly **respects**, **follows** and is in agreement with [**The World Wide Web Consortium Web Accessibility Initiative (W3C WAI)**](https://www.w3.org/WAI/). 
 
+### -- Why WCAG is so important?
+WCAG has been being developed by immense efforts of thousands of professionals who cared, **since 1994**. Which, actually, means nothing to us. The only thing that truly matters is that **these practices work**. That's why.
+
 We will study accessibility by these principles **in general** and inspect each of them in detail later at the [**Accessible Design**](<doc:AccessibleDesign>) page.
 
 ### -- W is for Web. We're talking Mobile.
-That's right, excuse me. But the absence of widely-recognised standards for mobile accessibility should not be an obstacle on our way. 
+That's right, excuse me. But the absence of widely-recognised standards for mobile accessibility should not be an obstacle on our way. **Accessibility is technology-agnostic.**
 
-Interface theory is shared between various technology, accessibility principles are widely applicable. We just have to make sure that we understand what we're doing to get it right. And that's why this handbook exist.
+> Experiment: To be completely honest, WCAG for mobile exists. It is called [**WCAG2ICT**](https://www.w3.org/TR/wcag2ict/) and is essentially the same document with remarks specific to non-web technology.
+
+Interface theory is shared between various technology, accessibility principles are widely applicable. We just have to make sure that we *understand* what we're doing to **get it right**. And that's why this handbook exist.
 
 ## Assistive technology
 There are situations where *design means* are **not enough** for an interface to be accessible. Here comes **assistive technology**: software, hardware and combined solutions that *allow* users to be able to have **equitable interaction experience**.
