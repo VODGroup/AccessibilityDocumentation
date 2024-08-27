@@ -1,6 +1,8 @@
 @Article(time: 10) {
     @Intro(title: "Advocating for Accessibility as an Apple Developer") {
         
+        Advocating for accessibility of iOS applications as an iOS developer
+        
         @Comment {
             axe-con
             IAAP

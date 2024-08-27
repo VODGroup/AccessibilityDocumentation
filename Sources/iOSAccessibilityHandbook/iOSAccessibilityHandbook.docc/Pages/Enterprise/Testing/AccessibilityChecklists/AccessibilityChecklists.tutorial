@@ -1,6 +1,7 @@
 @Article(time: 15) {
     @Intro(title: "Complying with Accessibility Standards") {
-        Здесь зачин.
+        MagentaA11y
+        axeTools mobile
         
         @Image(source: placeholder-image, alt: "")
     }

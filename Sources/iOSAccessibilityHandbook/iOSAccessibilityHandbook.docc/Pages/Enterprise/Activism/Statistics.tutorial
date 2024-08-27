@@ -1,5 +1,5 @@
 @Article(time: 15) {
     @Intro(title: "Accessibility Settings Usage Statistics") {
-        Text
+        How to collect, interpret and present accessibility-related data 
     }
 }

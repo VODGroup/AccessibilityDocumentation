@@ -4,7 +4,7 @@
 
 @Metadata {
     @PageColor(blue)
-    @TitleHeading("What Are We Even Talking About")
+    @TitleHeading("What Are We Talking About")
     @PageImage(
                purpose: icon, 
                source: "terms-icon", 
@@ -14,38 +14,40 @@
                source: "terms-card", 
                alt: "")
     @CallToAction(
-                url: "https://www.apple.com/accessibility/",
+                url: "https://www.w3.org/WAI/fundamentals/",
                 purpose: link, 
-                label: "Apple Accessibility page")
+                label: "W3C WAI Accessibility Fundamentals")
 }
 
-## What is accessibility in general
+[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is fully dedicated to **accessibility of iOS application**. Defining iOS applications, everything is more or less clear -- they are programs created to be run on iOS devices. But what is their accessibility?
 
-**Accessibility** is a property of *things* that measures its **approachability** -- whether it is **possible** or not **to interact with the *thing*** for a user of **unknown abilities**.
+## What is accessibility
+
+In general, **accessibility** is a property of things that measures its **approachability** -- whether it is possible or not **to interact with the thing** for a user of **unknown abilities**.
 
 ## Unknown abilities
 
 ### Product target audience
-Anything human-made has a **target audience** -- an image of people *supposed* to use it. Even a person does something for *their personal use* -- for themself, the target audience of such product is existent -- it's **that very person**.
+Everything human-made has a **target audience** -- an image of people *supposed* to use it. Even if a person does something for *their personal use* -- for themself exclusively, the target audience of such product is existent -- it would be that very person.
 
 ### Public accommodations
-In the handbook we are going to discuss digital products **from a point of its users**. iOS applications, if published in the **App Store**, are available for use by *any* person who downloads the application from the store.
+Talking about iOS applications, if published in the [**App Store**](https://www.apple.com/app-store/developing-for-the-app-store/), they are available for use by *any* person who downloads the application from the store.
 
-Which is exactly the goal of publishing -- to **enable** others to use the product. But "others" is an ambiguous definition. Applications are made to perform *certain* tasks for its users -- its **target audience**.
+Which is exactly the goal of publishing -- to **enable others** to use the product. But "others" is an ambiguous term. Applications are made to perform *certain* tasks for its users -- its **target audience**.
 
 ### Assumed user image
 Assumptions based on the image of a potential user are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ** from this image. 
 
 ### Possible diverseness
-Which is completely fine -- that's how the things work. If you sell pizza, your target audience is **people willing to buy some pizza**. 
+Which is completely fine -- that's how the things work. If you sell pizza, your target audience is **people willing to buy some pizza**. You don't really think about people who don't want to buy pizza.
 
-But the diversity of people within that category is **incomprehensible** -- they can posses any **traits** in addition to the expected ones. And they **will** affect their **user experience** of the product.
-
-### Private discrimination
-**Real audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain users, the **diversity** of potential users should be considered. To deliver the **desired user experience**. 
+But the diversity of people within that category is still **incomprehensible** -- they can posses any traits **in addition** to the expected ones. And it **will** affect their **user experience** of the product.
 
 ### Everyone is unique
 What makes users diverse is that every person has unique **capabilities** and **experience**. The more users a product has, the more diverse is its audience.
+
+### Private discrimination
+**Real audience is essentially unknowable**. Unless there is an *explicit* task to exclude certain users, the **diversity** of potential users should be considered to deliver the **desired user experience** to as many people as possible.
 
 ### Inclusive design
 Consequent to this difference, there are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Inclusive design *is* the wider consideration**.
@@ -95,6 +97,8 @@ Interface theory is shared between various technology, accessibility principles 
 ## Assistive technology
 There are situations where *design means* are **not enough** for an interface to be accessible. Here comes **assistive technology**: software, hardware and combined solutions that *allow* users to be able to have **equitable interaction experience**.
 
+*Assistive technologies are these devices or software that mediate our interaction between ourselves and the environment.* -- Sina Bahram
+
 ### Equity vs. equality
 Notice that the word *equitable* is used instead of *equal*. It is done because **demanding equal outcome is delusional**. There is **no equality between people**, everyone is **unique**. Treating *different* people the *same* way won't lead to the same results.
 
@@ -106,12 +110,12 @@ Most commonly, assistive technology is used by people for whom ***otherwise* use
 ### -- ... most commonly?
 Yep. **Assistive technology *are* for people with disabilities**. But there is no requirement to have a disability to use assistive technology.
 
-Many things used in everyday life of people who do not identify themselves as having a disabilities were *indeed designed* for people with disabilities. For example, ergonomic handles and speech recognition. Sometimes assistive technology 
+Many things used in daily life of people who do not identify themselves as having disabilities were *indeed designed* for people with disabilities. For example, ergonomic handles and speech recognition.
 
 **Users of assistive technology** is the term we're going to use when discussing appropriate **technical implementation**.
 
 ## People with disabilities
-Nonetheless, accessibility *does* focus on people with **disabilities**. So we are as **accessibility professionals**. 
+Nonetheless, accessibility *does* focus on people with **disabilities**. Because people with disabilities are historically discriminated. So we do focus too, as **accessibility professionals**. 
 
 ### Disability
 Disability is an ambiguous term with a definition dependant on its **model**. 
@@ -125,18 +129,18 @@ We've already figured out that **barriers** belong to **interfacial space**, whi
 ### Receiving information
 Humans perceive reality by a *sensory system* consistent of **visual**, **audial**, **olfactory** and **tactile** organs. User interfaces do not smell (yet), so we're only interested in **vision**, **hearing** and **touch** (so far).
 
-### Taking action
+### Performing action
 Analogously, humans **perform actions** to reality. Talking about **providing output** to computer interfaces, we use **cognitive processes**, **speaking** and **motor abilities**. 
 
 ### Common disability categorisation  
 From now on, for structuring purposes we will *refer* to disabilities affecting **accessibility of an interface** by 4 groups:
 
-Type | Definition | Examples 
+Type | Affects | Examples 
 ---|---|---
-**visual** | **Visual perception** impairments | *Blindness*, *low sight*, *colour blindness* 
-**hearing** | Audial *perception* impairments | *Deafness*, *decreased hearing* 
-**cognitive** | **Neural impairments**, both **processing and producing** abilities | *Dyslexia*, *dementia*, *learning disorders*, *epilepsy*
-**motor** | Impairments of both **gross and fine motor skills** | *Cerebral palsy*, *injury*, *stroke*, *deformity* 
+**visual** | **Visual perception** | *Blindness*, *low sight*, *colour blindness* 
+**hearing** | **Audial perception** | *Deafness*, *decreased hearing* 
+**cognitive** | **Cognitive processes** | *Dyslexia*, *dementia*, *learning disorders*, *epilepsy*
+**motor** | **Gross and fine motor skills** | *Cerebral palsy*, *injury*, *stroke*, *deformity* 
 
 > Important: Notice that we chose not to segregate **speech disabilities**. Remember that ability to speak can be compromised by **both motor and cognitive impairments**. 
 

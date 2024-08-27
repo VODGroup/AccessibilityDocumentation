@@ -1,6 +1,6 @@
 @Tutorial(time: 10) {
     @Intro(title: "Inspect Accessibility Right in Xcode") {
-        <#text#>
+        How to use Accessibility Inspector to maintain accessibility
         
     }
 }
