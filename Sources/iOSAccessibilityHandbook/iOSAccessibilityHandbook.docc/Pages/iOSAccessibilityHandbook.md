@@ -25,9 +25,9 @@ Make your iOS applications **accessible**
 
 ## Welcome to iOS Accessibility Handbook
 
-[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** about making iOS applications **accessible**. 
+[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is an open-source **educational project** dedicated to iOS applications **accessibility**. 
 
-**Accessible applications** work with various [**assistive technologies**](<doc:AccessibilityFeatures>), such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable **people with disabilities** to use the applications. 
+**An accessible application** works with various [**assistive technologies**](<doc:AccessibilityFeatures>), such as [**VoiceOver**](<doc:VoiceOver>), [**Voice Control**](<doc:VoiceControl>) and [**Switch Control**](<doc:SwitchControl>), which enable more people -- for example, **people with disabilities** -- to use this application. 
 @Image(source: features-1, alt: "")
 @Image(source: features-2, alt: "")
 
@@ -68,7 +68,7 @@ The project is dedicated to help *developers*, *designers*, *testers*, *research
 **iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the *perspective* of iOS development.
 @Image(source: book-content, alt: "")
 
-To inspect the *curriculum* in greater detail visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
+To inspect the **curriculum** in greater detail visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
 
 ### Technical implementation
 At the moment the project is a **[DocC](https://www.swift.org/documentation/docc) (documentation catalog)** hosted by [**GitHub pages**](https://pages.github.com). 

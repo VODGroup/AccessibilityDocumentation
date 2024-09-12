@@ -1,26 +1,26 @@
 @Tutorials(name: "iOS Accessibility") {
     @Intro(title: "iOS Accessibility Guide") {
-        This collection of guides may be perceived as a **complete course on accessibility of iOS apps**: from the very **basics** to **advanced** system design solution. 
+        This collection of guides is a **complete course on accessibility of iOS apps**: from the fundamental concepts of accessible design to some really advanced accessibility accommodation solutions. 
         
         ### Course structure
-        The course consists of three *volumes*: **Basic**, **Advanced** and **Enterprise**. Each volume consists of multiple *chapters* introducing related **accessibility practices**.
+        The course consists of three *volumes*: **Foundations**, **Advancements** and **Enterprise**. Each volume contains multiple *chapters* teaching related **accessibility practices**.
         
         ### Contents description
-        Every page sufficiently covers the **reasoning** behind the given topic. **Real-life examples**, **additional resources** and **sample code** for both UIKit and SwiftUI will enable you to  **practise accessibility** right away and successfully.
+        Every page sufficiently covers both theoretical and practical aspects of the given topic. **Real-life examples**, **usage recordings**, **additional reading** and **sample code** for both UIKit and SwiftUI will enable you to start working on accessibility **right away** and **successfully**.
 
         @Image(source: contents, alt: "")
     }
     
-    @Volume(name: "I. Integrating interfaces with accessibility") {
+    @Volume(name: "I. Constructing accessible interfaces") {
         
-        Learn **key principles** of digital accessibility in general and **common iOS accessibility solutions** in particular.
+        Learn how to apply digital accessibility **key principles** to development of iOS applications in three simple steps.
 
         @Image(source: volume-1.png, alt: "")
         
         @Chapter(name: "Expose interfacial data") {
             @Image(source: chapter-1-1.png, alt: "")
             
-            Get to know **what components make up an accessible interface**: elemental **properties** and **functionality** that enable a broader scope of users to access such interface. Including users of assistive technology.
+            Interfaces are built from interfacial elements. Get to know **what components make up an accessible interface**: what are their elemental **properties** and **functionality**.
             
             @TutorialReference(tutorial: "doc:AccessibilityAttributes")
             @TutorialReference(tutorial: "doc:MultipleTraits")
@@ -29,30 +29,32 @@
         @Chapter(name: "Simplify layout") {
             @Image(source: chapter-1-3.png, alt: "")
             
-            Accessible representation of an interface is not enough. Ensure that the **users are able to complete the tasks they are *supposed* to achieve**. **Review the layout** of the interface to **develop accessible user paths**.
+            Accessibility is inseparably dependant on other parts of **user experience**, such as usability. Ensure that your users are not having a hard time **understanding** and **navigating** the interface.
             
             @TutorialReference(tutorial: "doc:ComplexCells")
             @TutorialReference(tutorial: "doc:VerticalSwipes")
         }
         
-        @Chapter(name: "Establish meaningful connections") {
+        @Chapter(name: "Establish various means to interact") {
             @Image(source: chapter-1-2.png, alt: "")
             
-            Create an **integral accessible interface**, approachable with **alternative controlling options**.
+            An interface built of accessible components laid out in an accessible manner won't do any good if a diverse user can't operate it with **alternative controlling options**.
             @TutorialReference(tutorial: "doc:HorizontalSwipes")
             @TutorialReference(tutorial: "doc:Notifications")
             
         }
     }
     
-    @Volume(name: "II. Enhancing accessible experience") {
-        Explore **various accessibility practices in a greater detail**. Inspect **different aspects of both user interface and experience** that will contribute to **solid and cohesive comprehension of accessibility**.
+    @Volume(name: "II. Adopting accessible solutions") {
+        
+        Regardless of how thoughtfully an interface was constructed, it is virtually **impossible to consider everyone**. Allow users to **configure** their user experience to not leave anyone behind.
+        
         @Image(source: volume-2.png, alt: "")
 
         @Chapter(name: "Accessible content") {
             @Image(source: chapter-2-1.png, alt: "")
             
-            Regardless of the means used to convey certain information, interfacial content has to be provided with **alternative representation**. Learn how to **accessibly describe an interface**.
+            Means of communication available for iOS applications are determined by capabilities of the device. Don't rely on particular media -- whether it's **visual**, **audial** or **tactile** -- use the most of technology by providing **alternative representation** options.
             @TutorialReference(tutorial: "doc:AccessibleCharts")
             @TutorialReference(tutorial: "doc:AccessibleListening")
             @TutorialReference(tutorial: "doc:AccessibleReading")
@@ -61,7 +63,7 @@
         
         @Chapter(name: "Accessible controls") {
             
-            In analogy with alternative content representation, learn how **alternative accessible controlling options** enable additional ways of **interacting with an interface**.
+            In analogy with alternative content representation, learn how enabling **alternative controlling options** lets more people use the application.
             @TutorialReference(tutorial: "doc:AdjustableElements")
             @TutorialReference(tutorial: "doc:Frame")
             @TutorialReference(tutorial: "doc:Haptics")
@@ -73,7 +75,7 @@
         @Chapter(name: "Accessible navigation") {
             @Image(source: chapter-2-3.png, alt: "")
             
-            The purpose of any user interface is to let its user **complete required tasks**. In the meanwhile, good user experience design makes this process *easy* and *enjoyable*. **Make the accessible experience equitably delightful**.
+            The purpose of any user interface is to let its user complete required tasks. In the meanwhile, *good* user experience design makes this process **easy** and **enjoyable**. **Make the accessible experience equitably delightful**.
             
             @TutorialReference(tutorial: "doc:ControlHierarchy")
             @TutorialReference(tutorial: "doc:CustomActions")
@@ -84,7 +86,6 @@
         
         @Chapter(name: "Visual accessibility") {
             @Image(source: chapter-2-4.png, alt: "")
-            
             Sighted people see things differently. Visual accessibility ensures that an interface is **visually perceivable for everyone** regardless of conditions that may affect their vision.
             @TutorialReference(tutorial: "doc:ColoursAndShapes")
             @TutorialReference(tutorial: "doc:InterfaceScale")
@@ -94,14 +95,15 @@
     
     @Volume(name: "III. Extend on enterprise processes") {
         
-        Gather **additional insights** on the topic of accessibility and its integration at various stages of **product life cycle**.
+        Build up a wider picture on the topic of accessibility and its integration at various stages of **product life cycle**.
         
         @Image(source: volume-3.png, alt: "")
 
         @Chapter(name: "Design") {
             @Image(source: chapter-3-1.png, alt: "")
             
-            Learn more about **inclusive design** and **reasoning** behind accessibility.
+            Accessibility is a *property* of products that is resulted from various **design decision**. Learn what solutions lead to increases in accessibility.
+            
             @TutorialReference(tutorial: "doc:Standards")
             @TutorialReference(tutorial: "doc:AccessibleDesign")
             @TutorialReference(tutorial: "doc:VoiceOverDesigner")
@@ -123,7 +125,8 @@
         @Chapter(name: "Activism") {
             @Image(source: chapter-3-3.png, alt: "")
             
-            Participate in the life of **a11y community** and **advocate for accessibility** as an iOS developer.
+            
+            Explore what you can do to **contribute** to accessibility as to a professional field.
             @TutorialReference(tutorial: "doc:AccessibilityActivism")
             @TutorialReference(tutorial: "doc:Statistics")
             
