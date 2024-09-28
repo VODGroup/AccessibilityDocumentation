@@ -23,6 +23,10 @@ A **screen reader** native for iOS
                 label: "VoiceOver's web page")
 }
 
+@Comment {
+    https://youtu.be/dEbl5jvLKGQ?feature=shared
+}
+
 
 ## Screen-reading technology
 

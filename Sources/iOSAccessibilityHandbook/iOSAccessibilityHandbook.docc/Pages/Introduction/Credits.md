@@ -1,4 +1,4 @@
-# Credits
+# Acknowledgements
 
 @Metadata {
     @PageColor(blue)
