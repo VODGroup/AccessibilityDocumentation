@@ -37,7 +37,7 @@ The handbook provides **extended documentation** of **[Accessibility Features](<
 - interactive **guides** to follow step-by-step;
 - various media, such as **video tutorials**.
 
-In other words, materials here cover **everything one could ever need to know about accessibility** of iOS development.
+In other words, materials here cover **everything one could ever need to know about accessibility** of iOS applications.
 
 @Links(visualStyle: detailedGrid) {
     - <doc:iOSAccessibility>
@@ -49,7 +49,7 @@ The project is dedicated to help *developers*, *designers*, *testers*, *research
 
 ## Contributors
 
-> Note: [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) has **no commercial underlayment**. The project is **non-profit** and the only reason *why* it exists is to **raise awareness** and  **share the relevant experience** of its contributors.
+> Important: [**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) has **no commercial underlayment**. The project is **non-profit** and the only reason *why* it exists is to **raise awareness** and  **share the relevant experience** of its contributors.
 
 @Row(numberOfColumns: 2) {
     @Column {
@@ -63,9 +63,9 @@ The project is dedicated to help *developers*, *designers*, *testers*, *research
     }
 }
 
-## About the website
+## About this website
 
-**iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the *perspective* of iOS development.
+**iOS Accessibility Handbook** is essentially a **complete course** of [**digital accessibility**](<doc:a11yTerminology>) best practices from the perspective of iOS development.
 @Image(source: book-content, alt: "")
 
 To inspect the **curriculum** in greater detail visit the [**Table of Contents**](<doc:AdoptionGuide>) page.
