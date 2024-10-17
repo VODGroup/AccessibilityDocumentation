@@ -19,76 +19,76 @@
                 label: "W3C WAI Accessibility Fundamentals")
 }
 
-[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is fully dedicated to **accessibility of iOS applications**. Defining iOS applications, everything is more or less clear -- they are programs created to be run on iOS devices. But what is their accessibility?
+[**iOS Accessibility Handbook**](<doc:iOSAccessibilityHandbook>) is fully dedicated to **accessibility of iOS applications**. Defining iOS applications, everything is more or less clear -- they are programs created to be run on iOS devices. But what does it mean for such product to be **accessible**?
 
 ## What is accessibility
 
-In general, **accessibility** is a property of things that measures its **approachability** -- whether it is possible or not **to use the thing** for a person of **unknown abilities**.
+In general, **accessibility** is a property of things that measures its **approachability** -- whether it is possible **to use the thing** for a person of **unknown abilities**.
 
 ## Unknown abilities
 
 ### Product target audience
-Everything human-made has a **target audience** -- an image of people *supposed* to use it. Even if a person does something for *their personal use* -- for themself exclusively, the target audience of such product is existent -- it would be that very person.
+Everything human-made has a **target audience** -- an image of people *supposed* to use it. Even if a person does something for *their personal use* -- for themself exclusively, the target audience of such product exists -- it would consist of that very person.
 
 ### Public accommodations
-Talking about iOS applications, if published in the [**App Store**](https://www.apple.com/app-store/developing-for-the-app-store/), they are available for use by *any* person who downloads the application from the store.
+Talking about iOS applications, if published in the [**App Store**](https://www.apple.com/app-store/developing-for-the-app-store/), they become available for use by *any* person who downloads the application from the store.
 
-Which is, well, exactly the goal of publishing -- to **enable others** to use the product. But "others" is an ambiguous term. Applications are made to perform *certain* tasks for its users. People, whose problem an application solves are its **target audience**.
+### Serving the users
+Which is, well, exactly the goal of publishing -- to **enable others** to use the product. But "others" is an ambiguous term.
+
+Applications are made to perform *certain* tasks **for its users**. For people, who have a **reason** to use this app. To use a finished product to whose production they have no relation -- if it was made **publicly available**. So, generally speaking, **applications serve people they were designed to accommodate**. 
+ 
 
 ### Assumed user image
-Assumptions based on the image of a potential user are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ** from this image. 
+**Assumptions** based on the **image of a potential user** are *excluding* in their nature -- designing for a *particular image* of a user neglects needs of users that **differ** from this image.
 
-And this is completely fine -- that's how the things work. If you sell pizza, your target audience is **people willing to buy some pizza**. You don't really think about people who don't want to buy pizza.
+And this is completely fine -- that's how the things work. If you sell pizza, your target audience is **people willing to buy some pizza**. You don't really think about people who wouldn't possibly be your customer.
 
 ### Customer goals
-But the diversity of people within such category is still **incomprehensible** -- they can posses any traits **in addition** to the expected ones. Not because pizza is loved by many, but because you can't know why a person may want to buy it.
+If we sell pizza, in a nutshell, our only target is a person willing to buy pizza. Not willing to eat one, because they may order for someone else. Or burn it in flames of their anti-pizza art performance. Or are going to use one as a rug.  
 
-Maybe they order for someone else. Or to burn it in flames of their anti-pizza art performance. Or are going to use one as a rug. As a provider of **public services**, we don't need to know *why* a client may need our product.
-
-Our only goal is to make their pizza acquisition possible. Therefore, eliminate as many barriers on a person's way to the product as possible.
+### Product access
+As a provider of **public services**, we don't need to know *why* a client may want to use our product. Our only goal is to make pizza acquisition possible for them. Our business strategy of maximising the profit is to eliminate as many barriers on a person's way to the product as possible. So more people will use our services.
 
 ### Product accessibility barriers
-This book is dedicated to the aspect of products called accessibility. Accessibility as a field of operation solves those barriers, that are raised by products incapability to serve people.
+This book is fully dedicated to the aspect of products called **accessibility**. Accessibility, as a field of operations, works with those barriers, that are raised by product **incapability to serve people**.
 
 ### -- People... ?
-Yep, a full stop there. Just people. Everyone. Humankind. Because being a member of homo sapiens makes a hell of a customer.
+Yep, a full stop there. Just people. **Everyone**. Humankind. Because just being a member of homo sapiens already makes a hell of a customer.
 
 ## People
-Humans, just as any other mammals, are given the opportunity to see, hear, smell, taste and touch things around them. Given by evolution. Use these senses to process information about the world. Process information using capabilities of human brain. Acquire this information at first by approaching it with their physical abilities. 
+Humans, just as any other mammals, are given the opportunity to **see**, **hear**, **smell**, **taste** and **touch** things around them. Given by evolution. Use these *senses* to process information about the world. Process information using capabilities of human brain. Acquire this information at first by approaching it with their physical abilities. 
 
 ### Humanity vs. nature
-And you know that humanity made quiet a use of those evolutionary developments. Like, invented computers. The internet.
+And we all know that humanity made quiet a **use of those evolutionary developments**. Like, invented computers. The internet. Pizza is also a result of human production.
 
-### Humanity vs. humanity
-So how there may be any barriers for a member of such great kind to use its species legacy on their way to deal with reality?
+### Humanity vs. humans
+So how there may be any barriers for a member of such laborious kind to use its own species legacy on their way to deal with reality?
 
-The thing is that... commonly, humans are not that great at implementing innovations for a broader audience. In addition, humans are definitely not great at farsighted approach. 
+The thing is that implementing innovations on a bigger scale takes a lot. A lot of time, will, resources, efforts. In addition, a farsighted approach is required to approach such task optimally. None of these things come for free.
 
-Being responsible for a public accommodation is hard. Thinking in advance is hard, business strategy is hard, empathy is nearly impossible to encounter in the nature. These and more things are required to accommodate vast amounts of people.
+Analogously, being responsible for a public accommodation is hard. Thinking in advance is hard, business strategy is hard, empathy is nearly impossible to encounter in the nature. These and more things are required to accommodate as much people as possible.
 
 ### Nature vs. humanity
-Because being born a human has nothing to do with dealing with life. "Expected" capabilities are a roulette and easily losable. There is no guarantee that you will have two legs from birth. Every day you risk losing one or both. Moreover, every leg is different -- just as their owners. Therefore, every person has different leg capabilities. Or none at all.
+Being born a human has nothing to do with dealing with life. "Expected" capabilities are a roulette and easily losable. There is no guarantee that you will have two legs from birth. Even if you got some, they have to be functional. Having functional legs you risk losing one or both every day. Moreover, every leg is different despite being considered functional -- just as their owners. Therefore, every person has different leg capabilities. Or none at all.
 
 ### Humanity access
 This is why accommodating publicity is challenging. To ensure that a person doesn't have to have certain traits -- for example, they are not required to have two legs to be able to order pizza -- accessibility practices exist.
 
 ## Accessibility practices
 
-Accessibility of things is achieved through use of universal (i.e. fit for all) design guidelines and allowing people to do whatever they find accommodating.
+Accessibility is achieved through use of appropriate design practices. Such practices, that consider biological diversity and allow people to do whatever they find accommodating in order to be able to use the product.
 
-In the sense of digital products, accessibility relies on 
-1) promotion of inclusive (see non-exclusive) approach -- accessible design;
-2) possibility to adjust the way people approach the product to meet their preferences.
+In the sense of digital products, accessibility practices may be divided into two categories:
+1) inclusive (see non-exclusive) approach -- accessible design;
+2) accommodating people to approach the product to meet their preferences.
 
 Let's see what we are going to do in these two fields. 
 
 ### Inclusive design
-Consequent to this difference, there are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Inclusive design *is* the wider consideration**.
+Consequent to diversity, there are **conditions** that cause users encounter **barriers** using products designed without wider consideration. **Inclusive design *is* the wider consideration**. **Accessibility, as a part of inclusive design, is what reduces these barriers** explicitly.
 
-### Diversity barriers
-**Accessibility, as a part of inclusive design, is what reduces these barriers**.
-
-## Digital accessibility in particular
+### Human-computer  interfaces
 @Image(source: numeronym, alt: "A schematic explanation of the word ally being a numeronym: a + ccessibility (which is eleven letters) + y") {
     **a11y** is a [**numeronym**](https://en.wikipedia.org/wiki/Numeronym) of **digital accessibility**
 }
